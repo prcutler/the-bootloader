@@ -1,0 +1,9 @@
+[submodule "themes/showfolio"]
+	path = themes/showfolio
+	url = https://github.com/apvarun/showfolio-hugo-theme.git
+[submodule "test1/themes/showfolio"]
+	path = test1/themes/showfolio
+	url = https://github.com/apvarun/showfolio-hugo-theme.git
+[submodule "test1/themes/roxo"]
+	path = test1/themes/roxo
+	url = git@github.com:StaticMania/portio-hugo.git
