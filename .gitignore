@@ -127,3 +127,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Configuration files
+data/config.py
+.DS_Store
+server/scripts/app_repo
+.vscode/settings.json
+templates/home/index.pt
+server/scripts/app_repo
+server/scripts/app_repo
+workspace.code-workspacegit
+
+# Database file(s)
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite
+*.db
+db/*
+
