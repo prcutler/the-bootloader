@@ -12,7 +12,7 @@ class ViewModelBase:
         self.user_id: Optional[int] = cookie_auth.get_user_id_via_auth_cookie(
             self.request
         )
-        self.is_admin: Optional[int] = admin_service.get_admin_user
+        self.is_admin: Optional[int] = admin_service.admin_check
 
         # We'll get this once we have users from the cookies.
         self.is_logged_in = self.user_id is not None
