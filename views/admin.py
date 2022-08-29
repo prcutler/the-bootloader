@@ -4,7 +4,6 @@ from starlette import status
 from starlette.requests import Request
 
 from services import episode_service
-from services import transcripts_service
 from services import shownotes_service
 
 from viewmodels.shared.viewmodel import ViewModelBase
