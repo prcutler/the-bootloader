@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Hacking on Hardware"
+title = "The Bootloader"
 
 # Language settings
 contentDir = "content/en"
@@ -60,7 +60,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "Hacking on Hardware"
+title = "The Bootloader"
 description = "Curated news and project headlines"
 languageName ="English"
 # Weight used for sorting.
