@@ -1,5 +1,5 @@
 ---
-title: "Podcast Episodes"
+title: "Episodes"
 linkTitle: "Episodes"
 menu:
   main:
