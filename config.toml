@@ -172,7 +172,7 @@ enable = false
   desc = "Email tips and news"
 [[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/thebootloader"
+  url = "https://twitter.com/thebootloader"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
