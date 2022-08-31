@@ -167,7 +167,7 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
   name = "Contact"
-  url = "news@thebootloader.net"
+  url = "mailto:news@thebootloader.net"
   icon = "fa fa-envelope"
   desc = "Email tips and news"
 [[params.links.user]]
