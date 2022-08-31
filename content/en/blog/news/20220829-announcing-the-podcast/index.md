@@ -2,7 +2,7 @@
 date: 2022-08-31
 title: "Announcing The Bootloader"
 linkTitle: "Announcing The Bootloader"
-description: "Announcing our new podcast, The Bootloader
+description: "Announcing our new podcast, The Bootloader"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 
