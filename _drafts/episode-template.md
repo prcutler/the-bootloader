@@ -1,8 +1,8 @@
 ---
 date: 2022-08-30
 title: "Episode 1"
-linkTitle: "Episode 1"
-description: "The first release of The Bootloader"
+linkTitle: "Episode "
+description: "Trailer Coming Soon"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 
@@ -21,11 +21,3 @@ Tod shares insert-link-here, a cool project by some cool people.
 
 ### Paul's Pick #1: Another cool project
 Paul shares something he finds cool.
-
-## Listen to the Show
-
-
-
-
-
-
