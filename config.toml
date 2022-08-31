@@ -167,7 +167,7 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
   name = "Contact"
-  url = "paul@paulcutler.org"
+  url = "news@thebootloader.net"
   icon = "fa fa-envelope"
   desc = "Email tips and news"
 [[params.links.user]]
@@ -180,7 +180,7 @@ enable = false
   name = "GitHub"
   url = "https://github.com/prcutler/the-bootloader"
   icon = "fab fa-github"
-  desc = "Development takes place here"
+  desc = "Website repository"
 
 
 # hugo module configuration
