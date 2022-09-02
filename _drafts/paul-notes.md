@@ -7,4 +7,5 @@
 * Seeed community
 * Supercon
 * [Makers Making Change](makersmakingchange.com)
+* [Winterbloom Micronova](https://winterbloom.com/shop/micronova)
 * 
