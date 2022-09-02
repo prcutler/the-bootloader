@@ -1,4 +1,4 @@
-[![The Bootloader podcast logo](https://circuitpythonshow.com/static/thebootloader/twitter.jpg)
+![The Bootloader podcast logo](https://circuitpythonshow.com/static/thebootloader/twitter.jpg)
 [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/thebootloader)
 
 # The Bootloader
