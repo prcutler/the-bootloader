@@ -9,9 +9,7 @@ resources:
   title: "Image #:counter"
 ---
 
-{{< imgproc bootloader Fill "300x300" >}}
-The Bootloader podcast logo
-{{< /imgproc >}}
+![The Bootloader podcast](bootloader-logo-600px.jpg)
 
 **Hello!  Welcome to The Bootloader.**
 
