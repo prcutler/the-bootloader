@@ -6,3 +6,5 @@
 * Bambu X1 3D printer hype
 * Seeed community
 * Supercon
+* [Makers Making Change](makersmakingchange.com)
+* 
