@@ -6,7 +6,7 @@ description: "Announcing our new podcast, The Bootloader"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 
-![The Bootloader podcast](bootloader-logo-600px.jpg)
+![The Bootloader podcast](https://circuitpythonshow.com/static/thebootloader/bootloader-logo-600px.jpg)
 
 **Hello!  Welcome to The Bootloader.**
 
