@@ -4,10 +4,18 @@ title: "Announcing The Bootloader"
 linkTitle: "Announcing The Bootloader"
 description: "Announcing our new podcast, The Bootloader"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
 ---
 
+{{< imgproc bootloader Fill "300x300" >}}
+The Bootloader podcast logo
+{{< /imgproc >}}
 
 **Hello!  Welcome to The Bootloader.**
+
+
 
 The Bootloader is a podcast hosted by Paul Cutler and Tod Kurt.  Each episode they'll share a few
 news items, project updates or product news.
