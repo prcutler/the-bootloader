@@ -35,3 +35,8 @@ I'm Paul (or Tod) and I'm excited to bring you a new podcast, The Bootloader, wi
 We'll each share a few things we found interesting.  From cool projects to new products and everything in between.
 
 Subscribe to The Bootloader in your favorite podcast app today, follow us on Twitter @thebootloader, or learn more at www.thebootloader.net.
+
+## Version 5
+Hi!  I'm Paul Cutler.  And I'm Tod Kurt.  (Tod) Every couple weeks we'll share a few things we found interesting.  It could be tech news, a cool project, or about a product.
+
+(Paul) Subscribe to The Bootloader in your favorite podcast app today, follow us on Twitter @thebootloader, or learn more at www.thebootloader.net.
