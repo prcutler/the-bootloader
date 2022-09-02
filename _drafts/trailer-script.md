@@ -21,7 +21,7 @@ The first episode drops later this month! Subscribe today in your favorite podca
 
 ## Version 3
 
-I'm Paul Cutler (or Tod) and along with Tod Kurt, we're the hosts of The Bootloader.  
+Hi, I'm Paul Cutler (or Tod) and along with Tod Kurt, we're the hosts of The Bootloader.  
 
 Each episode we'll each share two or three things we found interesting from around the tech and maker world.  We'll share news, talk about some projects or cool products, and more.
 
@@ -34,4 +34,4 @@ I'm Paul (or Tod) and I'm excited to bring you a new podcast, The Bootloader, wi
 
 We'll each share a few things we found interesting.  From cool projects to new products and everything in between.
 
-Subscribe to The Bootloader in your favorite podcast app today, follow us on Twitter @thebootloader, or learn more at www.bootloader.net.
+Subscribe to The Bootloader in your favorite podcast app today, follow us on Twitter @thebootloader, or learn more at www.thebootloader.net.
