@@ -16,3 +16,6 @@
 * [Piccolo OS](https://github.com/garyexplains/piccolo_os_v1.1)
   * [Pre-emptive multitasking video](https://www.youtube.com/watch?v=g1VFJHjLVMU)
 * [RGB Panel with Pi Pico](https://hackaday.com/2022/08/28/share-screen-to-rgb-panel-with-pi-pico-w/)
+* River Cuomo's [Spotify app written in Python](https://github.com/riverscuomo/new-albums)
+* [I3C overview](https://hackaday.com/2022/08/25/i3c-no-typo-wants-to-be-your-serial-bus/) vis Hackaday
+*  
