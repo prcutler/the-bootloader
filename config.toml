@@ -175,6 +175,16 @@ enable = false
   url = "https://twitter.com/thebootloader"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
+[[params.links.user]]
+  name ="YouTube"
+  url = "https://www.youtube.com/channel/UCdnYGzS7QVLBY70xG5VLd6Q"
+  icon = "fab fa-youtube"
+  desc = "Subscribe on YouTube"
+[[params.links.user]]
+  name ="RSS"
+  url = ""
+  icon = "fa fa-rss"
+  desc = "Subscribe to the RSS feed"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
