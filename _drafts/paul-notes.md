@@ -13,3 +13,5 @@
 * [Winterbloom Micronova](https://winterbloom.com/shop/micronova)
 * [Belay](https://github.com/BrianPugh/belay) for MicroPython and CircuitPython.
 * Professor John Gallagheur's [SwiftUI course for the absolute beginner](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe)
+* [Piccolo OS](https://github.com/garyexplains/piccolo_os_v1.1)
+  * [Pre-emptive multitasking video](https://www.youtube.com/watch?v=g1VFJHjLVMU)
