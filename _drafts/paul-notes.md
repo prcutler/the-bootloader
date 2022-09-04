@@ -19,4 +19,4 @@
 * River Cuomo's [Spotify app written in Python](https://github.com/riverscuomo/new-albums)
 * [I3C overview](https://hackaday.com/2022/08/25/i3c-no-typo-wants-to-be-your-serial-bus/) vis Hackaday
 * [Discord open source](https://github.com/discord/discord-open-source)
-* 
+* [The MakerCast](https://twitter.com/TheMakerCast)
