@@ -8,3 +8,4 @@
 * [Machine Sewable LED strips](https://hackaday.io/project/186907-machine-sewable-led-strips)
 and [Twitter thread](https://twitter.com/sjpiper145/status/1562006047635558401)
 * [Belay library for CPython to control Micropython (firmata-like)](https://github.com/BrianPugh/belay)
+* [Handwriting recognition in CircuitPython on Pico w/ OV7670 camera & Machine Learning](https://ashishware.com/2022/09/03/pipico_digit_classification/)
