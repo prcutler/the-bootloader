@@ -40,3 +40,12 @@ Subscribe to The Bootloader in your favorite podcast app today, follow us on Twi
 Hi!  I'm Paul Cutler.  And I'm Tod Kurt.  (Tod) Every couple weeks we'll share a few things we found interesting.  It could be tech news, a cool project, or about a product.
 
 (Paul) Subscribe to The Bootloader in your favorite podcast app today, follow us on Twitter @thebootloader, or learn more at www.thebootloader.net.
+
+## Version 6
+Paul: Hi, I’m Paul Cutler.  (, the host of The CircuitPython Show?)
+
+Tod: And I’m Tod Kurt.  Together we’ll be bringing you The Bootloader, where we each share a few things we found interesting.
+
+Paul: The interesting things might be a bit of news, sharing a cool project, or a product review.
+
+Tod: Search for The Bootloader in your favorite podcast app, find us on Twitter @thebootloader, or visit thebootloader.net for more information.
