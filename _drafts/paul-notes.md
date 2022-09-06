@@ -22,4 +22,6 @@
 * [I3C overview](https://hackaday.com/2022/08/25/i3c-no-typo-wants-to-be-your-serial-bus/) vis Hackaday
 * [Discord open source](https://github.com/discord/discord-open-source)
 * [The MakerCast](https://twitter.com/TheMakerCast)
-
+* [Pikon](https://www.digitalcameraworld.com/news/robot-builder-shares-raspberry-pi-pikon-high-quality-camera-in-3d-printed-casing)
+  * [Kevin's video](https://www.youtube.com/watch?v=4BEjKUK8DSQ)
+* 
