@@ -12,6 +12,7 @@
 * MakerDeck (Twitch, Twitter)
 
 * Seeed community
+  * [SenseCraft](https://github.com/Seeed-Studio/SenseCraft) Seeed's new no-code IoT solution
 * Supercon
 * [Makers Making Change](makersmakingchange.com)
 * [Winterbloom Micronova](https://winterbloom.com/shop/micronova)
