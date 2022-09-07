@@ -27,4 +27,5 @@
   * [Kevin's video](https://www.youtube.com/watch?v=4BEjKUK8DSQ)
 * [Full Control Gcode Designer](http://fullcontrolgcode.com/)
   * https://fullcontrol.xyz/
+* ["I Want to Start Contributing to Open Source"](https://harihareswara.net/posts/2022/i-want-to-start-contributing-to-open-source-my-current-advice/)
 * 
