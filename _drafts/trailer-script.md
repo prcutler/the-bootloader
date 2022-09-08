@@ -4,7 +4,7 @@
 ### Version 1
 Paul: Hi, I’m Paul Cutler, host of The CircuitPython Show.
 
-Tod: And I’m Tod Kurt.  Together we’ll be bringing you The Bootloader, where we each share a few things we found interesting.
+Tod: And I’m Tod Kurt.  Together we're bringing you The Bootloader, where we each share a few things we found interesting.
 
 Paul: The interesting things might be a bit of news, sharing a cool project, or a product review.
 
