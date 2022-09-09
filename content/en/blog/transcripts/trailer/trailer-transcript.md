@@ -15,7 +15,7 @@ Hi I'm Paul Cutler host of the circuit python show.
 
 00:02.46
 Tod Kurt
-And I'm Todd Kurt together we're bringing you the boot loader sharing a few things we found interesting around the web.
+And I'm Tod Kurt together we're bringing you the boot loader sharing a few things we found interesting around the web.
 
 00:08.40
 Paul Cutler
