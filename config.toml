@@ -182,7 +182,7 @@ enable = false
   desc = "Subscribe on YouTube"
 [[params.links.user]]
   name ="RSS"
-  url = ""
+  url = "https://feeds.zencastr.com/f/Hi7u_z67.rss"
   icon = "fa fa-rss"
   desc = "Subscribe to the RSS feed"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
