@@ -2,11 +2,11 @@
 
 ## Episode 1
 * tio and story
-  * [tio](https://github.com/tio/tio) 
+  * [tio](https://github.com/tio/tio) - and [version 2 release on Sept 11](https://github.com/tio/tio/releases/tag/v2.0)
   * [Advanced Serial Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-linux) 
   * [John Park's CircuitPython Parsec on tio](https://www.youtube.com/watch?v=gAs45AOycrg&list=PLjF7R1fz_OOWFqZfqW9jlvQSIUmwn9lWr&index=5)
 * River Cuomo's [Spotify app written in Python](https://github.com/riverscuomo/new-albums)
-* Bambu X1 3D printer hype
+* Bambu Labs Carbon X1 3D printer hype
 
 ## Brainstorming
 * MakerDeck (Twitch, Twitter)
