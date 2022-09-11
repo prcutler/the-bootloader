@@ -3,6 +3,7 @@
 ## Episode 1
 * tio and story
   * [tio](https://github.com/tio/tio) - and [version 2 release on Sept 11](https://github.com/tio/tio/releases/tag/v2.0)
+    * Developer (mac_gyver): "People won't notice for the simple use case but a lot of new interesting features have been added that may interest embedded developers. Also, important fixes regarding synchronization of I/O have been added."
   * [Advanced Serial Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-linux) 
   * [John Park's CircuitPython Parsec on tio](https://www.youtube.com/watch?v=gAs45AOycrg&list=PLjF7R1fz_OOWFqZfqW9jlvQSIUmwn9lWr&index=5)
 * River Cuomo's [Spotify app written in Python](https://github.com/riverscuomo/new-albums)
