@@ -10,6 +10,7 @@
 * Bambu Labs Carbon X1 3D printer hype
 
 ## Brainstorming
+* [WiModem232](https://www.cbmstuff.com/index.php?route=product/product&product_id=60)
 * MakerDeck (Twitch, Twitter)
 * Pirate language:  [S3 Bucket Listing Generator](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/circuitplayground_express/en_x_pirate/) (h/t argonblue in  Discord) who also said could be a fun way to test localization workflows - 9/19 is Int’l Talk Like a Pirate Day (novice)
 * Seeed community
