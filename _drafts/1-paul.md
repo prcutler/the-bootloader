@@ -1,15 +1,16 @@
-Episode 1 Script (Paul)
-
-### tio
-The first thing I wanted to share is a about a an open source project called tio.  Martin Lund is the developer and I have a cool story about him, too.  tio just released version 2.0 on September 11th.
+# TBL E1 Script
+## tio
+The first thing I wanted to share is a about a an open source project called tio, t-i-o..  Martin Lund is the developer and I have a cool story about him, too at the end.  tio just released version 2.0 on September 11th.
 
 I’ve been using CircuitPython for a year or two and I didn’t know about tio until John Park featured it in late July in on his show, CircuitPython Parsec.  
 
-Like most users, I used Mu to see any serial output or errors with my CircuitPython devices.  Even Adafruit’s advanced serial guide for Mac & Linux has you use screen.
-
-Tio is a modern day replacement for the old linux tool screen.  The motivation from it's Github home page:
+Tio is a modern day replacement for the old linux tool screen.  If you go to tio’s Github page, Martin share the motivation for tio:
 
 To make a simpler serial device tool for talking with serial TTY devices with less focus on classic terminal/modem features and more focus on the needs of embedded developers and hackers.
+
+Like most users, I used Mu to see any serial output or errors with my CircuitPython devices.  
+
+Even Adafruit’s advanced serial guide for Mac & Linux has you use screen.
 
 I’ve using a Unix like operating system for too many years and this is perfect for someone like me who is comfortable dropping down into a terminal.  I can run also run tio in my IDE’s terminal.   It has one killer feature - auto-reconnect.  If I unplug my microcontroller and plug it back in, tio automatically reconnects.  I don’t have to look up what serial device it was or type the command to connect, it’s just there and running, just like my CircuitPython code is when I plug in a board.
 
@@ -21,21 +22,28 @@ He didn’t have to do any of that, but what a way to go above and beyond.
 
 It’s so cool to see open source collaboration happening in real time.  If you’re looking to level up your CircuitPython skills and move on from the Mu code editor, check out tio.
 
+
 ## Rivers Cuomo
+I’m big into music and this next one is a little fun for me. This is from the department of rock stars can be developers, too. Rivers Cuomo, the lead singer of the band Weezer, whom you may know from such hits as Buddy Holly, Beverly Hills, and Pork and Beans, was recently spotted on Github.  
 
-From the department of rock stars can be developers, too. Rivers Cuomo, the lead singer of the band Weezer, whom you may know from such hits as Buddy Holly, Beverly Hills, and Pork and Beans, was recently spotted on Github.  
-
-It turns out he’s an open source developer when not writing songs!  He submitted a PR to another open source project and he also has his own project on GitHub.  He’s written a Python app that updates a Spotify playlist and released it under the GPL.  It also allows you to exclude certain genres from being added to the playlist.
+It turns out he’s an open source developer when not writing songs!  He submitted a PR to another open source project and he also has his own project on GitHub.  He’s written a Python app and released it under the GPL.  
 
 Here’s the description from the GitHub repository:
 
-A python script to update a Spotify playlist every day with all the songs from any significant new albums. It shouldn’t include single-only releases. Anything older than a month should be deleted.
+> A python script to update a Spotify playlist every day with all the songs from any significant new albums. It shouldn’t include single-only releases. Anything older than a month should be deleted.  
 
-And Mr. Cuomo goes on in the About section to say:
+And Mr. Cuomo goes in to a little more detail in the About section:
 
-[GitHub - riverscuomo/new-albums: This project is for me to experiment with open-source collaboration. So please feel free to chime in and participate.  I’ve been learning programming since 2015 but I’ve been mostly working on my own. So my github/collaboration skills are weak. I’d like to learn more about collaboration so I can accomplish more as a programmer through teamwork.  One reason I’ve hesitated so long to try this is I’m worried about accidentally exposing API keys, secrets, credentials, and access to my users’ data (not that I have much). So this project will be a first, low-risk, foray into the field of open-source collaboration. If things go well here, maybe I can start to open up some of my other repositiories. I could sure use some help. And I love that thought that some of my programs could be useful to others.  My first goal here is to understand how different developers can work on a codebase together without sharing credentials; to create a program that different people can use with their own credentials. I’ve attempted this by requiring collaborators (including myself) to use environment variables.](https://github.com/riverscuomo/new-albums)
+> GitHub - riverscuomo/new-albums: This project is for me to experiment with open-source collaboration. So please feel free to chime in and participate.  I’ve been learning programming since 2015 but I’ve been mostly working on my own. So my github/collaboration skills are weak. I’d like to learn more about collaboration so I can accomplish more as a programmer through teamwork.    
+
+He goes on to say: 
+
+> So this project will be a first, low-risk, foray into the field of open-source collaboration. If things go well here, maybe I can start to open up some of my other repositiories. I could sure use some help. And I love that thought that some of my programs could be useful to others.  My first goal here is to understand how different developers can work on a codebase together without sharing credentials;   
 
 I don’t have Spotify to test it out, but you’ll need a Spotify client ID and secret and you can customize the program to exclude certain genres, too.    But if you do have a Spotify account and know a little Python, check it out.
+
+Link: [GitHub - riverscuomo/new-albums: This project is for me to experiment with open-source collaboration. So please feel free to chime in and participate.  I’ve been learning programming since 2015 but I’ve been mostly working on my own. So my github/collaboration skills are weak. I’d like to learn more about collaboration so I can accomplish more as a programmer through teamwork.  One reason I’ve hesitated so long to try this is I’m worried about accidentally exposing API keys, secrets, credentials, and access to my users’ data (not that I have much). So this project will be a first, low-risk, foray into the field of open-source collaboration. If things go well here, maybe I can start to open up some of my other repositiories. I could sure use some help. And I love that thought that some of my programs could be useful to others.  My first goal here is to understand how different developers can work on a codebase together without sharing credentials; to create a program that different people can use with their own credentials. I’ve attempted this by requiring collaborators (including myself) to use environment variables.](https://github.com/riverscuomo/new-albums)
+
 
 ## Bambu Labs X1 Carbon
 
