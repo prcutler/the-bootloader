@@ -12,7 +12,7 @@ Tod: Paul, did you know it's International Talk Like a Pirate Day?
 
 Paul: I did!
 
-Tod: But did you know that CircuitPython has a pirate language you can install like any other foreign language? When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
+Tod: But did you know that CircuitPython has a pirate language you can install like any other language? When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
 
 Paul: We'll bring you news and project updates from around the web and, sometimes, something fun like this.  Add The Bootloader in your favorite podcast app and get ready for the first episode next week Monday, September 26th.  See you next week!
 
@@ -26,7 +26,7 @@ Tod: Paul, did you know it's International Talk Like a Pirate Day?
 
 Paul: I did!
 
-Tod: But did you know that CircuitPython has a pirate language you can install like any other foreign language? When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
+Tod: But did you know that CircuitPython has a pirate language you can install like any other language? When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
 
 They won't all be this silly, but they will informative and fun. Add The Bootloader in your favorite podcast app and get ready for the first episode next week Monday, September 26th.  We'll see you next week!
 
