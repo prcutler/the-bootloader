@@ -1,6 +1,6 @@
 # TBL E1 Script - Tod
 
-## FullControl GCode Generator
+## FullControl GCode Generator - No Slicer Required!
 
 Okay, we all know how 3D printers normally work: you got a 3D model in your computer,
 you run it through a "slicer" program that chops it up vertically, like a deli slicer,
@@ -31,7 +31,7 @@ I've started playing with it and it's really fun. I can't wait to play with the 
 [FullControl Design Library](https://fullcontrol.xyz) and https://twitter.com/FullControlXYZ
 
 
-## Belay -
+## Belay -- Remote controlled CircuitPython
 
 We're both big fans of CircuitPython and Micropython, Python that runs directly on tiny
 microcontroller boards, but if you're coming from desktop Python,
@@ -60,7 +60,38 @@ Firmata is a protocol that lets you remotely control an Arduino running the Firm
 It's very powerful, but is fixed in its function. Belay can do that, but goes one step further
 by allowing you to run any code you want on your board, from your Python
 
+Belay is available via PyPi and github.
+
 [Belay library for CPython to control Micropython/CircuitPython](https://github.com/BrianPugh/belay)
 
 
-##
+## Cameras and Machine Learning in CircuitPython!?
+
+Did you know that CircuitPython has *camera* support!?  That's crazy and amazing. It's still new but
+seems to work.
+
+But what's even more crazy is this hacker Ashish who used a Raspberry Pi Pico, a cheap camera board,
+and somke clever CircuitPython code that uses trained machine learning model to recognized
+hand-written digits.
+
+The model itself is trained on a PC with a standard handwritten digit dataset,
+using a machine learning technique called Support-Vector Machines (SVM).
+SVM is a machine learning technique that was really popular a decade ago
+before neural networks became all the rage.
+SVMs work by finding "hyperplanes" that cut the training into different sets,
+so they're best when the data isn't very noisy and clumps well.
+One of the benefits of SVMs is that the resulting classifier model can be small enough
+to run on a microcontroller.
+
+SVMs can produce pretty good results and are fast to match, but they are sensitive to noise,
+and in the case of images, scale & rotation changes.
+
+But it's amazing we can a kind of vision-based machine learning in CircuitPython!
+
+(It would be interesting to try Belay to get data from the camera into desktop Python
+for more advanced machine learning techniques)
+
+Check out the Ashish's blog post and the project's github.
+I just got a camera board so I'm going to be trying this out this weekend.
+
+[Handwriting recognition in CircuitPython on Pico w/ OV7670 camera & Machine Learning](https://ashishware.com/2022/09/03/pipico_digit_classification/) and https://github.com/code2k13/rpipico_digit_classification
