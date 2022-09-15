@@ -34,8 +34,8 @@ They won't all be this silly, but they will informative and fun. Add The Bootloa
 
 Paul: Welcome to The Bootloader, I'm Paul Cutler along with my co-host, Tod Kurt.  Tod, today is September 19th.  That means one more week until the show debuts!
 
-Tod: You know what else today is?  Talk Like a Pirate Day!  And here's a fun fact: CircuitPython has a Pirate language avaiable. When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
+Tod: You know what else today is?  Talk Like a Pirate Day!  And here's a fun fact: CircuitPython has a Pirate language available. When you visit CircuitPython.org to download a build, check out the drop down menu with the language choices and you can't miss it.
 
-Paul:  Check out The Bootloader in your favorite podcast app.  Tod and I will share a few things each episode and they won't all be this silly.
+Paul:  Check out The Bootloader in your favorite podcast app.  Tod and I will share a few things each episode and I promise they won't all be this silly.
 
 Either: Visit thebootloader.net or follow us on Twitter at @thebootloader and look for our first episode next Monday!
