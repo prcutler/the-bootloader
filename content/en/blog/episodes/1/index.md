@@ -5,9 +5,9 @@ linkTitle: "Episode 1"
 description: "Episode 1"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
-
+## Welcome
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk 
-from the tech and maker scenes.
+from the tech and maker scenes.  Paul and Tod will bring you three interesting things and chat about them for a few minutes each.
 
 FIXME: Update Zencastr Embed Link with correct episode
 
@@ -19,16 +19,18 @@ FIXME: Update Zencastr Embed Link with correct episode
 
 ## Show Notes
 
-### Welcome
-
-
 ## FullControl.xyz (Tod #1)
 
 ## tio (Paul #1)
+* [tio homepage](https://github.com/tio/tio)
+* [tio 2.0 Release Notes](https://github.com/tio/tio/releases/tag/v2.0)
 
 ## Belay (Tod #2)
 
 ## Rivers Cuomo (Paul #2)
+* [Rivers Cuomo on Github](https://github.com/riverscuomo/)
+* [New Albums Python application](https://github.com/riverscuomo/new-albums)
+
 
 ## CircuitPython Camera Support (Tod #3)
 
