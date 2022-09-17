@@ -17,24 +17,24 @@ FIXME: Update Zencastr Embed Link with correct episode
 </h2>
 {{< /rawhtml >}}
 
-## Show Notes
+# Show Notes
 
-## FullControl.xyz (Tod #1)
+## FullControl.xyz (Tod #1) 0:23
 
-## tio (Paul #1)
+## tio (Paul #1) 2:11
 * [tio homepage](https://github.com/tio/tio)
 * [tio 2.0 Release Notes](https://github.com/tio/tio/releases/tag/v2.0)
 
-## Belay (Tod #2)
+## Belay (Tod #2) 4:14
 
-## Rivers Cuomo (Paul #2)
+## Rivers Cuomo (Paul #2) 6:36
 * [Rivers Cuomo on Github](https://github.com/riverscuomo/)
 * [New Albums Python application](https://github.com/riverscuomo/new-albums)
 
 
-## CircuitPython Camera Support (Tod #3)
+## CircuitPython Camera Support (Tod #3) 8:57
 
-## Bambu Labs X1 Carbon 3D Printer Review (Paul #3)
+## Bambu Labs X1 Carbon 3D Printer Review (Paul #3) 11:36
 
 * [Bambu Labs X1 Carbon](https://us.store.bambulab.com/products/x1-carbon-3d-printer?variant=40475104641160)
 
@@ -45,3 +45,9 @@ FIXME: Update Zencastr Embed Link with correct episode
 * [BV3D review of the X1 on YouTube](https://www.youtube.com/watch?v=iuVwHXg1vVQ)
 
 * [Edge of Tech review of the X1 on YouTube](https://www.youtube.com/watch?v=yvFznQa9miI)
+
+### Sponsor The Bootloader
+
+Your financial sponsorship helps with the cost of hosting, recording and transcripts.  Thank you for your support!
+
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/prcutler)
