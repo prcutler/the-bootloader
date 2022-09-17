@@ -2,7 +2,7 @@
 date: 2022-09-16
 title: "Episode 1"
 linkTitle: "Episode 1"
-description: "Episode 1"
+description: "Rock Stars are Just Like Us"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 ## Welcome
