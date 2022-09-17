@@ -40,7 +40,7 @@ FIXME: Update Zencastr Embed Link with correct episode
 
 * [Bambu Labs X1 Carbon Kickstarter page](https://www.kickstarter.com/projects/bambulab/bambu-lab-x1-corexy-color-3d-printer-with-lidar-and-ai?ref=checkout_rewards_page)
 
-* [Original Prusa i3 MK3S+ 3D printer | Original Prusa 3D printers directly from Josef Prusa](https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-6/)
+* [Original Prusa i3 MK3S+ 3D printer](https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-6/)
 
 * [BV3D review of the X1 on YouTube](https://www.youtube.com/watch?v=iuVwHXg1vVQ)
 
