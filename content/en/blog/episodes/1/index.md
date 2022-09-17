@@ -9,6 +9,8 @@ author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk 
 from the tech and maker scenes.  Paul and Tod will bring you three interesting things and chat about them for a few minutes each.
 
+[Full transcript available here](https://thebootlader.net/blog/2022/09/26/episode-1-transcript/).
+
 FIXME: Update Zencastr Embed Link with correct episode
 
 {{< rawhtml >}}
