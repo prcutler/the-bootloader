@@ -29,6 +29,7 @@ FIXME: Update Zencastr Embed Link with correct episode
 ## tio (Paul #1) 2:11
 * tio, a modern serial terminal ([tio homepage](https://github.com/tio/tio))
 * [tio 2.0 Release Notes](https://github.com/tio/tio/releases/tag/v2.0)
+* [Adafruit's Advanced Serial Console on Mac and Linux Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux)
 
 ## Belay (Tod #2) 4:14
 * [Belay library for CPython](https://github.com/BrianPugh/belay) to remote-control Micropython / CircuitPython
