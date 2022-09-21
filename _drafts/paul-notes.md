@@ -27,6 +27,7 @@
 * [The MakerCast](https://twitter.com/TheMakerCast)
 * [Pikon](https://www.digitalcameraworld.com/news/robot-builder-shares-raspberry-pi-pikon-high-quality-camera-in-3d-printed-casing)
   * [Kevin's video](https://www.youtube.com/watch?v=4BEjKUK8DSQ)
+  * [Rasperry Pi](https://www.raspberrypi.com/news/3d-printed-pikon-camera/)
 * [Full Control Gcode Designer](http://fullcontrolgcode.com/)
   * https://fullcontrol.xyz/
 * ["I Want to Start Contributing to Open Source"](https://harihareswara.net/posts/2022/i-want-to-start-contributing-to-open-source-my-current-advice/)
