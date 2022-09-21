@@ -1,8 +1,8 @@
 ---
-date: 2022-09-09
+date: 2022-09-26
 title: "Episode 1 Transcript"
 linkTitle: "Episode 1 Transcript"
-description: "Episode 1 Transcript"
+description: "Episode 1 Transcript - Rock Stars are Just Like Us"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 
