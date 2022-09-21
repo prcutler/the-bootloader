@@ -42,7 +42,7 @@ FIXME: Update Zencastr Embed Link with correct episode
 
 ## CircuitPython Camera Support (Tod #3) 8:57
 * [Handwriting recognition in CircuitPython on Pico w/ OV7670 camera & Machine Learning](https://ashishware.com/2022/09/03/pipico_digit_classification/)
-* [Github project with code](https://github.com/code2k13/rpipico_digit_classification)
+* [GitHub project with code](https://github.com/code2k13/rpipico_digit_classification)
 * [Simple explanation of Support Vector Machines (SVM)](https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html)
 * [Camera support in CircuitPython](https://docs.circuitpython.org/en/latest/shared-bindings/camera/index.html)
 * [Example CircuitPython Camera project by Jepler](https://learn.adafruit.com/capturing-camera-images-with-circuitpython)
