@@ -35,4 +35,4 @@
 * [Wearable medical light sensor at the U](https://www.hackster.io/news/this-wearable-wholly-3d-printed-light-sensor-could-help-track-the-causes-of-lupus-flare-ups-118510f4619f)
 * [Meta transfers PyTorch to Linux Foundation](https://www.hackster.io/news/meta-passes-pytorch-the-python-machine-learning-framework-to-the-linux-foundation-d48166c66500)
 * FreeCAD Book
-* 
+* Whisper OpenAI transcriptions: https://github.com/openai/whisper
