@@ -36,3 +36,4 @@
 * [Meta transfers PyTorch to Linux Foundation](https://www.hackster.io/news/meta-passes-pytorch-the-python-machine-learning-framework-to-the-linux-foundation-d48166c66500)
 * FreeCAD Book
 * Whisper OpenAI transcriptions: https://github.com/openai/whisper
+  * https://hackaday.com/2022/09/22/openai-hears-you-whisper/ 
