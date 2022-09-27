@@ -36,4 +36,7 @@
 * [Meta transfers PyTorch to Linux Foundation](https://www.hackster.io/news/meta-passes-pytorch-the-python-machine-learning-framework-to-the-linux-foundation-d48166c66500)
 * FreeCAD Book
 * Whisper OpenAI transcriptions: https://github.com/openai/whisper
-  * https://hackaday.com/2022/09/22/openai-hears-you-whisper/ 
+  * https://hackaday.com/2022/09/22/openai-hears-you-whisper/
+* [Pico Keyboard with OLED keycaps](https://www.tomshardware.com/news/raspberry-pi-pico-keyboard-with-oled-keycaps)
+  * [Keycap demo on Twitter](https://twitter.com/thpoll2/status/1573260216426430465)
+  * [Blog and Ko-Fi](https://ko-fi.com/polykb)
