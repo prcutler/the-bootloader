@@ -43,3 +43,5 @@
 * https://www.fuze.co.uk/press.html
   * https://www.nintendo.com/store/products/fuze4-nintendo-switch-switch/
   * https://twitter.com/shanselman/status/1575167083578818561
+* [OpenScout](https://hackaday.com/2022/09/26/robotic-platform-is-open-sourced-and-user-friendly/)
+  * https://github.com/cbedio/OpenScout
