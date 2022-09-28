@@ -40,6 +40,7 @@
 * [Pico Keyboard with OLED keycaps](https://www.tomshardware.com/news/raspberry-pi-pico-keyboard-with-oled-keycaps)
   * [Keycap demo on Twitter](https://twitter.com/thpoll2/status/1573260216426430465)
   * [Blog and Ko-Fi](https://ko-fi.com/polykb)
+  * https://www.hackster.io/news/thomas-poll-s-poly-keyboard-packs-a-raspberry-pi-pico-to-drive-a-display-under-every-key-0f28a5d69ff8
 * https://www.fuze.co.uk/press.html
   * https://www.nintendo.com/store/products/fuze4-nintendo-switch-switch/
   * https://twitter.com/shanselman/status/1575167083578818561
