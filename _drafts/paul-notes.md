@@ -37,6 +37,7 @@
 * FreeCAD Book
 * Whisper OpenAI transcriptions: https://github.com/openai/whisper
   * https://hackaday.com/2022/09/22/openai-hears-you-whisper/
+  * https://openai.com/blog/whisper/
 * [Pico Keyboard with OLED keycaps](https://www.tomshardware.com/news/raspberry-pi-pico-keyboard-with-oled-keycaps)
   * [Keycap demo on Twitter](https://twitter.com/thpoll2/status/1573260216426430465)
   * [Blog and Ko-Fi](https://ko-fi.com/polykb)
