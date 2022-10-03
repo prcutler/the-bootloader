@@ -27,15 +27,20 @@
 ---
 
 * PixelBlaze expression language (not new but interesting)
+  - https://luxlavalier.com/code  (@jasoncoon_ (Jason Coon), @GeekMomProjects (Debra Ansell), @ledmage (Ben Hencke)
   - https://github.com/simap/pixelblaze/blob/master/README.expressions.md
   - https://electromage.com/patterns
 
-* samplebrain by Aphex Twin
-  - https://github.com/simap/pixelblaze
-  - https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/
 
+* samplebrain by Aphex Twin & Dave Griffiths
+  - https://thentrythis.org/projects/samplebrain/
+  - https://gitlab.com/then-try-this/samplebrain/-/blob/main/docs/manual.md
+  - https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/
 
 * Tone.js in-browser synthesis (https://tonejs.github.io/), and examples using it, like:
   - Acid Hit https://cdm.link/2022/09/free-acid-303-browser/
   - Pi Songs - https://pisongs.com/
-  - "Play something no one has ever heard before" - https://pisongs.com/shepardspi/?position=575912300&t=1664758364
+    - "Play something no one has ever heard before" - https://pisongs.com/shepardspi/?position=575912300&t=1664758364
+  - Strudel live coding music making
+    - https://loophole-letters.vercel.app/strudel
+    e.g. `stack("c4 f3 g4 a#4", "c2 g2".slow(2)).echo(4, 1/8, .5)`
