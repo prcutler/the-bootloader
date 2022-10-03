@@ -23,3 +23,19 @@
 
 * [Diffusion Bee - one-click Stable Diffusion for M-chip Macs](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui)
    - Instead of installing Anaconda and the rest of the crazy ML Python, just run this app!
+
+---
+
+* PixelBlaze expression language (not new but interesting)
+  - https://github.com/simap/pixelblaze/blob/master/README.expressions.md
+  - https://electromage.com/patterns
+
+* samplebrain by Aphex Twin
+  - https://github.com/simap/pixelblaze
+  - https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/
+
+
+* Tone.js in-browser synthesis (https://tonejs.github.io/), and examples using it, like:
+  - Acid Hit https://cdm.link/2022/09/free-acid-303-browser/
+  - Pi Songs - https://pisongs.com/
+  - "Play something no one has ever heard before" - https://pisongs.com/shepardspi/?position=575912300&t=1664758364
