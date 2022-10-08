@@ -100,8 +100,10 @@ Paul - thank you and FullControl follow-up
     * Python app for the Raspberry Pi to record video clips, photos and apply filters, and possibly use to livestream.
 
 
-### Sponsor The Bootloader
+### Support Sponsor The Bootloader
 
-Your financial sponsorship helps with the cost of hosting, recording and transcripts.  Thank you for your support!
+If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.
+
+Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts.  Thank you for your support!
 
 [![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/prcutler)
