@@ -25,9 +25,9 @@ Paul - thank you and FullControl follow-up
 * Thank you to [Brian Okken and Michael Kennedy of Python Bytes](https://pythonbytes.fm) for the podcast's inspiration.
 
 ### PixelBlaze expression language (Tod #1) 1:45
-  * [Lux Lavelier](https://luxlavalier.com/) wearable LED pendant
+  * [Lux Lavalier](https://luxlavalier.com/) wearable LED pendant
   * [Lux Lavalier Patterns guide](https://luxlavalier.com/patterns)
-  * Lux Lavelier created by [GeekMomProjects (Debra Ansell)](https://www.geekmomprojects.com), [Ben Henke](https://www.bhencke.com/), [Jason Coon](https://www.evilgeniuslabs.org/)
+  * Lux Lavalier created by [GeekMomProjects (Debra Ansell)](https://www.geekmomprojects.com), [Ben Henke](https://www.bhencke.com/), [Jason Coon](https://www.evilgeniuslabs.org/)
   * [Pixelblaze](https://electromage.com/pixelblaze)
   * [Huge online library of Pixelblaze patterns](https://electromage.com/patterns)
   * [Fibonacci LED displays](https://www.tindie.com/stores/jasoncoon/)
