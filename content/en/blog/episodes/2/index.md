@@ -22,7 +22,7 @@ from the tech and maker scenes.  Paul and Tod will bring you three interesting t
 Paul - thank you and FullControl follow-up
 * Paul printed the latest model, AnyAngle Phone Stand
   * Printed flawlessly at double speed!
-* Thank you to [Brian Okken and Michael Kennedy of Python Bytes](https://pythonbytes.fm) for thee podcast's inspiration.
+* Thank you to [Brian Okken and Michael Kennedy of Python Bytes](https://pythonbytes.fm) for the podcast's inspiration.
 
 ### PixelBlaze expression language (Tod #1) 1:45
   * [Lux Lavelier](https://luxlavalier.com/) wearable LED pendant
