@@ -44,3 +44,9 @@
   - Strudel live coding music making
     - https://loophole-letters.vercel.app/strudel
     e.g. `stack("c4 f3 g4 a#4", "c2 g2".slow(2)).echo(4, 1/8, .5)`
+
+* 4-axis non-planar 3d printing
+  - Modifies a Prusa MK3 to add a rotating 45 degree tilted extruder
+  - https://www.youtube.com/watch?v=7LRWuccMGjc
+  - https://www.cnckitchen.com/blog/the-rotbot-4-axis-non-planar-3d-printing
+  - https://www.printables.com/model/288723-4-axis-modification-for-mk3s-with-rotational-print
