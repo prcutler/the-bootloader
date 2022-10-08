@@ -24,11 +24,14 @@ Paul - thank you and FullControl follow-up
   * Printed flawlessly at double speed!
 * Thank you to [Brian Okken and Michael Kennedy of Python Bytes](https://pythonbytes.fm) for thee podcast's inspiration.
 
-## PixelBlaze expression language (Tod #1) 1:45
-  - [Lux Lavalier](https://luxlavalier.com/code)
-  - Created by the team of [Jason Coon](https://twitter.com/jasoncoon_), [Debra Ansell](https://twitter.com/@GeekMomProjects), [Ben Hencke](https://twitter.com/ledmage)
-  - [PixelBlaze GitHub repository](https://github.com/simap/pixelblaze/blob/master/README.expressions.md)
-  - [PixelBlaze patterns](https://electromage.com/patterns)
+### PixelBlaze expression language (Tod #1) 1:45
+  * [Lux Lavelier](https://luxlavalier.com/) wearable LED pendant
+  * [Lux Lavalier Patterns guide](https://luxlavalier.com/patterns)
+  * Lux Lavelier created by [GeekMomProjects (Debra Ansell)](https://www.geekmomprojects.com), [Ben Henke](https://www.bhencke.com/), [Jason Coon](https://www.evilgeniuslabs.org/)
+  * [Pixelblaze](https://electromage.com/pixelblaze)
+  * [Huge online library of Pixelblaze patterns](https://electromage.com/patterns)
+  * [Fibonacci LED displays](https://www.tindie.com/stores/jasoncoon/)
+  * [3d-printable magnetic battery holder](https://www.geekmomprojects.com/3d-printed-wearable-battery-holder/)
 
 
 ### Whisper OpenAI (Paul #1) 5:50
@@ -55,15 +58,17 @@ Paul - thank you and FullControl follow-up
     * Slow if not on GPU
 
 ### Music generation in the browser (Tod #2) 11:03
-* Tone.js in-browser synthesis (https://tonejs.github.io/), and examples using it, like:
-  - [Acid Hit](https://cdm.link/2022/09/free-acid-303-browser)
-  - [Pi Songs](https://pisongs.com/)
-    - ["Play something no one has ever heard before"](https://pisongs.com/shepardspi/?position=575912300&t=1664758364)
-  - Strudel live coding music making
-    - (Strudel Homepage)[https://loophole-letters.vercel.app/strudel]
-    - Example: `stack("c4 f3 g4 a#4", "c2 g2".slow(2)).echo(4, 1/8, .5)`
+  * [SuperCollider](https://github.com/supercollider/supercollider), an open source audio programming language from the 90s
+  * [TidalCycles](http://tidalcycles.org/), a musiclive coding environment using SuperCollider
+  * [Sonic Pi](https://sonic-pi.net/) basically an easier-to-install version of TidalCycles
+  * [Tone.js](https://tonejs.github.io/) in-browser synthesis, used by the following:
+  * [Acid Hit](https://cdm.link/2022/09/free-acid-303-browser)
+  * [Pi Songs](https://pisongs.com/) by Canton Becker
+  * [Shepard's Pi "Play something no one has ever heard before"](https://pisongs.com/shepardspi/?position=575912300&t=1664758364)
+  * [Strudel music live coding](https://loophole-letters.vercel.app/strudel)
+    - Example played in show: `stack("c4 f3 g4 a#4", "c2 g2".slow(2)).echo(4, 1/8, .5)`
 
-  ### PolyKeyboard (Paul #2) 16:41
+### PolyKeyboard (Paul #2) 16:41
   * [Poly Keyboard with OLED keycaps)](https://www.tomshardware.com/news/raspberry-pi-pico-keyboard-with-oled-keycaps)
   * [Keycap demo on Twitter](https://twitter.com/thpoll2/status/1573260216426430465)
     * Split keyboard design
@@ -76,9 +81,10 @@ Paul - thank you and FullControl follow-up
     * [Blog post comparing other keyboards](https://ko-fi.com/post/Comparing-With-Existing-Projects-S6S4F9Z98)
 
 ### Samplebrain by Aphex Twin & Dave Griffiths 21:27
-  - [Samplebrain Homepage](https://thentrythis.org/projects/samplebrain/)
-  - [Samplebrain manual](https://gitlab.com/then-try-this/samplebrain/-/blob/main/docs/manual.md)
-  - [Download page](https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/)
+  * [Samplebrain Homepage](https://thentrythis.org/projects/samplebrain/)
+  * [Samplebrain manual](https://gitlab.com/then-try-this/samplebrain/-/blob/main/docs/manual.md)
+  * [Good CDM article about Samplebrain](https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/)
+  * [Aphex Twin (Richard D James)](https://www.youtube.com/channel/UC4hfA78X-lqiRERBZLTnLBw) makes weird & interesting techno & ambient music
 
 ### Kevin McAleer and the Pikon 23:48
   * [Pikon story on DigitalCameraWorld.com](https://www.digitalcameraworld.com/news/robot-builder-shares-raspberry-pi-pikon-high-quality-camera-in-3d-printed-casing)
