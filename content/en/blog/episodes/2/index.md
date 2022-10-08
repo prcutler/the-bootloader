@@ -80,13 +80,13 @@ Paul - thank you and FullControl follow-up
   * [Blog and Ko-Fi](https://ko-fi.com/polykb)
     * [Blog post comparing other keyboards](https://ko-fi.com/post/Comparing-With-Existing-Projects-S6S4F9Z98)
 
-### Samplebrain by Aphex Twin & Dave Griffiths 21:27
+### Samplebrain by Aphex Twin & Dave Griffiths (Tod #3) 21:27
   * [Samplebrain Homepage](https://thentrythis.org/projects/samplebrain/)
   * [Samplebrain manual](https://gitlab.com/then-try-this/samplebrain/-/blob/main/docs/manual.md)
   * [Good CDM article about Samplebrain](https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/)
   * [Aphex Twin (Richard D James)](https://www.youtube.com/channel/UC4hfA78X-lqiRERBZLTnLBw) makes weird & interesting techno & ambient music
 
-### Kevin McAleer and the Pikon 23:48
+### Kevin McAleer and the Pikon (Paul #3) 23:48
   * [Pikon story on DigitalCameraWorld.com](https://www.digitalcameraworld.com/news/robot-builder-shares-raspberry-pi-pikon-high-quality-camera-in-3d-printed-casing)
   * [Kevin's Homepage](http://www.kevsrobots.com/)
     * [Kevin's YouTube Channel](https://www.youtube.com/c/kevinmcaleer28/)
