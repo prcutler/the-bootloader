@@ -47,3 +47,5 @@
   * https://twitter.com/shanselman/status/1575167083578818561
 * [OpenScout](https://hackaday.com/2022/09/26/robotic-platform-is-open-sourced-and-user-friendly/)
   * https://github.com/cbedio/OpenScout
+* https://docs.google.com/presentation/d/e/2PACX-1vTlGaB-d1cf6dl513m2_ndSQvM-N35BzdewRq-PTSwkdIVzNZySSsqhXeKH1afRYO4NP95WsEfhF90s/pub#slide=id.p
+* 
