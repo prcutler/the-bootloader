@@ -50,3 +50,10 @@
   - https://www.youtube.com/watch?v=7LRWuccMGjc
   - https://www.cnckitchen.com/blog/the-rotbot-4-axis-non-planar-3d-printing
   - https://www.printables.com/model/288723-4-axis-modification-for-mk3s-with-rotational-print
+
+----
+
+* New WCH chip is Arduino-class and only $0.10
+  - https://twitter.com/Patrick_RISCV/status/1580384430996484101
+  - https://github.com/openwch/ch32v307 (slightly better version that has USB)
+  - akiba's tweet: https://twitter.com/freaklabs/status/1580560030146867200
