@@ -49,3 +49,5 @@
   * https://github.com/cbedio/OpenScout
 * https://docs.google.com/presentation/d/e/2PACX-1vTlGaB-d1cf6dl513m2_ndSQvM-N35BzdewRq-PTSwkdIVzNZySSsqhXeKH1afRYO4NP95WsEfhF90s/pub#slide=id.p
 * [Jetbrains Fleet](https://www.jetbrains.com/fleet/)
+* [GitHub Copilot lawsuit](https://githubcopilotinvestigation.com/)
+* 
