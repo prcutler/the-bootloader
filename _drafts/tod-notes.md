@@ -57,3 +57,10 @@
   - https://twitter.com/Patrick_RISCV/status/1580384430996484101
   - https://github.com/openwch/ch32v307 (slightly better version that has USB)
   - akiba's tweet: https://twitter.com/freaklabs/status/1580560030146867200
+
+
+* Person Sensor by Useful Sensor
+  Detects faces, basic facial recognition, "looking at", for $10!
+  - https://www.sparkfun.com/products/21231
+  - https://github.com/usefulsensors/person_sensor_docs/blob/main/README.md
+  -  https://github.com/usefulsensors/person_sensor_screen_lock/blob/main/code.py
