@@ -17,6 +17,7 @@
   * [SenseCraft](https://github.com/Seeed-Studio/SenseCraft) Seeed's new no-code IoT solution
 * Supercon
 * [Makers Making Change](makersmakingchange.com)
+  * http://atmakers.org/
 * [Winterbloom Micronova](https://winterbloom.com/shop/micronova)
 * Professor John Gallagheur's [SwiftUI course for the absolute beginner](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSM6dFSwQCIl409gNBsqKTe)
 * [Piccolo OS](https://github.com/garyexplains/piccolo_os_v1.1)
@@ -49,5 +50,6 @@
   * https://github.com/cbedio/OpenScout
 * https://docs.google.com/presentation/d/e/2PACX-1vTlGaB-d1cf6dl513m2_ndSQvM-N35BzdewRq-PTSwkdIVzNZySSsqhXeKH1afRYO4NP95WsEfhF90s/pub#slide=id.p
 * [Jetbrains Fleet](https://www.jetbrains.com/fleet/)
+  * https://github.blog/2022-06-08-sunsetting-atom/
 * [GitHub Copilot lawsuit](https://githubcopilotinvestigation.com/)
-* 
+  * https://www.jwz.org/blog/2022/10/copilot-lawsuit/
