@@ -1,8 +1,8 @@
 ---
 date: 2022-10-24
-title: "Episode 3"
+title: "Episode 3: The Middle is a Pumpkin"
 linkTitle: "Episode 3"
-description: "Episode 3"
+description: "The Middle is a Pumpkin"
 author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
 ---
 ## Welcome
