@@ -53,3 +53,7 @@
   * https://github.blog/2022-06-08-sunsetting-atom/
 * [GitHub Copilot lawsuit](https://githubcopilotinvestigation.com/)
   * https://www.jwz.org/blog/2022/10/copilot-lawsuit/
+* [3D Printing for Mental Health and Suicide Prevention Campaign](https://3dwithus.com/3d-printing-for-mental-health-and-suicide-prevention)
+* [IO Rodeo Launches the Open Colorimeter, a CircuitPython Analysis Tool for Citizen Science - Hackster.io](https://www.hackster.io/news/io-rodeo-launches-the-open-colorimeter-a-circuitpython-analysis-tool-for-citizen-science-4e0435072e21)
+* [3D Printing Gets Small In A Big Way | Hackaday](https://hackaday.com/2022/10/26/3d-printing-gets-small-in-a-big-way/)
+* [Fiber Laser Your Way To Flexible PCB Success! | Hackaday](https://hackaday.com/2022/10/26/fiber-laser-your-way-to-flexible-pcb-success/)
