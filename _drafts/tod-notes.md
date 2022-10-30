@@ -64,3 +64,13 @@
   - https://www.sparkfun.com/products/21231
   - https://github.com/usefulsensors/person_sensor_docs/blob/main/README.md
   -  https://github.com/usefulsensors/person_sensor_screen_lock/blob/main/code.py
+
+
+---
+
+* Matter officially supported in iOS 16
+  Matter is an open standard for smart home IoT stuff (Apple, Google, Amazon, etc all signed on)
+  - https://www.youtube.com/watch?v=i2doZomr9V0
+  - https://www.reddit.com/r/esp32/comments/yfvpxu/finally_apple_officially_supports_matter_in_161/
+  - https://github.com/project-chip/connectedhomeip
+  - https://nabucasa.github.io/matter-example-apps/
