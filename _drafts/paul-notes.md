@@ -59,3 +59,5 @@
 * [Fiber Laser Your Way To Flexible PCB Success! | Hackaday](https://hackaday.com/2022/10/26/fiber-laser-your-way-to-flexible-pcb-success/)
 * [macOS Ventura bug and what to do about it](https://www.raspberrypi.com/news/the-ventura-problem/)
 * [GitHub updates CoPilot with repo and license information](https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/)
+* [3D Printed Toys for Tots campaign](https://www.ic3dprinters.com/2022-toys/)
+  * [Twitch.tv](https://www.twitch.tv/charitymakers)
