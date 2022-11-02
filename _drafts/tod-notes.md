@@ -65,7 +65,6 @@
   - https://github.com/usefulsensors/person_sensor_docs/blob/main/README.md
   -  https://github.com/usefulsensors/person_sensor_screen_lock/blob/main/code.py
 
-
 ---
 
 * Matter officially supported in iOS 16
@@ -74,3 +73,14 @@
   - https://www.reddit.com/r/esp32/comments/yfvpxu/finally_apple_officially_supports_matter_in_161/
   - https://github.com/project-chip/connectedhomeip
   - https://nabucasa.github.io/matter-example-apps/
+
+* Hypno video synthesizer from Sleepy Circuits
+  RasPi 3 or 4-based video synth with Eurorack-compatible controls
+  - https://sleepycircuits.com/hypno
+  - https://www.instagram.com/sleepycircuits/
+
+* https://ffmpeg.guide
+  Flows & nodes-based GUI for generating FFMPEG commandline commands
+  - https://ffmpeg.guide/
+  - free for up to 5 nodes
+  - https://twitter.com/zack_overflow/status/1586288992680493057
