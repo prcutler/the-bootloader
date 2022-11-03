@@ -84,3 +84,13 @@
   - https://ffmpeg.guide/
   - free for up to 5 nodes
   - https://twitter.com/zack_overflow/status/1586288992680493057
+
+* ERAE Touch
+  - MPE (MIDI Polyphonic expression) controller
+  - 1000 FSR (Force-sensing resistor) sensors & 1000 RGB LEDs
+  - 1 ms response time / 100 um XY precision
+  - a pad the size of a big laptop screen, covered in a stiff silicone mat
+  - 2020 Kickstarter https://www.kickstarter.com/projects/erae-touch/erae-touch-the-expressive-music-controller-0/description
+  - 2018 started development
+  - 2022 now for sale
+  -
