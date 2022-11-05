@@ -1,5 +1,5 @@
 ---
-date: 2022-11-06
+date: 2022-11-07
 title: "Episode 4 Transcript"
 linkTitle: "Episode 4 Transcript"
 description: "Episode 4 Transcript - What's the Matter?"
