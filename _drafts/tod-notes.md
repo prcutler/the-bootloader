@@ -94,3 +94,10 @@
   - 2018 started development
   - 2022 now for sale
   -
+
+* Follow-up:
+  * 10 cent Arduino-class RISC-V chip from WCH now has a dev board on Tindie
+  * Chip is WCH CH32V003  (2kB RAM, 16kB flash)
+  * Tindie page: https://www.tindie.com/products/adz1122/ch32v003-risc-v-mcu-development-board/
+  * Was $6 now $10 (due to demand probably)
+  * [More info on Hackster.io](https://www.hackster.io/news/wch-launches-a-sub-10-risc-v-microcontroller-while-a-6-90-dev-board-gets-you-started-90b1ffd7490a)
