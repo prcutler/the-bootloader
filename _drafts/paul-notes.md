@@ -61,3 +61,4 @@
 * [GitHub updates CoPilot with repo and license information](https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/)
 * [3D Printed Toys for Tots campaign](https://www.ic3dprinters.com/2022-toys/)
   * [Twitch.tv](https://www.twitch.tv/charitymakers)
+* [Hey Github](https://githubnext.com/projects/hey-github)
