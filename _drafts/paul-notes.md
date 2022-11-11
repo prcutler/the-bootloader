@@ -62,3 +62,4 @@
 * [3D Printed Toys for Tots campaign](https://www.ic3dprinters.com/2022-toys/)
   * [Twitch.tv](https://www.twitch.tv/charitymakers)
 * [Hey Github](https://githubnext.com/projects/hey-github)
+* [MicroPython in the browser](https://www.anaconda.com/blog/pyscript-updates-bytecode-alliance-pyodide-and-micropython)
