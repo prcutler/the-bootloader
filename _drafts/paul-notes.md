@@ -63,3 +63,8 @@
   * [Twitch.tv](https://www.twitch.tv/charitymakers)
 * [Hey Github](https://githubnext.com/projects/hey-github)
 * [MicroPython in the browser](https://www.anaconda.com/blog/pyscript-updates-bytecode-alliance-pyodide-and-micropython)
+* Legos in the news
+  * https://gizmodo.com/lego-3d-printing-printable-print-duck-toy-minifig-house-1849751375
+  * https://www.engadget.com/lego-discontinue-mindstorms-robotics-kits-by-end-of-year-081535123.html
+* [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4)
+  * Rhasspy voice assistant
