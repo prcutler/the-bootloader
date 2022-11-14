@@ -62,6 +62,7 @@
 * [3D Printed Toys for Tots campaign](https://www.ic3dprinters.com/2022-toys/)
   * [Twitch.tv](https://www.twitch.tv/charitymakers)
 * [Hey Github](https://githubnext.com/projects/hey-github)
+* [GitHub Copilot lawsuit](https://www.theregister.com/2022/11/11/githubs_copilot_opinion/)
 * [MicroPython in the browser](https://www.anaconda.com/blog/pyscript-updates-bytecode-alliance-pyodide-and-micropython)
 * Legos in the news
   * https://gizmodo.com/lego-3d-printing-printable-print-duck-toy-minifig-house-1849751375
