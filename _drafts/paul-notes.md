@@ -68,3 +68,6 @@
   * https://www.engadget.com/lego-discontinue-mindstorms-robotics-kits-by-end-of-year-081535123.html
 * [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4)
   * Rhasspy voice assistant
+* Mastodon(?)
+  * https://twitter.com/_sagesharp_/status/1592188538921316352
+  * https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/
