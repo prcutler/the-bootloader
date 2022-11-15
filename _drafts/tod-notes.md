@@ -101,3 +101,14 @@
   * Tindie page: https://www.tindie.com/products/adz1122/ch32v003-risc-v-mcu-development-board/
   * Was $6 now $10 (due to demand probably)
   * [More info on Hackster.io](https://www.hackster.io/news/wch-launches-a-sub-10-risc-v-microcontroller-while-a-6-90-dev-board-gets-you-started-90b1ffd7490a)
+
+---
+
+* WithDiode.com -- 3d breadboard simulation in the browser
+  - omg
+  - this is the best
+  - so fun
+  - I saw it from Clive Thompson (@clive@saturation.social) on Mastodon
+    - https://mastodon.social/@clive@saturation.social/109344907748519044
+  - [DeepFriedNeurons breadboard oscillators](https://blog.crashspace.org/2021/05/dfn-happy-hour-no-43-good-vibrations/)
+  -
