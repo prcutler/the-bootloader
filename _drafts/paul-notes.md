@@ -70,5 +70,6 @@
 * [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4)
   * Rhasspy voice assistant
 * Mastodon(?)
+  * https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431
   * https://twitter.com/_sagesharp_/status/1592188538921316352
   * https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/
