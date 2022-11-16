@@ -84,3 +84,4 @@
   * https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431
   * https://twitter.com/_sagesharp_/status/1592188538921316352
   * https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/
+  * https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon
