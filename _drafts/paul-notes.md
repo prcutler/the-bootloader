@@ -68,7 +68,18 @@
   * https://gizmodo.com/lego-3d-printing-printable-print-duck-toy-minifig-house-1849751375
   * https://www.engadget.com/lego-discontinue-mindstorms-robotics-kits-by-end-of-year-081535123.html
 * [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4)
-  * Rhasspy voice assistant
+  * Annual look at the smart home ecosystem and Home Assistant
+  * #2 open source program on Github
+  * Focused on local control and privacy
+  * Home Assistant Cloud from Nabu Casa processed 50,000 webhooks per second
+  * 2023: Year of the Voice
+    * Rhasspy voice assistant: https://github.com/rhasspy/rhasspy by Michael Hansen
+      * Can function completely disconnected from the Internet
+      * Are entirely free/open source with a permissive license
+      * Works well with freely available home automation software
+      * Optimized for working with MQTT, HTTP and Websockets with Home Assistant having built in support
+      * Support for over 25 different languages
+    * Hired by Nabu Casa to work on and integrate Rhasspy full-time
 * Mastodon(?)
   * https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431
   * https://twitter.com/_sagesharp_/status/1592188538921316352
