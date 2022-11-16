@@ -85,3 +85,4 @@
   * https://twitter.com/_sagesharp_/status/1592188538921316352
   * https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/
   * https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon
+  * https://www.wired.com/story/how-to-get-started-use-mastodon/
