@@ -79,7 +79,8 @@
       * Works well with freely available home automation software
       * Optimized for working with MQTT, HTTP and Websockets with Home Assistant having built in support
       * Support for over 25 different languages
-    * Hired by Nabu Casa to work on and integrate Rhasspy full-time
+    * Michael Hansen hired by Nabu Casa to work on and integrate Rhasspy full-time
+    * https://www.youtube.com/watch?v=krQjw-j7rXI
 * Mastodon(?)
   * https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431
   * https://twitter.com/_sagesharp_/status/1592188538921316352
