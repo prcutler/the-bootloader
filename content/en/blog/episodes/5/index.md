@@ -18,7 +18,7 @@ from the tech and maker scenes.  Paul and Tod will bring you three interesting t
 ## Episode Intro
 Welcome!
 
-### [Micropython by Arduino Labs](https://blog.arduino.cc/2022/11/10/micropython-officially-becomes-part-of-the-arduino-ecosystem/)
+### [Micropython by Arduino Labs](https://blog.arduino.cc/2022/11/10/micropython-officially-becomes-part-of-the-arduino-ecosystem/) (Tod #1)
   * It works well! Simple and clean, with what you need: code editor + terminal window
   * Works with any MicroPython device with USB serial, from my limited testing
   * No serial plotter, no library manager, no board manager. This is a first step
@@ -30,11 +30,12 @@ Welcome!
     * What I do not recommend: any "micropython extension" for VS Code/Atom/etc.
       The ones I've tried are flaky and presume too much, taking over other Python projects
 
-### Home Assistant and the [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4) - Nov 13, 2022
+### Home Assistant and the [State of the Open Home](https://www.youtube.com/watch?v=D936T1Ze8-4) (Paul #1)
   * Home automation platform focused on local control and privacy
     * No vendor log-in
     * Your smart home shouldn't require the cloud
   * State of the Open Home is an annual look at the smart home ecosystem and Home Assistant
+    * Livestreamed Nov 13, 2022  
     * #2 open source project on Github by contributor contributions
     * Home Assistant Cloud from Nabu Casa processed 50,000 webhooks per second
     * 190,000 instances of HA opted in to reporting
@@ -49,7 +50,7 @@ Welcome!
       * Hired by Nabu Casa to work on and integrate Rhasspy full-time
       * [Summary video](https://www.youtube.com/watch?v=krQjw-j7rXI)
 
-### [WithDiode.com](https://www.withdiode.com/explore) -- 3d breadboard simulation in the browser
+### [WithDiode.com](https://www.withdiode.com/explore) -- 3d breadboard simulation in the browser (Tod #2)
   * omg. this is the best. so fun
   * Created by [Kennth Cassel](https://twitter.com/KennethCassel)
     * (who also created a nice [Vim tutorial site called vim.so](https://www.vim.so/)
@@ -63,8 +64,9 @@ Welcome!
     * [Fritzing](https://fritzing.org/) lets you visually breadboard up circuits,
       with accompanying breadboard & PCB layout
 
-### GitHub in the news
+### GitHub in the news (Paul #2))
   * Follow-up: the investigation has spawned a [GitHub Copilot lawsuit](https://www.theregister.com/2022/11/11/githubs_copilot_opinion/)
+    * [Verge](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data)
   * [Hey Github](https://githubnext.com/projects/hey-github)
     * Imagine being able to code hands free
     * This could be big for accessibility
@@ -76,7 +78,7 @@ Welcome!
       * Code Summarization: Ask "Hey GitHub!" to explain lines 3-10 and get a summary of what the code does
 
 
-### [RNBO "rainbow"](https://cycling74.com/products/rnbo) -- Turn Max patches into VST plugins
+### [RNBO "rainbow"](https://cycling74.com/products/rnbo) -- Turn Max patches into VST plugins (Tod #3)
   * Ever wonder how people make virtual synths / audio effects, or even real synths & effects?
   * [Max](https://cycling74.com/products/max) is a way to create custom virtual instruments or effects, and custom UI. Make it look like a real thing if you want
   * Max is often a good solution to mocking up ideas for these, kinda like CircuitPython and Arduino is for microcontroller projects
@@ -100,7 +102,7 @@ Welcome!
     * And there's a [huge community](https://patchstorage.com/explore) of existing Pd patches.
     * And there's the [free online Heavy compiler](https://www.rebeltech.org/2018/09/12/compile-pure-data-patches-with-free-online-heavy-compiler/) for Pd patches
 
-### Mastodon
+### Mastodon (Paul #3)
   * [Hope for a Post-Musk Net](https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431) by Jeff Jarvis
   * [Choosing a Mastodon instane by Sage Sharp](https://twitter.com/_sagesharp_/status/1592188538921316352)
   * [A Warning about Mastodon.social by Sumuna Harihareswara](https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/)
