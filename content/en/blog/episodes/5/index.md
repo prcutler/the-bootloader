@@ -108,6 +108,7 @@ Welcome!
   * [A Warning about Mastodon.social by Sumuna Harihareswara](https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/)
   * [How to Move from Twitter to Mastodon - Toms Hardware by Les Pounder](https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon)
   * [How to get Started on Mastodon - Wired by Justin Pot](https://www.wired.com/story/how-to-get-started-use-mastodon/)
+  * [Custom emoji on Fosstodon](https://fosstodon.org/api/v1/custom_emojis)
 
 ### Support Sponsor The Bootloader
 
