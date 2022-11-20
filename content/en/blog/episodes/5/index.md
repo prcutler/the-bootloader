@@ -1,5 +1,5 @@
 ---
-date: 2022-11-07
+date: 2022-11-20
 title: "Episode 5: Pandas and Breadboards"
 linkTitle: "Episode 5"
 description: "Pandas and Breadboards"
