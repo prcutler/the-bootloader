@@ -87,3 +87,5 @@
   * https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/
   * https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon
   * https://www.wired.com/story/how-to-get-started-use-mastodon/
+* SQLite WASM: https://sqlite.org/releaselog/3_40_0.html
+* 
