@@ -88,4 +88,4 @@
   * https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon
   * https://www.wired.com/story/how-to-get-started-use-mastodon/
 * SQLite WASM: https://sqlite.org/releaselog/3_40_0.html
-* 
+* [rp2040 rotary encoder](https://www.hackster.io/news/ahmsville-labs-pico-dev-m3-turns-a-raspberry-pi-rp2040-into-a-feature-packed-rotary-encoder-knob-c63b181c585d)
