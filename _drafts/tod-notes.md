@@ -111,4 +111,12 @@
   - I saw it from Clive Thompson (@clive@saturation.social) on Mastodon
     - https://mastodon.social/@clive@saturation.social/109344907748519044
   - [DeepFriedNeurons breadboard oscillators](https://blog.crashspace.org/2021/05/dfn-happy-hour-no-43-good-vibrations/)
-  -
+  - also see [Wokwi simulator](https://wokwi.com/)
+
+* RNBO -- Turn Max/MSP patches into VST plugins
+  - https://www.synthanatomy.com/2022/11/rnbo-turns-your-max-patches-into-hardware-vst-plugins-and-web-applications.html
+
+* gpu-io - GPU accelerated WebGL library for physics simulations
+  - homepage: https://github.com/amandaghassaei/gpu-io
+  - examples: https://apps.amandaghassaei.com/gpu-io/examples/
+  - mastodon post I saw: https://mastodon.art/@amandaghassaei/109433326067044608
