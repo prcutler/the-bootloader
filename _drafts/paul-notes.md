@@ -91,3 +91,4 @@
 * [rp2040 rotary encoder](https://www.hackster.io/news/ahmsville-labs-pico-dev-m3-turns-a-raspberry-pi-rp2040-into-a-feature-packed-rotary-encoder-knob-c63b181c585d)
 * https://talkpython.fm/episodes/show/391/pyscript-powered-by-micropython
 * https://www.singforscience.org/episodes/rivers-cuomo-guido-van-rossum
+* [Pico Gamepad](https://www.hackster.io/news/alpakka-is-an-open-source-gamepad-based-on-the-raspberry-pi-pico-05380c38181d)
