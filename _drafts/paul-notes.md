@@ -92,3 +92,4 @@
 * https://talkpython.fm/episodes/show/391/pyscript-powered-by-micropython
 * https://www.singforscience.org/episodes/rivers-cuomo-guido-van-rossum
 * [Pico Gamepad](https://www.hackster.io/news/alpakka-is-an-open-source-gamepad-based-on-the-raspberry-pi-pico-05380c38181d)
+* [The Clone Wars](https://hackaday.com/2022/12/05/perhaps-its-time-to-talk-about-all-those-fakes-and-clones/)
