@@ -5,13 +5,12 @@
 	- [ ] Add image
 	- [ ] Show notes
 	- [ ] Links
-- [ ] Upload and schedule at Zencastr
-	- [ ] Add image
+- [ ] Upload and schedule on Castopod
 	- [ ] Show notes
 	- [ ] Links
-- [ ] Create transcript
+- [ ] Create transcript in MacWhisper
 	- [ ] Edit and clean up transcript
-	- [ ] Create SRT?
+	- [ ] Create SRT
 	- [ ] Create episode branch
 		- [ ] Add show notes page for current episode
 		- [ ] Add transcript to website
