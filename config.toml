@@ -171,9 +171,9 @@ enable = false
   icon = "fa fa-envelope"
   desc = "Email tips and news"
 [[params.links.user]]
-  name ="Twitter"
-  url = "https://twitter.com/thebootloader"
-  icon = "fab fa-twitter"
+  name ="Mastodon"
+  url = "https://www.circuitpythonshow.com/@thebootloader/follow"
+  icon = "fab fa-mastodon"
   desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
   name ="YouTube"
@@ -182,7 +182,7 @@ enable = false
   desc = "Subscribe on YouTube"
 [[params.links.user]]
   name ="RSS"
-  url = "https://feeds.zencastr.com/f/Hi7u_z67.rss"
+  url = "https://www.circuitpythonshow.com/@thebootloader/feed.xml"
   icon = "fa fa-rss"
   desc = "Subscribe to the RSS feed"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
