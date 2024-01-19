@@ -3,7 +3,7 @@ date: 2022-10-24
 title: "Episode 3 Transcript"
 linkTitle: "Episode 3 Transcript"
 description: "Episode 3 Transcript - The Middle is a Pumpkin"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 Tod Kurt  0:03

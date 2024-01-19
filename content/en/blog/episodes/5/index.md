@@ -3,7 +3,7 @@ date: 2022-11-21
 title: "Episode 5: Pandas and Breadboards"
 linkTitle: "Episode 5"
 description: "Pandas and Breadboards"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk

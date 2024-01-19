@@ -3,7 +3,7 @@ date: 2022-11-21
 title: "Episode 5 Transcript"
 linkTitle: "Episode 5 Transcript"
 description: "Episode 5 Transcript - Pandas and Breadboards?"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 Tod Kurt  0:02  

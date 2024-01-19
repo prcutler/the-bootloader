@@ -3,7 +3,7 @@ date: 2022-11-07
 title: "Episode 4: What's the Matter?"
 linkTitle: "Episode 4"
 description: "What's the Matter?"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk

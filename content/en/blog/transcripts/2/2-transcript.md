@@ -3,7 +3,7 @@ date: 2022-10-10
 title: "Episode 2 Transcript"
 linkTitle: "Episode 2 Transcript"
 description: "Episode 2 Transcript - M is for Makers, Music, and Machine Learning"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 [Episode 2 Show Notes](https://thebootloader.net/blog/2022/10/10/episode-2/)

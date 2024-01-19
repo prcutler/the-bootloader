@@ -174,7 +174,7 @@ enable = false
   name ="Mastodon"
   url = "https://www.circuitpythonshow.com/@thebootloader/follow"
   icon = "fab fa-mastodon"
-  desc = "Follow us on Twitter to get the latest news!"
+  desc = "Follow us on Mastodon to get the latest news!"
 [[params.links.user]]
   name ="YouTube"
   url = "https://www.youtube.com/channel/UCdnYGzS7QVLBY70xG5VLd6Q"

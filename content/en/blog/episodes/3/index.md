@@ -3,7 +3,7 @@ date: 2022-10-24
 title: "Episode 3: The Middle is a Pumpkin"
 linkTitle: "Episode 3"
 description: "The Middle is a Pumpkin"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk

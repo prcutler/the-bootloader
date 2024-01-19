@@ -3,7 +3,7 @@ date: 2022-09-26
 title: "Episode 1: Rock Stars are Just Like Us"
 linkTitle: "Episode 1"
 description: "Rock Stars are Just Like Us"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
 Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk

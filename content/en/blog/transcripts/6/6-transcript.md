@@ -3,7 +3,7 @@ date: 2022-12-05
 title: "Episode 6 Transcript"
 linkTitle: "Episode 6 Transcript"
 description: "Episode 5 Transcript - Supersized for Supercon"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 Tod Kurt  0:03  

@@ -3,7 +3,7 @@ date: 2022-12-05
 title: "Episode 6: Supersized for Supercon"
 linkTitle: "Episode 6"
 description: "Supersized for Supercon"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
 Welcome to The Bootloader!  This week we are doing something a little different.  Tod recently attended Supercon and shares some of his favorite talks and presentations. Paul and Tod also share one interesting thing.
