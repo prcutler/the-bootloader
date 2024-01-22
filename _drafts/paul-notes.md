@@ -5,3 +5,4 @@
 * Bambu Labs follow-up one year later
 * [Pico W Air - Wireless Air Quality Monitoring](https://www.tindie.com/products/dphacks/pico-w-air-wireless-air-quality-monitoring/)
 * Mozilla [Documenting the Uneven Playing Field for Independent Browsers like Firefox](https://blog.mozilla.org/netpolicy/2024/01/19/platform-tilt/)
+* Haier and Home Assistant - good roundup at [Hackaday](https://hackaday.com/2024/01/22/haier-europe-eases-off-on-legal-threat-and-seeks-dialogue/)
