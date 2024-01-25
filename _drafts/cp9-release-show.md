@@ -1,5 +1,7 @@
 # CircuitPython 9 Release Show
 
+CircuitPython 8.0 was released on February 3rd, 2023
+
 ## New Features
 
 * `jpegio` - decode jpegs
