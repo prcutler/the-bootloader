@@ -6,6 +6,7 @@ CircuitPython 8.0 was released on February 3rd, 2023
 
 * `jpegio` - decode jpegs
   * Memento Camera support
+  * bitmapfilter
 * `synthio`
   * Add `synthio.Synthesizer.note_state`.
   * Add `synthio.Note` `.loop_start` and `.loop_end` properties.
@@ -23,6 +24,7 @@ CircuitPython 8.0 was released on February 3rd, 2023
   * Split off parts of displayio into multiple modules: busdisplay, fourwire, epaperdisplay, i2cdisplaybus, paralleldisplaybus. The existing displayio hierarchy will still be available 9.x.x, but is deprecated, and will be removed in 10.0.0. ~[\#8493](https://github.com/adafruit/circuitpython/pull/8493)~.
 * CircuitPython drives now mount on Android devices
 * **WARNING for nRF52 boards only:** If your board has an nRF52 UF2 bootloader whose version is before 0.6.1, you will not be able to load CircuitPython 8.2.0 and later, due to increased size of the firmware. See ~[these instructions](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader)~ for updating your bootloader.
+* Overall size of CircuitPython - what happens to M0 and SAMD21 boards in the future?
 
 ## MicroPython Merge
 
