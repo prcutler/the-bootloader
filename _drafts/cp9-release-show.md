@@ -1,6 +1,7 @@
 # CircuitPython 9 Release Show
 
 CircuitPython 8.0 was released on February 3rd, 2023
+CircuitPython 9.0 was released on March 18, 2024
 
 ## New Features
 
