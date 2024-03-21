@@ -48,6 +48,8 @@ In no particular order:
 
 ## MicroPython Merge and ESP-IDF 5 update
 
+Merged MicroPython releases 1.19.1, 1.20, and 1.21
+
 The MicroPython merges are huge undertakings. Props to the CircuitPython team for even 
 trying to track upstream. For example, the 1.20 update touched 779 files over 250 commits. 
 
