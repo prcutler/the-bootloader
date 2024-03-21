@@ -1,13 +1,14 @@
 # CircuitPython 9 Release Show
 
-CircuitPython 8.0 was released on February 3rd, 2023
-CircuitPython 9.0 was released on March 18, 2024
+* CircuitPython 8.0 was released on February 3rd, 2023
+* CircuitPython 9.0 was released on March 18, 2024
 
 ## Changes We're Most Excited For
 
 In no particular order:
 
-* Tod: `jpegio`, ESP-IDF update, USB Host
+* Paul: A, B, C, D
+* Tod: `jpegio`, ESP-IDF update, USB Host, `parelleldisplaybus`
 
 ## New Features
 
@@ -61,5 +62,8 @@ From danh:
 * Breaking Changes
   * display.show(group)
   * Filesystem mounts need to be on existing directories, so create a `/sd` directory in fresh filesystems as a mount point
+  * And for boards w/ built-in SD card slots, SD contents available over web workflow
   * CircuitPython now requires explicit socket port reuse. Use socket.setsockopt(pool.SOL_SOCKET, pool.SO_REUSEADDR, 1), as in CPython.
 * Webcam (UVC) Support
+* `parelleldisplaybus` - 8-bit LCD displays (8x faster than SPI!) 
+  - There's some really nice boards by Lilygo w/ ESP32-S3 and fast parallel displays
