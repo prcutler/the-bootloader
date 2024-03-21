@@ -4,9 +4,16 @@ CircuitPython 8.0 was released on February 3rd, 2023
 
 ## New Features
 
-* `jpegio` - decode jpegs
-  * Memento Camera support
-  * bitmapfilter
+1. Memento (`jpegio`, `bitmapfilter`
+2. USB Host
+3. MicroPython merge (`split heap` changes)
+4. `synthio`?
+5. CIRCUITPY drives mount on Android
+6. ConnectionManager
+7. Breaking changes
+
+* Memento Camera support
+  * Great example of marrying hardware and software.  Creating the camera gaves us `jpegio` and `bitmapfilter`
 * `synthio`
   * Add `synthio.Synthesizer.note_state`.
   * Add `synthio.Note` `.loop_start` and `.loop_end` properties.
@@ -38,3 +45,14 @@ From danh:
 The "split heap" code from MicroPython now enables us to use heap allocation outside the VM, which was very awkward before: any dynamic storage allocation could only be done once, before the VM started. The heap then used the remaining RAM. Now there is an "outside" heap which can be used while the VM is running, and that storage will not be GC'd. So various storage allocations that used to be static can now be dynamic, such as stuff needed for USB setup.  We also removed the "long-lived storage" scheme that was added a long time ago to reduce fragmentation. In that scheme, storage that we expected to live a very long time (mostly allocations for compiled bytecode) was allocated at one end of the heap, and shorter-lived storage (like the temp storage used during compilation) was allocated at the other end. Part of the scheme involved moving allocated objects and adjusting pointers. The moving caused some inherent but obscure problems where objects' identities seemed to change.
 
 Now long-lived storage is gone, because it was not very compatible with the split-heap scheme. This may cause some projects on small-RAM boards like SAMD21 not to work any more due to increaed fragmentation. We have some ideas for doing something like long-lived storage in a different way that wouldn't involve moving objects, but that won't be in 9
+
+Other topics
+* Justin’s ConnectionManager - want to try that out
+  * Community contribution
+  * Great example of how someone in the community can partner with the core developers to drive change
+* CIRCUITPY drives now mount on Android
+* Breaking Changes
+  * display.show(group)
+  * Filesystem mounts need to be on existing directories, so create a `/sd` directory in fresh filesystems as a mount point
+  * CircuitPython now requires explicit socket port reuse. Use socket.setsockopt(pool.SOL_SOCKET, pool.SO_REUSEADDR, 1), as in CPython.
+* Webcam (UVC) Support
