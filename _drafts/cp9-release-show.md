@@ -7,7 +7,7 @@
 
 In no particular order:
 
-* Paul: A, B, C, D
+* Paul: Memento / 'jpegio', CIRCUITPY on Android, ConnectionManager, USB Host
 * Tod: `jpegio`, ESP-IDF update, USB Host, `parelleldisplaybus`
 
 ## New Features
