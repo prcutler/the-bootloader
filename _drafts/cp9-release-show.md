@@ -3,14 +3,20 @@
 CircuitPython 8.0 was released on February 3rd, 2023
 CircuitPython 9.0 was released on March 18, 2024
 
+## Changes We're Most Excited For
+
+In no particular order:
+
+* Tod: `jpegio`, ESP-IDF update, USB Host
+
 ## New Features
 
-1. Memento (`jpegio`, `bitmapfilter`
+1. Memento (`jpegio`, `bitmapfilter`)
 2. USB Host
-3. MicroPython merge (`split heap` changes)
-4. `synthio`?
+3. MicroPython merge (`split heap` changes (split heap is not from Micropython but ESP-IDF)
+4. ESP-IDF 5 update (allows new ESP32 chips, WiFi fixes, BLE eventually) 
 5. CIRCUITPY drives mount on Android
-6. ConnectionManager
+6. ConnectionManager 
 7. Breaking changes
 
 * Memento Camera support
@@ -18,11 +24,11 @@ CircuitPython 9.0 was released on March 18, 2024
 * `synthio`
   * Add `synthio.Synthesizer.note_state`.
   * Add `synthio.Note` `.loop_start` and `.loop_end` properties.
-  * Increase synthio channels from 2 to 12
+  * ~~Increase synthio channels from 2 to 12~~  (backported in 8.x so not new)
 * USB Host
   * Available on iMX RT and RP2040 chips only
   * Keyboards: Keyboards are treated specially by CircuitPython. It should automatically read the keyboard and convert keypresses into a serial stream.  Then you can do `input()` like you normally would. (https://github.com/adafruit/circuitpython/pull/8155)
-  * MIDI controllers?
+  * MIDI controllers?  Yes!  Scott did the hard work: https://github.com/todbot/Adafruit_CircuitPython_USB_Host_MIDI/
 * RGB “dot clock” displays paired with the ESP32-S3 Quaila board
 * The combination of USB Host + RGB “dot clock” displays could become a standalone CircuitPython computer.  See Scott’s CircuitPython2024 blog post:  [Scott’s \#CircuitPython2024 @tannewt](https://blog.adafruit.com/2024/01/24/scotts-circuitpython2024-tannewt/)
 * Add `repl.py` which runs right before the real starts - [add support for "repl.py" by jepler · Pull Request \#8344 · adafruit/circuitpython](https://github.com/adafruit/circuitpython/pull/8344)
@@ -43,12 +49,12 @@ ESP IDF 5.0: [ESP-IDF Release v5.0 Is a Major Update | Espressif Systems](https:
 
 From danh:
 
-The "split heap" code from MicroPython now enables us to use heap allocation outside the VM, which was very awkward before: any dynamic storage allocation could only be done once, before the VM started. The heap then used the remaining RAM. Now there is an "outside" heap which can be used while the VM is running, and that storage will not be GC'd. So various storage allocations that used to be static can now be dynamic, such as stuff needed for USB setup.  We also removed the "long-lived storage" scheme that was added a long time ago to reduce fragmentation. In that scheme, storage that we expected to live a very long time (mostly allocations for compiled bytecode) was allocated at one end of the heap, and shorter-lived storage (like the temp storage used during compilation) was allocated at the other end. Part of the scheme involved moving allocated objects and adjusting pointers. The moving caused some inherent but obscure problems where objects' identities seemed to change.
+> The "split heap" code from MicroPython now enables us to use heap allocation outside the VM, which was very awkward before: any dynamic storage allocation could only be done once, before the VM started. The heap then used the remaining RAM. Now there is an "outside" heap which can be used while the VM is running, and that storage will not be GC'd. So various storage allocations that used to be static can now be dynamic, such as stuff needed for USB setup.  We also removed the "long-lived storage" scheme that was added a long time ago to reduce fragmentation. In that scheme, storage that we expected to live a very long time (mostly allocations for compiled bytecode) was allocated at one end of the heap, and shorter-lived storage (like the temp storage used during compilation) was allocated at the other end. Part of the scheme involved moving allocated objects and adjusting pointers. The moving caused some inherent but obscure problems where objects' identities seemed to change.
 
-Now long-lived storage is gone, because it was not very compatible with the split-heap scheme. This may cause some projects on small-RAM boards like SAMD21 not to work any more due to increaed fragmentation. We have some ideas for doing something like long-lived storage in a different way that wouldn't involve moving objects, but that won't be in 9
+> Now long-lived storage is gone, because it was not very compatible with the split-heap scheme. This may cause some projects on small-RAM boards like SAMD21 not to work any more due to increaed fragmentation. We have some ideas for doing something like long-lived storage in a different way that wouldn't involve moving objects, but that won't be in 9
 
-Other topics
-* Justin’s ConnectionManager - want to try that out
+## Other topics
+* Justin's ConnectionManager - want to try that out
   * Community contribution
   * Great example of how someone in the community can partner with the core developers to drive change
 * CIRCUITPY drives now mount on Android
