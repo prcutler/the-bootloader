@@ -29,6 +29,7 @@ Welcome!  This is all about the new [CircuitPyton 9.0 release](https://blog.adaf
     * [AdaBox 21 Unboxing Video](https://www.youtube.com/watch?v=H9vWXmL2HIk) hosted by John Park
   * [`jpegio`](https://docs.circuitpython.org/en/latest/shared-bindings/jpegio/index.html) 
     * one downside of JPEG vs BMP or PNG files: JPEGs are not palletized
+    * based on ["TJpgDec"](http://elm-chan.org/fsw/tjpgd/) 
   * [`bitmapfilter`](https://docs.circuitpython.org/en/latest/shared-bindings/bitmapfilter/index.html) 
     * Convolusion (kernel) image filter
     * Photoshop-like image effects in CircuitPython
@@ -67,7 +68,9 @@ trying to track upstream. For example, the 1.20 update touched 779 files over 25
   * Makes socket tasks easier, like [this example](https://docs.circuitpython.org/projects/connectionmanager/en/latest/examples.html)
 
 ### Breaking Changes in CircuitPython
-  * `display.show()` deprecated and `displayio` drivers have moved
+  * [`displayio`](https://docs.circuitpython.org/en/latest/shared-bindings/displayio/index.html) changes:
+    * `display.show()` deprecated 
+    * `displayio` drivers have moved
     * [See this FAQ](https://learn.adafruit.com/circuitpython-display-support-using-displayio/faqs)
   * Mounting a filesystem (SD card) requires an existing directory, like CPython
   * CircuitPython now requires explicit socket port re-use. Use `socket.setsockopt(pool.SOL_SOCKET, pool.SO_REUSEADDR, 1)`, as in CPython.
