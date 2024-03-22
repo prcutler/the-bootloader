@@ -1,5 +1,5 @@
 ---
-date: 2022-11-21
+date: 2024-03-22
 title: "Episode 7: The CircuitPython 9 Release Show"
 linkTitle: "Episode 7"
 description: "The CircuitPython 9 Release Show"
