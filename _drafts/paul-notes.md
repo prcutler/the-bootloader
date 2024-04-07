@@ -9,3 +9,4 @@
 * Pi Streamer: [Hackster write-up](https://www.hackster.io/alan-boris/audiophile-pi-music-streamer-in-old-tuner-c96c8b) and [GitHub](https://github.com/alanb128/audio-streaming-box/tree/main)
 * [Microdot web framework](https://blog.miguelgrinberg.com/post/microdot-yet-another-python-web-framework)
 * [Faircamp](https://simonrepp.com/faircamp/)
+* Nightshade 1.0 is out:  https://nightshade.cs.uchicago.edu/index.html
