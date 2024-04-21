@@ -1,5 +1,25 @@
 # Tod's Notes for Future Episodes
 
+
+## Brainstorming 2024
+
+* Capacitive touch wheels
+  - like my `touchwheel0` & `picoslidertoy`
+
+* THX Deep Note? 
+  - my recreations in Mozzi - https://www.youtube.com/watch?v=7fX8cBwbOmU
+
+* Carlyn's ARM assembly deep dives
+  - https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/
+
+* Let's talk about Hash Tables 
+  - https://craftinginterpreters.com/hash-tables.html
+
+* SynthUX academy 
+  - https://www.synthux.academy
+
+-------------------------------------
+
 ## Brainstorming
 
 * [Kaluma Javascript runtime for Raspberry Pi Pico](https://kalumajs.org/)
