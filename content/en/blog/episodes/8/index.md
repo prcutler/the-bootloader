@@ -29,7 +29,7 @@ Homepage:  https://www.alpenglowindustries.com
 Surface mount soldering kits: [SMT Soldering Kits](https://www.alpenglowindustries.com/collections/smt-soldering-kits)
 YouTube channel:  [Alpenglow Industries](https://www.youtube.com/alpenglowindustries)
 
-## SynthUX Academy (Tod #1)
+## SynthUX Academy and Daisy Seed (Tod #1)
 
 Have you ever wanted to learn to make *real* high-quality synthesizers, 
 not just the low-fi toys I've been goofing around with in CircuitPython or Arduino w/ Mozzi? 
@@ -42,7 +42,7 @@ musical instruments from guitar pedals, to Eurorack modules, to stand-alone
 synthesizer keyboards.  
 
 The Daisy Seed board features a Cortex M7-class chip with 65 MB of RAM, stereo
-audio I/O at 24-bit @ 96 kHz, and twelve 16-bit ADC pins and two 12-bit DACs
+audio I/O at 24-bit @ 96 kHz, twelve 16-bit ADC pins and two 12-bit DACs
 for controls, and 31 GPIOs.  And it fits on a breadboard!
 
 It's got a well-done Arduino library, a C++ DSP library, and you can even
@@ -69,34 +69,44 @@ MicroPython awesome-list for web servers: [Awesome MicroPython](https://awesome-
 
 ## ARM Assembly Deep-dives by Carlynorama
 
-What's lower-level programming than CircuitPython?  Arduino maybe? And what's 
-lower-level than that, probably C code calling a C vendor SDK. 
-Now what's lower than that?  C code manipulating a chip's I/O directly.
-And what's the lowest level? Assembly language.
+What's lower-level programming than CircuitPython?  Arduino maybe? 
+Lower-level than that? Probably C code calling a C vendor SDK. 
+Now what's lower than even that?  C code manipulating a chip's I/O directly, 
+I'd say. And the lowest level? [Assembly language](https://en.wikipedia.org/wiki/Assembly_language).
 
 [Carlynorama](https://www.whynotestflight.com/) has been doing a deep-dive on 
-ARM assembly language lately.  She started with 
+ARM assembly language lately.  (disclosure: she's my wife)
+
+She started with 
 [an ATtiny45 in bare AVR C](https://www.whynotestflight.com/excuses/hello-led-on-an-avr-attiny45-in-c/)
 to set up the chip and blink an LED.  She's really familar with AVR from the original Arduino,
-so it was a natural jumping off point.  Doing bare C like this to twiddle chip registers
-is essentially assembly language since so much of the work is figuring out which
-bit of which registers to twiddle to make something happen. 
+so it was a natural jumping off point.  On AVR, doing bare C to twiddle chip registers
+is very close to assembly language, since much of the work is figuring out which
+registers to twiddle to make something happen. Besides her real target was ARM chips.
 
-So when she switched to ARM chips like what's in the QT Py M0 or Trinket M0, 
-she decided to start with ARM assembly, in order to really understand how these chips work. 
-Note that even these Cortex-M0 ARM chips are much more complicated than AVR chips, 
-and the ARM instruction set is huge, but (confusingly) the Cortex-M0 chips get only a small
-subset of that, making all the documentation about "ARM assembly" frustrating to 
-read until you know which parts of it don't apply to you. 
+For the SAMD21 ARM chips like what's in the QT Py M0 or Trinket M0, she decided to start 
+with assembly, in order to really understand how these chips work compared to AVR.
+The Cortex-M0+ ARM chips are more complicated than AVR, and the ARM instruction set is huge. 
+But (confusingly) the Cortex-M0+ core in these chips only get a subset of the ARM instructions,
+making all the documentation about "ARM assembly" frustrating to read until you know 
+which instructions are allowed for your chip.
 
 But in about a week she's gone from knowing no ARM assembly to 
 [getting an M0 chip up and blinking an LED](https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/), 
-reading a button input, and being able to monitor it all via GDB.
+[reading a button input](https://www.whynotestflight.com/excuses/and-now-for-3-ways-to-set-an-internal-pullup/), 
+and being able to monitor it all via [GDB](https://sourceware.org/gdb/).
+Along the way she's been using
+[online ARM simulators](https://cpulator.01xz.net/?sys=arm-de1soc) 
+and teasing how STM32 ARM chip setup differs from SAMD21 setup.
 
-I've been watching from the sidelines, learning a little along the way and it's been
-fascinating. You can really see how enormously powerful these chips are
-when you're down at the lowest level like this. 
+I've been watching from the sidelines, learning a little along the way, following her blog. 
+And it's been fascinating. You can really see how enormously powerful these chips are
+when you're down at the lowest level like this.  It makes you appreciate all the work
+that's going on when you say `pinMode(pin, INPUT_PULLUP)` or `button = DigitalInOut(board.GP14)`.
 
+Her next steps I think are moving to some bigger ARM chips and to try out the 
+[Clang/LLVM](https://clang.llvm.org/) compiler system instead of the 
+[GCC-based tools](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) she's currently using. 
 
 ## One Year With the Bambu Labs P1P (Paul #3)
 
