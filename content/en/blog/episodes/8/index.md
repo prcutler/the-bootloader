@@ -105,7 +105,7 @@ Paul shares his experience after owning a the Bambu Labs P1P 3D printer.
 The Bootloader Episode 1: [Episode 1: Rock Stars are Just Like Us](https://thebootloader.net/blog/2022/09/26/episode-1-rock-stars-are-just-like-us/)
 [Bambu Lab P1 Series | Reliable Out-of-the-Box Performance](https://bambulab.com/en-us/p1?product=p1p)
 [P1 Series](https://wiki.bambulab.com/en/p1)
-Bambu extends software and bug fix support until 2027 and 2029 respectively [Reddit thread](https://www.reddit.com/r/BambuLab/comments/1cco9v0/bambu_have_massively_extended_the_software_update/)
+Bambu extends software and bug fix support until 2027 and 2029 respectively in a [turnaround](https://www.tomshardware.com/3d-printing/bambu-lab-printer-firmware-updates-have-limited-timeline) [Reddit thread](https://www.reddit.com/r/BambuLab/comments/1cco9v0/bambu_have_massively_extended_the_software_update/)
 
 
 ##  Let's talk about Capacitive Touch Sensors and Sliders
