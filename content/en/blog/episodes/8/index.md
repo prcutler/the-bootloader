@@ -67,7 +67,7 @@ Microdot project page: https://github.com/miguelgrinberg/microdot
 The Flask Mega-Tutorial:  [The Flask Mega-Tutorial, Part I: Hello, World!](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 MicroPython awesome-list for web servers: [Awesome MicroPython](https://awesome-micropython.com/#web)
 
-## ARM Assembly Deep-dives by Carlynorama
+## ARM Assembly Deep-dives by Carlynorama (Tod #2)
 
 What's lower-level programming than CircuitPython?  Arduino maybe? 
 Lower-level than that? Probably C code calling a C vendor SDK. 
@@ -118,7 +118,7 @@ The Bootloader Episode 1: [Episode 1: Rock Stars are Just Like Us](https://thebo
 Bambu extends software and bug fix support until 2027 and 2029 respectively in a [turnaround](https://www.tomshardware.com/3d-printing/bambu-lab-printer-firmware-updates-have-limited-timeline) [Reddit thread](https://www.reddit.com/r/BambuLab/comments/1cco9v0/bambu_have_massively_extended_the_software_update/)
 
 
-##  Let's talk about Capacitive Touch Sensors and Sliders
+##  Let's talk about Capacitive Touch Sensors and Sliders (Tod #3)
 
 I have been experimenting with capacitive touch sensors for a while now. 
 They can be a really fun and easy sensor to add to your project and require 
