@@ -8,7 +8,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ## Welcome
 Welcome to The Bootloader.  
 
-[Full transcript available here](https://thebootloader.net/blog/2024/04/22/episode-8-transcript/).
+[Full transcript available here](https://thebootloader.net/blog/2024/04/29/episode-8-transcript/).
 
 <iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/the-circuitpython-9-release-show/embed/dark"></iframe>
 
