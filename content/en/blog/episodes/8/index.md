@@ -1,8 +1,8 @@
 ---
-date: 2024-04-22
-title: "Episode 8: Insert Title Here"
+date: 2024-04-29
+title: "Episode 8: Built from the ground up"
 linkTitle: "Episode 8"
-description: ""
+description: "Built from the ground up"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
