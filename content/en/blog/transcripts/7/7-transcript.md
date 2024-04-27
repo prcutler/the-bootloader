@@ -1,453 +1,524 @@
 ---
-date: 2024-03-22
-title: "Episode 7 Transcript"
-linkTitle: "Episode 7 Transcript"
-description: "Episode 7 Transcript - The CircuitPython 9 Release Show"
+date: 2024-04-29
+title: "Episode 8 Transcript"
+linkTitle: "Episode 8 Transcript"
+description: "Episode 8 Transcript - Built from the ground up"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
+(upbeat music) - Welcome to The Bootloader, I'm Paul Cutler. - And I'm Tod Kurt.
 
-[MUSIC] Hi, welcome to the Bootloader.
+Each podcast we'll be bringing you news, project updates, product talk from the tech and maker scenes.
 
-I'm Tod Kurt.
+And for each episode, we'll be talking about it around three, no more than five things and chat about them for a few minutes each.
 
-I'm Paul Cutler.
+Paul, what do you have for us this week for your first one? - First up, I've got a segment that I like to call Meet the Maker.
 
-We're back after an extended break with a special episode breaking down the recently released CircuitPython 9.
+And first up is Carrie Sundra of Alpenglow.
 
-It's been just over a year since CircuitPython 8 was released in February 2023, and Tod and I are going to chat about what's new and what we think is cool in CircuitPython 9.
+Now I've never met Carrie.
 
-With that said, Tod, what are you excited about in this release?
+I just follow her on Mastodon and the socials.
 
-All right.
+And shame on me, but I've never took a good look at the products and services offered by Alpenglow.
 
-There's a ton of things, but I'm going to list four real quick without any explanations.
+I visited their website and if you visit the about page, I wanted to share Alpenglow's mission statement, which is to teach you about electronics without gatekeeping.
 
-We can get to them in detail as we go.
+It goes on to say, we are passionate about representation in electronics.
 
-JPEG I/O, parallel display bus, USB host, and ESP-IDF update.
+The field is still overwhelmingly white and male with only 10% of electrical engineers identifying as women.
 
-How about you?
+Having worked in the field for over 20 years, we know how much gatekeeping and hostility there can be.
 
-What are some of the things you're excited by?
+We aim to provide a welcoming space where adults can learn about electronics without judgment or any previous experience.
 
-JPEG I/O and the Momento camera definitely.
+So right there, you know it's a business that you want to support and do business with.
 
-CircuitPy on Android, I think is pretty cool.
+That is just such a cool mission statement to share with the world.
 
-Brand new connection manager and USB host, I'm excited to learn more about.
+And it's something that I'm passionate about too, that whole women in tech and under-representation in tech.
 
-I haven't played with it yet.
+And it's great to see her trying to bring people into electronics and soldering.
 
-So let's jump in.
+What sparked my interest was on Mastodon a couple weekends ago they shared a learn to solder surface mount kit.
 
-We both had JPEG I/O on our list.
+And that got me to visit the shop and I saw the various learn to solder through hole kits as well as surface mount.
 
-The Momento camera just came out in the last couple of months and was just unveiled in the latest AdaBox as well.
+Now I'm terrible at soldering.
 
-Have you had a chance to play with a Momento?
+I just started soldering within the last couple of years.
 
-I have.
+And if I had known about this a couple of years ago, I probably would have picked one out.
 
-Yeah.
+I still don't know how to do surface mount soldering.
 
-I ended up getting a board before the AdaBox, but then I also got the AdaBox.
+So I'm tempted to buy one of those.
 
-Of course, there was JP's wonderful unboxing video that he did last night, which was the 20th of March, 2024.
+And the kit, which is called the SMT Garden, it's only 20 bucks and it includes over a hundred different pieces from practice capacitors to different colors of LEDs, as well as resistors and a battery holder.
 
-So there have been other, so it's an ESP32-S3, I think, baseboard that has on it a camera module, microphone, SD card slot, bunch of this stuff, accelerometer.
+So there's tons of stuff that you can practice soldering on.
 
-But it's ESP32, so it's Wi-Fi capable, Bluetooth capable.
+There's so many cool things in the shop that I encourage you to go spend a few minutes browsing, pick up something if you're looking to learn to solder or improve your soldering skills.
 
-But the camera module writes JPEG.
+And that's not all she does.
 
-Like when you turn it on and say, "Take a picture," it spits out JPEG data that you're supposed to just save to disk as a JPEG file.
+She also runs a learn electronics workshop and a learn to solder workshop and encourages those underrepresented in tech to attend.
 
-So that raises the question, how do you read that on a CircuitPython device?
+Be sure to check it out.
 
-So now we have JPEG I/O, which allows you to decode JPEGs and load them, load JPEG images into CircuitPython and display them on a screen.
+I've included a number of links in the show notes. - I follow her on Acidon too.
 
-That's a big deal.
+And like, I'm always seeing these great soldering classes and electronics classes that she gives.
 
-I mean, we had a bitmap support and most everything is using bitmaps, but there's also ping support, but you don't see a lot of it.
+And like most soldering kits are kind of boring.
 
-But JPEG is the standard for everything.
+They're like little square things that have like, you know, four little LEDs or something and they just blink or just go on.
 
-You can get small enough file sizes and all that fun stuff.
+But her PCB designs are beautiful, like little bits of art that light up.
 
-So it's pretty cool to see that added.
+And it's, especially for SMD, it's a really great intro because like SMD seems kind of scary, but like, oh, this is just LEDs.
 
-Yeah.
+You know, if you mess one up, you still have three or four others that are gonna light up for just this one part.
 
-It's incredible.
+And there's like four different parts of the whole PCB.
 
-The one downside of JPEGs compared to the other image formats that we like to use in CircuitPython, the BMP or the PNGs, is those can be palletized, which means you can choose exactly how many colors your image has.
+And so, yeah, just even if it's not turned on, it looks cool. - Yes. - And then if you add to it, then it'll look even better. - Her products do look cool.
 
-So if you have a specifically just black and white image, you can say, "Only use one bit per pixel for this image," which makes the image on your disk a little bit bigger because there's no real compression in BMPs.
+I mean, there's holiday themed one.
 
-But it means that in memory, the CircuitPython image buffer will be much smaller.
+There's a light up Krampus.
 
-With JPEGs, JPEGs are like the full color space.
+There's some no soldering ones that are available.
 
-So I think that it stores them as a 16-bit color, two bytes per pixel.
+So depending on what your skill set, there's a little bit of everything for everyone, I think. - Yeah.
 
-So it's a bit bigger.
+Yeah, it's really cool 'cause electronics is not that scary.
 
-So JPEG I/O will only probably work really well on ESP32 devices, things with lots of RAM, but it's like we got it.
+It just kind of looks scary. - It does.
 
-I think one of the really neat things about it too is it shows how Adafruit's innovating around the product, the hardware, and the software coming together to create the product.
+And I would say that's my experience in the last few years is I really came into this thinking it was a lot scarier than it is.
 
-Yeah.
+And it's just amazing how much you pick up just doing it over and over again in the practice, which is perfect for something like this. - Yeah, like so much of things.
 
-It's almost Apple-like that when you can have influence over both of those things, you can have an experience that's really pretty cool.
+If you don't keep using it, you kind of lose it. - Absolutely.
 
-Yeah.
+What did you have up for us next? - From like intro to electronics to like some of the most complicated electronics that I know of is how to make a synthesizer.
 
-I've had a couple of these little ESP cams.
+And so from previous shows and just if you follow me, you've probably seen that I've made little toy, kind of toy synthesizers using either Arduino with this library called Mozi or in circuit Python with the new synth IO functionality that's built in a circuit Python.
 
-You can get them pretty cheap off of AliExpress or whatever that are what the Memento was based on.
+But they're kind of toys.
 
-It's got ESP32 with one of these little low-cost camera modules hooked up to it, and some simple C code that shows basically how to just write the file.
+Like there are a lot of real synthesis platforms out there that let you do like professional quality synthesizers.
 
-But it's not a product.
+And I've never really gotten into them until recently.
 
-It's not really anything that's usable.
+There's one module, it looks kind of like an Arduino called Daisy Seed from this company called Electrosmith.
 
-Whereas the Memento is super usable, partly because it's got a good design physically, but also because now you can do it all in CircuitPython.
+We'll have a link to it in the show notes.
 
-The first open-source powered camera.
+And it's 25 bucks and it's a Cortex-M7 chip, which is one of the most powerful microcontrollers you can get on a tiny board.
 
-Yeah.
+And it has 65 megabytes of RAM.
 
-That's pretty darn cool.
+So like, you know, RAM is important in when you're making synthesizers or digital effects, like pedals, like guitar pedals and stuff, because you need that memory to act as the buffer for like the delay effect or something or the reverb effect.
 
-Yeah, it's pretty awesome.
+You kind of need to store copies of the sound.
 
-One of the other things I like about the Memento effort was that one of the CircuitPython devs, Jepler, added a bunch of image effects in a general way with this thing called a new library in the core called Bitmap Filter.
+With this chip, sorry, this board, this Daisy Seed board also has a professional quality 24-bit 96 kilohertz audio input and output and stereo.
 
-This lets you do what's called convolution filters, which is your standard Photoshop filters.
+And then for like knobs and stuff, it's got 16 ADC, sorry, 12 16-bit ADC pins and two 12-bit DACs to control stuff.
 
-You can do things like sepia tone or blur or unsharp mask or whatever.
+31 GPIO pins to like let you control LEDs or like drive a display or something or like read from an SD card.
 
-But it is pretty cool how that piece of hardware is driving the software innovation that Adafruit is working on.
+And it fits on a breadboard.
 
-Totally.
+So it's kind of like, you know, if someone made an Arduino and it grew up and wanted to make music, it's kind of what the Daisy Seed is.
 
-Next up, let's chat about USB host.
+And Electrosmith provides all these really great libraries for it, but they're pretty complicated C++ libraries.
 
-I understand you've played around with that a bit.
+They've got a Arduino library that wraps the C++ stuff, but it's still, you need to kind of know how to C++.
 
-I have not.
+So it's pretty daunting if you just like go and look at it and go through their tutorials, it's like, whoa, that's a lot.
 
-I've played around with a little bit on other systems, not much in CircuitPython world yet.
+But thankfully there's this nonprofit in the UK called Synth UX Academy, sorry, not in UK, in the Netherlands.
 
-But yeah, the thing I've mostly played around with is that there are a lot of really interesting little USB MIDI keyboards out there in the world that are only USB.
+And they've been doing these online classes and, sorry, in-person and online classes that they've been streaming for free on YouTube and putting their code up on GitHub so that you can follow along.
 
-It'd be really cool if you could plug these into something that's not a full computer, but something that's smaller that could then create normal MIDI, standard five-pin MIDI, or it could be a synthesizer in itself.
+And they're only using the Daisy Seed and they have this really great little PCB set they sell that's like a little tiny synthesizer like platform.
 
-So with this new USB host functionality, we might actually get that.
+Their whole idea was that like, hey, here's a big gridded PCB with a lot of holes in it where you can put the knobs kind of wherever you want to design what interface you want your synthesizer to have and just quickly wire them up to the Daisy Seed and like wire up an output jack and boom, you've got a synthesizer.
 
-The other thing it adds is keyboard support.
+And so it's been a really nice sort of intro level getting you slightly involved in the whole Daisy Seed way of thinking about how to deal with audio and how to generate audio or how to generate like a guitar pedal effects and stuff.
 
-Oh, like for computer keyboards.
+So it's been really cool.
 
-Yes, it does.
+I've been wanting to play with the Daisy Seed for years.
 
-Scott, I think earlier this year, blogged in a CircuitPython 2024 wish list about how close we're getting to an actual CircuitPython powered computer.
+I supported their Kickstarter back in like 2020 and it's been sitting in a box since then. (laughs) But I finally, like just like in the last two weeks I've like gotten out of the box, started playing with it.
 
-We've got the bigger displays and the quality is right.
+And it's all because of this, the Synth UX Academy YouTube videos and their GitHub stuff.
 
-You've got USB host, so you can actually have the keyboard, and now you've got the microcontroller working as a full-blown computer.
+So if you're into this sort of thing, check it out.
 
-It's almost back to the eight-bit days of yore.
+It's really cool. - It looks just like, it's just a microcontroller.
 
-Yeah.
+It looks a little bigger than a Pico.
 
-Back when we could turn on the computer and it would immediately give you a little prompt to let you start programming, like that was amazing.
+And it was only $21 when I looked at the website.
 
-You'd have to wait for it to boot up because you just turned it on and there it was.
+I was kind of taken aback by how cheap it is for that much RAM and M7, like you said. - Yeah, and it's used in like real products.
 
-It's funny, I think not that it's in CircuitPython 9 specifically, but I've seen work going on with a soft keyboard, so a software keyboard, as well as just a couple of weeks ago in Discord, and I don't know the details, but someone was talking about how could we have a terminal actually in CircuitPython.
+Like there's some guitar pedals that use it.
 
-Oh, interesting.
+There's some like official, you can go and buy them at like Guitar Center, I think.
 
-Right.
+There's some synthesizers, like the thing called the Chompy.
 
-I don't know how that would work if it's connected to the REPL or what, but there were some questions.
+That's like this cute little synthesizer that has like uses computer key switch keys for its keyboard.
 
-I'm like, "Oh, every day we seem to get just a little bit closer."
+It uses a Daisy Seed inside of it.
 
-Yeah.
+And then there's a bunch of Eurek modules that use the Daisy Seed internally.
 
-It's amazing.
+And you wouldn't know it.
 
-It's a pretty complicated problem, it seems, where right now when you want to talk to CircuitPython, you connect via the serial REPL, this USB interface over generally the USB interface, but it looks like a serial port to your computer and you can control-C your program and you can start the program back up again and you can see printouts.
+They're just like, they're hidden and they just, oh, here's this platform to do cool audio stuff. - That's pretty neat. - So what's your second one for this week? - My next one is the Microdot web framework.
 
-But then there's also what's called the web workflow, where you can do that same interaction but via a web page.
+I've shared before that I enjoy programming for the web and Python.
 
-There's also a Bluetooth workflow where you can do something similar, but with a little BLE app.
+I've used both Pyramid and FastAPI web frameworks, but I recently came across the Microdot web framework for CPython and MicroPython, which I thought was interesting. - Interesting, yeah. - It was created by Miguel Grinberg, who wrote the Flask mega tutorial, Flask being a popular Python web framework as well.
 
-Now we might have something where there's a different workflow where the keyboard and the screen are connected directly to the microcontroller.
+Microdot's homepage describes it as the impossibly small web framework for Python and MicroPython.
 
-Somehow these all work without them colliding.
+And it's inspired by Flask.
 
-If I do something in the web workflow, I can still see it in the serial REPL, I think.
+What is interesting is that you'll be able to prototype and write all your code and have it run on desktop Python, on CPython before you bring it over to a microcontroller running MicroPython.
 
-It's just a tour de force of programming to make all this work together.
+Virgin 2 was released this past December, and it looks like there may even be CircuitPython support.
 
-It absolutely is.
+I saw Miguel had filed a few bugs with CircuitPython, so the Microdot test suite would pass, which is how I first came across Microdot was seeing the bug reports.
 
-With that said, we have to give credit to MicroPython.
+So I haven't looked to see if it actually runs on CircuitPython, but it does run on MicroPython, and I was surprised to learn that there's over a dozen different web frameworks for MicroPython, including Microdot.
 
-CircuitPython is a downstream fork of MicroPython.
+So if you're coming from the world of CPython and you've used Flask and you're coming to the world of microcontrollers, it really looks like Microdot might be the perfect web framework to bridge both of those worlds. - That's really amazing.
 
-Every major release of CircuitPython, they merge back in all the changes within MicroPython.
+I'm really impressed.
 
-In this release alone in CircuitPython 9, there were three MicroPython merges that they made, 1.19.1, 1.20, and 1.21, were all merged into CircuitPython 9, which brings a lot of innovation.
+Like I did some networking, some UDP networking stuff a couple months ago.
 
-There's one thing called the split heap management.
+That was mostly for CircuitPython, but because the API, the network API is a CircuitPython and normal Python, or CPython, are so close, I was able to have my library support both.
 
-I actually looked into it and couldn't understand it, so I went to one of the core developers, and Dan Halbert gave me a really great explanation.
+And that was really cool because yeah, I could do all my development on the desktop and then try it in CircuitPython and it would just work.
 
-It's a little long to read here, I'll include it in the show notes.
+I'm just like, this is kind of the promise of why MicroPython and CircuitPython exists is that you can take your learning from DesktopPython and apply it to embedded microcontrollers, which is amazing. - Exactly, or even the other way around as well. - Yeah, yeah, that's very much true for me 'cause I actually don't know DesktopPython too much.
 
-But especially if you have some of the boards with smaller amounts of memory like the SAMDs, you might have some memory issues going forward to watch out for.
+I have heard of Flask though, so I'm gonna look at this Microdot thing. - There you go.
 
-But overall, it's a really innovative change.
+What do you have for us next? - To go even deeper.
 
-I've also been looking at the piece of text that Dan gave you.
+So like what's lower level than CircuitPython? - C. - C, right, yeah, exactly.
 
-I'm a pretty good coder, I feel, but this is a little bit beyond me.
+I was gonna say the next step down might be Arduino.
 
-Those of you who want to know the guts and internals of CircuitPython, I want to know about what changed.
+Lower than that would be C with like say a vendor SDK.
 
-We've got the info for you.
+Like you see you need to have some way of knowing some functions you can call to do like, make the pin go high, make the pin go low.
 
-Just go to the bootloader.net and read the show notes.
+But what's even lower than that, you could write C code that manipulates a chip's registers directly because that's really all this vendor SDK does is you can just know what memory locations, where the pin register lives and modify that with C.
 
-Totally.
+Or you go even lower, you could do assembly language, which I don't know if you ever heard of assembly language, but it's pretty much the lowest level.
 
-About the merge, I don't know how many people who are listening have actually done merges to an upstream fork of code they're using.
+It is these tiny instructions that represent the actual bits that are sent to the CPU and the CPU decodes those bits.
 
-But it is a ordeal because you take this code, some piece of code, and you fork it, you make your own changes, and then the original makes their changes.
+And then that's an instruction and it does one of the instructions, which could be load something by memory or add two registers together or something like that.
 
-And if you want to track what they've done, you have to go through this merge process.
+And so Carlinorama, disclosure, she's my wife, has been doing a deep dive on ARM assembly language.
 
-Man, if you've changed the same file, if you've decided to re-architect something to have a different way of thinking about a problem, it's just a huge problem.
+And I've been finding this really fascinating.
 
-And the fact that they're still doing upstream merges, where they're still trying to track what MicroPython is doing, so that CircuitPython is a subset of MicroPython is amazing.
+See, she started out, she knows Arduino and low level Arduino and AVR stuff very well for me.
 
-And I was looking at the changes just for the 1.2.0 MicroPython merge, the commit for that in CircuitPython touched 779 source files over 250 commits.
+Original Arduino back in 2006 or so, she wrote some of the original documentation for the Arduino website back in 2006.
 
-And that's pretty much- And they merged three of those.
+She knows all about like low level, bare bones, AVR stuff.
 
-Three of those. (laughs) It's like, this is a huge undertaking.
+And so she decided to kind of get back into it by writing some bare metal C code to drive an AC tiny 45, and which is a little eight pin AVR, unlike the larger like 28 pin AVR that's in an Arduino.
 
-And it seems to work, you know, that like, so we get some of the new thinking from MicroPython into CircuitPython.
+And she got that to work and it was like, that was a cool couple of days of work.
 
-And sometimes some of the CircuitPython ideas bubble up to MicroPython, but sort of in an out of band way, because it would be hard for CircuitPython to sort of push changes back up directly.
+But now, 'cause like her real target is to learn, not necessarily to learn ARM assembly, but to learn how ARM chips work.
 
-But yeah, I think it's really cool that we're working together with MicroPython, CircuitPython.
+Because she has some like, she has some plans down the road.
 
-Yeah, the beauty of open source.
+And so she went to a Trinket M0, which is a SAMD21 ARM chip and started, instead of just programming an Arduino or programming C, she's like, nope, I'm gonna go with the bottom level.
 
-Yep.
+I'm gonna figure out how this chip starts up when you apply power, what does the chip start to do?
 
-Next up, let's chat about parallel display bus.
+Okay, I'm gonna feed it code to know how to do that.
 
-What's going on there?
+And then within about a week or so, she got it to blink an LED.
 
-Ah, okay, so if you've used a little display, little like, you know, LCD or TFT OLED or something, you can talk to it via the I2C bus, which is two little wires kind of slowed around 400 kilohertz, or you can use the SPI bus, which is also two wires, but can operate to like 30 megahertz or so.
+And then a couple of days later, she got it to read a button using the lowest level code as the ARM assembly.
 
-And anytime you want to rewrite the entire screen, that could be kind of slow because you're transmitting, you know, several hundred thousand bytes of data to rewrite all the pixels.
+And it's really cool because like, ARM chips are what are in all of our devices now, like our phones, our computers, they all use the ARM processor, the ARM instruction set.
 
-'Cause these displays are pretty dense, you know, like one of the ones I like to use is 240 by 240 pixels.
+And so, unfortunately, the instruction set on these little chips, like the little ones that run Arduino and CircuitPython, they're a kind of ARM called the Cortex-M series.
 
-And so you do your remote, you do your best to minimize whole screen updates.
+And it's the lowest level of the Cortex-M, the Cortex-M0.
 
-You just want to change little bits that are changing on the screen rather than rewrite the whole screen each time.
+And so each one of those, each one of those sort of subsets are a smaller and smaller number of instructions that are available to you from what the big ARM instruction set has.
 
-But there are some really nice boards that LilyGo has made.
+So the big ARM instruction set has like really big, cool instructions for doing DSP functions and stuff like that.
 
-They're another like maker of little microcontroller gizmos that have these really beautiful TFT color displays with an ESP32 board on the back.
+But when you're on the little microcontroller, you get like the bare minimum.
 
-And, but they're hooked up via what's with a parallel technique, which is eight data bits instead of the one data bit that SPI has.
+So trying to figure out when you just type in ARM assembly on Google, gives you this wide range of information and you have to figure out what part of this is applicable to these tiny chips.
 
-And so you can essentially get like eight times the bandwidth.
+And so that was like coming into one of the first hurdles that I was watching her get over.
 
-So it's like an eight times faster display.
+Like, I don't know any of this.
 
-And CircaPython has sort of supported this, but only for certain chips and not for these cool LilyGo chips, which are ESP32.
+I know assembly a little bit from like Apple II, you know, way back a long time ago. - Sure. - But my current assembly language knowledge is pretty, pretty scant.
 
-And so lately the parallel display bus has been turned on and fixed for ESP32.
+So it's really fun to like just kind of sit back and see her figure out this stuff and then kind of draft off her and kind of do it off to the side myself to see if I can make stuff work.
 
-Now we can use these cool boards that have the really fast displays and you can update them really quickly. - So on the LilyGo displays, they're actually built into the boards similar to like the reverse TFTs that Adafruit sells. - They look a lot like the reverse TFTs.
+And sometimes I can't.
 
-Yeah, yeah.
+But it's these instruction sets, the really cool thing about the ARM instruction set is it's really regular.
 
-And so it wouldn't surprise me if Adafruit comes out with something similar 'cause they can now take advantage of these parallel displays.
+Like the old instruction sets of like the Apple II and the x86 chips, they were what's called the complex, CISC, complex instruction set.
 
-And it's kind of like, it's really the native way of how you talk to these displays is via these parallel interfaces.
+What does the C stand for?
 
-You have to go through extra work to talk via SPI or I swear to see.
+The complex CISC, complex instruction set, something.
 
-So yeah, so I'm excited by it because I like to do a lot of cool graphic stuff with these little computers and watching things load the display is kind of, it's like, oh man. - Sure. (laughing) - That's not good for a little video game. - Next up, one of the things that I'm excited about, and you were just talking about something related to this is you have a number of different ways that you can work with CircuitPython.
+And then RISC, which is what ARM is, is the reduced instruction set, something.
 
-You can plug, with most of the boards, you plug it in as the USB drive, it sees it, and you can edit the code.py right on there.
+And so the cool thing about RISC is that you have a fewer number of instructions overall, but the instructions are very regular.
 
-There's the web workflow now where you can connect wirelessly and edit your code.
+And so you don't have all these different ways of loading from a memory location.
 
-You can do it via Bluetooth.
+You just have one.
 
-Now you can do it on an Android device.
+And then you do have to do everything in the register.
 
-They updated CircuitPython 9 with Android support.
+It's hard to explain, but without going into a hour long description of like instruction sets.
 
-So you can plug in a CircuitPython 9 device and actually write to your code.py right on there and unplug it and your microcontroller will run the code. - Oh, that's so cool.
+But I know a little bit about this now. (laughs) - That's pretty cool.
 
-Yeah, because on Android, you can do serial devices over the cable, right? - I believe it's over USB. - Yeah, yeah, 'cause I think that's one of the restrictions on iPhones is you can't do USB serial or something, but that's so cool.
+You've got to be pretty curious to go all the way down to that low level and start building back up. - Yeah, no, she's very much like a documentarian approaching it.
 
-Yeah, 'cause we should be able to edit these things with a tablet, right?
+She's been blogging about all of this in this little blog she has off to the side of her main sort of blog of like, let's see what are all the different possible ways this can be done and then figuring out the way that actually is the right way.
 
-(laughing) - Right, we should be.
+'Cause not only is there this subsetting of the ARM instruction set, but there's also all these different chips that implement the Cortex-M0 instruction set.
 
-But as you said, Apple's got all that market share, so not yet. - They prefer you to do everything via Bluetooth rather than with a physical cable for reasons that are only clear to them. (laughing) - This is true.
+There's the SAMD21, which is what we're familiar with, like the original QTPI.
 
-Next up, let's chat about the ESP-IDF. - Ah, yeah, so this is because I'm a big fan of these WiFi chips, ESP32.
+There's the STM32 chips, which are really, really popular and really common, but neither of us have any experience with STM32, but yet there's a lot of documentation on the STM32 assembly language for some reason.
 
-There's a bunch of different types of ESP32s that are, unfortunately, they all have the name ESP32 and they're very, very different.
+And then there's like people talking about these more complicated STM32 ARM chips for audio stuff, which is what I was running into.
 
-So like the ESP32-S2 is a single core WiFi only, but the ESP32-S3 is dual core with WiFi and Bluetooth.
+'Cause I was seeing that like, oh, some of these synthesizer people implement large chunks of their very complicated DSP code as really tight assembly language loops inside of a much larger C program that does the synthesizer.
 
-So it's just very confusing.
+And so it's like, well, that's not applicable to this problem of like programming a QTPI, (laughs) but it's interesting. - Right. - But like along the way, she also learned that there's a really great ARM simulator, online ARM simulator you can go to and you can like just type in some language instructions into it and compile it in the browser.
 
-But the underlying sort of code API that we all use to write software for these is called the ESP-IDF.
+And you can kind of step through it with a little built-in debugger and it's like cycle accurate emulation apparently for a bunch of different types of chip architectures.
 
-It's an SDK that Espressif, the company that makes ESP32s, puts out.
+And that was really, really fascinating to see that.
 
-And for the longest time, CircuitPython was using ESP-IDF 4, which was like two or three years ago version, and it supported only a certain amount of chips, a certain number of the chips, and it only supported certain of the features.
+She also learned how to actually run and use GDB, which I don't know if you ever had to use GDB before, I've used it once, you know, 20 years ago, but it's a way of hooking into your program and telling it to stop and telling it to step, step, step, one instruction at a time and setting break points at certain parts in your code so you can kind of inspect the state of the program without having to use print statements.
 
-Most notably, we couldn't get, I think, Bluetooth support on some of the newer chips we like to use.
+So it's really powerful way of debugging your program.
 
-And so through a big effort, similar to the effort of merging with upstream MicroPython, was updating the ESP-IDF to version 5, which enables CircuitPython to have new chip support.
+Usually pretty hard to do on an embedded system, but these ARM chips have a built-in debugging system called SWD, software debugging I think is what it stands for.
 
-Like there's this ESP32-C6 coming out soon that I think has WiFi mesh or something.
+And so you can use these little $10 programmers that just hook into a couple of pins on the chip and then you can just use GDB to it and tell it to stop and inspect registers and inspect memory locations and see, okay, yes, my code did accurately twiddle this one little memory location that represents the pin register to cause it to be like turn the LED on or off or whatever. - Very cool. - Yeah, so it's incredibly fascinating.
 
-I forget, but there's all these new ESP32 chips coming out, and also it fixes some of the Bluetooth stuff.
+It makes me appreciate all the work that goes into when you write in Arduino, say pin mode and input pull-up, or when you say in Circuit Python, button equals digital in out and your pin number.
 
-So we should have BLE support for ESP32s soon, which has been a sticking point.
+There's a lot of stuff, like you just look at the C code that it goes, that goes and does that, maybe it's only one or two lines, but then you see all the assembly language instructions that have to happen to make that work and it's pretty cool.
 
-People are like, oh, you know, CircuitPython has such good Bluetooth support.
+And then her next steps are, I think, going to move to the Clang compiler system.
 
-Well, only for the Nordic NRF chips. - Right.
+So there's this kind of two different ways of compiling for chips.
 
-And I'd caution you, I wouldn't say that expressive Bluetooth support is coming soon. - Oh, no. - Hopefully it's coming. - Yeah, no, no.
+There's the older and more sort of established GCC toolset and then there's this new thing called Clang and LLVM, Clang is kind of the front end, LLVM is kind of the back end, I think.
 
-It's like now it's possible, whereas before it wasn't even possible. - Right.
+And that's, I think the future maybe.
 
-So I don't want people to get their hopes up too much right away. - Yeah, yeah, yeah.
+So that's where she's heading next, I think.
 
-But if anyone knows ESP-IDF and wants to help kind of flush out the Bluetooth support for CircuitPython for the ESP chips, you know, go to the GitHub and you can help out immensely. - Or join the CircuitPython Discord.
+And I'm fascinated to see that 'cause I know nothing about Clang. - Yeah, it'll be fun to watch. - It's all right.
 
-There's a user, a community member working on Bluetooth support for the Pico right now. - All right. - Being done via community members.
+So what's your third one today? - Mine is a callback to way back in episode one in September of 2022.
 
-So, you know, which is a great segue to the next thing that I'm excited about, which is Connection Manager. - Yeah, what is this?
+I had talked briefly about the bamboo X1 carbon 3D printer, which had just hit the market at the time.
 
-I've only heard about it obliquely. - So from what I understand, and I haven't updated my wireless code yet, is they've standardized the ability of how you connect to Wi-Fi when you're instantiating the network on the microcontroller itself.
+I had mentioned a good friend of mine had bought one and I questioned how long it would last.
 
-So if you were using an airlift, you did it one way.
+Well, after watching him have his for about six months later, I bought one.
 
-If you did it with built-in Wi-Fi, you did it a different way.
+So I've just passed the one year mark of having one and I have the P1P model.
 
-From what I understand, if I'm understanding it correctly, a lot of that code has just been simplified so there's one right way to do it and it figures it out for you.
+I know it's not an open source printer and I'll take some flack from it, but I gotta say a year later, it still just works. - Oh, wow. - I don't have to fiddle with the bed.
 
-Don't quote me on that.
+I don't get clogged nozzles.
 
-What I think is so cool about it is a couple of different things.
+Now I know that I went from an Ender 3 to a bamboo, which is kind of like going from a really cheap car to a really nice car.
 
-One, it's snuck in right under the release.
+But the worst thing I can say about it is that I have to keep my greasy fingers clean when I'm taking things off the bed.
 
-But two, it was done by a gentleman by the name of Justin who's a community member.
+Just trying to keep the bed clean is probably the worst problem I have.
 
-He partnered up with the core developers, figured out how to build CircuitPython, how the CI works.
+And if that's the worst problem you have when you come to 3D printing, then you're doing something right. - Yeah, I've heard so many good things about it.
 
-It was great seeing him get involved and it's great seeing that a community member's involvement resolves in a whole new library built into CircuitPython. - That's great.
+People are claiming it's like a toaster where you just go to it and you just push the button and it works and it seems so fast to print from what I've heard.
 
-That is one of the nicest things about the CircuitPython team, the distributed global community that's working on this, which some of them work at Adafruit, is that they're very welcoming.
+It's like, man, that's amazing. - Well, that's been my experience.
 
-It's like, oh, if you've got something that you wanna contribute, submit a PR, let's try it out.
+And bamboo was actually in the news this week.
 
-Yeah, I've created a couple different libraries and people are like, yeah, we'll put it in the official bundle that you can then use to, that anyone can then easily install.
+It looks like they tried to slip something by their users and it didn't get through, which was claiming that their software would only be updated through 2025.
 
-So, yay.
+Well, there was a big brouhaha about it and they came out today actually and said, "Nope, they're gonna support the printer's firmware through 2027 and security fixes through 2029."
 
-I can't wait to try out this connection manager 'cause that's always been the real bummer is that if you are using one of these Wi-Fi add-on boards, the way you started up the Wi-Fi was totally different.
+So that's pretty interesting when you think 2027, that'll give the printer four years of life, which in this industry is probably not too bad. - Yeah, totally.
 
-The way you got sockets and stuff was totally different than doing the ESP32 native Wi-Fi stuff. - And I'm not the most technical, so don't quote me, but that's my understanding of how it works.
+But yeah, that's always the danger with any of these complicated computing-based devices is how long does their support last because things seems to always decay.
 
-And I'm sure if I'm wrong, I'll hear about it and we can issue a correction notice next episode. - Well, that's how we get the viewer numbers up, right?
+Like the software-based things always decay unless you keep updating them nowadays. - Right, and you could argue that their firmware is exactly that.
 
-Or the listener numbers up is we say something purposefully wrong so that we'll get more engagement. (laughs) - Oh, a little controversy for you right there. (laughs) Last up, we would be remiss if we didn't mention some of the things that CircuitPython 9 no longer supports.
+People either love it or hate it every time an update comes out, it seems.
 
-So there's a couple of things that have been deprecated.
+But they've done a good job with documentation.
 
-The big one for me personally is using display.show, parentheses, and then you would put your group name in the function.
+They've got a Wiki which includes maintenance tips and when to perform them.
 
-Now it's display.groupgroup equals the group name that you created earlier in the process.
+I know the bamboo costs more than your average 3D printer, but for me, it's been worth every penny 'cause as I said, it just works. - Yeah, yeah, I've been involved trying to play 3D printer for jeez, forever, like since kind of the first MakerBots.
 
-So that's a big one for me as I'm going through slowly and updating all my devices that have displays so that they work correctly.
+And I got so sick of having them be a hobby rather than a tool.
 
-Next up is file system mounts need to be on an existing directory.
+And so at one point, I bought like a really expensive one just to like get, just to get out of the morass of like always tuning the printer to get it to work properly.
 
-So no longer can you have the drive blank, you need to manually create a /sd directory, for example, if you're using SD cards. - Yeah, that one, I'm not, even though, so as an old Unix nerd who knows that like, whenever you mount a disk, you must first create the directory and then use the mount command to say, put this disk at this directory.
+And then just like pay too much money and get a printer that works.
 
-So it's always a two-step process.
+And thankfully now, getting a printer that works is really low cost comparatively.
 
-I really liked the old CircuitPython way of just like, hey, mount this thing at that directory. (laughs) It was so much simpler. - Sure. - But yeah, so now it's more in line with how real Python works, but I kind of miss the old way. - Yup.
+Used to be like $20,000. - Right.
 
-And speaking of being more in line with how C Python works, the last change is CircuitPython now requires explicit socket port reuse. - Yeah. - So you can see in the show notes, the actual command that you would have to use. - Yeah. - But that aligns to how C Python does it, which makes sense why they would make a breaking change like that. - Yeah.
+Now anywhere from 300 to call it $1,600 if you get like a fully loaded bamboo with the AMS and all that kind of stuff. - The AMF, that's the one where it can like change the filament color or change which filament you're printing with. - Yep, up to four filaments you can have loaded at any time and it can auto switch them out. - That's crazy.
 
-Yeah, I'm glad they're getting more and more close to C Python, to the desktop Python, 'cause I wrote a networking library, a little UDP library recently, and I was able to support both C Python and CircuitPython with just a very small, like two or three line changes in the middle of like, basically, how do you get a socket?
+It's like, yeah. - I did not shell out for that.
 
-And I'm like, oh, this is nice, 'cause this means I could do like almost all my testing on my laptop with no device connected, and then like just do the couple line changes and try it out on a CircuitPython device, and it all works. - Well, that's pretty cool.
+The printing I do is still pretty basic.
 
-So lastly, I think we should give some credit to everyone who contributed to CircuitPython 9's development, who beta tested it through the long beta testing process that went on, who filed issues, who left feedback in Discord, who participated in the CircuitPython 2024 wishlist.
+It's prototypes and that kind of stuff.
 
-It's a great community.
+I don't need, you know, I'm kind of, I've been through the phase where I printed the pretty toys that was already behind me by the time I got this.
 
-That's why I did the CircuitPython 9 show.
+So I didn't need an AMS to do the multicolor printing. - Totally. - What's your last one for us this week? - All right, so let's talk about capacitive touch sensors and sliders.
 
-That's how we met.
+So if you haven't followed me again, you've probably been seeing that I've been playing with, I've been exploring capacitive touch sensors and they're a really great way of adding buttons to your project without actually having to have any extra hardware, except for like one little resistor per button.
 
-We're both still in the Adafruit community.
+And so if you can make a PCB, you can have 10, 20 buttons.
 
-So thank you to everyone who's had any part in bringing CircuitPython 9 to life, and thank you to Adafruit for sponsoring CircuitPython. - Totally, and if anybody is interested in like, kind of getting in and like kind of listening to the development process of CircuitPython, there's a weekly meeting via Discord audio, whatever that feature's called.
+Like I've got a little a MIDI keyboard that's got I think 25, it's a 25 key keyboard I think, you know, just with cap touch pads and an Arduino, sorry, a Raspberry Pi Pico.
 
-You can join just to listen in.
+One of the things I've been wanting to play with is the little sliders, like you've seen, like the most famous is like the second version of the iPod touch wheel or scrolly wheel.
 
-You don't have to present or anything.
+And the first one was a mechanical little thing that moved, but the second version and kind of all the way up to I think till the end, was this non-moving capacitive touch surface that you just kind of scrolled your finger around on.
 
-The core developers, but also people that are just like writing libraries and stuff, and you can listen in and see if you want to participate actively, or it's also good just to get a behind the scenes as to what's kind of coming up in CircuitPython, 'cause you'll see somebody, like I saw that Jepler was working on JPEG I/O like three months ago or whatever, (laughs) and I was like, "Oh, I can't wait." (laughs) - Right, and that's where Connection Manager has been discussed in the Weeds section at the end of the meeting.
+I've seen in some of the capacitive touch design guidelines, how to make one of these types of little wheels and the wheels are actually just a special case of a linear slider uses the same technique.
 
-So that's a great idea.
+And so I'm like, let me try to build something like this.
 
-It's Mondays at 2 p.m.
+And so first, how do these capacitive sensors work?
 
-Eastern.
+The way that the technique that I use, that is one of the really common ones is, so all wires, all traces on a PCB are actually little capacitors.
 
-Check it out if you're interested in joining the CircuitPython community.
+Like when you set them high, it actually takes some time to get to that high state because the capacitance of the metal and the fiberglass and the ground plane on the bottom, that forms a little capacitor and it has to take time to charge up that wire that is your signal trace or your capacitive touch pad takes some amount of time.
 
-We're members, we love it.
+And then when you make it go low again, it takes some time.
 
-I think that enthusiasm comes through, and thanks for listening to the episode.
+It's not instantaneous.
 
-And I'm Paul Cutler. - And I'm Tod Kurt. - Thank you for listening to The Bootloader.
+Nothing in electronics is instantaneous, even though you said, go low now.
 
-For show notes and transcripts, visit thebootloader.net.
+It's like, well, it takes a little bit of time.
 
-If you use Mastodon, you can follow the show on Mastodon to be notified when new episodes are released.
+And that time is driven by that capacitance of the physical copper on the PCB.
 
-Visit thebootloader.net, click on the follow us link, and enter your Mastodon handle.
+And so you can use that effect if you make that piece of copper bigger, like finger sized.
 
-Until next time, stay positive.
+And then if you tell your microcontroller to raise that pad to the high state and then time how long it takes to go low, you are now able to detect, is there a person touching the pad or not?
 
-[MUSIC PLAYING]
+Because what happens is if you put your finger next to a copper trace, you add your body's capacitance to the capacitance that's inherently on the PCB.
+
+And it like, I think it's like maybe two or three times.
+
+It's almost like you're adding another capacitor's worth of charge when you put your finger next to it.
+
+So it's kind of cool.
+
+It's like this like really ambient physical effect.
+
+You can, there was normally like a bad thing in electronics that like, oh, your finger's affecting the circuit, but we're using it to actually affect a usable, useful technique, which is like, oh, and I have a little fake button by having just a piece of copper on a PCB.
+
+And so that's how just on/off buttons work.
+
+Well, the sliders work by just having three or more of these copper surfaces and they interleave them.
+
+Kind of like if you take your two fingers and sort of like, sorry, take your two hands and sort of splay your fingers and put them together.
+
+When you interleave the copper traces like that, and if you then put your finger somewhere on that gradient of like the two copper pieces, if you're like, if you're to touch, say on your left side of your hand, when your fingers are kind of connected like that, then you'll get just the left hand.
+
+And as you move your finger across to the right hand, you'll get less and less of the left hand and more and more of the right hand as you move your finger across.
+
+And so that's kind of how these things work is you, instead of reading like just an on/off value, you kind of read a analog value of what that capacitance changes in the pads.
+
+And you can have not just two pads that are interleaved, you can have say three or four or five, six, seven pads, and that will give you more resolution in a way, because you're using more little individual pads to indicate where things are.
+
+I'm not sure how many of the original iPod slide, the touch wheel had, but the minimum that I've seen is about three.
+
+You need three pads.
+
+And my little Pico slider toy, that little PCB that I came out with, uses this three pad technique for doing two rotary dials and three vertical sliders.
+
+It actually kind of works.
+
+It's using a Raspberry Pi Pico, and the code for it is pretty simple code.
+
+It's like just simple sort of algebra, sort of linear sliding two values next to each other.
+
+And I don't know, I'm pretty excited on like, what other dumb things I can do with it.
+
+Like the real downside of the capacitive touch is that there's no feedback.
+
+You know, with a button, when you push the button, you hear a click. - Right. - Some people pay a lot of money on the mechanical keyboards to get even a louder click than normal.
+
+And, but you get some sort of pushback, and there's no pushback with these capacitive touch things.
+
+It's one of the downsides.
+
+It's one of the things that people levied against our phones compared to the phones that preceded it, because the big black screen of a iPhone doesn't have any ridges to tell you where the buttons are, because you know, every interface has a different layout of buttons.
+
+But we're getting used to it.
+
+So I feel like, you know, the capacitive touch is sort of like due for a comeback in terms of microcontroller interfaces, because we're so used to the non-tactility of a phone surface that, you know, these flat capacitive touch surfaces of a microcontroller touch interface would be okay. - Right.
+
+So you link to the code for both the touch wheels and the Pico Slider toy.
+
+Is the Pico Slider toy available on your Tindy store as well? - Oh yes, by the way, I have a Tindy store.
+
+And I have both the larger Pico Slider toy, which has something like 16 different controls and two rotary sliders, three linear sliders, and a bunch of buttons.
+
+And then also the prototype, my little touch wheel zero, that's just one of those little rotary controls, like an iPod slide wheel.
+
+And those are both in the Tindy store if you want to try them out.
+
+And the code for it is like, yeah, like 10 lines of circuit Python. - That's all we have for you this episode.
+
+For detailed show notes and for transcripts, visit thebootloader.net.
+
+I'm Paul Cutler. - And I'm Tod Kurt. - Until next time, stay positive.
+
+You
