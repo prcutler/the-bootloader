@@ -10,8 +10,7 @@ Welcome to The Bootloader.
 
 [Full transcript available here](https://thebootloader.net/blog/2024/04/29/episode-8-transcript/).
 
-<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/the-circuitpython-9-release-show/embed/dark"></iframe>
-
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/built-from-the-ground-up/embed/dark"></iframe>
 # Show Notes
 
 ## Episode Intro
@@ -131,15 +130,15 @@ takes to discharge and go LOW. When you put your finger on the pad, the capacita
 increases and it takes longer to discharge.  By watching for that change you 
 tell "touched" from "untouched".
 
-My latest fascination has been with capactive touch sliders, either linear or rotary.
+My latest fascination has been with capacitive touch sliders, either linear or rotary.
 The rotary slider is like what the iPod had for many years: slide your finger
 around it like you're spinning a little record. 
 
 How do these work? There's a couple of different ways but the method that I've 
 been trying out lately is the "interpolation" technique. This is where you
-use two or more interleved pads and measure the comparative touch amounts 
+use two or more interleaved pads and measure the comparative touch amounts 
 between them to interpolate a position along them. Imagine splaying your fingers
-on each and and interleving them: as you go from left hand to right hand, it's 
+on each and and interleaving them: as you go from left hand to right hand, it's 
 100% your left hand, then 75% your left hand, then 50/50 both hands, then 75% your
 right hand, and finally 100% your right hand.
 
@@ -148,6 +147,7 @@ like to play yourself:
 
 - https://github.com/todbot/touchwheels
 - https://github.com/todbot/picoslidertoy
+- [Tod's Tindie Store](https://www.tindie.com/stores/todbot/)
 
 At the bottom of the "touchwheels" page are some useful links to the
 capsense design guidelines I've been heeding like this one: 
