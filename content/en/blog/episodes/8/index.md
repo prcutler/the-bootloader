@@ -21,7 +21,7 @@ Welcome!
 
 If you visit the About page on Alpenglow Industries’ website, Alpenglow mission statement is to  ***To Teach You About Electronics Without Gatekeeping***.  It goes on to say:
 
-*We are passionate about representation in electronics - the field is still overwhelmingly white and male with only ~[10% of electrical engineers identifying as women](https://www.zippia.com/electrical-engineer-jobs/demographics/)~.  Having worked in the field for over 20 years, we know how much gatekeeping and hostility there can be.  We aim to provide a welcoming space where adults can learn about electronics without judgment or any previous experience.*
+*We are passionate about representation in electronics - the field is still overwhelmingly white and male with only ~[10% of electrical engineers identifying as women](https://www.zippia.com/electrical-engineer-jobs/demographics/). Having worked in the field for over 20 years, we know how much gatekeeping and hostility there can be. We aim to provide a welcoming space where adults can learn about electronics without judgment or any previous experience.*
 
 * Homepage:  https://www.alpenglowindustries.com
 * [Through-Hole Soldering Kits](https://www.alpenglowindustries.com/collections/through-hole-soldering-kits)
