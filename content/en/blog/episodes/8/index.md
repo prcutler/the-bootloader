@@ -17,7 +17,7 @@ Welcome to The Bootloader.
 
 Welcome!  
 
-## Meet the Maker: Carrie Sundra of Alpenglow Industries (Paul #1)
+## 00:22 Meet the Maker: Carrie Sundra of Alpenglow Industries (Paul #1)
 
 If you visit the About page on Alpenglow Industries’ website, Alpenglow mission statement is to  ***To Teach You About Electronics Without Gatekeeping***.  It goes on to say:
 
@@ -28,7 +28,7 @@ Homepage:  https://www.alpenglowindustries.com
 Surface mount soldering kits: [SMT Soldering Kits](https://www.alpenglowindustries.com/collections/smt-soldering-kits)
 YouTube channel:  [Alpenglow Industries](https://www.youtube.com/alpenglowindustries)
 
-## SynthUX Academy and Daisy Seed (Tod #1)
+## 05:26 SynthUX Academy and Daisy Seed (Tod #1)
 
 Have you ever wanted to learn to make *real* high-quality synthesizers, 
 not just the low-fi toys I've been goofing around with in CircuitPython or Arduino w/ Mozzi? 
@@ -57,7 +57,7 @@ Many of their classes are available for [free on Youtube](https://www.youtube.co
 and their [class code is on github](https://github.com/Synthux-Academy). 
 
 
-## The Microdot web framework (Paul #2)
+## 8:08 The Microdot web framework (Paul #2)
 
 The Microdot web framework was created by Miguel Grinberg, who wrote the Flask Mega Tutorial - Flask being a popular Python web framework.  Microdot’s home page describes it as *“The impossibly small web framework for Python and MicroPython”* and is inspired by Flask. What’s interesting is that it can run on both CPython as well as a microcontroller running MicroPython.
 
@@ -66,7 +66,7 @@ Microdot project page: https://github.com/miguelgrinberg/microdot
 The Flask Mega-Tutorial:  [The Flask Mega-Tutorial, Part I: Hello, World!](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 MicroPython awesome-list for web servers: [Awesome MicroPython](https://awesome-micropython.com/#web)
 
-## ARM Assembly Deep-dives by Carlynorama (Tod #2)
+## 10:25 ARM Assembly Deep-dives by Carlynorama (Tod #2)
 
 What's lower-level programming than CircuitPython?  Arduino maybe? 
 Lower-level than that? Probably C code calling a C vendor SDK. 
@@ -107,7 +107,7 @@ Her next steps I think are moving to some bigger ARM chips and to try out the
 [Clang/LLVM](https://clang.llvm.org/) compiler system instead of the 
 [GCC-based tools](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) she's currently using. 
 
-## One Year With the Bambu Labs P1P (Paul #3)
+## 19:20 One Year With the Bambu Labs P1P (Paul #3)
 
 Paul shares his experience after owning a the Bambu Labs P1P 3D printer.
 
@@ -117,7 +117,7 @@ The Bootloader Episode 1: [Episode 1: Rock Stars are Just Like Us](https://thebo
 Bambu extends software and bug fix support until 2027 and 2029 respectively in a [turnaround](https://www.tomshardware.com/3d-printing/bambu-lab-printer-firmware-updates-have-limited-timeline) [Reddit thread](https://www.reddit.com/r/BambuLab/comments/1cco9v0/bambu_have_massively_extended_the_software_update/)
 
 
-##  Let's talk about Capacitive Touch Sensors and Sliders (Tod #3)
+##  23:08 Let's talk about Capacitive Touch Sensors and Sliders (Tod #3)
 
 I have been experimenting with capacitive touch sensors for a while now. 
 They can be a really fun and easy sensor to add to your project and require 
