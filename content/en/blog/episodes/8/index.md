@@ -6,7 +6,7 @@ description: "Built from the ground up"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 ## Welcome
-Welcome to The Bootloader.  
+Welcome to The Bootloader.  In episode 8, Paul and Tod discuss learn to solder kits from Carrie Sundra of Alpenglow Industries, building a synthesizer, the Microdot web framework,learning to program ARM Assembly, a follow-up from the very first episode, and learn about capacitive touch sensors.
 
 [Full transcript available here](https://thebootloader.net/blog/2024/04/29/episode-8-transcript/).
 
