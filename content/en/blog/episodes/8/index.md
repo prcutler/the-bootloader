@@ -44,7 +44,7 @@ The Daisy Seed board features a Cortex M7-class chip with 65 MB of RAM, stereo
 audio I/O at 24-bit @ 96 kHz, twelve 16-bit ADC pins and two 12-bit DACs
 for controls, and 31 GPIOs.  And it fits on a breadboard!
 
-It's got a well-done Arduino library, a C++ DSP library, and you can even
+It has a well-done Arduino library, a C++ DSP library, and you can even
 run Pd and Max patches on it. ElectroSmith libraries provide all the 
 components you need to make a synth: oscillators, envelopes, filters, sequencers,
 delays, reverbs, etc. And [some good docs too](https://github.com/electro-smith/DaisyWiki/wiki)!
@@ -54,7 +54,7 @@ And that push has been the [SynthUX Academy](https://www.synthux.academy/).
 They're a non-profit based in the Netherlands that offers in-person and 
 online [classes](https://learn.synthux.academy/) for how to make synthesizers. 
 Many of their classes are available for [free on Youtube](https://www.youtube.com/@SynthuxAcademy) 
-and their [class code is on github](https://github.com/Synthux-Academy). 
+and their [class code is on GitHub](https://github.com/Synthux-Academy). 
 
 
 ## 8:08 The Microdot web framework (Paul #2)
