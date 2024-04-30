@@ -12,3 +12,5 @@
 * Nightshade 1.0 is out:  https://nightshade.cs.uchicago.edu/index.html
 * PumpkinOS - relive PalmOS: https://hackaday.com/2024/04/08/pumpkinos-a-modern-reimplementation-of-palmos-for-todays-platforms/
 * SMT Garden - learn to solder: https://www.alpenglowindustries.com/products/smt-garden
+* River Wang's CircuitPython online IDE: https://urfdvw.github.io/circuitpython-online-ide-2/
+* 
