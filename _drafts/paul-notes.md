@@ -13,4 +13,4 @@
 * PumpkinOS - relive PalmOS: https://hackaday.com/2024/04/08/pumpkinos-a-modern-reimplementation-of-palmos-for-todays-platforms/
 * SMT Garden - learn to solder: https://www.alpenglowindustries.com/products/smt-garden
 * River Wang's CircuitPython online IDE: https://urfdvw.github.io/circuitpython-online-ide-2/
-* [RadioFreeFedi](https://radiofreefedi.net), [how to listen](https://blog.radiofreefedi.net/how-to-listen), and [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024)
+* [RadioFreeFedi](https://radiofreefedi.net), [how to listen](https://blog.radiofreefedi.net/how-to-listen), [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024), and [support / donate](https://radiofreefedi.net/#donate)
