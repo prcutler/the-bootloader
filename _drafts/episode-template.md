@@ -3,7 +3,7 @@ date: 2022-08-30
 title: "Episode 1"
 linkTitle: "Episode "
 description: "Trailer Coming Soon"
-author: Paul Cutler ([@prcutler](https://twitter.com/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
 ---
 
 ## Welcome to the show
