@@ -15,4 +15,4 @@
 * River Wang's CircuitPython online IDE: https://urfdvw.github.io/circuitpython-online-ide-2/
 * [RadioFreeFedi](https://radiofreefedi.net), [how to listen](https://blog.radiofreefedi.net/how-to-listen), [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024), and [support / donate](https://radiofreefedi.net/#donate)
 * Meet the Maker: André Costa [MagPi](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
-* [Raspberry Pi Connect](https://www.raspberrypi.com/news/raspberry-pi-connect/) and [Ars Technica](https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/?utm_brand=arstechnica&utm_social-type=owned&utm_source=mastodon&utm_medium=social)
+* [Raspberry Pi Connect](https://www.raspberrypi.com/news/raspberry-pi-connect/) and [Ars Technica](https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/) and [Tom's Hardware](https://www.tomshardware.com/raspberry-pi/raspberry-pi-connect-launches-remote-controls-your-pi-via-web-browser)
