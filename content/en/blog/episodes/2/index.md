@@ -1,7 +1,7 @@
 ---
 date: 2022-10-10
 title: "Episode 2: M is for Makers, Music, and Machine Learning"
-linkTitle: "Episode 2"
+linkTitle: "Episode 2 - October 10, 2022"
 description: "M is for Makers, Music, and Machine Learning"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---

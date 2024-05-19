@@ -1,7 +1,7 @@
 ---
 date: 2022-09-26
 title: "Episode 1: Rock Stars are Just Like Us"
-linkTitle: "Episode 1"
+linkTitle: "Episode 1 - September 26, 2022"
 description: "Rock Stars are Just Like Us"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---

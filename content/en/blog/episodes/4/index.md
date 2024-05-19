@@ -1,7 +1,7 @@
 ---
 date: 2022-11-07
 title: "Episode 4: What's the Matter?"
-linkTitle: "Episode 4"
+linkTitle: "Episode 4 - November 7, 2022"
 description: "What's the Matter?"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---

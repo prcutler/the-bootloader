@@ -1,7 +1,7 @@
 ---
 date: 2024-03-22
 title: "Episode 7: The CircuitPython 9 Release Show"
-linkTitle: "Episode 7"
+linkTitle: "Episode 7 - March 22, 2024"
 description: "The CircuitPython 9 Release Show"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
