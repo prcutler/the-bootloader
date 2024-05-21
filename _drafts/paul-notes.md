@@ -15,3 +15,4 @@
 * River Wang's CircuitPython online IDE: https://urfdvw.github.io/circuitpython-online-ide-2/
 * [RadioFreeFedi](https://radiofreefedi.net), [how to listen](https://blog.radiofreefedi.net/how-to-listen), [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024), and [support / donate](https://radiofreefedi.net/#donate)
 * Meet the Maker: André Costa [MagPi](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
+* Convert your 3D printer into EDM with: https://rackrobo.io/
