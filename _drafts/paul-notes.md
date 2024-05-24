@@ -13,6 +13,7 @@
 * PumpkinOS - relive PalmOS: https://hackaday.com/2024/04/08/pumpkinos-a-modern-reimplementation-of-palmos-for-todays-platforms/
 * SMT Garden - learn to solder: https://www.alpenglowindustries.com/products/smt-garden
 * River Wang's CircuitPython online IDE: https://urfdvw.github.io/circuitpython-online-ide-2/
+  * VSCode uploader for CircuitPython:  https://github.com/ae5au/vscode-circuitpython-webupload
 * [RadioFreeFedi](https://radiofreefedi.net), [how to listen](https://blog.radiofreefedi.net/how-to-listen), [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024), and [support / donate](https://radiofreefedi.net/#donate)
 * Meet the Maker: André Costa [MagPi](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
 * Convert your 3D printer into EDM with: https://rackrobo.io/
