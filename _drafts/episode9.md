@@ -31,6 +31,7 @@ Some of Paul's picks:
 * Keys are very tiny
 * Included "apps" on the demo program are: BLE keyboard, Python REPL, ...
 * Available in the US from [Electromaker.io](https://www.electromaker.io/shop/product/m5stack-cardputer-kit-w-m5stamp-s3) which ships from Mouser
+* Also, [supported on CircuitPython](https://circuitpython.org/board/m5stack_cardputer/)!
 
 ### Meet the Maker: André Costa (Paul #2)
 
@@ -42,7 +43,7 @@ André Costa is the creator of [rpilocator](https://rpilocator.com/) and the [Pi
 * [CircuitPython HTTP Server](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer)
 * [Follow Andre on Mastodon](@makerbymistake@mastodon.social)
 
-### PlumPot KiCad Tutorials
+### PlumPot KiCad Tutorials (Tod #2)
 
 I have finally made the jump from Eagle to KiCad.  After 20 years of Eagle. 
 A video series that really helped me was [PlumPot's video playlist on Youtube](https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b). 
@@ -58,3 +59,24 @@ A video series that really helped me was [PlumPot's video playlist on Youtube](h
 * [River Wang's CircuitPython online IDE](https://urfdvw.github.io/circuitpython-online-ide-2/)
 * [GitHub Repository](https://github.com/urfdvw/circuitpython-online-ide-2)
 * [Follow River on Mastodon](@Riverwang@fosstodon.org)
+
+### Algorithm videos by Freya Holmér  (Tod #3)
+
+Freya is a game dev who codes tools and shaders for Unity but also creates
+these highly instructuctive and very beautiful videos about algorithms that are 
+useful in game design but also in generative art and embedded computers. 
+
+* ["Lerp smoothing in broken"](https://www.youtube.com/watch?v=LSNQuFEDOyQ) 
+  -- Lerp ("linear interpolation") is used to smooth movement of an on-screen element
+     It's similar to a common sensor filtering technique called ["exponential smoothing"](https://en.wikipedia.org/wiki/Exponential_smoothing) and both suffer from similar issues when the
+     "frame rate" or "sample rate" change. 
+  
+* ["The Beauty of Bézier Curves"](https://www.youtube.com/watch?v=aVwxzDHniEw)
+  -- Bezier curves always kinda mystified me, this video shows how they work.
+
+* ["Why can't you multiply vectors?"](https://www.youtube.com/watch?v=htYh-Tq7ZBI)
+  -- In the micrcontroller space, if you use attitude sensors (gyros/accelerometers) or 
+  are making a little game (like my [circuitpython-staroids](https://github.com/todbot/circuitpython_staroids), you'll need to know how to manipulate vectors. This video breaks down how vectors work, 
+  shows how to modify and combine them to get what you want.
+
+
