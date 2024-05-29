@@ -30,9 +30,10 @@ André Costa is the creator of [rpilocator](https://rpilocator.com/) and the [Pi
 * [MagPi article about André and rpilocator](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
 * [Pico W Air - Wireless Air Quality Monitoring](https://www.tindie.com/products/dphacks/pico-w-air-wireless-air-quality-monitoring/)
 * [CircuitPython HTTP Server](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer)
-* [Follow Andre on Mastodon](@makerbymistake@mastodon.social)
+* [Follow André on Mastodon](@makerbymistake@mastodon.social)
 
 
 ### CircuitPython Online IDE by River Wang (Paul #3)
 * [River Wang's CircuitPython online IDE](https://urfdvw.github.io/circuitpython-online-ide-2/)
+* [GitHub Repository](https://github.com/urfdvw/circuitpython-online-ide-2)
 * [Follow River on Mastodon](@Riverwang@fosstodon.org)
