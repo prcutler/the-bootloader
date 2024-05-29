@@ -3,20 +3,37 @@
 
 ## Brainstorming 2024
 
+* M5Stack Cardputer
+  - https://docs.m5stack.com/en/core/Cardputer
+  - ESP32-S3 w/ display, microphone, speaker, IR, battery w/ case & magnet & Lego connection
+
+* Plum Pot Kicad Tutorials
+  - https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b
+  - older but still really helpful
+  - btw, I am now Kicad compliant!
+
+* BLE on Arduino using USB Host 
+  - https://www.bleuio.com/blog/integrating-bleuio-with-adafruit-feather-rp2040-for-seamless-ble-applications-part-2/
+  - https://github.com/smart-sensor-devices-ab/bleuio_arduino_sensor_example
+
 * Capacitive touch wheels
   - like my `touchwheel0` & `picoslidertoy`
+  - DONE on Episode 8 (29 Apr 2024)
 
 * THX Deep Note? 
   - my recreations in Mozzi - https://www.youtube.com/watch?v=7fX8cBwbOmU
 
 * Carlyn's ARM assembly deep dives
   - https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/
+  - DONE on Episode 8 (29 Apr 2024)
 
 * Let's talk about Hash Tables 
   - https://craftinginterpreters.com/hash-tables.html
 
-* SynthUX academy 
+* SynthUX academy and Daisy Seed
   - https://www.synthux.academy
+  - DONE on Episode 8 (29 Apr 2024)
+  
 
 -------------------------------------
 
