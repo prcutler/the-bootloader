@@ -17,4 +17,4 @@
 * Meet the Maker: André Costa [MagPi](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
 * [Raspberry Pi Connect](https://www.raspberrypi.com/news/raspberry-pi-connect/) and [Ars Technica](https://arstechnica.com/gadgets/2024/05/raspberry-pis-get-a-built-in-remote-access-tool-raspberry-pi-connect/) and [Tom's Hardware](https://www.tomshardware.com/raspberry-pi/raspberry-pi-connect-launches-remote-controls-your-pi-via-web-browser)
 * [3D Printed Braille Trainer Reduces Barrier to Entry](https://hackaday.com/2024/05/20/3d-printed-braille-trainer-reduces-barrier-to-entry/)
-* 
+* CarThing: https://hackaday.com/2024/05/30/old-spotify-car-thing-hacks-gain-new-attention/
