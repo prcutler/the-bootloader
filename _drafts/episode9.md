@@ -19,7 +19,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
 Some of Paul's picks:
 * [Shannon Curtis](https://shannoncurtis.bandcamp.com/album/good-to-me)
 * [implicit memories, by she hacked you](https://shehackedyou.bandcamp.com/album/implicit-memories)
-* [Loriol](https://johannbourquenez.com/faircamp/johann-bourquenez-loriol/) (Piano by [Johann Bourquenez](https://johannbourquenez.com/faircamp/)
+* [Loriol](https://johannbourquenez.com/faircamp/johann-bourquenez-loriol/) (Piano by [Johann Bourquenez](https://johannbourquenez.com/faircamp/))
 * [Allflowers](https://www.allflowers-music.com/)
 
 ### M5Stack Cardputer (Tod #1)
