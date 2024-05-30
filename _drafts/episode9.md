@@ -13,7 +13,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
 * [How to listen](https://blog.radiofreefedi.net/how-to-listen) 
 * [State of the station](https://blog.radiofreefedi.net/state-of-the-station-may-2024)
 * [Support / donate](https://radiofreefedi.net/#donate)
-* [Faircamp](https://simonrepp.com/faircamp/)
+* [Faircamp](https://simonrepp.com/faircamp/) and [code repository](https://codeberg.org/simonrepp/faircamp)
 * [Follow axwax on Mastodon](https://chaos.social/@axwax)
 
 Some of Paul's picks:
