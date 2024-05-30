@@ -57,13 +57,14 @@ A video series that really helped me was [PlumPot's video playlist on Youtube](h
 
 ### CircuitPython Online IDE by River Wang (Paul #3)
 * [River Wang's CircuitPython online IDE](https://urfdvw.github.io/circuitpython-online-ide-2/)
+* [Adafruit's online code editor](https://code.circuitpython.org/)
 * [GitHub Repository](https://github.com/urfdvw/circuitpython-online-ide-2)
 * [Follow River on Mastodon](@Riverwang@fosstodon.org)
 
 ### Algorithm videos by Freya Holmér  (Tod #3)
 
 Freya is a game dev who codes tools and shaders for Unity but also creates
-these highly instructuctive and very beautiful videos about algorithms that are 
+these highly instructive and very beautiful videos about algorithms that are 
 useful in game design but also in generative art and embedded computers. 
 
 * ["Lerp smoothing in broken"](https://www.youtube.com/watch?v=LSNQuFEDOyQ) 
@@ -75,7 +76,7 @@ useful in game design but also in generative art and embedded computers.
   -- Bezier curves always kinda mystified me, this video shows how they work.
 
 * ["Why can't you multiply vectors?"](https://www.youtube.com/watch?v=htYh-Tq7ZBI)
-  -- In the micrcontroller space, if you use attitude sensors (gyros/accelerometers) or 
+  -- In the microcontroller space, if you use attitude sensors (gyros/accelerometers) or 
   are making a little game (like my [circuitpython-staroids](https://github.com/todbot/circuitpython_staroids), you'll need to know how to manipulate vectors. This video breaks down how vectors work, 
   shows how to modify and combine them to get what you want.
 
