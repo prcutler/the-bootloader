@@ -41,7 +41,7 @@ André Costa is the creator of [rpilocator](https://rpilocator.com/) and the [Pi
 * [MagPi article about André and rpilocator](https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator)
 * [Pico W Air - Wireless Air Quality Monitoring](https://www.tindie.com/products/dphacks/pico-w-air-wireless-air-quality-monitoring/)
 * [CircuitPython HTTP Server](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer)
-* [Follow Andre on Mastodon](@makerbymistake@mastodon.social)
+* [Follow André on Mastodon](@makerbymistake@mastodon.social)
 
 ### PlumPot KiCad Tutorials (Tod #2)
 
