@@ -1,7 +1,7 @@
 ---
 date: 2024-06-03
 title: "Beautiful Bezier Curves"
-linkTitle: "Episode 9 - Beautiful Bezier Curves"
+linkTitle: "Episode 9 - June 3, 2024"
 description: "Beautiful Bezier Curves"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
 ---
