@@ -1,7 +1,7 @@
 ---
 date: 2022-12-05
 title: "Episode 6: Supersized for Supercon"
-linkTitle: "Episode 6"
+linkTitle: "Episode 6 - December 5, 2022"
 description: "Supersized for Supercon"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
