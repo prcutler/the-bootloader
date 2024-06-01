@@ -1,7 +1,7 @@
 ---
 date: 2022-11-21
 title: "Episode 5: Pandas and Breadboards"
-linkTitle: "Episode 5"
+linkTitle: "Episode 5 - November 21, 2022"
 description: "Pandas and Breadboards"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---

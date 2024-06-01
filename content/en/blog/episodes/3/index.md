@@ -1,7 +1,7 @@
 ---
 date: 2022-10-24
 title: "Episode 3: The Middle is a Pumpkin"
-linkTitle: "Episode 3"
+linkTitle: "Episode 3 - October 24, 2022"
 description: "The Middle is a Pumpkin"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
