@@ -20,3 +20,4 @@
 * [3D Printed Braille Trainer Reduces Barrier to Entry](https://hackaday.com/2024/05/20/3d-printed-braille-trainer-reduces-barrier-to-entry/)
 * CarThing: https://hackaday.com/2024/05/30/old-spotify-car-thing-hacks-gain-new-attention/
 * Convert your 3D printer into EDM with: https://rackrobo.io/
+* OpenSCAD PCB case generator:  https://hackaday.com/2024/06/03/turbocase-generates-a-pcb-shell-for-you/
