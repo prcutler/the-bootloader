@@ -21,3 +21,4 @@
 * CarThing: https://hackaday.com/2024/05/30/old-spotify-car-thing-hacks-gain-new-attention/
 * Convert your 3D printer into EDM with: https://rackrobo.io/
 * OpenSCAD PCB case generator:  https://hackaday.com/2024/06/03/turbocase-generates-a-pcb-shell-for-you/
+* Run Arduino & MicroPython side by side on multi-core MCUs: https://blog.arduino.cc/2024/05/30/you-can-now-run-arduino-and-micropython-side-by-side-on-multi-core-microcontrollers/
