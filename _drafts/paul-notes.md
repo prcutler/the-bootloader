@@ -22,3 +22,5 @@
 * Convert your 3D printer into EDM with: https://rackrobo.io/
 * OpenSCAD PCB case generator:  https://hackaday.com/2024/06/03/turbocase-generates-a-pcb-shell-for-you/
 * Run Arduino & MicroPython side by side on multi-core MCUs: https://blog.arduino.cc/2024/05/30/you-can-now-run-arduino-and-micropython-side-by-side-on-multi-core-microcontrollers/
+* Accessibility: [MicroBit addon](https://johnvidler.co.uk/blog/the-accessbit-an-accessibility-addon-for-the-microbit/) and the new [Trinkey](https://www.adafruit.com/product/5954)
+* 
