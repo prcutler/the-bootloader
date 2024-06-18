@@ -25,3 +25,4 @@
 * Accessibility: [MicroBit addon](https://johnvidler.co.uk/blog/the-accessbit-an-accessibility-addon-for-the-microbit/) and the new [Trinkey](https://www.adafruit.com/product/5954)
 * Professor Gallaugher's CircuitPython + PyCharm + Tio video: https://www.youtube.com/watch?v=i7jEa2LyJtk
   * And [Circup](https://www.youtube.com/watch?v=R9AArkVi3eE)
+* PostMarketOS: https://hackaday.com/2024/06/17/postmarketos-now-boots-on-over-250-devices/
