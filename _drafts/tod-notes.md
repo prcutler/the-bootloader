@@ -3,14 +3,23 @@
 
 ## Brainstorming 2024
 
+* Embedded Swift
+ - https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/
+ - https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514
+ - https://www.youtube.com/watch?v=LqxbsADqDI4
+ - Swift Matter Examples - https://github.com/apple/swift-matter-examples/tree/main/smart-light
+ 
+
 * M5Stack Cardputer
   - https://docs.m5stack.com/en/core/Cardputer
   - ESP32-S3 w/ display, microphone, speaker, IR, battery w/ case & magnet & Lego connection
+  - DONE on Episode 9 (3 Jun 2024)
 
 * Plum Pot Kicad Tutorials
   - https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b
   - older but still really helpful
   - btw, I am now Kicad compliant!
+  - DONE on Episode 9 (3 Jun 2024)
 
 * BLE on Arduino using USB Host 
   - https://www.bleuio.com/blog/integrating-bleuio-with-adafruit-feather-rp2040-for-seamless-ble-applications-part-2/
