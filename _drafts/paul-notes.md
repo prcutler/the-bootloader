@@ -27,3 +27,4 @@
   * And [Circup](https://www.youtube.com/watch?v=R9AArkVi3eE)
 * PostMarketOS: https://hackaday.com/2024/06/17/postmarketos-now-boots-on-over-250-devices/
 * [Jumperless Breadboard Review](https://www.hackster.io/news/prototyping-magic-hands-on-with-the-wire-free-jumperless-breadboard-8e71040c4b65)
+* https://blog.adafruit.com/2024/06/01/hacking-the-spotify-car-thing/
