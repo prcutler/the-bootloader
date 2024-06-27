@@ -10,7 +10,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
 
 ## Welcome to the show
 
-[Full transcript available here.](https://thebootlader.net/blog/2024/06/03/episode-9-transcript)
+[Full transcript available here.](https://thebootloader.net/blog/2024/06/03/episode-9-transcript)
 
 ### 00:20 M5Stack Cardputer (Tod #1)
 
