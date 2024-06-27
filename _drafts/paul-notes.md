@@ -29,3 +29,4 @@
 * [Jumperless Breadboard Review](https://www.hackster.io/news/prototyping-magic-hands-on-with-the-wire-free-jumperless-breadboard-8e71040c4b65)
 * https://blog.adafruit.com/2024/06/01/hacking-the-spotify-car-thing/
 * https://filamentcolors.xyz/library/
+* [Portable arcade](https://hackaday.com/2024/06/27/portable-full-size-arcade-cabinets/)
