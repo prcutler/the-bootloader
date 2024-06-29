@@ -3,14 +3,14 @@ date: 2024-06-03
 title: "Beautiful Bezier Curves"
 linkTitle: "Episode 9 - June 3, 2024"
 description: "Beautiful Bezier Curves"
-author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 <iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/beautiful-bezier-curves/embed/dark"></iframe>
 
 ## Welcome to the show
 
-[Full transcript available here.](https://thebootlader.net/blog/2024/06/03/episode-9-transcript)
+[Full transcript available here.](https://thebootloader.net/blog/2024/06/03/episode-9-transcript)
 
 ### 00:20 M5Stack Cardputer (Tod #1)
 
