@@ -51,7 +51,7 @@ other home assistants is only about 60 lines long.
 * Swift Matter Examples - https://github.com/apple/swift-matter-examples/tree/main/smart-light
 
 
-Accessibility Matters (Paul #2)
+## Accessibility Matters (Paul #2)
 
 A new prototype for the Micro:bit and a new Adafruit product to help those with limited or different mobility:
 
