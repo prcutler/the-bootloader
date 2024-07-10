@@ -31,3 +31,5 @@
 * https://blog.adafruit.com/2024/06/01/hacking-the-spotify-car-thing/
 * https://filamentcolors.xyz/library/
 * [Portable arcade](https://hackaday.com/2024/06/27/portable-full-size-arcade-cabinets/)
+* Zed IDE: https://zed.dev/
+* 
