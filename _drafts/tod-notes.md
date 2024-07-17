@@ -3,12 +3,18 @@
 
 ## Brainstorming 2024
 
+
+* Tulip Creative Computer and Amy synth library
+ - [Tulip homepage](https://github.com/shorepine/tulipcc)
+ - [Floyd Steinberg's video on Tulip](https://www.youtube.com/watch?v=1lYFjQp7Xrw)
+ - [AMY - Additive Music librarY](https://github.com/shorepine/amy)
+
 * Embedded Swift
  - https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/
  - https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514
  - https://www.youtube.com/watch?v=LqxbsADqDI4
  - Swift Matter Examples - https://github.com/apple/swift-matter-examples/tree/main/smart-light
- 
+ - DONE on Episode 10 (July 2024)
 
 * M5Stack Cardputer
   - https://docs.m5stack.com/en/core/Cardputer
