@@ -33,3 +33,4 @@
 * [Portable arcade](https://hackaday.com/2024/06/27/portable-full-size-arcade-cabinets/)
 * Zed IDE: https://zed.dev/
 * Viper IDE: https://github.com/vshymanskyy/ViperIDE
+* Pimoroni Arcade: https://shop.pimoroni.com/products/picade-max?variant=42007494623315
