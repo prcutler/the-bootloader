@@ -33,4 +33,5 @@
 * [Portable arcade](https://hackaday.com/2024/06/27/portable-full-size-arcade-cabinets/)
 * Zed IDE: https://zed.dev/
 * Viper IDE: https://github.com/vshymanskyy/ViperIDE
-* Pimoroni Arcade: https://shop.pimoroni.com/products/picade-max?variant=42007494623315
+* Pimoroni Arcade: https://shop.pimoroni.com/products/picade-max?variant=42007494623315 and [Tom's Hardware](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powered-picade-max-brings-two-player-retro-gaming-to-pimoronis-picade-family)
+* 
