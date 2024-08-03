@@ -20,6 +20,8 @@ Debra attended Teardown 2024 hosted by Crowd Supply in Portland, Oregon, June 21
     * [Jason Coon](https://www.evilgeniuslabs.org/)
     * [Charlyn Gonda](https://dev.to/charlyn)
     * [Ben Hencke](https://www.bhencke.com/)
+    * [Joey Castillo](https://www.oddlyspecificobjects.com/)
+    * [Carrie Sundra](https://www.alpenglowindustries.com/)
 
 ### 14:17 Tulip Creative Computer and Amy synth library (Tod #1)
 
