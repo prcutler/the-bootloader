@@ -24,6 +24,7 @@ Debra attended Teardown 2024 hosted by Crowd Supply in Portland, Oregon, June 21
     * [Carrie Sundra](https://www.alpenglowindustries.com/)
 
 ![Debra's LED Jacket installation at Teardown 2024](geekmomprojects-led-jackets.jpg)
+Pictured: Debra Ansell (left) and Alie Gonzalez (right) display Debra's LED jacket installation at Teardown 2024.
 
 ### 14:17 Tulip Creative Computer and Amy synth library (Tod #1)
 
