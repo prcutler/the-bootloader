@@ -23,6 +23,8 @@ Debra attended Teardown 2024 hosted by Crowd Supply in Portland, Oregon, June 21
     * [Joey Castillo](https://www.oddlyspecificobjects.com/)
     * [Carrie Sundra](https://www.alpenglowindustries.com/)
 
+![Debra's LED Jacket installation at Teardown 2024](geekmomprojects-led-jackets.jpg)
+
 ### 14:17 Tulip Creative Computer and Amy synth library (Tod #1)
 
 Okay another DIY synth thing. I'm a big fan of synth libraries for microcontrollers. My favorites
