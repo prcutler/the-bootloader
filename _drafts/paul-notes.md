@@ -35,3 +35,4 @@
 * Viper IDE: https://github.com/vshymanskyy/ViperIDE
 * Pimoroni Arcade: https://shop.pimoroni.com/products/picade-max?variant=42007494623315 and [Tom's Hardware](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powered-picade-max-brings-two-player-retro-gaming-to-pimoronis-picade-family)
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
+* [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
