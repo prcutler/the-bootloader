@@ -3,6 +3,9 @@
 # The Bootloader
 A monthly podcast bringing you news, updates and more from the maker and tech scenes.  Hosted by Tod Kurt and Paul Cutler.
 
-[Website](https://thebootloader.net)
+## Follow us
+Subscribe to the podcast [RSS feed](https://www.circuitpythonshow.com/@thebootloader/feed.xml)
 
- 
+Visit our homepage at [TheBootloader.net](https://thebootloader.net)
+
+Never miss an update - [join our newsletter](https://buttondown.email/thebootloader)
