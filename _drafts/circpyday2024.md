@@ -15,9 +15,20 @@
       * Comparison of 8.2.x to 9.0.0
         * 4,223 commits
         * 3,100 files changed!
+  * CircuitPython 9 new features
     * ConnectionManager was released with CircuitPython 9.0 and makes managing sockets in networking much easier
-  * Created by community member Justin Myers
-  * `jpegio` was released in CircuitPython 9 supporting the Memento camera
-  * Transparent PNG support was added just last week, so all three major image types are supported!
-  * USB Host
-    * Want to use a MIDI Controller?  Keyboard? Other peripherals?  You can!
+      * Created by community member Justin Myers
+    * `jpegio` was released in CircuitPython 9 supporting the Memento camera
+    * Transparent PNG support was added just last week, so all three major image types are supported!
+    * USB Host
+      * Want to use a MIDI Controller?  Keyboard? Other peripherals?  You can!
+
+  ## SongMatrix (Paul #1)
+
+The [SongMatrix project](https://paulcutler.org/project/songmatrix/) combines a Raspberry Pi with a [microphone](https://www.adafruit.com/product/3367) with an [S3 MatrixPortal](https://www.adafruit.com/product/5778) and an RGB Matrix. The Raspberry Pi listens in the background to the music playing, uploads it to Adafruit IO, and displays the song info on the RGB Matrix.
+
+### Raspberry PI setup
+* You can use almost any Raspberry Pi (I'm using an old Raspberry Pi 2)
+* They Python application on the Raspberry Pi uses `asyncio`, `shazamio`, and Adafruit IO.
+    * `shazamio` uses `asyncio`
+* It records a 30 second sample to the Raspberry Pi, uploads it to Shazam, and prints out the results with the song title and artist
