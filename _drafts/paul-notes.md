@@ -37,3 +37,7 @@
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
+
+
+## Leftover Links
+* Pyjokes: https://github.com/pyjokes/pyjokes
