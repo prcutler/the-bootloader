@@ -37,6 +37,7 @@
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
+* New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
 
 
 ## Leftover Links
