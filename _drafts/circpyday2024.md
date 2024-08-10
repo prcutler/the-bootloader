@@ -29,6 +29,18 @@ The [SongMatrix project](https://paulcutler.org/project/songmatrix/) combines a 
 
 ### Raspberry Pi setup
 * You can use almost any Raspberry Pi (I'm using an old Raspberry Pi 2)
-* They Python application on the Raspberry Pi uses `asyncio`, `shazamio`, and Adafruit IO.
+* The Python application on the Raspberry Pi uses `asyncio`, `shazamio`, and Adafruit IO.
+    * `shazamio` is a Python library that reverse engineered the Shazam API
     * `shazamio` uses `asyncio`
 * It records a 30 second sample to the Raspberry Pi, uploads it to Shazam, and prints out the results with the song title and artist
+* It's then uploaded to Adafruit IO as "Song Title by Artist Name"
+
+### CircuitPython on the Matrix Portal
+
+* Should work on either the S3 or M4 Matrix Portal (it's just text!)
+* Create your `settings.toml` with your Wi-Fi settings and Adafruit IO username and API key
+* Import `MQTT` and `adafruit_io`
+* Setup Wi-Fi and then the Matrix Portal
+* Use `adafruit_io` to get the last message stored in Adafruit IO with `aio.receive_data('audio')` and display on the Matrix Portal
+* Setup MQTT as normal but include `socket_timeout` as it is needed when using `asyncio`
+* Add two `asyncio` functions - one to connect to MQTT and the other to update the text when a message is received
