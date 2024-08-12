@@ -1,3 +1,8 @@
+## Intro
+* Welcome to a live edition of The Bootloader!
+    * To learn more about us or to subscribe to our podcast, visit [The Bootloader.net](https://thebootloader.net).
+* Have a question or comment?  Find us in the Adafruit Discord at https://adafru.it/discord
+
 ## CircuitPython over the last year
 
 **“Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.”**
