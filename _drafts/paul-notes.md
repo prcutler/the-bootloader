@@ -38,7 +38,7 @@
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
 * New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
-
+* [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
