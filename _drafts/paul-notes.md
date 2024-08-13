@@ -39,6 +39,7 @@
 * Get channels?
 * New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
 * [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
-
+    * [Tom's Hardware](https://www.tomshardware.com/3d-printing/weve-always-respected-intellectual-property-bambu-lab-responds-to-3d-printer-patent-lawsuit) coverage
+    * [Adafruit](https://blog.adafruit.com/2024/08/13/is-stratasys-a-3d-printing-patent-troll-stratasys-v-bambu-lab/)
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
