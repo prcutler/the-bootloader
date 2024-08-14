@@ -1,7 +1,11 @@
+
 ## Intro
-* Welcome to a live edition of The Bootloader!
-    * To learn more about us or to subscribe to our podcast, visit [The Bootloader.net](https://thebootloader.net).
+* *(When you hit record, wait 10 seconds)*
+* Welcome to a live edition of The Bootloader! I'm Paul Cutler
+* And Hi, I'm Tod Kurt
+  * To learn more about us or to subscribe to our podcast, visit [The Bootloader.net](https://thebootloader.net).
 * Have a question or comment?  Find us in the Adafruit Discord at https://adafru.it/discord
+  * my handle is "todbot" and Paul's is "prcutler"
 
 ## CircuitPython over the last year
 
@@ -13,20 +17,59 @@
 * 9.0 released March 18
   * [Release CircuitPython 9.0.0 · adafruit/circuitpython](https://github.com/adafruit/circuitpython/releases/tag/9.0.0)
   * MicroPython merges
-    * Owe a debt of thanks to MicroPython, including Damien George and Jim Mussared and everyone who has contributed to MicroPython
+    * (Tod) Owe a debt of thanks to MicroPython, including Damien George and Jim Mussared and everyone who has contributed to MicroPython.  CircuitPython is a kind of Micropython, don't forget that.
       * The MicroPython merges are huge undertakings. Props to the CircuitPython team for even trying to track upstream. For example, the 1.20 update touched 779 files over 250 commits. And they did 3 merges! (MicroPython 1.19.1, 1.20.0, and 1.21.0)
-    * Total CircuitPython changes from 8.2.4 to 9.0.0:
+    * (Paul) Total CircuitPython changes from 8.2.4 to 9.0.0:
       * 8.24 released August 22, 2023
       * Comparison of 8.2.x to 9.0.0
         * 4,223 commits
         * 3,100 files changed!
-  * CircuitPython 9 new features
-    * ConnectionManager was released with CircuitPython 9.0 and makes managing sockets in networking much easier
+  * CircuitPython changes in the last year (both in CirPy 9 and generally)
+    * (Paul) ConnectionManager was released with CircuitPython 9.0 and makes managing sockets in networking much easier
       * Created by community member Justin Myers
-    * `jpegio` was released in CircuitPython 9 supporting the Memento camera
-    * Transparent PNG support was added just last week, so all three major image types are supported!
-    * USB Host
-      * Want to use a MIDI Controller?  Keyboard? Other peripherals?  You can!
+    * (Paul) `jpegio` was released in CircuitPython 9 supporting the Memento camera
+    * (Paul) PNG support! Transparent PNG support was added just last week, so all three major image types are supported!
+    * (Tod) synthio -- music synthesizer in your CircuitPython!
+    * (Tod) USB Host
+      * Pico can be both a USB peripheral (CIRCUITPY drive) and a USB host to other USB peripherals
+      * Want to use a USB MIDI Controller?  Keyboard? Other peripherals?  You can!
+
+
+## Theme: "Using CircuitPython in larger projects, what to watch out for" (Paul & Tod)
+
+ * How to go from a sensor demo to a full app or full circuit?
+ * Here's a couple of larger projects we've done and some tips that may be helpful
+
+## Card-sized sample playing drum machine : Picotouch_drumcard  (Tod #1)
+
+I made a tiny drum machine that plays samples. Or it's also a synth. Or maybe it's a Macropad.
+
+### Evolution from "picotouch_bizcard", "picoslidertoy", "picotouch" boards
+
+* Show demo of those boards
+* Show how minimal parts count they are
+* Discuss issues of reading so many touchio inputs
+
+### The challenge: design / build / code a playing-card sized drum machine
+
+Make a full synthesizer and sample player in a board the size of a deck of cards
+* Small demo of "picotouch_drumcard"
+* Show how touch sensing is done with odd little TS20 touch chip now
+
+### Using CircuitPython to "validate" a board before it's built
+
+Use CircuitPython to test a board pinout before making a board
+
+* Steps:
+  * Open up a REPL to a board with the chip you want to use
+  * Start creating CircuitPython objects: button inputs, LED outputs, i2c, display, audio, etc.
+  * If you can create them all, your board will work, almost 100% guaranteed
+  * If it doesn't, maybe you swizzled I2C, or need to use a different pin pair
+* If I would've done this for the drumcard, I would've found out I cannot PWM all the LEDs with how they're currently wired up
+
+### More tips when using CircuitPython on big projects
+* TBD
+* TBD
 
 ## SongMatrix (Paul #1)
 
@@ -49,3 +92,11 @@ The [SongMatrix project](https://paulcutler.org/project/songmatrix/) combines a 
 * Use `adafruit_io` to get the last message stored in Adafruit IO with `aio.receive_data('audio')` and display on the Matrix Portal
 * Setup MQTT as normal but include `socket_timeout` as it is needed when using `asyncio`
 * Add two `asyncio` functions - one to connect to MQTT and the other to update the text when a message is received
+
+## RP2350 and CircuitPython (Tod & Paul)
+
+* (Paul & Tod) About RP2350 and how it improves on RP2040
+  * Same ease-of-programming as original Pico / RP2040, e.g. UF2 boot-loader
+  * New faster Cortex-M33 core vs Cortex-M0+ core
+    * floating point, DSP, cryptography
+* (Tod) Demo of SparkFun RP2350 Pro Micro synth stuff
