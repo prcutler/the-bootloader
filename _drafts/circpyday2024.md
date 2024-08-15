@@ -9,8 +9,12 @@
 
 ## CircuitPython over the last year
 
+(Paul) As we were preparing for the show, I realized how far CircuitPython has again come in the last year.  While we're always looking forward to the next thing, such as Bluetooth on an ESP32-S3 or the rp2350, I'm reminded of the quote from Ferris Bueller's Day Off:
+
 **“Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.”**
 ― Ferris Bueller
+
+In the last year:
 
 * First CircuitPython 9.0 alpha end of October
   * [Release CircuitPython 9.0.0 Alpha 2 · adafruit/circuitpython](https://github.com/adafruit/circuitpython/releases/tag/9.0.0-alpha.2)
