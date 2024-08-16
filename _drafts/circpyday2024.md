@@ -34,9 +34,14 @@ In the last year:
     * (Paul) `jpegio` was released in CircuitPython 9 supporting the Memento camera
     * (Paul) PNG support! Transparent PNG support was added just last week, so all three major image types are supported!
     * (Tod) synthio -- music synthesizer in your CircuitPython!
+      * Started in mid-2023, but got tuned and features added in the last year
+      * My [circuitpython-synthio-tricks](https://github.com/todbot/circuitpython-synthio-tricks) is just over a year old!
     * (Tod) USB Host
-      * Pico can be both a USB peripheral (CIRCUITPY drive) and a USB host to other USB peripherals
+      * Pico can be both a USB peripheral (CIRCUITPY drive) and a USB host to other USB peripheralsn
       * Want to use a USB MIDI Controller?  Keyboard? Other peripherals?  You can!
+    * (Tod) paralleldisplaybus
+    * (Tod) mp3decoder improvements
+      * Higher bitrates and URL streams (on ESP32)
 
 
 ## Theme: "Using CircuitPython in larger projects, what to watch out for" (Paul & Tod)
