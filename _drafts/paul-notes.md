@@ -45,3 +45,4 @@
 
     ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
+* CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview

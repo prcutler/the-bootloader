@@ -14,7 +14,7 @@
 **“Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.”**
 ― Ferris Bueller
 
-In the last year:
+So we thought we'd take a look at the CircuitPython project itself in the last year since last CircuitPython Day:
 
 * First CircuitPython 9.0 alpha end of October
   * [Release CircuitPython 9.0.0 Alpha 2 · adafruit/circuitpython](https://github.com/adafruit/circuitpython/releases/tag/9.0.0-alpha.2)
