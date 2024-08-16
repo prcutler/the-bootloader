@@ -49,7 +49,7 @@ In the last year:
  * How to go from a sensor demo to a full app or full circuit?
  * Here's a couple of larger projects we've done and some tips that may be helpful
 
-## Card-sized sample playing drum machine : Picotouch_drumcard  (Tod #1)
+## Card-sized sample playing drum machine : picotouch_drumcard  (Tod #1)
 
 I made a tiny drum machine that plays samples. Or it's also a synth. Or maybe it's a Macropad.
 
@@ -58,14 +58,37 @@ I made a tiny drum machine that plays samples. Or it's also a synth. Or maybe it
 * Show demo of those boards
 * Show how minimal parts count they are
 * Discuss issues of reading so many touchio inputs
+  * 7 milliseconds to read ~20 inputs; 1/32nd note is 63 millis @ 120 bpm
 
-### The challenge: design / build / code a playing-card sized drum machine
+### The challenge: design / build / code a tiny drum machine in 2 weeks
 
-Make a full synthesizer and sample player in a board the size of a deck of cards
-* Small demo of "picotouch_drumcard"
-* Show how touch sensing is done with odd little TS20 touch chip now
+* Desired features:
+  * Size of a pack of playing cards
+  * Audio out (PWM audio)
+  * MIDI In & Out (TRS serial MIDI)
+  * 17 touchpads:
+    * 8 pads for drum triggers
+    * 3 for play/pause/rec
+    * 6 for modifers: select/up/down & A/B selection & shift
+  * LED indicators for the pads, should be PWM dimmable
+  * No electronics on touch surface!
+  * Battery powered
 
-### Using CircuitPython to "validate" a board before it's built
+* Result:
+  * Small demo of "picotouch_drumcard"
+  * Instead of `touchio` using odd little TS20 touch chip now
+  * It kinda works! But...
+
+#### Problems with current design
+
+* Top touch traces create false readings
+* Can't PWM the LEDs  (or can't PWM all of them)
+* Battery charger circuit is totally non-functional
+
+
+
+
+### Aside: Using CircuitPython to "validate" a board before it's built
 
 Use CircuitPython to test a board pinout before making a board
 
@@ -76,9 +99,9 @@ Use CircuitPython to test a board pinout before making a board
   * If it doesn't, maybe you swizzled I2C, or need to use a different pin pair
 * If I would've done this for the drumcard, I would've found out I cannot PWM all the LEDs with how they're currently wired up
 
-### More tips when using CircuitPython on big projects
-* TBD
-* TBD
+### Other tips when using CircuitPython on big projects
+* REPL for great success  (especially "Ctrl-E" paste mode)
+* Separating code in different files / objects helps
 
 ## SongMatrix (Paul #1)
 
