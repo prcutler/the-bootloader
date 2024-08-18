@@ -1,7 +1,7 @@
 ---
 date: 2022-08-30
 title: "Episode 1"
-linkTitle: "Episode "
+linkTitle: "Episode x - Date"
 description: "Trailer Coming Soon"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
