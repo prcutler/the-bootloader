@@ -1,7 +1,7 @@
 ---
-date: 2022-08-19
+date: 2024-08-19
 title: "CircuitPython Day 2024"
-linkTitle: "ACircuitPython Day 2024"
+linkTitle: "CircuitPython Day 2024"
 description: "Catch the livestream from CircuitPython Day 2024"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
