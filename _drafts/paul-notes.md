@@ -42,7 +42,9 @@
 * [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
     * [Tom's Hardware](https://www.tomshardware.com/3d-printing/weve-always-respected-intellectual-property-bambu-lab-responds-to-3d-printer-patent-lawsuit) coverage
     * [Adafruit](https://blog.adafruit.com/2024/08/13/is-stratasys-a-3d-printing-patent-troll-stratasys-v-bambu-lab/)
-* [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
+    * [2013 Crowd Sourcing of Prior art](https://www.finnegan.com/en/insights/articles/crowdsourcing-prior-art-to-defeat-3d-printing-patent.html)
+    * [Patent StackExchange call for prior art - 2013](https://patents.stackexchange.com/questions/3493/call-for-prior-art-3d-printing-application-additive-manufacturing-system-and-m)
+  * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
 
     ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
