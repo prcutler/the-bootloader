@@ -37,6 +37,7 @@
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
+    * [Too many ads](https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/?utm_brand=arstechnica&utm_social-type=owned)
 * New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
 * [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
     * [Tom's Hardware](https://www.tomshardware.com/3d-printing/weve-always-respected-intellectual-property-bambu-lab-responds-to-3d-printer-patent-lawsuit) coverage
