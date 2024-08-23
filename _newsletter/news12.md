@@ -14,7 +14,7 @@
 
 **What I'm working on:** I ordered an Adafruit S3 Qualia and 3.4" display on CircuitPython Day as I couldn't pass up that discount.  I'm working on porting my [`circuitpython-albumart`](https://github.com/prcutler/circuitpython-albumart) project to a now third device.
 
-**What I'm reading:** Neal Stephenson's Fall; or Dodge in Hell.  This is my second attempt at reading this almost 900 page book.  The first time his vision of the near future gave me a little anxiety, but like Anathem, it's taken me a second time to read it.
+**What I'm reading:** Neal Stephenson's Fall; or Dodge in Hell.  This is my second attempt at reading this almost 900 page book.  The first time his vision of the near future gave me a little anxiety, but like Anathem, it's taken me a second time to read it and I'm enjoying it.  I especially like the callbacks to his earlier books, which is tempting me to go back and re-read them.
 
 **What I'm watching:**
 
