@@ -7,6 +7,7 @@
 * [Pyjokes](https://github.com/pyjokes/pyjokes): A Python library that tells you a joke.  Have it tell you a joke everytime you open a new terminal window.  Add it to your `bash.rc` or `zshrc` file.  Pip install it, and then for zsh just add the line `eval pyjokes` to your `zshrc`.
 * [CircuitPython Networking guide](https://learn.adafruit.com/networking-in-circuitpython/overview): This brand new in-depth guide covers almost everything you need to know to work with wireless networks with your CircuitPython microcontrollers.
 * [Portable full size arcade cabinet](https://www.leighhack.org/blog/2024/arcade_cabinet/) vis [Hackaday](https://www.leighhack.org/blog/2024/arcade_cabinet/): What if you could build a standup arcade like a laptop that could be folded down and stored away easily? For Kian Ryan, challenge accepted.
+* [Bartlebeats' Frequency](https://bartlebeats.bandcamp.com/album/frequency) turned ten years old last week. This Creative Commons licensed album contains the theme music for The Bootloader and The CircuitPython Show and is available for free on Bandcamp.
 
 ## From the hosts
 
