@@ -45,6 +45,7 @@
     * [2013 Crowd Sourcing of Prior art](https://www.finnegan.com/en/insights/articles/crowdsourcing-prior-art-to-defeat-3d-printing-patent.html)
     * [Patent StackExchange call for prior art - 2013](https://patents.stackexchange.com/questions/3493/call-for-prior-art-3d-printing-application-additive-manufacturing-system-and-m)
   * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
+  * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
 
     ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
