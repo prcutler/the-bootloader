@@ -41,6 +41,7 @@ since [Hackaday has a little contest](https://hackaday.com/2024/08/27/supercon-2
 
 **What I'm watching:**
 [Sweet Tooth](https://www.youtube.com/watch?v=9zG9RuJb3QU) on Netflix.
+I mostly tuned into this because it was produced by [Susan Downey and Robert Downey Jr's production company](https://en.wikipedia.org/wiki/Team_Downey) and I thought "huh.. and they're financing a show about a deer kid after the apocolypse?"
 I watched the first season back in 2021 and
 we're gobbling up the second & third seasons this week. It's a sort of
 post-apocolyptic story also with half-human/half-animal kids. Despite
