@@ -10,6 +10,10 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 
 Welcome to a new episode!  Paul and Tod recap the recent CircuitPython Day, chat about a new synth Kickstarter, arcades, a bug in the Raspberry Pi 2350, and Bambu Lab gets sued.
 
+## Join our new newsletter
+
+We've started a new newsletter.  Get behind the scenes info about the podcast, links we liked but didn't make it into the show, and learn what we're up to.  [Sign up](https://buttondown.com/thebootloader) or [view the archives](https://buttondown.com/thebootloader/archive/) and subscribe via RSS.  Each newsletter is spam and tracking free and is emailed out a couple days after a new episode.
+
 ## Listen to the podcast
 
 <iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/from-arcade-to-synth/embed/dark"></iframe>
