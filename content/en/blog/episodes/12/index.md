@@ -50,7 +50,7 @@ Paul has been talking about building a standup arcade for years.  Pimoroni just 
  * [Paradise Arcade Shop](https://paradisearcadeshop.com/)
  * [Picade Max at Pimoroni](https://shop.pimoroni.com/products/picade-max?variant=42007494623315)
  * [Tom's Hardware coverage](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powered-picade-max-brings-two-player-retro-gaming-to-pimoronis-picade-family) and [review](https://www.tomshardware.com/raspberry-pi/picade-max-review)
- * [Tom's Hardware Pi Cast] with guests Paul Beech and Phil Howard of Pimoroni
+ * [Tom's Hardware Pi Cast](https://www.youtube.com/live/VddDblPom6c?si=f5A54m1Vxkfj_HJF) with guests Paul Beech and Phil Howard of Pimoroni
 
 
  ### Pico2 / RP2350 GPIO Input issue (Tod #2)
