@@ -37,11 +37,15 @@
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
+    * [Too many ads](https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/?utm_brand=arstechnica&utm_social-type=owned)
 * New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
 * [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
     * [Tom's Hardware](https://www.tomshardware.com/3d-printing/weve-always-respected-intellectual-property-bambu-lab-responds-to-3d-printer-patent-lawsuit) coverage
     * [Adafruit](https://blog.adafruit.com/2024/08/13/is-stratasys-a-3d-printing-patent-troll-stratasys-v-bambu-lab/)
-* [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
+    * [2013 Crowd Sourcing of Prior art](https://www.finnegan.com/en/insights/articles/crowdsourcing-prior-art-to-defeat-3d-printing-patent.html)
+    * [Patent StackExchange call for prior art - 2013](https://patents.stackexchange.com/questions/3493/call-for-prior-art-3d-printing-application-additive-manufacturing-system-and-m)
+  * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
+  * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
 
     ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes

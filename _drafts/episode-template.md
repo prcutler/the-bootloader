@@ -1,9 +1,9 @@
 ---
 date: 2022-08-30
 title: "Episode 1"
-linkTitle: "Episode "
+linkTitle: "Episode x - Date"
 description: "Trailer Coming Soon"
-author: Paul Cutler ([@prcutler](https://hachyderm.io/prcutler))
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 ## Welcome to the show
@@ -12,7 +12,7 @@ In the first episode, Tod and Paul share some of their favorite news and notes.
 
 ## Listen to the podcast
 
-[Listen or watch Episode 1 here](https://zencastr.com/z/6h5QXxaK).
+Insert iframe from Castopod here.
 
 ## Show Notes
 
@@ -21,4 +21,3 @@ Tod shares insert-link-here, a cool project by some cool people.
 
 ### Paul's Pick #1: Another cool project
 Paul shares something he finds cool.
-
