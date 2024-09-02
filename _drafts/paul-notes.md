@@ -44,9 +44,10 @@
     * [Adafruit](https://blog.adafruit.com/2024/08/13/is-stratasys-a-3d-printing-patent-troll-stratasys-v-bambu-lab/)
     * [2013 Crowd Sourcing of Prior art](https://www.finnegan.com/en/insights/articles/crowdsourcing-prior-art-to-defeat-3d-printing-patent.html)
     * [Patent StackExchange call for prior art - 2013](https://patents.stackexchange.com/questions/3493/call-for-prior-art-3d-printing-application-additive-manufacturing-system-and-m)
-  * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
-  * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
+* [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
+* [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
+* [Maker Skill Trees](https://blog.adafruit.com/2024/08/29/the-maker-skill-trees-project-2/)
 
-    ## Leftover Links
+## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
