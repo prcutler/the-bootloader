@@ -36,15 +36,15 @@ Also I'm working on some Hackaday conference badge add-ons (aka "SAO"),
 since [Hackaday has a little contest](https://hackaday.com/2024/08/27/supercon-2024-may-the-best-badge-add-ons-win/) going on. Hopefully I'll make some fun things for people to play with!
 
 **What I'm watching:** [Sweet Tooth](https://www.youtube.com/watch?v=9zG9RuJb3QU) on Netflix.
-I mostly tuned into this because it was produced by [Susan Downey and Robert Downey Jr's production company](https://en.wikipedia.org/wiki/Team_Downey) and I thought "huh.. and they're financing a show about a deer kid after the apocolypse?"
+I mostly tuned into this because it was produced by [Susan Downey and Robert Downey Jr's production company](https://en.wikipedia.org/wiki/Team_Downey) and I thought "huh.. and they're financing a show about a deer kid after the apocalypse?"
 I watched the first season back in 2021 and
 we're gobbling up the second & third seasons this week. It's a sort of
-post-apocolyptic story also with half-human/half-animal kids. Despite
+post-apocalyptic story also with half-human/half-animal kids. Despite
 the setup it's ultimately very hopeful.
 
 Also, we went to this amazing art exhibition a few days ago
 called ["AVOID MISSING BALL"](https://space.ayzenberg.com/) by
-[Supercade](http://www.supercade.com/), aka Van Burnham, who I finally got
+[Supercade](http://www.supercade.com/), aka Van Burnham, whom I finally got
 to meet.  The exhibition is about
 the genesis of video games from the earliest transistor-only ones like Pong.
 It had several lovingly-restored games from the 1970s, many playable!
