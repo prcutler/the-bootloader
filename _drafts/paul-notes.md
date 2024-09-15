@@ -48,8 +48,9 @@
 * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
 * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
 * [Maker Skill Trees](https://blog.adafruit.com/2024/08/29/the-maker-skill-trees-project-2/)
-*8 [Guy's Bumper Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY)
+* [Guy's Bumper Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
+* Batocera: https://batocera.org/
