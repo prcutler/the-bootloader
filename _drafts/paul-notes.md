@@ -54,3 +54,4 @@
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
 * Batocera: https://batocera.org/
+* Supercon day one lineup:  https://hackaday.com/2024/09/17/2024-hackaday-superconference-speakers-round-one/
