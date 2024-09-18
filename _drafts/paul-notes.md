@@ -55,3 +55,4 @@
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
 * Batocera: https://batocera.org/
 * Supercon day one lineup:  https://hackaday.com/2024/09/17/2024-hackaday-superconference-speakers-round-one/
+* Circuit Artist ([Steam](https://github.com/lets-all-be-stupid-forever/circuit-artist) and [GitHub](https://github.com/lets-all-be-stupid-forever/circuit-artist?tab=readme-ov-file) via [Adafriot](https://blog.adafruit.com/2024/09/17/circuit-artist-a-digital-circuit-drawing-and-simulation-game)
