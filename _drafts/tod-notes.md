@@ -3,6 +3,11 @@
 
 ## Brainstorming 2024
 
+* wasm2mpy - Compiling Rust, GoLang, Zig, WebAssembly to Micropython MPY modules
+- [initial annoucement](https://github.com/orgs/micropython/discussions/15702)
+- [repo](https://github.com/vshymanskyy/wasm2mpy)
+- only ESP32 really so far (and Raspberry Pi)
+
 * X1Plus alternative open source Bambu X1 firmware
 - [X1Plus](https://github.com/X1Plus/X1Plus/wiki)
 - [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board]
