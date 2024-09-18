@@ -3,11 +3,16 @@
 
 ## Brainstorming 2024
 
+* X1Plus alternative open source Bambu X1 firmware
+- [X1Plus](https://github.com/X1Plus/X1Plus/wiki)
+- [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board]
+- [Hackster article](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
 
 * Tulip Creative Computer and Amy synth library
  - [Tulip homepage](https://github.com/shorepine/tulipcc)
  - [Floyd Steinberg's video on Tulip](https://www.youtube.com/watch?v=1lYFjQp7Xrw)
  - [AMY - Additive Music librarY](https://github.com/shorepine/amy)
+ - DONE on Episode 11 (Aug 2024)
 
 * Embedded Swift
  - https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/
@@ -27,7 +32,7 @@
   - btw, I am now Kicad compliant!
   - DONE on Episode 9 (3 Jun 2024)
 
-* BLE on Arduino using USB Host 
+* BLE on Arduino using USB Host
   - https://www.bleuio.com/blog/integrating-bleuio-with-adafruit-feather-rp2040-for-seamless-ble-applications-part-2/
   - https://github.com/smart-sensor-devices-ab/bleuio_arduino_sensor_example
 
@@ -35,20 +40,20 @@
   - like my `touchwheel0` & `picoslidertoy`
   - DONE on Episode 8 (29 Apr 2024)
 
-* THX Deep Note? 
+* THX Deep Note?
   - my recreations in Mozzi - https://www.youtube.com/watch?v=7fX8cBwbOmU
 
 * Carlyn's ARM assembly deep dives
   - https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/
   - DONE on Episode 8 (29 Apr 2024)
 
-* Let's talk about Hash Tables 
+* Let's talk about Hash Tables
   - https://craftinginterpreters.com/hash-tables.html
 
 * SynthUX academy and Daisy Seed
   - https://www.synthux.academy
   - DONE on Episode 8 (29 Apr 2024)
-  
+
 
 -------------------------------------
 
