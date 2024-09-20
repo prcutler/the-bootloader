@@ -49,6 +49,7 @@
 * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
 * [Maker Skill Trees](https://blog.adafruit.com/2024/08/29/the-maker-skill-trees-project-2/)
 * [Guy's Bumper Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY)
+* [Jumperless Breadboard YouTube video](https://www.youtube.com/watch?v=fJTE7R_CV8w)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
