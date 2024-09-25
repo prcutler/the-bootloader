@@ -3,6 +3,11 @@
 
 ## Brainstorming 2024
 
+* iPhone 16 electrically-released battery adhesive
+- [iFixit video](https://www.youtube.com/watch?v=M6jBXI6CR9s)
+- [iFixit article](https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16)
+- [Hackaday article](https://hackaday.com/2024/09/22/hands-on-with-new-iphones-electrically-released-adhesive/)
+
 * wasm2mpy - Compiling Rust, GoLang, Zig, WebAssembly to Micropython MPY modules
 - [initial annoucement](https://github.com/orgs/micropython/discussions/15702)
 - [repo](https://github.com/vshymanskyy/wasm2mpy)
