@@ -3,6 +3,12 @@
 
 ## Brainstorming 2024
 
+* Raspberry Pi AI Camera Module
+  - [Raspberry Pi blog poast](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/)
+  - [Hackster hands-on article]( https://www.hackster.io/news/raspberry-pi-s-ai-eye-hands-on-with-the-raspberry-pi-ai-camera-module-383fb34afcf7)
+  - [Pose estimation demo](https://www.youtube.com/watch?v=rloJNA_VuSA)
+  - [Object detection demo](https://www.youtube.com/watch?v=D-foRupzOiY)
+
 * iPhone 16 electrically-released battery adhesive
   - [iFixit video](https://www.youtube.com/watch?v=M6jBXI6CR9s)
   - [iFixit article](https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16)
@@ -15,7 +21,7 @@
 
 * X1Plus alternative open source Bambu X1 firmware
   - [X1Plus](https://github.com/X1Plus/X1Plus/wiki)
-  - [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board]
+  - [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
   - [Hackster article](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
 
 * Tulip Creative Computer and Amy synth library
