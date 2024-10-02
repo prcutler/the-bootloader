@@ -3,6 +3,10 @@
 
 ## Brainstorming 2024
 
+* Sandify -- generative geometric patterns for sand art / plotters
+  - https://sandify.org/
+  - https://github.com/jeffeb3/sandify
+
 * Raspberry Pi AI Camera Module
   - [Raspberry Pi blog poast](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/)
   - [Hackster hands-on article]( https://www.hackster.io/news/raspberry-pi-s-ai-eye-hands-on-with-the-raspberry-pi-ai-camera-module-383fb34afcf7)
