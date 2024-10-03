@@ -13,6 +13,10 @@
   - [Pose estimation demo](https://www.youtube.com/watch?v=rloJNA_VuSA)
   - [Object detection demo](https://www.youtube.com/watch?v=D-foRupzOiY)
 
+  Also see:
+
+  - [Person sensor by UsefulSensors $10](https://www.sparkfun.com/products/21231)
+
 * iPhone 16 electrically-released battery adhesive
   - [iFixit video](https://www.youtube.com/watch?v=M6jBXI6CR9s)
   - [iFixit article](https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16)
