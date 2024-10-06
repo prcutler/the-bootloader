@@ -62,6 +62,7 @@ Guy Dupont creates his take on the "Keep Honkin' I'm Listening to..." bumper sti
 * Guy Dupont [MakerChat on CircuitPython Day 2024](https://www.youtube.com/watch?v=cJ2dCxfGfyk)
 * [The Bumpin' Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY) YouTube video
 * [GitHub Repository](https://github.com/dupontgu/now-playing-bumper-sticker)
+* Guy's [latest project](https://mastodon.social/@gvy_dvpont/113243477613806718): Meet [@slambot](https://mastodon.social/@slambot)
 
 ### 13:40 Nothing To See/Hear : Wireless Fuzz Pedal (Liz #2)
 I follow quite a few guitar pedal folks on instagram and saw the newest post from @different.noises last week. It's a "wireless fuzz" that completes the circuit by transmitting it via an infrared LED. The circuit converts the signal from the guitar to headphone audio level and then again into light that is sent out the infrared transmitter to an infrared LED. He includes the schematic in the post as well as an explainer and a few demo videos to prove that the signal is in fact transmitting via infrared.
