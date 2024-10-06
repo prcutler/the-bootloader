@@ -12,9 +12,11 @@ Welcome to our first guest, Liz Clark aka BlitzCityDIY.  Liz, Paul, and Tod chat
 
 Join our newsletter!  Keep up with the show and what Paul and Tod are up to.  Visit [The Bootloader's newsletter page](https://buttondown.com/thebootloader) to browse the archives or subscribe.
 
+You can [read the entire transcript](https://thebootloader.net/blog/2024/10/07/episode-13-transcript) here.
+
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/welcome-liz-clark/embed/dark"></iframe>
 
 ## Show Notes
 
@@ -84,7 +86,7 @@ extra features light lights and cameras.  I don't think I'd want this, but I'm g
   - [X1Plus expansion board crowdfunding](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
   - [Hackster article](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
 
-Also to consider: [Craftcloud 3d printing service](https://craftcloud3d.com/)
+Also to consider: [Craftcloud 3D printing service](https://craftcloud3d.com/)
 
 I've done a few runs using Craftcloud and the results are pretty good. Like renting a Bambu.
 Craftcloud is a service front-end for a bunch of additive manufacturing companies across the US.
