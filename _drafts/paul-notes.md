@@ -37,6 +37,7 @@
 * USB Sniffer:  https://hackaday.com/2024/08/03/need-a-usb-sniffer-use-your-pico/
 * [Hackaday MicroPython article](https://hackaday.com/2024/08/05/embedded-python-micropython-toolkits/)
 * Get channels?
+    * [Channels 6.0 release](https://getchannels.com/2024/08/11/channels-6/)
     * [Too many ads](https://arstechnica.com/gadgets/2024/08/tv-industrys-ads-tracking-obsession-is-turning-your-living-room-into-a-store/?utm_brand=arstechnica&utm_social-type=owned)
 * New 3D printer ink:  https://www.tomshardware.com/3d-printing/new-3d-printer-ink-makes-recyclable-electric-circuits-without-heat-or-light
 * [Stratasys sues Bambu](https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/) over patent infringement
@@ -47,7 +48,12 @@
 * [Stemfie 3D printed construction set](https://hackaday.com/2024/08/13/stemfie-the-3d-printable-construction-set/)
 * [EmuDeck](https://arstechnica.com/gaming/2024/08/emudeck-machines-pack-popular-emulation-suite-in-linux-powered-plug-and-play-pc/) powered by Bazzite
 * [Maker Skill Trees](https://blog.adafruit.com/2024/08/29/the-maker-skill-trees-project-2/)
+* [Guy's Bumper Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY)
+* [Jumperless Breadboard YouTube video](https://www.youtube.com/watch?v=fJTE7R_CV8w)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
+* Batocera: https://batocera.org/
+* Supercon day one lineup:  https://hackaday.com/2024/09/17/2024-hackaday-superconference-speakers-round-one/ [Thea's email](https://gist.github.com/theacodes/56bc67bb918bdee3e00b9af7625a7166)
+* Circuit Artist ([Steam](https://github.com/lets-all-be-stupid-forever/circuit-artist) and [GitHub](https://github.com/lets-all-be-stupid-forever/circuit-artist?tab=readme-ov-file) via [Adafriot](https://blog.adafruit.com/2024/09/17/circuit-artist-a-digital-circuit-drawing-and-simulation-game)

@@ -3,31 +3,60 @@
 
 ## Brainstorming 2024
 
+* Sandify -- generative geometric patterns for sand art / plotters
+  - https://sandify.org/
+  - https://github.com/jeffeb3/sandify
+
+* Raspberry Pi AI Camera Module
+  - [Raspberry Pi blog poast](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/)
+  - [Hackster hands-on article]( https://www.hackster.io/news/raspberry-pi-s-ai-eye-hands-on-with-the-raspberry-pi-ai-camera-module-383fb34afcf7)
+  - [Pose estimation demo](https://www.youtube.com/watch?v=rloJNA_VuSA)
+  - [Object detection demo](https://www.youtube.com/watch?v=D-foRupzOiY)
+
+  Also see:
+
+  - [Person sensor by UsefulSensors $10](https://www.sparkfun.com/products/21231)
+
+* iPhone 16 electrically-released battery adhesive
+  - [iFixit video](https://www.youtube.com/watch?v=M6jBXI6CR9s)
+  - [iFixit article](https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16)
+  - [Hackaday article](https://hackaday.com/2024/09/22/hands-on-with-new-iphones-electrically-released-adhesive/)
+
+* wasm2mpy - Compiling Rust, GoLang, Zig, WebAssembly to Micropython MPY modules
+  - [initial annoucement](https://github.com/orgs/micropython/discussions/15702)
+  - [repo](https://github.com/vshymanskyy/wasm2mpy)
+  - only ESP32 really so far (and Raspberry Pi)
+
+* X1Plus alternative open source Bambu X1 firmware
+  - [X1Plus](https://github.com/X1Plus/X1Plus/wiki)
+  - [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
+  - [Hackster article](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
 
 * Tulip Creative Computer and Amy synth library
- - [Tulip homepage](https://github.com/shorepine/tulipcc)
- - [Floyd Steinberg's video on Tulip](https://www.youtube.com/watch?v=1lYFjQp7Xrw)
- - [AMY - Additive Music librarY](https://github.com/shorepine/amy)
+  - [Tulip homepage](https://github.com/shorepine/tulipcc)
+  - [Floyd Steinberg's video on Tulip](https://www.youtube.com/watch?v=1lYFjQp7Xrw)
+  - [AMY - Additive Music librarY](https://github.com/shorepine/amy)
+  - DONE on Episode 11 (Aug 2024)
 
 * Embedded Swift
- - https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/
- - https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514
- - https://www.youtube.com/watch?v=LqxbsADqDI4
- - Swift Matter Examples - https://github.com/apple/swift-matter-examples/tree/main/smart-light
- - DONE on Episode 10 (July 2024)
+  - https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/
+  - https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514
+  - https://www.youtube.com/watch?v=LqxbsADqDI4
+  - Swift Matter Examples - https://github.com/apple/swift-matter-examples/tree/main/smart-light
+  - DONE on Episode 10 (July 2024)
 
 * M5Stack Cardputer
-  - https://docs.m5stack.com/en/core/Cardputer
-  - ESP32-S3 w/ display, microphone, speaker, IR, battery w/ case & magnet & Lego connection
-  - DONE on Episode 9 (3 Jun 2024)
+    - https://docs.m5stack.com/en/core/Cardputer
+    - ESP32-S3 w/ display, microphone, speaker, IR, battery w/ case & magnet & Lego connection
+    - DONE on Episode 9 (3 Jun 2024)
 
 * Plum Pot Kicad Tutorials
-  - https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b
-  - older but still really helpful
-  - btw, I am now Kicad compliant!
-  - DONE on Episode 9 (3 Jun 2024)
+    - https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b
+    - older but still really helpful
+    - btw, I am now Kicad compliant!
+    - DONE on Episode 9 (3 Jun 2024)
 
-* BLE on Arduino using USB Host 
+* BLE on Arduino using USB Host
   - https://www.bleuio.com/blog/integrating-bleuio-with-adafruit-feather-rp2040-for-seamless-ble-applications-part-2/
   - https://github.com/smart-sensor-devices-ab/bleuio_arduino_sensor_example
 
@@ -35,20 +64,20 @@
   - like my `touchwheel0` & `picoslidertoy`
   - DONE on Episode 8 (29 Apr 2024)
 
-* THX Deep Note? 
+* THX Deep Note?
   - my recreations in Mozzi - https://www.youtube.com/watch?v=7fX8cBwbOmU
 
 * Carlyn's ARM assembly deep dives
   - https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/
   - DONE on Episode 8 (29 Apr 2024)
 
-* Let's talk about Hash Tables 
+* Let's talk about Hash Tables
   - https://craftinginterpreters.com/hash-tables.html
 
 * SynthUX academy and Daisy Seed
   - https://www.synthux.academy
   - DONE on Episode 8 (29 Apr 2024)
-  
+
 
 -------------------------------------
 
