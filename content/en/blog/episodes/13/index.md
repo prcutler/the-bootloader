@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07
+date: 2024-10-07
 title: "Welcome Liz Clark"
 linkTitle: "Episode 13 - October 7, 2024"
 description: "Welcome Liz Clark"
