@@ -1,4 +1,7 @@
 ---
-title: News
-weight: 20
+title: "News"
+linkTitle: "News"
+menu:
+  main:
+    weight: 30
 ---
