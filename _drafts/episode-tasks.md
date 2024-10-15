@@ -1,0 +1,23 @@
+# The Bootloader Episode Task List
+
+- [ ] Create show notes
+- [ ] Run MP3 through Forecast
+	- [ ] Add image
+	- [ ] Show notes
+	- [ ] Links
+- [ ] Upload and schedule on Castopod
+	- [ ] Show notes
+	- [ ] Links
+- [ ] Create transcript in MacWhisper
+	- [ ] Edit and clean up transcript
+	- [ ] Create SRT
+	- [ ] Create episode branch
+		- [ ] Add show notes page for current episode
+		- [ ] Add transcript to website
+		- [ ] PR on release day
+- [ ] Video
+	- [ ] Upload video to YouTube
+	- [ ] Include show notes
+	- [ ] Add opening image
+	- [ ] Add links
+	- [ ] Add SRT transcript
