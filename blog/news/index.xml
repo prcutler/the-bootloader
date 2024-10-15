@@ -1,0 +1,11 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Bootloader – Podcast News</title><link>https://prcutler.github.io/the-bootloader/blog/news/</link><description>Recent content in Podcast News on The Bootloader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prcutler.github.io/the-bootloader/blog/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: CircuitPython Day 2024</title><link>https://prcutler.github.io/the-bootloader/blog/2024/08/19/circuitpython-day-2024/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/08/19/circuitpython-day-2024/</guid><description>
+&lt;p>This past Friday was CircuitPython Day 2024. Tod and Paul hosted a livestream on the Adafruit YouTube channel as part of the festivities. They take a look back at how far CircuitPython has come in the past year and share a few of their favorite projects.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uTl1KA2MPxI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div></description></item><item><title>Blog: Announcing The Bootloader</title><link>https://prcutler.github.io/the-bootloader/blog/2022/08/31/announcing-the-bootloader/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/08/31/announcing-the-bootloader/</guid><description>
+&lt;p>&lt;img alt="The Bootloader podcast" src="https://circuitpythonshow.com/static/thebootloader/bootloader-logo-600px.jpg">&lt;/p>
+&lt;p>&lt;strong>Hello! Welcome to The Bootloader.&lt;/strong>&lt;/p>
+&lt;p>The Bootloader is a podcast hosted by Paul Cutler and Tod Kurt. Each episode they&amp;rsquo;ll share a few
+news items, project updates or product news.&lt;/p>
+&lt;p>More info coming soon&amp;hellip;&lt;/p></description></item></channel></rss>

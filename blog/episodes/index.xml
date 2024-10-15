@@ -1,0 +1,1369 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Bootloader – Podcast Episodes</title><link>https://prcutler.github.io/the-bootloader/blog/episodes/</link><description>Recent content in Podcast Episodes on The Bootloader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://prcutler.github.io/the-bootloader/blog/episodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Welcome Liz Clark</title><link>https://prcutler.github.io/the-bootloader/blog/2024/10/07/welcome-liz-clark/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/10/07/welcome-liz-clark/</guid><description>
+&lt;h2 id="welcome-to-the-show">Welcome to the show&lt;/h2>
+&lt;p>Welcome to our first guest, Liz Clark aka BlitzCityDIY. Liz, Paul, and Tod chat about a new iOS app from Adafruit, the new Raspberry Pi AI camera, maker skill trees, and more.&lt;/p>
+&lt;p>Join our newsletter! Keep up with the show and what Paul and Tod are up to. Visit &lt;a href="https://buttondown.com/thebootloader">The Bootloader&amp;rsquo;s newsletter page&lt;/a> to browse the archives or subscribe.&lt;/p>
+&lt;p>You can &lt;a href="https://thebootloader.net/blog/2024/10/07/episode-13-transcript">read the entire transcript&lt;/a> here.&lt;/p>
+&lt;h2 id="listen-to-the-podcast">Listen to the podcast&lt;/h2>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/welcome-liz-clark/embed/dark">&lt;/iframe>
+&lt;h2 id="show-notes">Show Notes&lt;/h2>
+&lt;h3 id="0025-adafruit-itsasnap-ios-app-liz-1">00:25 Adafruit itsaSNAP iOS App (Liz #1)&lt;/h3>
+&lt;p>I have to say I&amp;rsquo;m a little biased with this pick because I contract with Adafruit, but I&amp;rsquo;m mildly obsessed with the new itsaSNAP app. This is the latest iOS app from Adafruit by our iOS developer Trevor. It acts as a bridge between your iOS device and your Adafruit IO feeds. There is support for Apple Shortcuts, which means that you can log health data, home data, any data that&amp;rsquo;s on your iOS device. You can also read feeds from the device and have Adafruit IO affect tasks on your phone. I&amp;rsquo;ve worked on two guides with it so far. The first uses a Qualia board with a round display to show photos from my photos app. I&amp;rsquo;m able to encode the photo in a Shortcut, send it to an IO feed and then decode it with CircuitPython. I&amp;rsquo;ve also worked with using Matter devices in Apple HomeKit with itsaSNAP to log sensor data and also to control an RGB light strip. I&amp;rsquo;m really excited about all of the functionality and I&amp;rsquo;m looking forward to seeing what people do with it.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.adafruit.com/it-s-a-snap-by-adafruit/overview">itsaSNAP Intro Learn Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/qualia-s3-ios-photo-display-with-itsasnap">Qualia S3 Photo Frame&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/itssnap-apple-fitness-status-board">Health Status Board&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="509-raspberry-pi-ai-camera-module-tod-1">5:09 Raspberry Pi AI Camera Module (Tod #1)&lt;/h3>
+&lt;p>There is a new camera module from Raspberry Pi. It&amp;rsquo;s an &amp;ldquo;AI&amp;rdquo; camera. What does that mean?
+It appears as a regular camera to the Pi, plugs into the CSI camera port.
+The &amp;ldquo;AI&amp;rdquo; part is that it has an RP2040 and 16MB of flash to store a pre-trained AI model you upload to it.&lt;/p>
+&lt;p>This is the kind of Machine learning (oh I mean &amp;ldquo;AI&amp;rdquo;) I prefer: on the edge, at the device, rather than in the cloud.
+The ML models live in the camera module. Results are delivered frame-synced alongside regular camera data over I2C.&lt;/p>
+&lt;p>You upload models via I2C too. It takes several minutes to upload an 8MB model.
+And like all these AI models are static, they don&amp;rsquo;t learn: their categorization is baked-in.
+This is expected but I think means you can&amp;rsquo;t use newer techniques with models that learn.&lt;/p>
+&lt;p>There&amp;rsquo;s really good docs so far. Easy-to-use command-line tools and a nice Python library.&lt;/p>
+&lt;p>More on-device ML devices please.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/">Raspberry Pi blog post&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hackster.io/news/raspberry-pi-s-ai-eye-hands-on-with-the-raspberry-pi-ai-camera-module-383fb34afcf7">Hackster hands-on article&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.raspberrypi.com/documentation/accessories/ai-camera.html">Getting started&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/raspberrypi/picamera2">Picamera2 repo&lt;/a>&lt;/li>
+&lt;li>demo videos: &lt;a href="https://www.youtube.com/watch?v=rloJNA_VuSA">Pose estimation&lt;/a>, &lt;a href="https://www.youtube.com/watch?v=D-foRupzOiY">Object detection&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Also see:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.sparkfun.com/products/21231">Person sensor by UsefulSensors $10&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thebootloader.net/blog/2022/10/24/episode-3-the-middle-is-a-pumpkin/#person-sensor-by-useful-sensorshttpswwwsparkfuncomproducts21231-tod-2-935">We talk about in Bootloader Episode #3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://x.com/todbot/status/1584662808691896320">Twitter thread with my eye that follows you&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1005-the-bumpin-sticker-by-guy-dupont-paul-1">10:05 The Bumpin&amp;rsquo; Sticker by Guy Dupont (Paul #1)&lt;/h3>
+&lt;p>Guy Dupont creates his take on the &amp;ldquo;Keep Honkin&amp;rsquo; I&amp;rsquo;m Listening to&amp;hellip;&amp;rdquo; bumper stickers. Using a Raspberry Pi Zero 2W, a screen from Ali Express, a Particle IoT board, and his Last.fm account, the screen dsiplays a bumper sticker with what Guy is currently listening to.&lt;/p>
+&lt;ul>
+&lt;li>Guy Dupont on &lt;a href="https://www.circuitpythonshow.com/@circuitpythonshow/episodes/guy-dupont">The CircuitPython Show&lt;/a>&lt;/li>
+&lt;li>Guy Dupont &lt;a href="https://www.youtube.com/watch?v=cJ2dCxfGfyk">MakerChat on CircuitPython Day 2024&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=mWRPRW6pHIY">The Bumpin&amp;rsquo; Sticker&lt;/a> YouTube video&lt;/li>
+&lt;li>&lt;a href="https://github.com/dupontgu/now-playing-bumper-sticker">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>Guy&amp;rsquo;s &lt;a href="https://mastodon.social/@gvy_dvpont/113243477613806718">latest project&lt;/a>: Meet &lt;a href="https://mastodon.social/@slambot">@slambot&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1340-nothing-to-seehear--wireless-fuzz-pedal-liz-2">13:40 Nothing To See/Hear : Wireless Fuzz Pedal (Liz #2)&lt;/h3>
+&lt;p>I follow quite a few guitar pedal folks on instagram and saw the newest post from @different.noises last week. It&amp;rsquo;s a &amp;ldquo;wireless fuzz&amp;rdquo; that completes the circuit by transmitting it via an infrared LED. The circuit converts the signal from the guitar to headphone audio level and then again into light that is sent out the infrared transmitter to an infrared LED. He includes the schematic in the post as well as an explainer and a few demo videos to prove that the signal is in fact transmitting via infrared.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.instagram.com/p/DAb1d48TZ7N/?igsh=bjBtaDZtaWl5YWs0&amp;img_index=1">Nothing To See/Hear : Wireless Fuzz Pedal Post&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.instagram.com/different.noises/">different.noises on Instagram&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1610-x1plus-alternative-open-source-bambu-x1-firmware-tod-2">16:10 X1Plus alternative open source Bambu X1 firmware (Tod #2)&lt;/h3>
+&lt;p>I&amp;rsquo;ve been thinking of getting a new 3d printer. My Prusa mk2.5s has seen better days.
+And I&amp;rsquo;m wowed at the literal 2x speed improvement I could get out of a Prusa mk4s or a Bambulab X1.
+So when I discovered this X1Plus alternative firmware for the X1, I was intrigued.&lt;/p>
+&lt;p>The X1Plus firmware runs on the &amp;ldquo;application processor&amp;rdquo; (AP) board of the X1,
+(sort of like what Octoprint does for me currently). It doesn&amp;rsquo;t touch the motion control system.
+And seems like all does to the the AP firmware is patch the bootloader to also look for a firmware file on the SD card, and use that if present.
+So you can always go back to stock firmware quickly.&lt;/p>
+&lt;p>And the team behind it have started a CrowdSupply campaign for an expansion board X1Plus can use for
+extra features light lights and cameras. I don&amp;rsquo;t think I&amp;rsquo;d want this, but I&amp;rsquo;m glad they&amp;rsquo;re finding a funding path for the keep them going.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/X1Plus/X1Plus/wiki">X1Plus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board">X1Plus expansion board crowdfunding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board">Hackster article&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Also to consider: &lt;a href="https://craftcloud3d.com/">Craftcloud 3D printing service&lt;/a>&lt;/p>
+&lt;p>I&amp;rsquo;ve done a few runs using Craftcloud and the results are pretty good. Like renting a Bambu.
+Craftcloud is a service front-end for a bunch of additive manufacturing companies across the US.
+Some offer metal as a material. Their quoting system is pretty easy just to get an idea of the cost.
+As an idea of costs: it costs about $4 per piece (inc shipping) for a typical synth enclosure.&lt;/p>
+&lt;h3 id="2231-maker-and-more-skill-trees-paul-2">22:31 Maker (and more) Skill Trees (Paul #2)&lt;/h3>
+&lt;p>Steph Piper aka Maker Queen has created &lt;a href="https://www.makerqueen.com.au/skill-trees-1">Maker Skill Trees&lt;/a> as a way to track your progress across a range of skills. These include things like PCB Design, 3D Printing and Modeling, and Dev Boards to crafting skills like Crochet, Knitting and more. There are almost sixty different skill treens to pick from. Each skill tree has 73 skills or experience hexagon tiles, with basic skills at the bottom to more advanced skills at the top.&lt;/p>
+&lt;p>There&amp;rsquo;s a &lt;a href="https://schme16.github.io/MakerSkillTree-Generator/">web app to create your own skill tree apps&lt;/a> designed by &lt;a href="https://github.com/schme16">Shane Gadsby&lt;/a>.&lt;/p>
+&lt;p>There&amp;rsquo;s also a book in development with an even more expansive range of skill trees, tools to track your progress and calculate your life score across all areas.&lt;/p></description></item><item><title>Blog: From Arcade to Synth</title><link>https://prcutler.github.io/the-bootloader/blog/2024/09/02/from-arcade-to-synth/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/09/02/from-arcade-to-synth/</guid><description>
+&lt;h2 id="welcome-to-the-show">Welcome to the show&lt;/h2>
+&lt;p>Welcome to a new episode! Paul and Tod recap the recent CircuitPython Day, chat about a new synth Kickstarter, arcades, a bug in the Raspberry Pi 2350, and Bambu Lab gets sued.&lt;/p>
+&lt;h2 id="join-our-new-newsletter">Join our new newsletter&lt;/h2>
+&lt;p>We&amp;rsquo;ve started a new newsletter. Get behind the scenes info about the podcast, links we liked but didn&amp;rsquo;t make it into the show, and learn what we&amp;rsquo;re up to. &lt;a href="https://buttondown.com/thebootloader">Sign up&lt;/a> or &lt;a href="https://buttondown.com/thebootloader/archive/">view the archives&lt;/a> and subscribe via RSS. Each newsletter is spam and tracking free and is emailed out a couple days after a new episode.&lt;/p>
+&lt;h2 id="listen-to-the-podcast">Listen to the podcast&lt;/h2>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/from-arcade-to-synth/embed/dark">&lt;/iframe>
+&lt;h3 id="small-circuitpythonday2024-recap">Small CircuitPythonDay2024 recap&lt;/h3>
+&lt;p>Thank you to everyone who listened to our first live episode on CircuitPython Day. You can stream it on the &lt;a href="https://www.youtube.com/live/uTl1KA2MPxI">Adafruit YouTube channel&lt;/a>. Paul and Tod recap the live episode including a look back at the last year and some of the projects they worked on.&lt;/p>
+&lt;h2 id="show-notes">Show Notes&lt;/h2>
+&lt;h3 id="300-microrack-solderless-breadboard-modular-synth-parts-tod-1">3:00 MICRORACK: solderless breadboard modular synth parts (Tod #1)&lt;/h3>
+&lt;p>I recall seeing some noise about &lt;a href="https://www.youtube.com/watch?v=Ixls7PbfC88">MICRORACK during Superbooth&lt;/a>
+a few months ago, and lately I&amp;rsquo;ve been inundated by Instagram ads for its
+Kickstarter campaign.&lt;/p>
+&lt;p>&lt;a href="https://www.kickstarter.com/projects/microrack/microrack-affordable-and-compact-modular-synthesizer">&amp;ldquo;MICRORACK&amp;rdquo;&lt;/a> is a collection of fully-assembled PCB modules that plug into a solderless breadboard. These modules comprise the same parts in modular synth setups: oscillators, filters, envelope generators, LFOs, sequencers, etc., but Microrack modules are small, cheap, and hackable. They&amp;rsquo;re just exposed PCBs, using the solderless breadboard as a mounting plate and for power distribution.&lt;/p>
+&lt;p>While I&amp;rsquo;m a big fan of Eurorack modular synths, I have a hard time recommending it to newcomers because it&amp;rsquo;s so expensive to get even a basic sound. This could bridge that gap. Microrack looks to be compatible with Eurorack and by its nature, it&amp;rsquo;s compatible with the kind of random breadboard-based music hacking I do in Arduino and CircuitPython.&lt;/p>
+&lt;p>And you don&amp;rsquo;t need Microrack to do modular synth stuff on a breadboard. I do it all the time, but it&amp;rsquo;s kind of annoying: interfacing to other gear is flaky, jacks &amp;amp; knobs aren&amp;rsquo;t breadboard-friendly, input &amp;amp; output level conversion is tricky, etc. Over the years there have been various attempts to make this easier. I&amp;rsquo;ve linked a few in the show notes.&lt;/p>
+&lt;p>Microrack links:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.kickstarter.com/projects/microrack/microrack-affordable-and-compact-modular-synthesizer">MICRORACK Kickstarter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=ivEz-3fFn0E&amp;list=PLLej0pNV9kNhAPo4oWYCVr5jbwbFUBKQZ">MICRORACK demo videos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Ixls7PbfC88">Sonicstate interview w/ MICRORACK at Superbooth&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Similar past projects:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pichenettes.github.io/mutable-instruments-diy-archive/bbf/">Breadboard Friends by Mutable Instrument&amp;rsquo;s Émilie Gillet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-labor/">EricaSynths EDU DIY LABOR&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.soundonsound.com/reviews/korg-littlebits">Korg littleBits Synth Kit&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="816-pimoronis-picade-max-arcade-paul-1">8:16 Pimoroni&amp;rsquo;s Picade Max Arcade (Paul #1)&lt;/h3>
+&lt;p>Paul has been talking about building a standup arcade for years. Pimoroni just launched the &lt;a href="https://shop.pimoroni.com/products/picade-max?variant=42007494623315">Picade Max&lt;/a>, a bar top arcade you assemble yourself for £495 or about $650. It works with the Raspberry Pi and includes a 4:3 19&amp;quot; screen with HDMI driver board. It includes everything you need to get started, minus the Pi, such as joysticks, buttons, and speakers. The Picade Max Control Board is the interface to the Raspberry Pi 5 and is itself powered by an rp2040 and works just like a normal gamepad / keyboard. The sound is also powered by an rp2040, the Picade Max Audio Board, that acts as a USB soundcard with 3 watts of power and a rotary encoder on the rear to control the volume. It&amp;rsquo;s powered by the Power HAT for the Raspberry Pi.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://paradisearcadeshop.com/">Paradise Arcade Shop&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://shop.pimoroni.com/products/picade-max?variant=42007494623315">Picade Max at Pimoroni&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tomshardware.com/raspberry-pi/raspberry-pi-powered-picade-max-brings-two-player-retro-gaming-to-pimoronis-picade-family">Tom&amp;rsquo;s Hardware coverage&lt;/a> and &lt;a href="https://www.tomshardware.com/raspberry-pi/picade-max-review">review&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/live/VddDblPom6c?si=f5A54m1Vxkfj_HJF">Tom&amp;rsquo;s Hardware Pi Cast&lt;/a> with guests Paul Beech and Phil Howard of Pimoroni&lt;/li>
+&lt;/ul>
+&lt;h3 id="1317-pico2--rp2350-gpio-input-issue-tod-2">13:17 Pico2 / RP2350 GPIO Input issue (Tod #2)&lt;/h3>
+&lt;p>To start: I would not recommend using the Pico2 or other RP2350-based boards for new users. There&amp;rsquo;s some weirdness going on in the silicon of the new RP2350 chip that makes inputs sometimes not return the correct logic value. Instead, an input may get stuck HIGH with no easy way to recover.&lt;/p>
+&lt;p>I found this out because the way &lt;code>touchio&lt;/code> works in CircuitPython: it takes a GPIO pin, turns it to an output and sets it HIGH, then it turns that pin to an input and waits for it to go LOW. The time that takes is an indication of if that pin was touched. I filed a CircuitPython bug, discovered there was an &amp;ldquo;RP2350-E9&amp;rdquo; errata in the chip that seemed to only cover the case when using the internal pull-down resistors, but which also seemed to be affecting us. I couldn&amp;rsquo;t find a way around it after hacking a few hours in the CircuitPython internals for &lt;code>digitalio&lt;/code>. Then &lt;a href="https://github.com/orgs/micropython/discussions/15621#discussioncomment-10446747">Dan Halbert looked into it&lt;/a> and filed a bug both with Micropython and with Raspbery Pi. This then was confirmed by Philip Howard at Pimoroni and Ian at Dangerous Prototypes (maker of Bus Pirate).&lt;/p>
+&lt;p>Thankfully &lt;a href="https://www.hackster.io/news/a-surprise-hardware-bug-in-raspberry-pi-s-rp2350-leads-to-unexpected-pull-down-behavior-76b51ec22ede">Hackster wrote up an article&lt;/a> about it, but I think it downplays the issue a little. I don&amp;rsquo;t see how this can be fixed in software and will limit the kinds of circuits we can use the RP2350 with.&lt;/p>
+&lt;p>From what I can tell the following uses will not work:&lt;/p>
+&lt;ul>
+&lt;li>Certain ways of wiring button inputs&lt;/li>
+&lt;li>Capacitive touch sensing&lt;/li>
+&lt;li>Bit-banging open-collector protocols like I2C&lt;/li>
+&lt;/ul>
+&lt;p>Links:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/adafruit/circuitpython/issues/9541">My original &lt;code>touchio&lt;/code> CircuitPython issue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/micropython/micropython/issues/15718">MicroPython issue filed by DanH&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/raspberrypi/pico-feedback/issues/401">pico-feedback issue filed by DanH&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mastodon.social/@buspirate/112932355552638918">Bus Pirate Mastodon post referencing it&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hackster.io/news/a-surprise-hardware-bug-in-raspberry-pi-s-rp2350-leads-to-unexpected-pull-down-behavior-76b51ec22ede">Hackster article about RP2350 GPIO issue&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1836-stratasys-sues-bambu-lab-over-3d-printing-patents-paul-2">18:36 Stratasys sues Bambu Lab over 3D printing patents. (Paul #2)&lt;/h3>
+&lt;p>Stratasys, an early pioneer in 3D printing who also acquired MakerBot in 2013, has &lt;a href="https://arstechnica.com/gadgets/2024/08/stratasys-sues-bambu-lab-over-patents-used-widely-by-consumer-3d-printers/">sued Bambu Lab&lt;/a>. The lawsuit focuses on PEI-coated build plates, purge towers, and automatic bed leveling. These features are common across multiple 3D printer brands, so why sue Bambu Lab?&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.tomshardware.com/3d-printing/weve-always-respected-intellectual-property-bambu-lab-responds-to-3d-printer-patent-lawsuit">Tom&amp;rsquo;s Hardware - Is Bambu being targeted for being successful?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.adafruit.com/2024/08/13/is-stratasys-a-3d-printing-patent-troll-stratasys-v-bambu-lab/">Adafruit coverage including suggesting a prior art database&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Teardown 2024 with Debra Ansell</title><link>https://prcutler.github.io/the-bootloader/blog/2024/08/05/teardown-2024-with-debra-ansell/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/08/05/teardown-2024-with-debra-ansell/</guid><description>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/teardown-2024-with-debra-ansell/embed/dark">&lt;/iframe>
+&lt;h2 id="welcome-to-the-show">Welcome to the show&lt;/h2>
+&lt;h3 id="0028-teardown-2024-recap-with-debra-ansell-aka-geekmomprojects">00:28 Teardown 2024 recap with Debra Ansell aka geekmomprojects&lt;/h3>
+&lt;p>Debra attended Teardown 2024 hosted by Crowd Supply in Portland, Oregon, June 21 - 23, 2024. Debra shares highlights from the conference and what made it special.&lt;/p>
+&lt;ul>
+&lt;li>Find Debra on &lt;a href="https://mastodon.social/@geekmomprojects">Mastodon&lt;/a> and &lt;a href="https://www.instagram.com/geekmomprojects/">Instagram&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://makezine.com/article/maker-news/building-up-excitement-for-teardown-2024/">Building Up Excitement for Teardown 2024&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.crowdsupply.com/teardown/portland-2024">Teardown 2024&lt;/a>&lt;/li>
+&lt;li>Makers mentioned by Debra:
+&lt;ul>
+&lt;li>&lt;a href="https://www.evilgeniuslabs.org/">Jason Coon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/charlyn">Charlyn Gonda&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.bhencke.com/">Ben Hencke&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.oddlyspecificobjects.com/">Joey Castillo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.alpenglowindustries.com/">Carrie Sundra&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img alt="Debra&amp;rsquo;s LED Jacket installation at Teardown 2024" src="https://prcutler.github.io/the-bootloader/the-bootloader/blog/2024/08/05/teardown-2024-with-debra-ansell/geekmomprojects-led-jackets.jpg">
+Pictured: Debra Ansell (left) and Alie Gonzalez (right) display Debra&amp;rsquo;s LED jacket installation at Teardown 2024.&lt;/p>
+&lt;h3 id="1417-tulip-creative-computer-and-amy-synth-library-tod-1">14:17 Tulip Creative Computer and Amy synth library (Tod #1)&lt;/h3>
+&lt;p>Okay another DIY synth thing. I&amp;rsquo;m a big fan of synth libraries for microcontrollers. My favorites
+are &lt;a href="https://github.com/todbot/mozzi_experiments">Mozzi for Arduino&lt;/a> and &lt;a href="https://github.com/todbot/circuitpython-synthio-tricks">CircuitPython&amp;rsquo;s &lt;code>synthio&lt;/code>&lt;/a>,
+but I&amp;rsquo;ve also use &lt;a href="https://www.pjrc.com/teensy/td_libs_Audio.html">Teensy Audio Library&lt;/a>, &lt;a href="https://github.com/electro-smith/DaisyWiki/wiki">Daisy&lt;/a>, and others.
+All have the startup issue of &amp;ldquo;how do I get things wired up to make sound?&amp;rdquo; and then they require a good amount of programming &amp;amp; synthesis knowledge too.&lt;/p>
+&lt;p>The Tulip Creative Computer project tries to solve these problems, and many others. I&amp;rsquo;ve been following Tulip and it&amp;rsquo;s gotten really interesting. Tulip is an ESP32-based device you can buy right now for $60, which includes a 7&amp;quot; touchscreen, high-quality audio DAC, MIDI I/O, and a battery.
+It runs a custom version of MicroPython and is made to have a USB keyboard plugged right into it so you can code on it directly, no computer needed!&lt;/p>
+&lt;p>As you code it in MicroPython, it can be like a live-coding music environment,
+sort of like &lt;a href="https://sonic-pi.net/">SonicPi&lt;/a>, but without the hassle of getting a Rasperry Pi running. Tulip boots up instantly.&lt;/p>
+&lt;p>Oh and did I say it&amp;rsquo;s a device? It&amp;rsquo;s also a fully-open source project you can build
+yourself from an ESP32-S3 and touchscreen and the Tulip designers provide multiple guides depending on what hardware you have.&lt;/p>
+&lt;p>And to get back to synth libraries, Tulip uses the AMY synth library,
+which has bindings to both Arduino and Python. It&amp;rsquo;s a fascinating take on a synth library, going in a more high-level direction than Mozzi and synthio and is extremely cross-platform.&lt;/p>
+&lt;p>I have a Tulip coming my way in the next week.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/shorepine/tulipcc">Tulip homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/shorepine/tulipcc/blob/main/docs/tulip_build.md">Build your own Tulip&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=1lYFjQp7Xrw">Floyd Steinberg&amp;rsquo;s video on Tulip&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/shorepine/amy">AMY - Additive Music librarY&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1827-more-new-ides---viperide-and-zed-paul-1">18:27 More new IDEs - ViperIDE and Zed (Paul #1)&lt;/h3>
+&lt;h4 id="viperide">ViperIDE&lt;/h4>
+&lt;p>Continuing my review of various IDEs, &lt;a href="https://viper-ide.org/">ViperIDE&lt;/a> is a brand new IDE in a web browser focused on MicroPython, with CircuitPython support created by Volodymyr Shymanskyy. You can connect a board in a variety of ways including USB, Bluetooth, and you can use &lt;code>WebREPL&lt;/code> to connect over the local network or even the internet. It&amp;rsquo;s a true IDE in a web browser with advanced features including syntax highlighting, auto expanding and minify of JSON, a terminal, and MicroPython package support. It also features a full &lt;a href="https://viper-ide.org/?vm=1">MicroPython emulator&lt;/a> with an example and it uses MicroPython compiled to Web Assembly.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://viper-ide.org/?vm=1">ViperIDE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/vshymanskyy/ViperIDE">Zed GitHub repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide">Review from Les Pounder&lt;/a> at Tom&amp;rsquo;s Hardware&lt;/li>
+&lt;li>&lt;a href="https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide">Live demo with Volodymyr Shymanskyy&lt;/a> on Tom&amp;rsquo;s Hardware Pi Cast&lt;/li>
+&lt;/ul>
+&lt;h4 id="zed">Zed&lt;/h4>
+&lt;p>Zed is a fairly new code editor and IDE for macOS and Linux users who might miss Atom or Sublime Text. It&amp;rsquo;s open source, released under the Apache and GPL 3.0 licenses, and focused on speed and collaboration.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://zed.dev/">Zed homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/zed-industries/zed">GitHub repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/pyright">pyright static type checker for Python&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2303-cerametal-3d-printing-metal-with-bronze-clay-tod-2">23:03 CeraMetal: 3D Printing Metal with Bronze Clay (Tod #2)&lt;/h3>
+&lt;p>I was happy to see my friend Leah Buechley mentioned on Hackaday recently.
+Leah is a professor at University New Mexico and for the last few years has
+been applying CNC and advanced mathematical techniques to ceramics and clay, creating shapes with overhangs and angles that I wouldn&amp;rsquo;t think possible
+in clay, let alone 3d printer plastic.
+They use commercially-available clay 3d printers with some special tricks.&lt;/p>
+&lt;p>(If her name is familar, she is also creator of the Lilypad Arduino sewable electronics system about 15 years ago, the echos of which we see in the CircuitPlayground Express boards from Adafruit)&lt;/p>
+&lt;p>Her team&amp;rsquo;s newest project is called &amp;ldquo;CeraMetal&amp;rdquo;, a way of 3d printing metal on the desktop using a custom metal clay. Once it&amp;rsquo;s printed, it&amp;rsquo;s fired in a kiln and sintered into a solid metal part. The custom metal clay is made from metal powder, xanthum gum and a few other ingredients, mixed together.&lt;/p>
+&lt;p>To slice the model to be printed, standard slicers like Cura can&amp;rsquo;t be used.
+Once the CeraMetal clay starts extrusion, it just keeps coming out.
+Normal slicers stop extrusion and do travel moves. So they had to write their own slicer to support this continuous extrusion aspect of the material.&lt;/p>
+&lt;p>The print resolution is close to standard PLA printing: 0.6mm nozzle, 0.3mm layer height. The costs are around $2k, for printer and kiln, compared to the $50k-$130k for a Selective Laser Sintering (SLS) machine.&lt;/p>
+&lt;p>And as an aside, they mention the algorithm used to get equal area spacing in their slicer is Fermat Spirals. These are space-filling curves that have the property that the area between its lines are equal. Perfect for 3d printing. I love spiral algorithms and so I&amp;rsquo;ve been looking into these. Links in the show notes of a few Fermat Spiral toys.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://handandmachine.org/index.php/2023/10/30/cerametal-metal-3d-printing/">CeraMetal: A New Approach to Low-Cost Metal 3D Printing with Bronze Clay&amp;quot; &amp;ndash; Leah Buechley, Jaime Gould, Fiona Bell&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=0FEgQUjrrwg">CeraMetal talk on ACM SIGCHI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hackaday.com/2024/07/21/cerametal-lets-you-print-metal-cheaply-and-easily/">Hackaday blog post on CeraMetal&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sciencenews.org/article/fermats-natural-spirals">Fermat&amp;rsquo;s Natural Spirals&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=6rNcAVr-U4s">&amp;ldquo;Fermat Spirals for Layered 3D Printing&amp;rdquo; on Two Minute Papers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://flyingpudding.com/projects/florets/applet">Fun Fermat Spiral toy in Processing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="2708-circuitmatter-paul-2">27:08 CircuitMatter (Paul #2)&lt;/h3>
+&lt;p>Matter is an open source standard managed by the Connectivity Standards Alliance for IoT devices. It requires a Matter controller such as some Google Nest devices, Apple Homepod or AppleTV, or some Amazon Echo devices. For example, you can buy a Matter-supported smart bulb and set it up with Apple HomeKit, Google Assistant, or Amazon Alexa—without having to worry about compatibility.&lt;/p>
+&lt;p>Scott Shawcroft, CircuitPython&amp;rsquo;s lead developer, &lt;a href="https://www.adafruitdaily.com/2024/07/22/python-on-microcontrollers-newsletter-python-was-at-risk-rp2040-chiplets-being-sold-and-much-more-circuitpython-python-MicroPython-thepsf-raspberry_pi/">shared he is working&lt;/a> on &lt;code>CircuitMatter&lt;/code>, a pure Python implementation of some of the Matter specification that will be compatible with CircuitPython and potentially MicroPython.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.wired.com/story/what-is-matter/">What is Matter?&lt;/a> - Wired Magazine&lt;/li>
+&lt;li>&lt;a href="https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/">Matter and Home Assistant&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sparkfun.com/products/20270">Sparkfun Thing Plus Matter&lt;/a> dev board&lt;/li>
+&lt;/ul>
+&lt;h3 id="2947-special-announcement-about-circuitpython-day-2024">29:47 Special Announcement about CircuitPython Day 2024&lt;/h3>
+&lt;p>Tune in to the &lt;a href="https://www.youtube.com/adafruit/live">Adafruit YouTube channel&lt;/a> on CircuitPython Day, August 16th for a special live stream of The Bootloader with Paul and Tod. Keep an eye on the &lt;a href="https://blog.adafruit.com">Adafruit Blog&lt;/a> for the schedule and see you there!&lt;/p></description></item><item><title>Blog: Four Topics and an Interview</title><link>https://prcutler.github.io/the-bootloader/blog/2024/07/01/four-topics-and-an-interview/</link><pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/07/01/four-topics-and-an-interview/</guid><description>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/four-topics-and-an-interview/embed/dark">&lt;/iframe>
+&lt;h2 id="welcome-to-the-show">Welcome to the show&lt;/h2>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2024/07/01/episode-10-transcript">Full transcript available here.&lt;/a>&lt;/p>
+&lt;h2 id="level-up-at-circuitpython-paul-1">Level up at CircuitPython (Paul #1)&lt;/h2>
+&lt;p>Professor John Gallaugher of Boston College recently released two videos related to CircuitPython: The first is for how to migrate from using Mu in CircuitPython to using PyCharm with &lt;code>tio&lt;/code> and the second covers using &lt;code>circup&lt;/code> to install and update CircuitPython libraries.&lt;/p>
+&lt;ul>
+&lt;li>Professor Gallaugher &lt;a href="https://www.circuitpythonshow.com/@circuitpythonshow/episodes/john-gallaugher">interview on The CircuitPython Show&lt;/a>&lt;/li>
+&lt;li>Professor Gallaugher&amp;rsquo;s &lt;a href="https://www.youtube.com/@profgallaugher/">YouTube channel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2">CircuitPython playlist&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL9VJ9OpT-IPTfjeA45Ab_-9IY1VGnNY0K">Raspberry Pi Pico tutorials&lt;/a> using CircuitPython&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL9VJ9OpT-IPRm9MhIOvnfNLe7fWYPx6ak">Bluefruit School&lt;/a> - using a CircuitPython Bluefruit and tutorials&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=i7jEa2LyJtk">Use PyCharm with CircuitPython on macOS&lt;/a> video&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=R9AArkVi3eE">Easily install or upgrade CircuitPython Libraries with Circup&lt;/a> video&lt;/li>
+&lt;/ul>
+&lt;h2 id="embedded-swift-tod-1">Embedded Swift (Tod #1)&lt;/h2>
+&lt;p>Apple has been developing the Swift programming language for the last 10 years.
+They now use it on all their platforms and is the officially-recommended way to
+write apps for iPhone, iPads, Apple Watch, etc.
+Swift is heavily influenced by Haskell and Rust, which emphasizes type safety
+and functional programming, allowing the compiler to catch many bugs before
+the code ever runs. It was initially created by Chris Lattner, who also developed
+LLVM and the Clang compiler, which has been a revolution for compiled C-like languages.&lt;/p>
+&lt;p>Now Apple has released Embedded Swift, a version of Swift that runs on microcontrollers.
+They have demos for the Raspberry Pi Pico, ESP32-C6, nRF52840, and STM32.&lt;/p>
+&lt;p>These are pretty exciting, especially the Matter examples they&amp;rsquo;ve provided.
+(Matter being a new standard for home automatition, and part of Apple&amp;rsquo;s HomeKit API)
+The Swift Matter example for adding a &amp;ldquo;smart light&amp;rdquo; controllable with Siri or
+other home assistants is only about 60 lines long.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/">https://www.cnx-software.com/2024/06/13/embedded-swift-esp32-c6-raspberry-pi-rp2040-stm32f7-nrf52840-microcontrollers/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514">https://www.hackster.io/news/apple-embeds-swift-into-hardware-125131557514&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=LqxbsADqDI4">https://www.youtube.com/watch?v=LqxbsADqDI4&lt;/a>&lt;/li>
+&lt;li>Swift Embedded Examples - &lt;a href="https://github.com/apple/swift-embedded-examples">https://github.com/apple/swift-embedded-examples&lt;/a>&lt;/li>
+&lt;li>Swift Matter Examples - &lt;a href="https://github.com/apple/swift-matter-examples/tree/main/smart-light">https://github.com/apple/swift-matter-examples/tree/main/smart-light&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="accessibility-matters-paul-2">Accessibility Matters (Paul #2)&lt;/h2>
+&lt;p>A new prototype for the Micro:bit and a new Adafruit product to help those with limited or different mobility:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://johnvidler.co.uk/blog/the-accessbit-an-accessibility-addon-for-the-microbit/">The Micro:bit Access:bit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/adafruit-trrs-trinkey">Adafruit&amp;rsquo;s TRRS Trinkey&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="cadquery-tod-2">CadQuery (Tod #2)&lt;/h2>
+&lt;p>I&amp;rsquo;ve been on a journey to move to open source tools for my engineering work.
+I use Fusion360 for my 3D CAD modeling. It&amp;rsquo;s pretty good but I&amp;rsquo;m always irritated
+after using it.
+CadQuery is a tool for building parametric 3D CAD models, but you do it all in text, no GUI.
+Similar to &lt;a href="https://openscad.org/">OpenSCAD&lt;/a>, but its language is standard Python, available as a library.
+And can export STEP! Not just STL, making its output useful in engineering contexts.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cadquery.readthedocs.io/en/latest/intro.html">https://cadquery.readthedocs.io/en/latest/intro.html&lt;/a> &amp;ndash; good intro&lt;/li>
+&lt;li>&lt;a href="https://github.com/CadQuery/cadquery">https://github.com/CadQuery/cadquery&lt;/a> &amp;ndash; the main repo&lt;/li>
+&lt;li>&lt;a href="https://github.com/CadQuery/CQ-editor">https://github.com/CadQuery/CQ-editor&lt;/a> &amp;ndash; GUI editor, like OpenSCAD, one of the many ways to use CQ&lt;/li>
+&lt;li>&lt;a href="https://github.com/Wren6991/CQCAD">https://github.com/Wren6991/CQCAD&lt;/a> &amp;ndash; Luke Wren (ASIC designer at Raspberry Pi)&amp;rsquo;s collection of CQCAD parts&lt;/li>
+&lt;li>Also similar: &lt;a href="https://github.com/jscad/OpenJSCAD.org">OpenJSCAD&lt;/a> but also cannot export STEP&lt;/li>
+&lt;li>And the original: &lt;a href="https://openscad.org">OpenSCAD&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="justin-myers-interview">Justin Myers Interview&lt;/h2>
+&lt;p>Interview with Justin Myers, author of the CircuitPython ConnectionManager library&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.circuitpython.org/projects/connectionmanager/en/latest/">ConnectionManager&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Beautiful Bezier Curves</title><link>https://prcutler.github.io/the-bootloader/blog/2024/06/03/beautiful-bezier-curves/</link><pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/06/03/beautiful-bezier-curves/</guid><description>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/beautiful-bezier-curves/embed/dark">&lt;/iframe>
+&lt;h2 id="welcome-to-the-show">Welcome to the show&lt;/h2>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2024/06/03/episode-9-transcript">Full transcript available here.&lt;/a>&lt;/p>
+&lt;h3 id="0020-m5stack-cardputer-tod-1">00:20 M5Stack Cardputer (Tod #1)&lt;/h3>
+&lt;p>&lt;img alt="The M5Stack Cardputer" src="https://prcutler.github.io/the-bootloader/the-bootloader/blog/2024/06/03/beautiful-bezier-curves/cardputer.webp">&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.m5stack.com/en/core/Cardputer">M5Stack Cardputer&lt;/a>&lt;/li>
+&lt;li>ESP32-S3-based (WiFi &amp;amp; BLE) little &amp;lsquo;portable computer&amp;rsquo; w/ display and keyboard in a little case&lt;/li>
+&lt;li>But it also has: microphone, speaker, microSD slot, IR, 1400 mAh battery &amp;amp; magnet &amp;amp; Lego connection&lt;/li>
+&lt;li>Only $30!&lt;/li>
+&lt;li>Keys are very tiny&lt;/li>
+&lt;li>Included &amp;ldquo;apps&amp;rdquo; on the demo program are: BLE keyboard, Python REPL, &amp;hellip;&lt;/li>
+&lt;li>Available in the US from &lt;a href="https://www.electromaker.io/shop/product/m5stack-cardputer-kit-w-m5stamp-s3">Electromaker.io&lt;/a> which ships from Mouser&lt;/li>
+&lt;li>Also, &lt;a href="https://circuitpython.org/board/m5stack_cardputer/">supported on CircuitPython&lt;/a>!&lt;/li>
+&lt;/ul>
+&lt;h3 id="429-radiofreefedi-and-faircamp-paul-1">4:29 RadioFreeFedi and Faircamp (Paul #1)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://radiofreefedi.net/">RadioFreeFedi&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.radiofreefedi.net/how-to-listen">How to listen&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.radiofreefedi.net/state-of-the-station-may-2024">State of the station&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://radiofreefedi.net/#donate">Support / donate&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://simonrepp.com/faircamp/">Faircamp&lt;/a> and &lt;a href="https://codeberg.org/simonrepp/faircamp">code repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chaos.social/@axwax">Follow axwax on Mastodon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Some of Paul&amp;rsquo;s picks:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://shannoncurtis.bandcamp.com/album/good-to-me">Shannon Curtis&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://shehackedyou.bandcamp.com/album/implicit-memories">implicit memories, by she hacked you&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://johannbourquenez.com/faircamp/johann-bourquenez-loriol/">Loriol&lt;/a> (Piano by &lt;a href="https://johannbourquenez.com/faircamp/">Johann Bourquenez&lt;/a>)&lt;/li>
+&lt;li>&lt;a href="https://www.allflowers-music.com/">Allflowers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="955-plumpot-kicad-tutorials-tod-2">9:55 PlumPot KiCad Tutorials (Tod #2)&lt;/h3>
+&lt;p>I have finally made the jump from Eagle to KiCad. After 20 years of Eagle.
+A video series that really helped me was &lt;a href="https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b">PlumPot&amp;rsquo;s video playlist on Youtube&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b">PlumPot KiCad Tutorials&lt;/a>&lt;/li>
+&lt;li>PlumPot is Keri PLUMstead and JP POTgieter&lt;/li>
+&lt;li>Goes from installing KiCad, to creating symbols &amp;amp; footprints to to ordering PCBs with gerber files&lt;/li>
+&lt;li>An older series (KiCad 5), but still really helpful&lt;/li>
+&lt;li>Because goes into some of the tricky details that haven&amp;rsquo;t changed much,
+like &lt;a href="https://www.youtube.com/watch?v=MrOBbDDqE9w&amp;list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b&amp;index=5">adding 3d files&lt;/a>, &lt;a href="https://www.youtube.com/watch?v=EF6PF0L4e-s&amp;list=PLZNH6jlLeFXsg9ohRMbJ0qqSfUrRyAn7b&amp;index=23">clearance &amp;amp; track rules&lt;/a>, blind vias, differential pairs, and more&lt;/li>
+&lt;/ul>
+&lt;h3 id="1531-meet-the-maker-andré-costa-paul-2">15:31 Meet the Maker: André Costa (Paul #2)&lt;/h3>
+&lt;p>André Costa is the creator of &lt;a href="https://rpilocator.com/">rpilocator&lt;/a> and the &lt;a href="https://www.tindie.com/products/dphacks/pico-w-air-wireless-air-quality-monitoring/">Pico W Air - Wireless Air Quality Monitor&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://rpilocator.com/">Find a Raspberry Pi with rpilocator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://magpi.raspberrypi.com/articles/meet-andre-costa-the-brains-behind-rpilocator">MagPi article about André and rpilocator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tindie.com/products/dphacks/pico-w-air-wireless-air-quality-monitoring/">Pico W Air - Wireless Air Quality Monitoring&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer">CircuitPython HTTP Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="@makerbymistake@mastodon.social">Follow André on Mastodon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="1809-algorithm-videos-by-freya-holmér--tod-3">18:09 Algorithm videos by Freya Holmér (Tod #3)&lt;/h3>
+&lt;p>Freya is a game dev who codes tools and shaders for Unity but also creates
+these highly instructive and very beautiful videos about algorithms that are
+useful in game design but also in generative art and embedded computers.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=LSNQuFEDOyQ">&amp;ldquo;Lerp smoothing in broken&amp;rdquo;&lt;/a>
+&amp;ndash; Lerp (&amp;ldquo;linear interpolation&amp;rdquo;) is used to smooth movement of an on-screen element
+It&amp;rsquo;s similar to a common sensor filtering technique called &lt;a href="https://en.wikipedia.org/wiki/Exponential_smoothing">&amp;ldquo;exponential smoothing&amp;rdquo;&lt;/a> and both suffer from similar issues when the
+&amp;ldquo;frame rate&amp;rdquo; or &amp;ldquo;sample rate&amp;rdquo; change.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=aVwxzDHniEw">&amp;ldquo;The Beauty of Bézier Curves&amp;rdquo;&lt;/a>
+&amp;ndash; Bezier curves always kinda mystified me, this video shows how they work.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=htYh-Tq7ZBI">&amp;ldquo;Why can&amp;rsquo;t you multiply vectors?&amp;rdquo;&lt;/a>
+&amp;ndash; In the microcontroller space, if you use attitude sensors (gyros/accelerometers) or
+are making a little game (like my &lt;a href="https://github.com/todbot/circuitpython_staroids">circuitpython-staroids&lt;/a>, you&amp;rsquo;ll need to know how to manipulate vectors. This video breaks down how vectors work,
+shows how to modify and combine them to get what you want.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2316-circuitpython-online-ide-by-river-wang-paul-3">23:16 CircuitPython Online IDE by River Wang (Paul #3)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://urfdvw.github.io/circuitpython-online-ide-2/">River Wang&amp;rsquo;s CircuitPython online IDE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://code.circuitpython.org/">Adafruit&amp;rsquo;s online code editor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/urfdvw/circuitpython-online-ide-2">GitHub Repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="@Riverwang@fosstodon.org">Follow River on Mastodon&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Episode 8: Built from the ground up</title><link>https://prcutler.github.io/the-bootloader/blog/2024/04/29/episode-8-built-from-the-ground-up/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/04/29/episode-8-built-from-the-ground-up/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader. In episode 8, Paul and Tod discuss learn to solder kits from Carrie Sundra of Alpenglow Industries, building a synthesizer, the Microdot web framework,learning to program ARM Assembly, a follow-up from the very first episode, and learn about capacitive touch sensors.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2024/04/29/episode-8-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/built-from-the-ground-up/embed/dark">&lt;/iframe>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Welcome!&lt;/p>
+&lt;h2 id="0022-meet-the-maker-carrie-sundra-of-alpenglow-industries-paul-1">00:22 Meet the Maker: Carrie Sundra of Alpenglow Industries (Paul #1)&lt;/h2>
+&lt;p>If you visit the About page on Alpenglow Industries’ website, Alpenglow mission statement is to &lt;em>&lt;strong>To Teach You About Electronics Without Gatekeeping&lt;/strong>&lt;/em>. It goes on to say:&lt;/p>
+&lt;p>&lt;em>We are passionate about representation in electronics - the field is still overwhelmingly white and male with only ~&lt;a href="https://www.zippia.com/electrical-engineer-jobs/demographics/">10% of electrical engineers identifying as women&lt;/a>. Having worked in the field for over 20 years, we know how much gatekeeping and hostility there can be. We aim to provide a welcoming space where adults can learn about electronics without judgment or any previous experience.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Homepage: &lt;a href="https://www.alpenglowindustries.com">https://www.alpenglowindustries.com&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.alpenglowindustries.com/collections/through-hole-soldering-kits">Through-Hole Soldering Kits&lt;/a>&lt;/li>
+&lt;li>Surface mount soldering kits: &lt;a href="https://www.alpenglowindustries.com/collections/smt-soldering-kits">SMT Soldering Kits&lt;/a>&lt;/li>
+&lt;li>YouTube channel: &lt;a href="https://www.youtube.com/alpenglowindustries">Alpenglow Industries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="0526-synthux-academy-and-daisy-seed-tod-1">05:26 SynthUX Academy and Daisy Seed (Tod #1)&lt;/h2>
+&lt;p>Have you ever wanted to learn to make &lt;em>real&lt;/em> high-quality synthesizers,
+not just the low-fi toys I&amp;rsquo;ve been goofing around with in CircuitPython or Arduino w/ Mozzi?&lt;/p>
+&lt;p>Then you should know about Daisy Seed from ElectroSmith : &lt;a href="https://electro-smith.com/">https://electro-smith.com/&lt;/a>&lt;/p>
+&lt;p>Daisy Seed is a little $25 Arduino-looking board that is designed explicitly for
+audio manipulation and generation. It&amp;rsquo;s becoming a core component of many
+musical instruments from guitar pedals, to Eurorack modules, to stand-alone
+synthesizer keyboards.&lt;/p>
+&lt;p>The Daisy Seed board features a Cortex M7-class chip with 65 MB of RAM, stereo
+audio I/O at 24-bit @ 96 kHz, twelve 16-bit ADC pins and two 12-bit DACs
+for controls, and 31 GPIOs. And it fits on a breadboard!&lt;/p>
+&lt;p>It has a well-done Arduino library, a C++ DSP library, and you can even
+run Pd and Max patches on it. ElectroSmith libraries provide all the
+components you need to make a synth: oscillators, envelopes, filters, sequencers,
+delays, reverbs, etc. And &lt;a href="https://github.com/electro-smith/DaisyWiki/wiki">some good docs too&lt;/a>!&lt;/p>
+&lt;p>I&amp;rsquo;ve been wanting &amp;ldquo;level up&amp;rdquo; my knowledge of Daisy Seed, but I need a push.
+And that push has been the &lt;a href="https://www.synthux.academy/">SynthUX Academy&lt;/a>.
+They&amp;rsquo;re a non-profit based in the Netherlands that offers in-person and
+online &lt;a href="https://learn.synthux.academy/">classes&lt;/a> for how to make synthesizers.
+Many of their classes are available for &lt;a href="https://www.youtube.com/@SynthuxAcademy">free on Youtube&lt;/a>
+and their &lt;a href="https://github.com/Synthux-Academy">class code is on GitHub&lt;/a>.&lt;/p>
+&lt;h2 id="808-the-microdot-web-framework-paul-2">8:08 The Microdot web framework (Paul #2)&lt;/h2>
+&lt;p>The Microdot web framework was created by Miguel Grinberg, who wrote the Flask Mega Tutorial - Flask being a popular Python web framework. Microdot’s home page describes it as &lt;em>“The impossibly small web framework for Python and MicroPython”&lt;/em> and is inspired by Flask. What’s interesting is that it can run on both CPython as well as a microcontroller running MicroPython.&lt;/p>
+&lt;ul>
+&lt;li>Microdot project page: &lt;a href="https://github.com/miguelgrinberg/microdot">https://github.com/miguelgrinberg/microdot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://microdot.readthedocs.io/en/latest/">Microdot documentation&lt;/a>&lt;/li>
+&lt;li>The Flask Mega-Tutorial: &lt;a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">The Flask Mega-Tutorial, Part I: Hello, World!&lt;/a>&lt;/li>
+&lt;li>MicroPython awesome-list for web servers: &lt;a href="https://awesome-micropython.com/#web">Awesome MicroPython&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="1025-arm-assembly-deep-dives-by-carlynorama-tod-2">10:25 ARM Assembly Deep-dives by Carlynorama (Tod #2)&lt;/h2>
+&lt;p>What&amp;rsquo;s lower-level programming than CircuitPython? Arduino maybe?
+Lower-level than that? Probably C code calling a C vendor SDK.
+Now what&amp;rsquo;s lower than even that? C code manipulating a chip&amp;rsquo;s I/O directly,
+I&amp;rsquo;d say. And the lowest level? &lt;a href="https://en.wikipedia.org/wiki/Assembly_language">Assembly language&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://www.whynotestflight.com/">Carlynorama&lt;/a> has been doing a deep-dive on
+ARM assembly language lately. (disclosure: she&amp;rsquo;s my wife)&lt;/p>
+&lt;p>She started with
+&lt;a href="https://www.whynotestflight.com/excuses/hello-led-on-an-avr-attiny45-in-c/">an ATtiny45 in bare AVR C&lt;/a>
+to set up the chip and blink an LED. She&amp;rsquo;s really familar with AVR from the original Arduino,
+so it was a natural jumping off point. On AVR, doing bare C to twiddle chip registers
+is very close to assembly language, since much of the work is figuring out which
+registers to twiddle to make something happen. Besides her real target was ARM chips.&lt;/p>
+&lt;p>For the SAMD21 ARM chips like what&amp;rsquo;s in the QT Py M0 or Trinket M0, she decided to start
+with assembly, in order to really understand how these chips work compared to AVR.
+The Cortex-M0+ ARM chips are more complicated than AVR, and the ARM instruction set is huge.
+But (confusingly) the Cortex-M0+ core in these chips only get a subset of the ARM instructions,
+making all the documentation about &amp;ldquo;ARM assembly&amp;rdquo; frustrating to read until you know
+which instructions are allowed for your chip.&lt;/p>
+&lt;p>But in about a week she&amp;rsquo;s gone from knowing no ARM assembly to
+&lt;a href="https://www.whynotestflight.com/excuses/its-alive-samd21e18a-assembly-no-sdk/">getting an M0 chip up and blinking an LED&lt;/a>,
+&lt;a href="https://www.whynotestflight.com/excuses/and-now-for-3-ways-to-set-an-internal-pullup/">reading a button input&lt;/a>,
+and being able to monitor it all via &lt;a href="https://sourceware.org/gdb/">GDB&lt;/a>.
+Along the way she&amp;rsquo;s been using
+&lt;a href="https://cpulator.01xz.net/?sys=arm-de1soc">online ARM simulators&lt;/a>
+and teasing how STM32 ARM chip setup differs from SAMD21 setup.&lt;/p>
+&lt;p>I&amp;rsquo;ve been watching from the sidelines, learning a little along the way, following her blog.
+And it&amp;rsquo;s been fascinating. You can really see how enormously powerful these chips are
+when you&amp;rsquo;re down at the lowest level like this. It makes you appreciate all the work
+that&amp;rsquo;s going on when you say &lt;code>pinMode(pin, INPUT_PULLUP)&lt;/code> or &lt;code>button = DigitalInOut(board.GP14)&lt;/code>.&lt;/p>
+&lt;p>Her next steps I think are moving to some bigger ARM chips and to try out the
+&lt;a href="https://clang.llvm.org/">Clang/LLVM&lt;/a> compiler system instead of the
+&lt;a href="https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain">GCC-based tools&lt;/a> she&amp;rsquo;s currently using.&lt;/p>
+&lt;h2 id="1920-one-year-with-the-bambu-labs-p1p-paul-3">19:20 One Year With the Bambu Labs P1P (Paul #3)&lt;/h2>
+&lt;p>Paul shares his experience after owning a the Bambu Labs P1P 3D printer.&lt;/p>
+&lt;ul>
+&lt;li>The Bootloader Episode 1: &lt;a href="https://thebootloader.net/blog/2022/09/26/episode-1-rock-stars-are-just-like-us/">Episode 1: Rock Stars are Just Like Us&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bambulab.com/en-us/p1?product=p1p">Bambu Lab P1 Series | Reliable Out-of-the-Box Performance&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wiki.bambulab.com/en/p1">P1 Series&lt;/a>&lt;/li>
+&lt;li>Bambu extends software and bug fix support until 2027 and 2029 respectively in a &lt;a href="https://www.tomshardware.com/3d-printing/bambu-lab-printer-firmware-updates-have-limited-timeline">turnaround&lt;/a> &lt;a href="https://www.reddit.com/r/BambuLab/comments/1cco9v0/bambu_have_massively_extended_the_software_update/">Reddit thread&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2308-lets-talk-about-capacitive-touch-sensors-and-sliders-tod-3">23:08 Let&amp;rsquo;s talk about Capacitive Touch Sensors and Sliders (Tod #3)&lt;/h2>
+&lt;p>I have been experimenting with capacitive touch sensors for a while now.
+They can be a really fun and easy sensor to add to your project and require
+almost zero extra components if you have something like CircuitPython&amp;rsquo;s &lt;code>touchio&lt;/code>
+library to help out.&lt;/p>
+&lt;p>Captouch sensors work by treating the touch pad as a capacitor that the microcontroller
+charges up (by setting the pad&amp;rsquo;s pin HIGH) and then seeing how long that capacitor
+takes to discharge and go LOW. When you put your finger on the pad, the capacitance
+increases and it takes longer to discharge. By watching for that change you
+tell &amp;ldquo;touched&amp;rdquo; from &amp;ldquo;untouched&amp;rdquo;.&lt;/p>
+&lt;p>My latest fascination has been with capacitive touch sliders, either linear or rotary.
+The rotary slider is like what the iPod had for many years: slide your finger
+around it like you&amp;rsquo;re spinning a little record.&lt;/p>
+&lt;p>How do these work? There&amp;rsquo;s a couple of different ways but the method that I&amp;rsquo;ve
+been trying out lately is the &amp;ldquo;interpolation&amp;rdquo; technique. This is where you
+use two or more interleaved pads and measure the comparative touch amounts
+between them to interpolate a position along them. Imagine splaying your fingers
+on each and and interleaving them: as you go from left hand to right hand, it&amp;rsquo;s
+100% your left hand, then 75% your left hand, then 50/50 both hands, then 75% your
+right hand, and finally 100% your right hand.&lt;/p>
+&lt;p>I&amp;rsquo;ve got a few projects that have touch pads laid out like this if you&amp;rsquo;d
+like to play yourself:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/todbot/touchwheels">https://github.com/todbot/touchwheels&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/todbot/picoslidertoy">https://github.com/todbot/picoslidertoy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tindie.com/stores/todbot/">Tod&amp;rsquo;s Tindie Store&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>At the bottom of the &amp;ldquo;touchwheels&amp;rdquo; page are some useful links to the
+capsense design guidelines I&amp;rsquo;ve been heeding like this one:
+&lt;a href="https://ww1.microchip.com/downloads/en/Appnotes/Capacitive-Touch-Sensor-Design-Guide-DS00002934-B.pdf">AN2934 - Capacitive Touch Sensor Design Guide (PDF)&lt;/a>&lt;/p>
+&lt;h3 id="support-the-bootloader">Support The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p></description></item><item><title>Blog: Episode 7: The CircuitPython 9 Release Show</title><link>https://prcutler.github.io/the-bootloader/blog/2024/03/22/episode-7-the-circuitpython-9-release-show/</link><pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2024/03/22/episode-7-the-circuitpython-9-release-show/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader. We&amp;rsquo;re excited to return after an extended break. For episode 7, we dive into the just released CircuitPython 9 and discuss what we&amp;rsquo;re excited about and some of the new features.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2024/03/22/episode-7-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/the-circuitpython-9-release-show/embed/dark">&lt;/iframe>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Welcome! This is all about the new &lt;a href="https://blog.adafruit.com/2024/03/18/circuitpython-9-0-0-released/">CircuitPyton 9.0 release&lt;/a>&lt;/p>
+&lt;h3 id="what-are-we-excited-for-in-circuitpython-9">What are we excited for in CircuitPython 9?&lt;/h3>
+&lt;ul>
+&lt;li>Tod: &lt;code>jpegio&lt;/code>, ESP-IDF update, USB Host, &lt;code>parelleldisplaybus&lt;/code>&lt;/li>
+&lt;li>Paul: Memento camera / &lt;code>jpegio&lt;/code>, CIRCUITPY on Android, ConnectionManager, USB Host&lt;/li>
+&lt;/ul>
+&lt;h3 id="jpegio-and-the-memento-camera">&lt;code>jpegio&lt;/code> and the Memento Camera&lt;/h3>
+&lt;ul>
+&lt;li>Memento Camera from Adafruit&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/adabox021">AdaBox 21&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=H9vWXmL2HIk">AdaBox 21 Unboxing Video&lt;/a> hosted by John Park&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://docs.circuitpython.org/en/latest/shared-bindings/jpegio/index.html">&lt;code>jpegio&lt;/code>&lt;/a>
+&lt;ul>
+&lt;li>one downside of JPEG vs BMP or PNG files: JPEGs are not palletized&lt;/li>
+&lt;li>based on &lt;a href="http://elm-chan.org/fsw/tjpgd/">&amp;ldquo;TJpgDec&amp;rdquo;&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmapfilter/index.html">&lt;code>bitmapfilter&lt;/code>&lt;/a>
+&lt;ul>
+&lt;li>Convolusion (kernel) image filter&lt;/li>
+&lt;li>Photoshop-like image effects in CircuitPython&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="usb-host">USB Host&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.circuitpython.org/en/latest/shared-bindings/usb/core/index.html">&lt;code>usb.core&lt;/code>&lt;/a>
+&lt;ul>
+&lt;li>Tries to be as much like &lt;a href="https://github.com/pyusb/pyusb">PyUSB&lt;/a> as possible&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/adafruit/Adafruit_CircuitPython_USB_Host_MIDI">USB MIDI Controllers with USB Host&lt;/a> is coming&lt;/li>
+&lt;li>Keyboards on USB Host
+&lt;ul>
+&lt;li>Scott theorized about a CircuitPython &amp;ldquo;computer&amp;rdquo; in his &lt;a href="https://blog.adafruit.com/2024/01/24/scotts-circuitpython2024-tannewt/">CircuitPython2024 blog post&lt;/a> earlier this year&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="micropython-and-merging-its-changes-into-circuitpython">MicroPython and merging its changes into CircuitPython&lt;/h3>
+&lt;ul>
+&lt;li>New split heap management. Here&amp;rsquo;s a comment from CircuitPython Core Developer Dan Halbert:&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The &amp;ldquo;split heap&amp;rdquo; code from MicroPython now enables us to use heap allocation outside the VM, which was very awkward before: any dynamic storage allocation could only be done once, before the VM started. The heap then used the remaining RAM. Now there is an &amp;ldquo;outside&amp;rdquo; heap which can be used while the VM is running, and that storage will not be garbage collected. So various storage allocations that used to be static can now be dynamic, such as stuff needed for USB setup. We also removed the &amp;ldquo;long-lived storage&amp;rdquo; scheme that was added a long time ago to reduce fragmentation. In that scheme, storage that we expected to live a very long time (mostly allocations for compiled bytecode) was allocated at one end of the heap, and shorter-lived storage (like the temp storage used during compilation) was allocated at the other end. Part of the scheme involved moving allocated objects and adjusting pointers. The moving caused some inherent but obscure problems where objects&amp;rsquo; identities seemed to change.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Now long-lived storage is gone, because it was not very compatible with the split-heap scheme. This may cause some projects on small-RAM boards like SAMD21 not to work any more due to increaed fragmentation. We have some ideas for doing something like long-lived storage in a different way that wouldn&amp;rsquo;t involve moving objects, but that won&amp;rsquo;t be in 9.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>The MicroPython merges are huge undertakings. Props to the CircuitPython team for even
+trying to track upstream. For example, the 1.20 update touched 779 files over 250 commits. And they did 3 merges! (MicroPython 1.19.1, 1.20.0, and 1.21.0)&lt;/li>
+&lt;/ul>
+&lt;h3 id="paralleldisplaybus">&lt;code>paralleldisplaybus&lt;/code>&lt;/h3>
+&lt;ul>
+&lt;li>8x faster display using &lt;code>paralleldisplaybus&lt;/code> instead of SPI&lt;/li>
+&lt;li>Currently for ESP32- and RP2040- based chips&lt;/li>
+&lt;li>e.g. &lt;a href="https://www.lilygo.cc/products/t-display-s3-amoled">LilyGo T-Display S3 AMOLED&lt;/a> and
+&lt;a href="https://www.lilygo.cc/products/t-display-s3">LilyGo T-Display S3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="circuitpython-for-esp32-updates-to-esp-idf-5">CircuitPython for ESP32 updates to ESP-IDF 5&lt;/h3>
+&lt;ul>
+&lt;li>CircuitPython 9 moves from using ESP IDF 4.x to &lt;a href="https://www.espressif.com/en/news/ESP-IDFv5">ESP IDF 5&lt;/a>&lt;/li>
+&lt;li>This will enable new features and new boards, like &lt;a href="https://www.espressif.com/en/products/socs/esp32-c6">ESP32-C6&lt;/a>&lt;/li>
+&lt;li>Potential future support for Bluetooth on ESP32 boards that support BLE&lt;/li>
+&lt;/ul>
+&lt;h3 id="connectionmanager">ConnectionManager&lt;/h3>
+&lt;ul>
+&lt;li>Paul got his description wrong - ConnectionManager is used by &lt;code>adafruit_requests&lt;/code> and MiniMQTT to manage sockets.&lt;/li>
+&lt;li>Created by community member Justin Myers&lt;/li>
+&lt;li>It&amp;rsquo;s great how even with Adafruit funding three core developers that it&amp;rsquo;s truly a community project and a community member can add a new library and way of doing things to CircuitPython.&lt;/li>
+&lt;li>Makes socket tasks easier, like &lt;a href="https://docs.circuitpython.org/projects/connectionmanager/en/latest/examples.html">this example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="breaking-changes-in-circuitpython">Breaking Changes in CircuitPython&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.circuitpython.org/en/latest/shared-bindings/displayio/index.html">&lt;code>displayio&lt;/code>&lt;/a> changes:
+&lt;ul>
+&lt;li>&lt;code>display.show()&lt;/code> deprecated&lt;/li>
+&lt;li>&lt;code>displayio&lt;/code> drivers have moved&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/circuitpython-display-support-using-displayio/faqs">See this FAQ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Mounting a filesystem (SD card) requires an existing directory, like CPython&lt;/li>
+&lt;li>CircuitPython now requires explicit socket port re-use. Use &lt;code>socket.setsockopt(pool.SOL_SOCKET, pool.SO_REUSEADDR, 1)&lt;/code>, as in CPython.&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-the-bootloader">Support The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p></description></item><item><title>Blog: Episode 6: Supersized for Supercon</title><link>https://prcutler.github.io/the-bootloader/blog/2022/12/05/episode-6-supersized-for-supercon/</link><pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/12/05/episode-6-supersized-for-supercon/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader! This week we are doing something a little different. Tod recently attended Supercon and shares some of his favorite talks and presentations. Paul and Tod also share one interesting thing.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/12/05/episode-6-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/supersized-for-supercon-jvu55/embed/dark">&lt;/iframe>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h3 id="hackaday-supercon">Hackaday Supercon&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>What is &lt;a href="https://hackaday.com/2022/10/11/2022-supercon-more-talks-more-speakers/">Hackaday Supercon&lt;/a>?&lt;/p>
+&lt;ul>
+&lt;li>Annual get together in Pasadena of talks &amp;amp; workshops on stuff you&amp;rsquo;d see in &lt;a href="https://hackaday.com/">Hackaday.com&lt;/a>&lt;/li>
+&lt;li>A way for me to see friends I&amp;rsquo;ve only really talk to online&lt;/li>
+&lt;li>It&amp;rsquo;s held at the &lt;a href="https://supplyframe.com/designlab/">Supplyframe DesignLab&lt;/a>
+and at &lt;a href="https://lacm.edu/">Los Angeles College of Music&lt;/a> next door&lt;/li>
+&lt;li>In between is an alley where there&amp;rsquo;s hardware hacking and snacks&lt;/li>
+&lt;li>The workshops are held at &lt;a href="https://supplyframe.com/">Supplyframe HQ&lt;/a>, up the street a few blocks&lt;/li>
+&lt;li>One of my favorite conferences, before pandemic&lt;/li>
+&lt;li>This Supercon was first in-person since 2019&lt;/li>
+&lt;li>It was so nice seeing everyone, but wow I am out of practice being amongst people&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>The &lt;a href="https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide">SuperCon Badge&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Hacker conferences have these &amp;ldquo;badges&amp;rdquo; that don&amp;rsquo;t really function as IDs any more&lt;/li>
+&lt;li>Instead, they&amp;rsquo;re a playground for electronics experimentation&lt;/li>
+&lt;li>This year, the badge was a microcontroller-based board that acted like an old switches-and-lights computer from the 1970s.&lt;/li>
+&lt;li>Designed by &lt;a href="https://en.wikipedia.org/wiki/Voja_Antoni%C4%87">Voja Antonic&lt;/a>, a Serbian inventor,
+created the &amp;ldquo;Galaksija&amp;rdquo; build-your-own-computer in 1983, inspiring thousands to learn computers&lt;/li>
+&lt;li>Check out the &lt;a href="https://www.youtube.com/watch?v=ix__enrtYF4">Video badge walkthrough by Voja&lt;/a>&lt;/li>
+&lt;li>You program it the way computers used to be programed: hand keying in bits one-by-one, and clicking the &amp;ldquo;load&amp;rdquo; switch to enter a single machine code instruction, one at a time
+&lt;img alt="Todbot&amp;rsquo;s Supercon Badge" src="https://prcutler.github.io/the-bootloader/the-bootloader/blog/2022/12/05/episode-6-supersized-for-supercon/todbot-supercon-badge.jpg">&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Some of the talks I liked&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=39-5WgcvaHk">Nick’s DIY Vacuum tubes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=i1gZR1U2cF4">Adrian’s Soviet chips&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chriscombs.net/artwork/all/">Chris Comb&lt;/a>&amp;rsquo;s &amp;ldquo;How to Hang and Sell Your Blinky Goodness as Art&amp;rdquo;
+(on the DesignLab stage, so recorded but not streamed)&lt;/li>
+&lt;li>Also, &lt;a href="https://www.youtube.com/watch?v=Z1IbAKz1qUY">Bradley&amp;rsquo;s talk&lt;/a> about &amp;lsquo;showing up&amp;rsquo; and making a difference, disguised as a talk on hacking electric scooters&lt;/li>
+&lt;li>Lastly, &lt;a href="https://www.youtube.com/watch?v=B6a25Smokkk">Samy&amp;rsquo;s &amp;ldquo;random walk&amp;rdquo; exploration&lt;/a> that resulted in a flexible wearable tesla coil to light up his breathe in a glass ampule&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="python-in-the-browser-paul-1">Python in the Browser (Paul #1)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.anaconda.com/blog/pyscript-updates-bytecode-alliance-pyodide-and-micropython">MicroPython in the browser&lt;/a>
+&lt;ul>
+&lt;li>Builds on Pyscript, announced this past PyCon by the founder of Anaconda, Peter Wang&lt;/li>
+&lt;li>Great &lt;a href="https://talkpython.fm/episodes/show/391/pyscript-powered-by-micropython">podcast at Talkpython.fm&lt;/a> sharing more, including the technical details
+&lt;ul>
+&lt;li>Included Brett Cannon, Fabio Pliger, and Nicholas Tollervey&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pyscript can use the MicroPython as a runtime
+&lt;ul>
+&lt;li>Reduces the size of Python in Pyscript from 11MB to 300k using MicroPython&lt;/li>
+&lt;li>Pyscript is a framework the developers see building on top of&lt;/li>
+&lt;li>&lt;a href="https://pyscript.net/tech-preview/micropython/about.html">PyScript Runtimes - MicroPython Technical Preview&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="picostepseq-in-the-magpi-magazine-tod-1">PicoStepSeq in The MagPi Magazine! (Tod #1)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://magpi.raspberrypi.com/articles/picostepseq-rp2040-music-maker">My PicoStepSeq project made it as an article in The MagPi&lt;/a>&lt;/li>
+&lt;li>Also in the print version (and &lt;a href="https://magpi.raspberrypi.com/issues/124/pdf">the PDF&lt;/a>)! (and it&amp;rsquo;s a slightly different, longer article.)&lt;/li>
+&lt;li>&lt;a href="https://github.com/todbot/picostepseq/">PicoStepSeq&lt;/a> is a tiny 1980s-style MIDI sequencer, using these lever switches with embedded LEDs (called &lt;a href="https://www.adafruit.com/product/5519">&amp;ldquo;step switches&amp;rdquo; by Adafruit&lt;/a>)&lt;/li>
+&lt;li>It was desgined, coded, and built &lt;a href="https://twitter.com/todbot/status/1560676715424141313?ref_src=twsrc%5Etfw">in the two weeks&lt;/a> leading up to &lt;a href="https://blog.adafruit.com/2022/08/08/circuitpython-day-2022-schedule-circuitpythonday2022-circuitpython-python/">CircuitPython Day 2022&lt;/a>&lt;/li>
+&lt;li>It has both a CircuitPython-firmware and an Arduino-based firmware&lt;/li>
+&lt;li>See it in action in &lt;a href="https://www.youtube.com/watch?v=GvbF1Mo4WMw">John Park&amp;rsquo;s Workshop from November 30&lt;/a>&lt;/li>
+&lt;li>I&amp;rsquo;ve slowly been considering a 16-step version, but it&amp;rsquo;s complicated for various reasons&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-sponsor-the-bootloader">Support Sponsor The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p>
+&lt;p>Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Episode 5: Pandas and Breadboards</title><link>https://prcutler.github.io/the-bootloader/blog/2022/11/21/episode-5-pandas-and-breadboards/</link><pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/11/21/episode-5-pandas-and-breadboards/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Paul and Tod will bring you three interesting things and chat about them for a few minutes each.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/11/21/episode-5-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/pandas-and-breadboards-y5nqd/embed/dark">&lt;/iframe>
+# Show Notes
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Welcome!&lt;/p>
+&lt;h3 id="micropython-by-arduino-labshttpsblogarduinocc20221110micropython-officially-becomes-part-of-the-arduino-ecosystem-tod-1">&lt;a href="https://blog.arduino.cc/2022/11/10/micropython-officially-becomes-part-of-the-arduino-ecosystem/">Micropython by Arduino Labs&lt;/a> (Tod #1)&lt;/h3>
+&lt;ul>
+&lt;li>It works well! Simple and clean, with what you need: code editor + terminal window&lt;/li>
+&lt;li>Works with any MicroPython device with USB serial, from my limited testing&lt;/li>
+&lt;li>No serial plotter, no library manager, no board manager. This is a first step&lt;/li>
+&lt;li>However, it is yet-another-&lt;a href="https://www.electronjs.org/">Electron&lt;/a> app, so it&amp;rsquo;s fairly pudgy memory-wise&lt;/li>
+&lt;li>Alternatives:
+&lt;ul>
+&lt;li>&lt;a href="https://thonny.org/">Thonny&lt;/a> &amp;ndash; beloved by many. I do not like it, find it unattractive and confusing&lt;/li>
+&lt;li>&lt;a href="https://codewith.mu/">Mu&lt;/a> &amp;ndash; cleaner and has a nice serial plotter like Arduino IDE&lt;/li>
+&lt;li>Any text editor + &lt;a href="https://github.com/raspberrypi/picotool">picotool&lt;/a> &amp;ndash; my preferred choice&lt;/li>
+&lt;li>What I do not recommend: any &amp;ldquo;micropython extension&amp;rdquo; for VS Code/Atom/etc.
+The ones I&amp;rsquo;ve tried are flaky and presume too much, taking over other Python projects&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="home-assistant-and-the-state-of-the-open-homehttpswwwyoutubecomwatchvd936t1ze8-4-paul-1">Home Assistant and the &lt;a href="https://www.youtube.com/watch?v=D936T1Ze8-4">State of the Open Home&lt;/a> (Paul #1)&lt;/h3>
+&lt;ul>
+&lt;li>Home automation platform focused on local control and privacy
+&lt;ul>
+&lt;li>No vendor log-in&lt;/li>
+&lt;li>Your smart home shouldn&amp;rsquo;t require the cloud&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>State of the Open Home is an annual look at the smart home ecosystem and Home Assistant
+&lt;ul>
+&lt;li>Livestreamed Nov 13, 2022&lt;/li>
+&lt;li>#2 open source project on Github by contributor contributions&lt;/li>
+&lt;li>Home Assistant Cloud from Nabu Casa processed 50,000 webhooks per second&lt;/li>
+&lt;li>190,000 instances of HA opted in to reporting
+&lt;ul>
+&lt;li>Estimated 500,000 - 600,000 installations of HA&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2023: Year of Voice
+&lt;ul>
+&lt;li>Rhasspy voice assistant: &lt;a href="https://github.com/rhasspy/rhasspy">https://github.com/rhasspy/rhasspy&lt;/a> by Michael Hansen
+&lt;ul>
+&lt;li>Can function completely disconnected from the Internet&lt;/li>
+&lt;li>Are entirely free/open source with a permissive license (MIT)&lt;/li>
+&lt;li>Works well with freely available home automation software&lt;/li>
+&lt;li>Optimized for working with MQTT, HTTP and Websockets with Home Assistant having built in support&lt;/li>
+&lt;li>Support for over 25 different languages&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hired by Nabu Casa to work on and integrate Rhasspy full-time&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=krQjw-j7rXI">Summary video&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="withdiodecomhttpswwwwithdiodecomexplore----3d-breadboard-simulation-in-the-browser-tod-2">&lt;a href="https://www.withdiode.com/explore">WithDiode.com&lt;/a> &amp;ndash; 3d breadboard simulation in the browser (Tod #2)&lt;/h3>
+&lt;ul>
+&lt;li>omg. this is the best. so fun&lt;/li>
+&lt;li>Created by &lt;a href="https://twitter.com/KennethCassel">Kennth Cassel&lt;/a>
+&lt;ul>
+&lt;li>(who also created a nice &lt;a href="https://www.vim.so/">Vim tutorial site called vim.so&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>I saw it first from &lt;a href="https://mastodon.social/@clive@saturation.social/109344907748519044">Clive Thompson (@clive@saturation.social) on Mastodon&lt;/a>&lt;/li>
+&lt;li>I was able to implement some of the oscillators we did during
+&lt;a href="https://blog.crashspace.org/tag/deep-fried-neurons/">Deep Fried Neurons&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.crashspace.org/2021/05/dfn-happy-hour-no-43-good-vibrations/">DeepFriedNeurons breadboard oscillators&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>But&amp;hellip; it&amp;rsquo;s actually kinda harder to use than real breadboards&lt;/li>
+&lt;li>Other tools I find useful in this space:
+&lt;ul>
+&lt;li>&lt;a href="https://wokwi.com/">Wokwi simulator&lt;/a> lets you simulate Arduino, Micropython, and CircuitPython&lt;/li>
+&lt;li>&lt;a href="https://fritzing.org/">Fritzing&lt;/a> lets you visually breadboard up circuits,
+with accompanying breadboard &amp;amp; PCB layout&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="github-in-the-news-paul-2">GitHub in the news (Paul #2)&lt;/h3>
+&lt;ul>
+&lt;li>Follow-up: the investigation has spawned a &lt;a href="https://www.theregister.com/2022/11/11/githubs_copilot_opinion/">GitHub Copilot lawsuit&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data">Verge&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://githubnext.com/projects/hey-github">Hey Github&lt;/a>
+&lt;ul>
+&lt;li>Imagine being able to code hands free&lt;/li>
+&lt;li>This could be big for accessibility&lt;/li>
+&lt;li>Use natural speech, for example: Saying &amp;ldquo;Import pandas&amp;rdquo; results in &lt;code>import pandas as pd&lt;/code>&lt;/li>
+&lt;li>In the features, Github shares:
+&lt;ul>
+&lt;li>Write / edit code (using GitHub Copilot)&lt;/li>
+&lt;li>Go to the next method with code navigation (&amp;ldquo;Hey GitHub go to line 34 or method X)&lt;/li>
+&lt;li>Run the program and control your IDE using any VS Code command&lt;/li>
+&lt;li>Code Summarization: Ask &amp;ldquo;Hey GitHub!&amp;rdquo; to explain lines 3-10 and get a summary of what the code does&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="rnbo-rainbowhttpscycling74comproductsrnbo----turn-max-patches-into-vst-plugins-tod-3">&lt;a href="https://cycling74.com/products/rnbo">RNBO &amp;ldquo;rainbow&amp;rdquo;&lt;/a> &amp;ndash; Turn Max patches into VST plugins (Tod #3)&lt;/h3>
+&lt;ul>
+&lt;li>Ever wonder how people make virtual synths / audio effects, or even real synths &amp;amp; effects?&lt;/li>
+&lt;li>&lt;a href="https://cycling74.com/products/max">Max&lt;/a> is a way to create custom virtual instruments or effects, and custom UI. Make it look like a real thing if you want&lt;/li>
+&lt;li>Max is often a good solution to mocking up ideas for these, kinda like CircuitPython and Arduino is for microcontroller projects
+&lt;ul>
+&lt;li>Max is a stand-alone application or part of Ableton Live&lt;/li>
+&lt;li>It&amp;rsquo;s what&amp;rsquo;s called a &amp;ldquo;patching environment&amp;rdquo;, a &amp;ldquo;nodes &amp;amp; flows&amp;rdquo; graphical programming tool&lt;/li>
+&lt;li>The &amp;ldquo;flows&amp;rdquo; are audio &amp;amp; MIDI, kinda like modular synths cabling stuff together&lt;/li>
+&lt;li>I&amp;rsquo;ve used in on-n-off (mostly off) since the 90s (could never quite get into it)&lt;/li>
+&lt;li>But Max patches have to live inside Max (or inside Max in Live)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>RNBO let&amp;rsquo;s you create a &amp;ldquo;compilable&amp;rdquo; versions of Max patch
+&lt;ul>
+&lt;li>It is inclucded with Max or $299 for permanent license or $10/month subscription&lt;/li>
+&lt;li>RNBO is actually a parallel thing to Max, but implements most all of Max&lt;/li>
+&lt;li>But does Turns any Max patch into a C++-based stand-alone VST&lt;/li>
+&lt;li>Can even target Raspberry Pi, so you can make custom Pi-based synths &amp;amp; pedals&lt;/li>
+&lt;li>Or can export to Web Audio, with Javascript control!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://cdm.link/2022/11/rnbo-max-for-web-hardware-plugin/">good CDM article about RNBO&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.synthanatomy.com/2022/11/rnbo-turns-your-max-patches-into-hardware-vst-plugins-and-web-applications.html">good synthanatomy article too&lt;/a> about why this is cool&lt;/li>
+&lt;li>&lt;a href="https://musichackspace.org/product/getting-started-with-rnbo-in-max/">Online (paid) class for how to use it by Music Hackspace&lt;/a> Here&amp;rsquo;s a &lt;a href="https://www.youtube.com/watch?v=XK6crVcXefk">preview on youtube&lt;/a>&lt;/li>
+&lt;li>Open source alternative to Max is &lt;a href="https://puredata.info/">PureData (aka &amp;lsquo;Pd&amp;rsquo;)&lt;/a>
+&lt;ul>
+&lt;li>Pd &amp;amp; Max have common roots, Pd is a bit rougher looking than Max, but very capable&lt;/li>
+&lt;li>And it runs on a Raspberry Pi&lt;/li>
+&lt;li>And there&amp;rsquo;s a &lt;a href="https://patchstorage.com/explore">huge community&lt;/a> of existing Pd patches.&lt;/li>
+&lt;li>And there&amp;rsquo;s the &lt;a href="https://www.rebeltech.org/2018/09/12/compile-pure-data-patches-with-free-online-heavy-compiler/">free online Heavy compiler&lt;/a> for Pd patches&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="mastodon-paul-3">Mastodon (Paul #3)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/whither-news/hope-for-a-post-musk-net-f156d0cdf431">Hope for a Post-Musk Net&lt;/a> by Jeff Jarvis&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/_sagesharp_/status/1592188538921316352">Choosing a Mastodon instane by Sage Sharp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.harihareswara.net/posts/2022/mastodon-fediverse-warning-mastodonsocial/">A Warning about Mastodon.social by Sumuna Harihareswara&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tomshardware.com/how-to/move-from-twitter-to-mastodon">How to Move from Twitter to Mastodon - Toms Hardware by Les Pounder&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.wired.com/story/how-to-get-started-use-mastodon/">How to get Started on Mastodon - Wired by Justin Pot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://fosstodon.org/api/v1/custom_emojis">Custom emoji on Fosstodon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-sponsor-the-bootloader">Support Sponsor The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p>
+&lt;p>Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Episode 4: What's the Matter?</title><link>https://prcutler.github.io/the-bootloader/blog/2022/11/07/episode-4-whats-the-matter/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/11/07/episode-4-whats-the-matter/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Paul and Tod will bring you three interesting things and chat about them for a few minutes each.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/11/07/episode-4-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/what-s-the-matter-l496k/embed/dark">&lt;/iframe>
+# Show Notes
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Welcome!&lt;/p>
+&lt;h3 id="macos-ventura-cannot-copy-uf2-files-paul-1-0021">macOS Ventura cannot copy UF2 files (Paul #1) 00:21&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.adafruit.com/2022/10/31/uploading-uf2-files-with-macos-13-0-ventura-apple-microbit_edu-raspberry_pi-circuitpython/">Adafruit Blog post&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.raspberrypi.com/news/the-ventura-problem/">Raspberry Pi Blog&lt;/a>&lt;/li>
+&lt;li>You cannot drag and drop UF2 and HEX files using macOS Finder - it results in an error&lt;/li>
+&lt;li>Lady Ada gave a good overview of the technical issues in &lt;a href="https://www.youtube.com/watch?v=Ur8MsnF7Eo0">Ask an Engineer&lt;/a>&lt;/li>
+&lt;li>Two workarounds
+&lt;ul>
+&lt;li>Use the terminal: &lt;code>cp -X blink.uf2 /Volumes/RPI-RP2/&lt;/code>&lt;/li>
+&lt;li>Install a macOS short created by Alasdair Allen (author of the Rasperry Pi blog post above)
+&lt;ul>
+&lt;li>&lt;a href="https://www.icloud.com/shortcuts/989b90c87fec4c11965dd517685f87cd">Shortcut&lt;/a>&lt;/li>
+&lt;li>Works great! Update Shortcuts settings to allow shell scripts and just right click a UF2 image to transfer it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Help out and file a bug report with Apple!&lt;/li>
+&lt;/ul>
+&lt;h3 id="matter-officially-supported-in-ios-161-tod-1-237">Matter officially supported in iOS 16.1 (Tod #1) 2:37&lt;/h3>
+&lt;ul>
+&lt;li>What is Matter?
+&lt;ul>
+&lt;li>Matter is an open standard for smart home IoT stuff (Apple, Google, Amazon, etc all signed on)&lt;/li>
+&lt;li>&lt;a href="https://www.theverge.com/2022/10/4/23386883/matter-smart-home-standard-apple-google-launch">Matter 1.0 spec just released (stared in 2019)&lt;/a>&lt;/li>
+&lt;li>Created by what was the Zigbee Alliance (Zigbee being a BLE-like protocol from a decade ago)&lt;/li>
+&lt;li>Matter, however, sits on top of existing WiFi or BLE protocols&lt;/li>
+&lt;li>Most examples I&amp;rsquo;ve seen are WiFi-based&lt;/li>
+&lt;li>IOS 16.1 now just sees them&lt;/li>
+&lt;li>Matter was originally called Project CHIP, why their github org is named &amp;lsquo;project-chip&amp;rsquo;,&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=i2doZomr9V0">Eric from ThatProject Youtube channel demos it&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/esp32/comments/yfvpxu/finally_apple_officially_supports_matter_in_161/">Eric also posted to reddit in r/esp32&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/project-chip/connectedhomeip/tree/master/examples">Their Github repo has useful ESP32-based examples&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/0015/ThatProject">ThatProject Eric also has a great Github Repo of ESP32 IoT projects&lt;/a>&lt;/li>
+&lt;li>
+&lt;pre tabindex="0">&lt;code class="language-[Matter" data-lang="[Matter">&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;h3 id="3d-printing-for-good-causes-paul-2-700">3D printing for good causes (Paul #2) 7:00&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://3dwithus.com/3d-printing-for-mental-health-and-suicide-prevention">3D Printing for Mental Health and Suicide Prevention Campaign&lt;/a>
+&lt;ul>
+&lt;li>The idea was started by a teacher, Abby Brown, at Torrey Pines High School.&lt;/li>
+&lt;li>Each year the school has Yellow Ribbon week where students are learn about crisis resources and risk factors for suicide.&lt;/li>
+&lt;li>The keychains were designed to give away to her students as a special way to end Yellow Ribbon Week.&lt;/li>
+&lt;li>Each keychain contains a word, such as &amp;ldquo;Smile&amp;rdquo;, &amp;ldquo;Inspire&amp;rdquo;, &amp;ldquo;Create&amp;rdquo;, with about 10 different words.&lt;/li>
+&lt;li>There&amp;rsquo;s a fundraising campaign where you can print one of the designs found on Cults3D and post it on Twitter and Instagram.&lt;/li>
+&lt;li>Different organizations are matching the funds, with an opportunity to raise over $4000 by just printing and sharing!
+&lt;ul>
+&lt;li>Joel Telling, Printed Solid, LDO Motors, and Alien3D&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[https://www.ic3dprinters.com/2022-toys/](3D Printed Toys for Tots campaign)
+&lt;ul>
+&lt;li>Organized by IC3D in 2018, they work with volunteers in the 3D printing community to print toys for kids
+&lt;ul>
+&lt;li>Over 69,000 toys printed in 2021!&lt;/li>
+&lt;li>This year they have over 140 volunteers and have printed 27,000 toys so far.&lt;/li>
+&lt;li>You can donate financially or sign up to help print toys&lt;/li>
+&lt;li>Toys include an articulated alligator, a train engine, cars, low poly dinosaurs, and more.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The signup period is now over to volunteer for printing, but keep an eye out for this next year.&lt;/li>
+&lt;li>&lt;a href="https://www.twitch.tv/charitymakers">Twitch.tv Stream&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="hypno-video-synthesizer-from-sleepy-circuits-tod-2-1000">Hypno &amp;ldquo;video synthesizer&amp;rdquo; from Sleepy Circuits (Tod #2) 10:00&lt;/h3>
+&lt;ul>
+&lt;li>Have you ever taken a camcorder and point it at the TV to get weird video feedback?&lt;/li>
+&lt;li>Have you ever enjoyed those trippy algorithmic screen savers?&lt;/li>
+&lt;li>You can do both in real-time with devices called &amp;ldquo;&lt;a href="https://en.wikipedia.org/wiki/Video_synthesizer">video synthesizers&lt;/a>&amp;rdquo;&lt;/li>
+&lt;li>I was at &lt;a href="https://synthplex.com/">Synthplex&lt;/a> last weekend and it was fun!
+&lt;ul>
+&lt;li>It&amp;rsquo;s mostly a audio synth convention but there were a few non-audio things there too, like:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hypno by Sleepy Circuits is one such device&lt;/li>
+&lt;li>Physically it&amp;rsquo;s a small box with knobs, sliders, and buttons. And an HDMI port! (and NDI over USB for streaming)&lt;/li>
+&lt;li>Twiddle the knobs &amp;amp; sliders to create generative video patterns&lt;/li>
+&lt;li>Source material can be video &amp;ldquo;oscillators&amp;rdquo;, camera feeds, video files&lt;/li>
+&lt;li>Raspberry Pi 3 or 4-based, with Eurorack-compatible jacks to sync to your music&lt;/li>
+&lt;li>Been in development since 2019&lt;/li>
+&lt;li>Extensive documentation and a big community, with an &lt;a href="https://forum.sleepycircuits.com/">active forum&lt;/a>&lt;/li>
+&lt;li>(Product page](&lt;a href="https://sleepycircuits.com/hypno">https://sleepycircuits.com/hypno&lt;/a>)&lt;/li>
+&lt;li>&lt;a href="https://www.instagram.com/sleepycircuits/">Example videos on Instagram&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="io-rodeo-launches-the-open-colorimeter-a-circuitpython-analysis-tool-for-citizen-science---hacksteriohttpswwwhacksterionewsio-rodeo-launches-the-open-colorimeter-a-circuitpython-analysis-tool-for-citizen-science-4e0435072e21-paul-3-1310">&lt;a href="https://www.hackster.io/news/io-rodeo-launches-the-open-colorimeter-a-circuitpython-analysis-tool-for-citizen-science-4e0435072e21">IO Rodeo Launches the Open Colorimeter, a CircuitPython Analysis Tool for Citizen Science - Hackster.io&lt;/a> (Paul #3) 13:10&lt;/h3>
+&lt;ul>
+&lt;li>Hackster.io article from Gareth Halfacree&lt;/li>
+&lt;li>The Open Colorimeter is an instrument with many applications, including measuring contaminants &amp;amp; pollutants in soil &amp;amp; water
+&lt;ul>
+&lt;li>Based on the Adafruit PyBadge&lt;/li>
+&lt;li>3D printed case&lt;/li>
+&lt;li>Published under open licenses
+&lt;ul>
+&lt;li>MIT for the firmware&lt;/li>
+&lt;li>Physical designs under a CC-4.0 license&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Excellent documentation with product guides and project tutorials&lt;/li>
+&lt;li>Example: &lt;a href="https://blog.iorodeo.com/tutorial-measuring-blue-food-dye-in-sports-drinks/">measure the blue dye in sports drinks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>IO Rodeo&amp;rsquo;s mission is to increase accessibility to scientific data collection tools by creating low-cost, open hardware instrumentation.&lt;/li>
+&lt;li>Open Hardware and Software: &lt;a href="https://github.com/iorodeo/">GitHub Repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="ffmpegguide-makes-configuring-ffmpeg-easy-tod-3-1540">ffmpeg.guide makes configuring FFMPEG easy (Tod #3) 15:40&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://ffmpeg.guide">https://ffmpeg.guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ffmpeg.org/">FFMPEG&lt;/a> is tool used behind-the-scenes by many video processors including MPlayer, Handbrake, VLC&lt;/li>
+&lt;li>And used by many websites that handle A/V&lt;/li>
+&lt;li>At it&amp;rsquo;s simplist, it converts video formats (AVI to MP4) but it can do so much more&lt;/li>
+&lt;li>I use it to:
+&lt;ul>
+&lt;li>Down-convert HDR video to SDR, resample to 720p (for players that don&amp;rsquo;t support HDR)&lt;/li>
+&lt;li>Quickly cropping videos in a bit when shooting with a wide-angle lens&lt;/li>
+&lt;li>Recompress 4K video to 1080p with reduced bitrate usable by Twitter/Youtube&lt;/li>
+&lt;li>Convert audio of any format to .WAV&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://catswhocode.com/ffmpeg-commands/">Example FFMEG commands&lt;/a>&lt;/li>
+&lt;li>FFMPEG can do much more and it&amp;rsquo;s famously complicated to use&lt;/li>
+&lt;li>It&amp;rsquo;s been around for over 20 years! wow!&lt;/li>
+&lt;li>&amp;ldquo;ffmpeg.guide&amp;rdquo; is a &amp;ldquo;Flows &amp;amp; nodes&amp;rdquo;-based GUI for generating FFMPEG commandline commands&lt;/li>
+&lt;li>Free for up to 5 nodes&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/zack_overflow/status/1586288992680493057">Developer post announcing it&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-sponsor-the-bootloader">Support Sponsor The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p>
+&lt;p>Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Episode 3: The Middle is a Pumpkin</title><link>https://prcutler.github.io/the-bootloader/blog/2022/10/24/episode-3-the-middle-is-a-pumpkin/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/10/24/episode-3-the-middle-is-a-pumpkin/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Paul and Tod will bring you three interesting things and chat about them for a few minutes each.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/10/24/episode-3-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/the-middle-is-a-pumpkin-j0mtw/embed/dark">&lt;/iframe>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Welcome!&lt;/p>
+&lt;h3 id="10-cent-risc-v-arduino-chiphttpstwittercompatrick_riscvstatus1580384430996484101-tod-1-0015">&lt;a href="https://twitter.com/Patrick_RISCV/status/1580384430996484101">10 cent RISC-V &amp;ldquo;Arduino&amp;rdquo; chip!&lt;/a> (Tod #1) 00:15&lt;/h3>
+&lt;ul>
+&lt;li>What made Arduino possible in early 2000s: Atmel ATmega168P for $4 and avr-gcc open source compiler&lt;/li>
+&lt;li>For $4 you got so much! 16 kB flash! 2 kB RAM! RISC architecture! Minimal required external parts!&lt;/li>
+&lt;li>Now, WCH, the makers of the CH340 USB-to-serial chip that you&amp;rsquo;ve maybe seen on some dev boards, has a new chip&lt;/li>
+&lt;li>Fellow hacker Akiba on Twitter alerted me to this, quoting a tweet from Patrick Yang at WCH&lt;/li>
+&lt;li>New WCH CH32V003 RISC-V chip
+&lt;ul>
+&lt;li>Arduino-class, only $0.10 (48MHz, 2kB RAM, 16KB flash, 18 IO, 8 ADC)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>RISC-V is an open-source CPU core that&amp;rsquo;s scalable from desktop-class chips to cheap embedded processors
+&lt;ul>
+&lt;li>Similar to ARM cores in our iPhones and Raspberry Pi Picos&lt;/li>
+&lt;li>But no license fee needs to be paid!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Potential problems tho:
+&lt;ul>
+&lt;li>bigger brother CH32V307 needs custom OpenOCD programmer &lt;a href="https://github.com/newbrain/riscv-openocd-wch">RISCV-OpenOCD-WCH&lt;/a>&lt;/li>
+&lt;li>and only IDE supported is their MounRiver&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/freaklabs/status/1580560030146867200">akiba&amp;rsquo;s tweet that alerted me&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/openwch/ch32v307">CH32V307: slightly better version w/ USB&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/r4d10n/micropython-wch-ch32v307/tree/master/ports/whc">Micropython for CH32V3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.rs/ch32v3/latest/ch32v3/">Rust for CH32V3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="jetbrains-fleethttpswwwjetbrainscomfleet-paul-1-428">&lt;a href="https://www.jetbrains.com/fleet/">Jetbrains Fleet&lt;/a> (Paul #1) 4:28&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Jetbrains, the makers of code editors and IDEs powered by IntelliJ, have released a new code editor called Fleet&lt;/p>
+&lt;ul>
+&lt;li>Focus on Speed - “fast and lightweight” is how they describe it&lt;/li>
+&lt;li>Code editor and / OR IDE
+&lt;ul>
+&lt;li>Smart Mode enables IDE features, including code completion, quick fixes and more&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Collaboration
+&lt;ul>
+&lt;li>Built-in collaboration tools - 1 button click to start a session and it auto copies the share link for you&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Distributed
+&lt;ul>
+&lt;li>You can connect using SSH for example, and it creates an instance of Fleet on the remote computer you connect to&lt;/li>
+&lt;li>Or easily connect to a Docker container of Jetbrains’ Space service&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>I’ve been using it and I like it&lt;/p>
+&lt;ul>
+&lt;li>It does feel snappy, not sure if it’s in my head or not&lt;/li>
+&lt;li>As a hobbyist programmer, I probably only use a small percentage of the features found in an IDE, which is one reason why I like this&lt;/li>
+&lt;li>I used PyCharrm for 4 or 5 years until switching to VS Code for a year, and then switched back to PyCharm earlier this year.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Let’s call this what it is: This is Jetbrains answer to VS Code.&lt;/p>
+&lt;ul>
+&lt;li>Where VS Code has a number icons on the side, Fleet has a few along the top&lt;/li>
+&lt;li>And good for Jetbrains! Competition is good, it will drive innovation. If you’re an Atom user looking for a new editor or like to try new things, give it a try, I like using it.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.blog/2022-06-08-sunsetting-atom/">GitHub sunsets Atom&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="person-sensor-by-useful-sensorshttpswwwsparkfuncomproducts21231-tod-2-935">&lt;a href="https://www.sparkfun.com/products/21231">Person Sensor by Useful Sensors&lt;/a> (Tod #2) 9:35&lt;/h3>
+&lt;ul>
+&lt;li>Useful Sensors is a new company by Pete Warden, who helped develop Google&amp;rsquo;s open source TensorFlow machine learning platform&lt;/li>
+&lt;li>Pete is a founder of the &amp;ldquo;TinyML&amp;rdquo; movement: putting machine learning on devices you control, instead of in some cloud service&lt;/li>
+&lt;li>The Person Sensor detects faces, basic facial recognition, can determine &amp;ldquo;looking at&amp;rdquo;, for $10!&lt;/li>
+&lt;li>Can remember up to 8 people. But just gives them an ID 0-7, nothing is known about them, just &amp;ldquo;different&amp;rdquo;&lt;/li>
+&lt;li>You get x,y position of face, with confidence percentage, and &amp;ldquo;is facing&amp;rdquo; flag!&lt;/li>
+&lt;li>Uses I2C via Qwiic/StemmaQT I2C connector, so easy!&lt;/li>
+&lt;li>API is simple, example code in Arduino, RP2040 C, Python&lt;/li>
+&lt;li>The demo Pete published on Hackster.io uses an Adafruit Trinkey running CircuitPython to lock his computer when looks away&lt;/li>
+&lt;li>I&amp;rsquo;m getting a couple of these boards to try out, should be here in a few days&lt;/li>
+&lt;li>&lt;a href="https://www.hackster.io/petewarden/auto-lock-your-laptop-screen-with-a-person-sensor-7e0a35">Hackster.io project article w/ Trinkey &amp;amp; CircuitPython&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.eetimes.com/pete-wardens-startup-puts-ai-in-the-sensor/">EETimes article about Useful Sensors &amp;amp; Pete Warden&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sparkfun.com/products/21231">Available now at SparkFun&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/usefulsensors/person_sensor_docs/blob/main/README.md">Developer Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/usefulsensors/person_sensor_screen_lock/blob/main/code.py">CircuitPython example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="githubcopilotinvestigationcom-paul-2-1338">GitHubCopilotInvestigation.com (Paul #2) 13:38&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://githubcopilotinvestigation.com/">GitHub Copilot potential lawsuit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/features/copilot">GitHub Copilot&lt;/a> - Your AI pair programmer&lt;/li>
+&lt;li>Matthew Butterick, a writer, designer, programmer and lawyer has started an investigation into a potential lawsuit regarding GitHub Copilot
+&lt;ul>
+&lt;li>&lt;a href="https://www.saverilawfirm.com/our-cases/github-copilot-intellectual-property-investigation">Joseph Saveri Law Firm&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Shares examples of problems in both the training of model and Copilot usage&lt;/li>
+&lt;li>Mr. Butterick states that the objection isn&amp;rsquo;t AI assisted coding, it&amp;rsquo;s how Microsoft went about it.
+&lt;ul>
+&lt;li>Participation could have been voluntary or even paid&lt;/li>
+&lt;li>Microsoft claims it&amp;rsquo;s fair use&lt;/li>
+&lt;li>Is attribution needed?&lt;/li>
+&lt;li>&lt;a href="https://sfconservancy.org/blog/2022/feb/03/github-copilot-copyleft-gpl/">Bradley Kuhn of the Software Freedom Conservancy&lt;/a> asked Github in June of 2021 for legal references to back up the fair use argument. Microsoft hasn&amp;rsquo;t provided any and Mr. Butterick says that&amp;rsquo;s because there is no legal authority for Microsoft&amp;rsquo;s position.&lt;/li>
+&lt;li>Copilot users have shown that Copilot can offer a suggestion of code verbatim from another project&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/stefankarpinski/status/1410971061181681674">Stefan Karpinski exammple tweet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/ChrisGr93091552/status/1539731632931803137">Chris Green example tweet&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>When we look at Copilot usage, what could the impact on open source communities be?
+&lt;ul>
+&lt;li>Mr. Butterick argues that Microsoft is creating a new walled garden that might &amp;ldquo;inhibit developers from discovering traditional open source communities.&amp;rdquo;&lt;/li>
+&lt;li>Developers may not need to interact with an open source community in the future when the code they want is just presented to them&lt;/li>
+&lt;li>Bug and issue trackers, source repositories, mailing lists, etc.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Jamie Zawinski, aka jwz, a co-founder of Netscape and Mozilla
+&lt;ul>
+&lt;li>&lt;a href="https://www.jwz.org/blog/2022/10/copilot-lawsuit/">Blog post&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="circuitpythons-ulab-tod-3-1918">CircuitPython’s ulab (Tod #3) 19:18&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.adafruit.com/ulab-crunch-numbers-fast-with-circuitpython">ulab: Numpy for CircuitPython&lt;/a>&lt;/li>
+&lt;li>In Python, any time you do a for-loop to do math a list of data, you&amp;rsquo;re probably doing it wrong&lt;/li>
+&lt;li>For some operations, the Python built-ins &amp;ldquo;map()&amp;rdquo;, &amp;ldquo;filter()&amp;rdquo;, and &amp;ldquo;reduce()&amp;rdquo; can do the work for you&lt;/li>
+&lt;li>But for really mathy stuff, you need something else. Enter NumPy&lt;/li>
+&lt;li>If you&amp;rsquo;re experienced with Python, you&amp;rsquo;ve probably played with NumPy
+&lt;ul>
+&lt;li>Edit images, audio, machine learning, all use NumPy&lt;/li>
+&lt;li>It&amp;rsquo;s a wrapper around efficient native C code&lt;/li>
+&lt;li>In general think of Python more like Lego:
+&lt;ul>
+&lt;li>you connect pre-built pieces to solve your problem&lt;/li>
+&lt;li>you &lt;em>can&lt;/em> try to build everytihng from 1x1s but it&amp;rsquo;s a bad idea&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>CircuitPython can&amp;rsquo;t have the full power of NumPy (which does linear equation solving, curve-fit analysis, etc)&lt;/li>
+&lt;li>But it does have &amp;ldquo;ulab&amp;rdquo;!&lt;/li>
+&lt;li>ulab does some of the most important array and matrix operations at near-C speeds&lt;/li>
+&lt;li>For example: LED animations. a common task is &amp;ldquo;fade all LEDs a bit&amp;rdquo;
+&lt;ul>
+&lt;li>Cylon effect: Turn LED on, Fade all LEDs toward black, go to next LED, repeat&lt;/li>
+&lt;li>Firework effect: Turn random LED on, fade all LEDs towards black, repeat&lt;/li>
+&lt;li>Fakey fire effect: [[ demo this on video ]]&lt;/li>
+&lt;li>Normally this &amp;ldquo;fadeToBlack()&amp;rdquo; would be a for-loop&lt;/li>
+&lt;li>In normal CircuitPython, this loop on 256 LEDs takes over 40 millisecs!&lt;/li>
+&lt;li>The same operation with ulab takes around 4 milliseconds: 10 times faster!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://todbot.com/blog/2022/10/21/speed-up-circuitpython-led-animations-10x/">Tod&amp;rsquo;s writeup about this&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/todbot/status/1580695498079420416">Simple Fire effect w/ CircuitPython &amp;amp; Neopixel matrix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/prcutler/status/1582419704119164929">Paul&amp;rsquo;s 32x8 Neopixel matrix using FFT and ulab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="makerdeck-paul-3-2357">MakerDeck (Paul #3) 23:57&lt;/h3>
+&lt;ul>
+&lt;li>MakerDeck &lt;a href="https://www.twitch.tv/makerdeck">Twitch&lt;/a>
+&lt;ul>
+&lt;li>Twitch livestreams 7-9 3D printers all printing at the same time&lt;/li>
+&lt;li>Can be anything maker related, such as crocheting or painting&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/makerdeck">Twitter&lt;/a>&lt;/li>
+&lt;li>Chris Pirillo on &lt;a href="https://www.twitch.tv/ChrisPirillo">Twitch&lt;/a>
+&lt;ul>
+&lt;li>Live on Twitch everyday at 6pm PST&lt;/li>
+&lt;li>Huge Star Wars fan!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Crew helping including @pezliz, zombiehedgehog, and @fixumdude
+&lt;ul>
+&lt;li>Everything you want to know is on their Twitch page, from What is MakerDeck to how to participate and helpful hints&lt;/li>
+&lt;li>Wonderful and very active Discord community
+&lt;ul>
+&lt;li>Every channel you can think of from chatting in the Cantina to models to make to showing them off or even tech support if you need help&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-sponsor-the-bootloader">Support Sponsor The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p>
+&lt;p>Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Episode 2: M is for Makers, Music, and Machine Learning</title><link>https://prcutler.github.io/the-bootloader/blog/2022/10/10/episode-2-m-is-for-makers-music-and-machine-learning/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/10/10/episode-2-m-is-for-makers-music-and-machine-learning/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Paul and Tod will bring you three interesting things and chat about them for a few minutes each.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/10/10/episode-2-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;h2>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/m-is-for-makers-music-and-machine-learning-duami/embed/dark">&lt;/iframe>&lt;/h2>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h2 id="episode-intro">Episode Intro&lt;/h2>
+&lt;p>Paul - thank you and FullControl follow-up&lt;/p>
+&lt;ul>
+&lt;li>Paul printed the latest model, AnyAngle Phone Stand
+&lt;ul>
+&lt;li>Printed flawlessly at double speed!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Thank you to &lt;a href="https://pythonbytes.fm">Brian Okken and Michael Kennedy of Python Bytes&lt;/a> for the podcast&amp;rsquo;s inspiration.&lt;/li>
+&lt;/ul>
+&lt;h3 id="pixelblaze-expression-language-tod-1-145">PixelBlaze expression language (Tod #1) 1:45&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://luxlavalier.com/">Lux Lavalier&lt;/a> wearable LED pendant&lt;/li>
+&lt;li>&lt;a href="https://luxlavalier.com/patterns">Lux Lavalier Patterns guide&lt;/a>&lt;/li>
+&lt;li>Lux Lavalier created by &lt;a href="https://www.geekmomprojects.com">GeekMomProjects (Debra Ansell)&lt;/a>, &lt;a href="https://www.bhencke.com/">Ben Henke&lt;/a>, &lt;a href="https://www.evilgeniuslabs.org/">Jason Coon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://electromage.com/pixelblaze">Pixelblaze&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://electromage.com/patterns">Huge online library of Pixelblaze patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tindie.com/stores/jasoncoon/">Fibonacci LED displays&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geekmomprojects.com/3d-printed-wearable-battery-holder/">3d-printable magnetic battery holder&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="whisper-openai-paul-1-550">Whisper OpenAI (Paul #1) 5:50&lt;/h3>
+&lt;ul>
+&lt;li>Blog post, paper and Google Colab example linked from their &lt;a href="https://github.com/openai/whisper">GitHub repository&lt;/a>
+&lt;ul>
+&lt;li>From OpenAI, who developed Dall-E&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://hackaday.com/2022/09/22/openai-hears-you-whisper/">Hackaday story&lt;/a>&lt;/li>
+&lt;li>Built with Python 3.9.9 and PyTorch 1.10.1
+&lt;ul>
+&lt;li>&lt;a href="https://www.hackster.io/news/meta-passes-pytorch-the-python-machine-learning-framework-to-the-linux-foundation-d48166c66500">Meta transfers PyTorch to Linux Foundation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>5 models from tiny size to large - the smaller the model, the faster it is and less memory needed but the fewer words it knows&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>Trained on 680,000 hours of audio&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Benefits
+&lt;ul>
+&lt;li>Accessibility!&lt;/li>
+&lt;li>Transcription
+&lt;ul>
+&lt;li>Text and VTT files&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Translation&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MIT Licensed, people already building on top of it:
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/openai/whisper/discussions/categories/show-and-tell">Show &amp;amp; Tell forum&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/openai/whisper/discussions/232">Twitter bot that extracts videos, translates and replies from a translated video&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/fortypercnt/stream-translator">Command line utility to transcribe or translate audio from livestreams in real time&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/octimot/StoryToolkitAI">Subtitles in DaVinci Resolve&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/openai/whisper/discussions/226">Announcement&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Downsides
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/openai/whisper/discussions/104">No Speaker tagging&lt;/a>&lt;/li>
+&lt;li>Slow if not on GPU&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="music-generation-in-the-browser-tod-2-1103">Music generation in the browser (Tod #2) 11:03&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/supercollider/supercollider">SuperCollider&lt;/a>, an open source audio programming language from the 90s&lt;/li>
+&lt;li>&lt;a href="http://tidalcycles.org/">TidalCycles&lt;/a>, a musiclive coding environment using SuperCollider&lt;/li>
+&lt;li>&lt;a href="https://sonic-pi.net/">Sonic Pi&lt;/a> basically an easier-to-install version of TidalCycles&lt;/li>
+&lt;li>&lt;a href="https://tonejs.github.io/">Tone.js&lt;/a> in-browser synthesis, used by the following:&lt;/li>
+&lt;li>&lt;a href="https://cdm.link/2022/09/free-acid-303-browser">Acid Hit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pisongs.com/">Pi Songs&lt;/a> by Canton Becker&lt;/li>
+&lt;li>&lt;a href="https://pisongs.com/shepardspi/?position=575912300&amp;t=1664758364">Shepard&amp;rsquo;s Pi &amp;ldquo;Play something no one has ever heard before&amp;rdquo;&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://loophole-letters.vercel.app/strudel">Strudel music live coding&lt;/a>
+&lt;ul>
+&lt;li>Example played in show: &lt;code>stack(&amp;quot;c4 f3 g4 a#4&amp;quot;, &amp;quot;c2 g2&amp;quot;.slow(2)).echo(4, 1/8, .5)&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="polykeyboard-paul-2-1641">PolyKeyboard (Paul #2) 16:41&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.tomshardware.com/news/raspberry-pi-pico-keyboard-with-oled-keycaps">Poly Keyboard with OLED keycaps)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/thpoll2/status/1573260216426430465">Keycap demo on Twitter&lt;/a>
+&lt;ul>
+&lt;li>Split keyboard design&lt;/li>
+&lt;li>rp2040 powered&lt;/li>
+&lt;li>Bring your own key switches and keycaps (the flex cable needs to fit though the RGB slit of the key switch)
+&lt;ul>
+&lt;li>Compatibility chart for key switches available - needs 8.MM slit for the LED&lt;/li>
+&lt;li>Needs a 3D printed stem&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>OLED is custom with a flex cable&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://ko-fi.com/polykb">Blog and Ko-Fi&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://ko-fi.com/post/Comparing-With-Existing-Projects-S6S4F9Z98">Blog post comparing other keyboards&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="samplebrain-by-aphex-twin--dave-griffiths-tod-3-2127">Samplebrain by Aphex Twin &amp;amp; Dave Griffiths (Tod #3) 21:27&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://thentrythis.org/projects/samplebrain/">Samplebrain Homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.com/then-try-this/samplebrain/-/blob/main/docs/manual.md">Samplebrain manual&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cdm.link/2022/09/free-sample-mashing-with-samplebrain-by-aphex-twin-and-dave-griffiths/">Good CDM article about Samplebrain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/channel/UC4hfA78X-lqiRERBZLTnLBw">Aphex Twin (Richard D James)&lt;/a> makes weird &amp;amp; interesting techno &amp;amp; ambient music&lt;/li>
+&lt;/ul>
+&lt;h3 id="kevin-mcaleer-and-the-pikon-paul-3-2348">Kevin McAleer and the Pikon (Paul #3) 23:48&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.digitalcameraworld.com/news/robot-builder-shares-raspberry-pi-pikon-high-quality-camera-in-3d-printed-casing">Pikon story on DigitalCameraWorld.com&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.kevsrobots.com/">Kevin&amp;rsquo;s Homepage&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/c/kevinmcaleer28/">Kevin&amp;rsquo;s YouTube Channel&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>So many cool projects!
+&lt;ul>
+&lt;li>Robots and more robots!&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=MWg1xdmgE04">Pomodoro Pico W Desk Robot&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=4BEjKUK8DSQ">Kevin&amp;rsquo;s Pikon video&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="http://www.kevsrobots.com/blog/pikon-camera.html">Blog post&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.raspberrypi.com/news/3d-printed-pikon-camera/">Raspberry Pi News Story&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Next Steps
+&lt;ul>
+&lt;li>Python app for the Raspberry Pi to record video clips, photos and apply filters, and possibly use to livestream.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="support-sponsor-the-bootloader">Support Sponsor The Bootloader&lt;/h3>
+&lt;p>If you like what you hear, one of the best things you can do to help the show is tell a friend or write a review.&lt;/p>
+&lt;p>Consider supporting the show financially - your support helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Episode 1: Rock Stars are Just Like Us</title><link>https://prcutler.github.io/the-bootloader/blog/2022/09/26/episode-1-rock-stars-are-just-like-us/</link><pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/09/26/episode-1-rock-stars-are-just-like-us/</guid><description>
+&lt;h2 id="welcome">Welcome&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Paul and Tod will bring you three interesting things and chat about them for a few minutes each.&lt;/p>
+&lt;p>&lt;a href="https://thebootloader.net/blog/2022/09/26/episode-1-transcript/">Full transcript available here&lt;/a>.&lt;/p>
+&lt;h2>
+&lt;iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/rock-stars-are-just-like-us-ssubf/embed/dark">&lt;/iframe>
+&lt;/h2>
+&lt;h1 id="show-notes">Show Notes&lt;/h1>
+&lt;h2 id="fullcontrolxyz-tod-1-023">FullControl.xyz (Tod #1) 0:23&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://fullcontrol.xyz">FullControl Design Library&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/FullControlXYZ">FullControl Twitter&lt;/a> for most up-to-date news&lt;/li>
+&lt;li>&lt;a href="http://fullcontrolgcode.com/">Original FullControl research paper using Excel &amp;amp; VBA&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tio-paul-1-211">tio (Paul #1) 2:11&lt;/h2>
+&lt;ul>
+&lt;li>tio, a modern serial terminal (&lt;a href="https://github.com/tio/tio">tio homepage&lt;/a>)&lt;/li>
+&lt;li>&lt;a href="https://github.com/tio/tio/releases/tag/v2.0">tio 2.0 Release Notes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux">Adafruit&amp;rsquo;s Advanced Serial Console on Mac and Linux Learn Guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="belay-tod-2-414">Belay (Tod #2) 4:14&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/BrianPugh/belay">Belay library for CPython&lt;/a> to remote-control Micropython / CircuitPython&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=wq3cyjSE8ek">20 second demo video why Belay is cool&lt;/a>&lt;/li>
+&lt;li>Also see, &lt;a href="https://github.com/firmata/protocol">Firmata protocol&lt;/a> for Arduino,
+and &lt;a href="https://docs.arduino.cc/hacking/software/FirmataLibrary">Firmata library&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rivers-cuomo-paul-2-636">Rivers Cuomo (Paul #2) 6:36&lt;/h2>
+&lt;ul>
+&lt;li>Rivers Cuomo, from the band Weezer, is a Python developer! &lt;a href="https://github.com/riverscuomo/">Github profile&lt;/a>&lt;/li>
+&lt;li>Mr. Cuomo&amp;rsquo;s &lt;a href="https://github.com/riverscuomo/new-albums">New Albums Python application&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="circuitpython-camera-support-tod-3-857">CircuitPython Camera Support (Tod #3) 8:57&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://ashishware.com/2022/09/03/pipico_digit_classification/">Handwriting recognition in CircuitPython on Pico w/ OV7670 camera &amp;amp; Machine Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/code2k13/rpipico_digit_classification">GitHub project with code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html">Simple explanation of Support Vector Machines (SVM)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.circuitpython.org/en/latest/shared-bindings/camera/index.html">Camera support in CircuitPython&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.adafruit.com/capturing-camera-images-with-circuitpython">Example CircuitPython Camera project by Jepler&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/3BVjnDr">The cheapie OV7670 camera Tod&amp;rsquo;s going to try&lt;/a> (Amazon affiliate link)&lt;/li>
+&lt;/ul>
+&lt;h2 id="bambu-labs-x1-carbon-3d-printer-review-paul-3-1136">Bambu Labs X1 Carbon 3D Printer Review (Paul #3) 11:36&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://us.store.bambulab.com/products/x1-carbon-3d-printer?variant=40475104641160">Bambu Labs X1 Carbon&lt;/a> homepage&lt;/li>
+&lt;li>&lt;a href="https://www.kickstarter.com/projects/bambulab/bambu-lab-x1-corexy-color-3d-printer-with-lidar-and-ai?ref=checkout_rewards_page">Bambu Labs X1 Carbon Kickstarter page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-6/">Original Prusa i3 MK3S+ 3D printer&lt;/a> for price reference&lt;/li>
+&lt;li>Community Reviews of the Bambu X1 Carbon:
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=iuVwHXg1vVQ">BV3D review of the X1 on YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=yvFznQa9miI">Edge of Tech review of the X1 on YouTube&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sponsor-the-bootloader">Sponsor The Bootloader&lt;/h3>
+&lt;p>Your financial sponsorship helps with the cost of hosting, recording and transcripts. Thank you for your support!&lt;/p>
+&lt;p>&lt;a href="https://github.com/sponsors/prcutler">&lt;img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&amp;logo=GitHub-Sponsors&amp;logoColor=#EA4AAA">&lt;/a>&lt;/p></description></item><item><title>Blog: Trailer 2</title><link>https://prcutler.github.io/the-bootloader/blog/2022/09/19/trailer-2/</link><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/09/19/trailer-2/</guid><description>
+&lt;h2 id="welcome">Welcome!&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes. Every episode Paul and Tod will each bring you three things they found interesting.&lt;/p>
+&lt;h2>
+&lt;blockquote class="zenplayer" data-episode-href="https://zencastr.com/embed/vClIKwnh" style="background: black; border-radius: 12px; font-family: system-ui; width: 480px; height: 480px; position: relative; color: white; margin: 0;"> &lt;img style="width: 120px; display: inline-block; position: absolute; top: calc(50%); left: calc(50%); transform: translate(-50%, -50%);" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTE5IDE4IiBoZWlnaHQ9IjEwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTE1LjQyNSA2LjQyNTgxQzExNC4yMSA2LjQyNTgxIDExMy4yMjUgNy40MTE3MSAxMTMuMjI1IDguNjI3ODhWMTUuNjc0NUMxMTMuMjI1IDE2LjQwNDIgMTEyLjYzNSAxNi45OTU4IDExMS45MDYgMTYuOTk1OEMxMTEuMTc3IDE2Ljk5NTggMTEwLjU4NiAxNi40MDQyIDExMC41ODYgMTUuNjc0NVY4LjYyNzg4QzExMC41ODYgNS45NTIzMSAxMTIuNzUyIDMuNzgzMzMgMTE1LjQyNSAzLjc4MzMzSDExNy4xODVDMTE3LjkxNCAzLjc4MzMzIDExOC41MDUgNC4zNzQ4NyAxMTguNTA1IDUuMTA0NTdDMTE4LjUwNSA1LjgzNDI3IDExNy45MTQgNi40MjU4MSAxMTcuMTg1IDYuNDI1ODFIMTE1LjQyNVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwMi4yMjcgMC4yNjAwMUMxMDIuOTU2IDAuMjYwMDEgMTAzLjU0NyAwLjg1MTU1MSAxMDMuNTQ3IDEuNTgxMjVWMy43ODMzM0gxMDcuNTA2QzEwOC4yMzUgMy43ODMzMyAxMDguODI2IDQuMzc0ODcgMTA4LjgyNiA1LjEwNDU3QzEwOC44MjYgNS44MzQyNyAxMDguMjM1IDYuNDI1ODEgMTA3LjUwNiA2LjQyNTgxSDEwMy41NDdWMTEuMjcwNEMxMDMuNTQ3IDEyLjk3MyAxMDQuOTI2IDE0LjM1MzMgMTA2LjYyNyAxNC4zNTMzSDEwNy41MDZDMTA4LjIzNSAxNC4zNTMzIDEwOC44MjYgMTQuOTQ0OCAxMDguODI2IDE1LjY3NDVDMTA4LjgyNiAxNi40MDQyIDEwOC4yMzUgMTYuOTk1OCAxMDcuNTA2IDE2Ljk5NThIMTA2LjYyN0MxMDMuNDY4IDE2Ljk5NTggMTAwLjkwNyAxNC40MzI0IDEwMC45MDcgMTEuMjcwNFYxLjU4MTI1QzEwMC45MDcgMC44NTE1NTEgMTAxLjQ5OCAwLjI2MDAxIDEwMi4yMjcgMC4yNjAwMVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBkPSJNODguMzk0OCAxNS45MjFDODkuOTc4NiAxNi44ODk5IDkxLjU4MDggMTcuMjYgOTMuNjkyNCAxNy4yNkM5Ni4yNDQxIDE3LjI2IDk5LjU4NzYgMTYuMjAzIDk5LjU4NzYgMTMuMTIwMUM5OS41ODc2IDcuMzk0NjkgOTAuMzQ4OSAxMC4zODk1IDkwLjM0ODkgNy44MzUxQzkwLjM0ODkgNy4wNDIzNiA5MS41ODA4IDYuMTYxNTMgOTMuNDI4NSA2LjE2MTUzQzk0LjU3MjMgNi4xNjE1MyA5Ni4xMTIxIDYuNjkwMDMgOTYuNzI4IDcuMTMwNDRDOTcuMzU5MiA3LjQ5NTI5IDk4LjE2NzMgNy4yNzc5MiA5OC41MzE3IDYuNjQ1OThDOTguODk2MiA2LjAxNDAzIDk4LjY3OSA1LjIwNTE0IDk4LjA0NzggNC44NDAyOUM5Ni43MjggMy45NTk0NiA5NS4xMDAyIDMuNTE5MDQgOTMuNDI4NSAzLjUxOTA0QzkwLjI2MSAzLjUxOTA0IDg3LjcwOTMgNS40NTY4NyA4Ny43MDkzIDcuODM1MUM4Ny43MDkzIDEzLjM4NDMgOTYuOTQ4IDEwLjU2NTcgOTYuOTQ4IDEzLjEyMDFDOTYuOTQ4IDE0LjAwMDkgOTUuNTQwMiAxNC42MTc1IDkzLjY5MjQgMTQuNjE3NUM5Mi4wMjA3IDE0LjYxNzUgOTAuOTQ2NCAxNC4zMzU1IDg5LjYyNjYgMTMuNjMwOUM4OS4wMTA3IDEzLjI3ODUgODguMjE4OCAxMy41NDI4IDg3Ljg2NjkgMTQuMTU5NEM4Ny41MTQ5IDE0Ljc3NiA4Ny43Nzg5IDE1LjU2ODcgODguMzk0OCAxNS45MjFaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04My4zMSAxNS41Nzc0QzgyLjE0MzggMTYuNjI1NSA4MC42MjA5IDE3LjI2IDc4Ljk1NDYgMTcuMjZDNzUuMjg1OCAxNy4yNiA3Mi4zMTE2IDE0LjE4NCA3Mi4zMTE2IDEwLjM4OTVDNzIuMzExNiA2LjU5NTA2IDc1LjI4NTggMy41MTkwNCA3OC45NTQ2IDMuNTE5MDRDODAuNjIwOSAzLjUxOTA0IDgyLjE0MzggNC4xNTM1MSA4My4zMSA1LjIwMTZWNS4xMDQ1NEM4My4zMSA0LjM3NDgzIDgzLjkwMDggMy43ODMyOSA4NC42Mjk4IDMuNzgzMjlDODUuMzU4NyAzLjc4MzI5IDg1Ljk0OTUgNC4zNzQ4MyA4NS45NDk1IDUuMTA0NTRWMTUuNjc0NUM4NS45NDk1IDE2LjQwNDIgODUuMzU4NyAxNi45OTU3IDg0LjYyOTggMTYuOTk1N0M4My45MDA4IDE2Ljk5NTcgODMuMzEgMTYuNDA0MiA4My4zMSAxNS42NzQ1VjE1LjU3NzRaTTgzLjY2MTkgMTAuMzg5NUM4My42NjE5IDEyLjcyNDYgODEuNzEyIDE0LjYxNzUgNzkuMzA2NiAxNC42MTc1Qzc2LjkwMTIgMTQuNjE3NSA3NC45NTEyIDEyLjcyNDYgNzQuOTUxMiAxMC4zODk1Qzc0Ljk1MTIgOC4wNTQ0NiA3Ni45MDEyIDYuMTYxNTMgNzkuMzA2NiA2LjE2MTUzQzgxLjcxMiA2LjE2MTUzIDgzLjY2MTkgOC4wNTQ0NiA4My42NjE5IDEwLjM4OTVaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02Ni4zMjg1IDYuMTYxNTNDNjMuODU5NiA2LjE2MTUzIDYxLjkyOTIgOC4wOTMwOCA2MS45MjkyIDEwLjM4OTVDNjEuOTI5MiAxMi42ODU5IDYzLjg1OTYgMTQuNjE3NSA2Ni4zMjg1IDE0LjYxNzVDNjcuNTY3NyAxNC42MTc1IDY4LjY4ODcgMTQuMjYyNyA2OS41NjYyIDEzLjY4ODlDNzAuMTc2NSAxMy4yODk5IDcwLjk5NDQgMTMuNDYxNyA3MS4zOTI5IDE0LjA3MjdDNzEuNzkxNSAxNC42ODM2IDcxLjYxOTkgMTUuNTAyNCA3MS4wMDk2IDE1LjkwMTRDNjkuNjkyOSAxNi43NjIyIDY4LjA2ODQgMTcuMjYgNjYuMzI4NSAxNy4yNkM2Mi40ODAyIDE3LjI2IDU5LjI4OTYgMTQuMjIyNiA1OS4yODk2IDEwLjM4OTVDNTkuMjg5NiA2LjU1NjQ0IDYyLjQ4MDIgMy41MTkwNCA2Ni4zMjg1IDMuNTE5MDRDNjguMDY4NCAzLjUxOTA0IDY5LjY5MjkgNC4wMTY4NCA3MS4wMDk2IDQuODc3NjVDNzEuNjE5OSA1LjI3NjY1IDcxLjc5MTUgNi4wOTUzOCA3MS4zOTI5IDYuNzA2MzRDNzAuOTk0NCA3LjMxNzI5IDcwLjE3NjUgNy40ODkxMSA2OS41NjYzIDcuMDkwMTFDNjguNjg4NyA2LjUxNjM2IDY3LjU2NzcgNi4xNjE1MyA2Ni4zMjg1IDYuMTYxNTNaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZD0iTTU1LjgxNDEgMTYuODE5QzU1LjQxOTYgMTYuNTkwNSA1NS4xNTQyIDE2LjE2MzUgNTUuMTU0MiAxNS42NzQ1VjEwLjEyNTNDNTUuMTU0MiA3LjkzNjE1IDUzLjM4MTUgNi4xNjE1MyA1MS4xOTQ4IDYuMTYxNTNDNDkuMDA4MSA2LjE2MTUzIDQ3LjIzNTQgNy45MzYxNSA0Ny4yMzU0IDEwLjEyNTNWMTUuNjc0NUM0Ny4yMzU0IDE2LjE2MzUgNDYuOTcgMTYuNTkwNSA0Ni41NzU1IDE2LjgxOUM0Ni4zODEzIDE2LjkzMTQgNDYuMTU2IDE2Ljk5NTcgNDUuOTE1NiAxNi45OTU3QzQ1LjE4NjcgMTYuOTk1NyA0NC41OTU4IDE2LjQwNDIgNDQuNTk1OCAxNS42NzQ1VjUuMTA0NTRDNDQuNTk1OCA0LjM3NDgzIDQ1LjE4NjcgMy43ODMyOSA0NS45MTU2IDMuNzgzMjlDNDYuNjQ0NSAzLjc4MzI5IDQ3LjIzNTQgNC4zNzQ4MyA0Ny4yMzU0IDUuMTA0NTRWNS4zMDgyNEM0OC4yMDI3IDQuMjExMDUgNDkuNjE4IDMuNTE5MDQgNTEuMTk0OCAzLjUxOTA0QzU0LjgzOTMgMy41MTkwNCA1Ny43OTM4IDYuNDc2NzUgNTcuNzkzOCAxMC4xMjUzVjE1LjY3NDVDNTcuNzkzOCAxNi40MDQyIDU3LjIwMjkgMTYuOTk1NyA1Ni40NzQgMTYuOTk1N0M1Ni4yMzM2IDE2Ljk5NTcgNTYuMDA4MiAxNi45MzE0IDU1LjgxNDEgMTYuODE5WiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMzEuNjIyNyAxMS43MTA4SDQxLjUxNjJDNDIuMjQ1MSAxMS43MTA4IDQyLjgzNiAxMS4xMTkyIDQyLjgzNiAxMC4zODk1QzQyLjgzNiA2LjU1NjQ0IDM5LjY0NTQgMy41MTkwNCAzNS43OTcxIDMuNTE5MDRDMzEuOTQ4NyAzLjUxOTA0IDI4Ljc1ODEgNi41NTY0NCAyOC43NTgxIDEwLjM4OTVDMjguNzU4MSAxNC40MjU2IDMyLjIyNDMgMTcuMjYgMzUuOTI5IDE3LjI2QzM4LjE3MjUgMTcuMjYgMzkuNTE1IDE2Ljc1MTkgNDAuODg0NSAxNS45MTQzQzQxLjUwNjUgMTUuNTMzOCA0MS43MDI3IDE0LjcyMDYgNDEuMzIyNiAxNC4wOTc5QzQwLjk0MjYgMTMuNDc1MyA0MC4xMzAzIDEzLjI3ODkgMzkuNTA4MyAxMy42NTk0QzM4LjUxNiAxNC4yNjYzIDM3LjY0NSAxNC42MTc1IDM1LjkyOSAxNC42MTc1QzMzLjk0MyAxNC42MTc1IDMyLjIyMTEgMTMuNDExNyAzMS42MjI3IDExLjcxMDhaTTM1Ljc5NzEgNi4xNjE1M0MzMy44MjE5IDYuMTYxNTMgMzIuMTkxMyA3LjM5Nzg3IDMxLjYxODEgOS4wNjgyN0gzOS45NzZDMzkuNDAyOSA3LjM5Nzg3IDM3Ljc3MjMgNi4xNjE1MyAzNS43OTcxIDYuMTYxNTNaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMy45OTgyIDYuNDI1ODFMMTcuMzE5OSA2LjQyNTgyQzE2LjU5MSA2LjQyNTgyIDE2LjAwMDEgNS44MzQyOCAxNi4wMDAxIDUuMTA0NThDMTYuMDAwMSA0LjM3NDg3IDE2LjU5MSAzLjc4MzMzIDE3LjMxOTkgMy43ODMzM0gyNi45OTg0QzI3LjUyMTggMy43ODMzMiAyNy45OTU3IDQuMDkyOTQgMjguMjA2NSA0LjU3MjU1QzI4LjQxNzIgNS4wNTIxNiAyOC4zMjQ5IDUuNjExMTIgMjcuOTcxMyA1Ljk5NzM3TDIwLjMyMDEgMTQuMzUzM0gyNi45OTg0QzI3LjcyNzMgMTQuMzUzMyAyOC4zMTgyIDE0Ljk0NDggMjguMzE4MiAxNS42NzQ1QzI4LjMxODIgMTYuNDA0MiAyNy43MjczIDE2Ljk5NTggMjYuOTk4NCAxNi45OTU4SDE3LjMxOThDMTYuNzk2NCAxNi45OTU4IDE2LjMyMjUgMTYuNjg2MSAxNi4xMTE4IDE2LjIwNjVDMTUuOTAxIDE1LjcyNjkgMTUuOTkzMyAxNS4xNjggMTYuMzQ2OSAxNC43ODE3TDIzLjk5ODIgNi40MjU4MVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMTMzMzIgNS43OTk5OUMzLjg0NDY2IDUuNzk5OTkgMi43OTk5OSA2Ljg0NDY2IDIuNzk5OTkgOC4xMzMzMkMyLjc5OTk5IDkuNDIxOTkgMy44NDQ2NiAxMC40NjY3IDUuMTMzMzIgMTAuNDY2N0M2LjQyMTk5IDEwLjQ2NjcgNy40NjY2NSA5LjQyMTk5IDcuNDY2NjUgOC4xMzMzMkM3LjQ2NjY1IDYuODQ0NjYgNi40MjE5OSA1Ljc5OTk5IDUuMTMzMzIgNS43OTk5OVpNMCA4LjEzMzMyQzAgNS4yOTgyNyAyLjI5ODI3IDMgNS4xMzMzMiAzQzcuOTY4MzggMyAxMC4yNjY2IDUuMjk4MjcgMTAuMjY2NiA4LjEzMzMyQzEwLjI2NjYgMTAuOTY4NCA3Ljk2ODM4IDEzLjI2NjYgNS4xMzMzMiAxMy4yNjY2QzIuMjk4MjcgMTMuMjY2NiAwIDEwLjk2ODQgMCA4LjEzMzMyWiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KCTxwYXRoIGQ9Ik03LjAwMDA4IDE0LjJIMy4yNjY3NkMyLjQ5MzU2IDE0LjIgMS44NjY3NiAxNC44MjY4IDEuODY2NzYgMTUuNkMxLjg2Njc2IDE2LjM3MzIgMi40OTM1NiAxNyAzLjI2Njc2IDE3SDcuMDAwMDhDNy43NzMyOCAxNyA4LjQwMDA4IDE2LjM3MzIgOC40MDAwOCAxNS42QzguNDAwMDggMTQuODI2OCA3Ljc3MzI4IDE0LjIgNy4wMDAwOCAxNC4yWiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KPC9zdmc+" /> &lt;a href="https://zencastr.com/embed/3SD-TPX9" target="_blank" style="color: white; position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); text-decoration: none;" > View on Zencastr &lt;/a>&lt;/blockquote>&lt;script type="text/javascript" src="https://zencastr.com/static/js/embed-player.js">&lt;/script>
+&lt;/h2></description></item><item><title>Blog: Trailer</title><link>https://prcutler.github.io/the-bootloader/blog/2022/08/30/trailer/</link><pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate><guid>https://prcutler.github.io/the-bootloader/blog/2022/08/30/trailer/</guid><description>
+&lt;h2 id="welcome">Welcome!&lt;/h2>
+&lt;p>Welcome to The Bootloader, a bi-weekly podcast bringing you news, project updates, and product talk
+from the tech and maker scenes.&lt;/p>
+&lt;h2>
+&lt;blockquote class="zenplayer" data-episode-href="https://zencastr.com/embed/3SD-TPX9" style="background: black; border-radius: 12px; font-family: system-ui; width: 480px; height: 480px; position: relative; color: white; margin: 0;"> &lt;img style="width: 120px; display: inline-block; position: absolute; top: calc(50%); left: calc(50%); transform: translate(-50%, -50%);" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTE5IDE4IiBoZWlnaHQ9IjEwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTE1LjQyNSA2LjQyNTgxQzExNC4yMSA2LjQyNTgxIDExMy4yMjUgNy40MTE3MSAxMTMuMjI1IDguNjI3ODhWMTUuNjc0NUMxMTMuMjI1IDE2LjQwNDIgMTEyLjYzNSAxNi45OTU4IDExMS45MDYgMTYuOTk1OEMxMTEuMTc3IDE2Ljk5NTggMTEwLjU4NiAxNi40MDQyIDExMC41ODYgMTUuNjc0NVY4LjYyNzg4QzExMC41ODYgNS45NTIzMSAxMTIuNzUyIDMuNzgzMzMgMTE1LjQyNSAzLjc4MzMzSDExNy4xODVDMTE3LjkxNCAzLjc4MzMzIDExOC41MDUgNC4zNzQ4NyAxMTguNTA1IDUuMTA0NTdDMTE4LjUwNSA1LjgzNDI3IDExNy45MTQgNi40MjU4MSAxMTcuMTg1IDYuNDI1ODFIMTE1LjQyNVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwMi4yMjcgMC4yNjAwMUMxMDIuOTU2IDAuMjYwMDEgMTAzLjU0NyAwLjg1MTU1MSAxMDMuNTQ3IDEuNTgxMjVWMy43ODMzM0gxMDcuNTA2QzEwOC4yMzUgMy43ODMzMyAxMDguODI2IDQuMzc0ODcgMTA4LjgyNiA1LjEwNDU3QzEwOC44MjYgNS44MzQyNyAxMDguMjM1IDYuNDI1ODEgMTA3LjUwNiA2LjQyNTgxSDEwMy41NDdWMTEuMjcwNEMxMDMuNTQ3IDEyLjk3MyAxMDQuOTI2IDE0LjM1MzMgMTA2LjYyNyAxNC4zNTMzSDEwNy41MDZDMTA4LjIzNSAxNC4zNTMzIDEwOC44MjYgMTQuOTQ0OCAxMDguODI2IDE1LjY3NDVDMTA4LjgyNiAxNi40MDQyIDEwOC4yMzUgMTYuOTk1OCAxMDcuNTA2IDE2Ljk5NThIMTA2LjYyN0MxMDMuNDY4IDE2Ljk5NTggMTAwLjkwNyAxNC40MzI0IDEwMC45MDcgMTEuMjcwNFYxLjU4MTI1QzEwMC45MDcgMC44NTE1NTEgMTAxLjQ5OCAwLjI2MDAxIDEwMi4yMjcgMC4yNjAwMVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBkPSJNODguMzk0OCAxNS45MjFDODkuOTc4NiAxNi44ODk5IDkxLjU4MDggMTcuMjYgOTMuNjkyNCAxNy4yNkM5Ni4yNDQxIDE3LjI2IDk5LjU4NzYgMTYuMjAzIDk5LjU4NzYgMTMuMTIwMUM5OS41ODc2IDcuMzk0NjkgOTAuMzQ4OSAxMC4zODk1IDkwLjM0ODkgNy44MzUxQzkwLjM0ODkgNy4wNDIzNiA5MS41ODA4IDYuMTYxNTMgOTMuNDI4NSA2LjE2MTUzQzk0LjU3MjMgNi4xNjE1MyA5Ni4xMTIxIDYuNjkwMDMgOTYuNzI4IDcuMTMwNDRDOTcuMzU5MiA3LjQ5NTI5IDk4LjE2NzMgNy4yNzc5MiA5OC41MzE3IDYuNjQ1OThDOTguODk2MiA2LjAxNDAzIDk4LjY3OSA1LjIwNTE0IDk4LjA0NzggNC44NDAyOUM5Ni43MjggMy45NTk0NiA5NS4xMDAyIDMuNTE5MDQgOTMuNDI4NSAzLjUxOTA0QzkwLjI2MSAzLjUxOTA0IDg3LjcwOTMgNS40NTY4NyA4Ny43MDkzIDcuODM1MUM4Ny43MDkzIDEzLjM4NDMgOTYuOTQ4IDEwLjU2NTcgOTYuOTQ4IDEzLjEyMDFDOTYuOTQ4IDE0LjAwMDkgOTUuNTQwMiAxNC42MTc1IDkzLjY5MjQgMTQuNjE3NUM5Mi4wMjA3IDE0LjYxNzUgOTAuOTQ2NCAxNC4zMzU1IDg5LjYyNjYgMTMuNjMwOUM4OS4wMTA3IDEzLjI3ODUgODguMjE4OCAxMy41NDI4IDg3Ljg2NjkgMTQuMTU5NEM4Ny41MTQ5IDE0Ljc3NiA4Ny43Nzg5IDE1LjU2ODcgODguMzk0OCAxNS45MjFaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04My4zMSAxNS41Nzc0QzgyLjE0MzggMTYuNjI1NSA4MC42MjA5IDE3LjI2IDc4Ljk1NDYgMTcuMjZDNzUuMjg1OCAxNy4yNiA3Mi4zMTE2IDE0LjE4NCA3Mi4zMTE2IDEwLjM4OTVDNzIuMzExNiA2LjU5NTA2IDc1LjI4NTggMy41MTkwNCA3OC45NTQ2IDMuNTE5MDRDODAuNjIwOSAzLjUxOTA0IDgyLjE0MzggNC4xNTM1MSA4My4zMSA1LjIwMTZWNS4xMDQ1NEM4My4zMSA0LjM3NDgzIDgzLjkwMDggMy43ODMyOSA4NC42Mjk4IDMuNzgzMjlDODUuMzU4NyAzLjc4MzI5IDg1Ljk0OTUgNC4zNzQ4MyA4NS45NDk1IDUuMTA0NTRWMTUuNjc0NUM4NS45NDk1IDE2LjQwNDIgODUuMzU4NyAxNi45OTU3IDg0LjYyOTggMTYuOTk1N0M4My45MDA4IDE2Ljk5NTcgODMuMzEgMTYuNDA0MiA4My4zMSAxNS42NzQ1VjE1LjU3NzRaTTgzLjY2MTkgMTAuMzg5NUM4My42NjE5IDEyLjcyNDYgODEuNzEyIDE0LjYxNzUgNzkuMzA2NiAxNC42MTc1Qzc2LjkwMTIgMTQuNjE3NSA3NC45NTEyIDEyLjcyNDYgNzQuOTUxMiAxMC4zODk1Qzc0Ljk1MTIgOC4wNTQ0NiA3Ni45MDEyIDYuMTYxNTMgNzkuMzA2NiA2LjE2MTUzQzgxLjcxMiA2LjE2MTUzIDgzLjY2MTkgOC4wNTQ0NiA4My42NjE5IDEwLjM4OTVaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02Ni4zMjg1IDYuMTYxNTNDNjMuODU5NiA2LjE2MTUzIDYxLjkyOTIgOC4wOTMwOCA2MS45MjkyIDEwLjM4OTVDNjEuOTI5MiAxMi42ODU5IDYzLjg1OTYgMTQuNjE3NSA2Ni4zMjg1IDE0LjYxNzVDNjcuNTY3NyAxNC42MTc1IDY4LjY4ODcgMTQuMjYyNyA2OS41NjYyIDEzLjY4ODlDNzAuMTc2NSAxMy4yODk5IDcwLjk5NDQgMTMuNDYxNyA3MS4zOTI5IDE0LjA3MjdDNzEuNzkxNSAxNC42ODM2IDcxLjYxOTkgMTUuNTAyNCA3MS4wMDk2IDE1LjkwMTRDNjkuNjkyOSAxNi43NjIyIDY4LjA2ODQgMTcuMjYgNjYuMzI4NSAxNy4yNkM2Mi40ODAyIDE3LjI2IDU5LjI4OTYgMTQuMjIyNiA1OS4yODk2IDEwLjM4OTVDNTkuMjg5NiA2LjU1NjQ0IDYyLjQ4MDIgMy41MTkwNCA2Ni4zMjg1IDMuNTE5MDRDNjguMDY4NCAzLjUxOTA0IDY5LjY5MjkgNC4wMTY4NCA3MS4wMDk2IDQuODc3NjVDNzEuNjE5OSA1LjI3NjY1IDcxLjc5MTUgNi4wOTUzOCA3MS4zOTI5IDYuNzA2MzRDNzAuOTk0NCA3LjMxNzI5IDcwLjE3NjUgNy40ODkxMSA2OS41NjYzIDcuMDkwMTFDNjguNjg4NyA2LjUxNjM2IDY3LjU2NzcgNi4xNjE1MyA2Ni4zMjg1IDYuMTYxNTNaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZD0iTTU1LjgxNDEgMTYuODE5QzU1LjQxOTYgMTYuNTkwNSA1NS4xNTQyIDE2LjE2MzUgNTUuMTU0MiAxNS42NzQ1VjEwLjEyNTNDNTUuMTU0MiA3LjkzNjE1IDUzLjM4MTUgNi4xNjE1MyA1MS4xOTQ4IDYuMTYxNTNDNDkuMDA4MSA2LjE2MTUzIDQ3LjIzNTQgNy45MzYxNSA0Ny4yMzU0IDEwLjEyNTNWMTUuNjc0NUM0Ny4yMzU0IDE2LjE2MzUgNDYuOTcgMTYuNTkwNSA0Ni41NzU1IDE2LjgxOUM0Ni4zODEzIDE2LjkzMTQgNDYuMTU2IDE2Ljk5NTcgNDUuOTE1NiAxNi45OTU3QzQ1LjE4NjcgMTYuOTk1NyA0NC41OTU4IDE2LjQwNDIgNDQuNTk1OCAxNS42NzQ1VjUuMTA0NTRDNDQuNTk1OCA0LjM3NDgzIDQ1LjE4NjcgMy43ODMyOSA0NS45MTU2IDMuNzgzMjlDNDYuNjQ0NSAzLjc4MzI5IDQ3LjIzNTQgNC4zNzQ4MyA0Ny4yMzU0IDUuMTA0NTRWNS4zMDgyNEM0OC4yMDI3IDQuMjExMDUgNDkuNjE4IDMuNTE5MDQgNTEuMTk0OCAzLjUxOTA0QzU0LjgzOTMgMy41MTkwNCA1Ny43OTM4IDYuNDc2NzUgNTcuNzkzOCAxMC4xMjUzVjE1LjY3NDVDNTcuNzkzOCAxNi40MDQyIDU3LjIwMjkgMTYuOTk1NyA1Ni40NzQgMTYuOTk1N0M1Ni4yMzM2IDE2Ljk5NTcgNTYuMDA4MiAxNi45MzE0IDU1LjgxNDEgMTYuODE5WiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMzEuNjIyNyAxMS43MTA4SDQxLjUxNjJDNDIuMjQ1MSAxMS43MTA4IDQyLjgzNiAxMS4xMTkyIDQyLjgzNiAxMC4zODk1QzQyLjgzNiA2LjU1NjQ0IDM5LjY0NTQgMy41MTkwNCAzNS43OTcxIDMuNTE5MDRDMzEuOTQ4NyAzLjUxOTA0IDI4Ljc1ODEgNi41NTY0NCAyOC43NTgxIDEwLjM4OTVDMjguNzU4MSAxNC40MjU2IDMyLjIyNDMgMTcuMjYgMzUuOTI5IDE3LjI2QzM4LjE3MjUgMTcuMjYgMzkuNTE1IDE2Ljc1MTkgNDAuODg0NSAxNS45MTQzQzQxLjUwNjUgMTUuNTMzOCA0MS43MDI3IDE0LjcyMDYgNDEuMzIyNiAxNC4wOTc5QzQwLjk0MjYgMTMuNDc1MyA0MC4xMzAzIDEzLjI3ODkgMzkuNTA4MyAxMy42NTk0QzM4LjUxNiAxNC4yNjYzIDM3LjY0NSAxNC42MTc1IDM1LjkyOSAxNC42MTc1QzMzLjk0MyAxNC42MTc1IDMyLjIyMTEgMTMuNDExNyAzMS42MjI3IDExLjcxMDhaTTM1Ljc5NzEgNi4xNjE1M0MzMy44MjE5IDYuMTYxNTMgMzIuMTkxMyA3LjM5Nzg3IDMxLjYxODEgOS4wNjgyN0gzOS45NzZDMzkuNDAyOSA3LjM5Nzg3IDM3Ljc3MjMgNi4xNjE1MyAzNS43OTcxIDYuMTYxNTNaIiBmaWxsPSJ3aGl0ZSI+PC9wYXRoPgoJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMy45OTgyIDYuNDI1ODFMMTcuMzE5OSA2LjQyNTgyQzE2LjU5MSA2LjQyNTgyIDE2LjAwMDEgNS44MzQyOCAxNi4wMDAxIDUuMTA0NThDMTYuMDAwMSA0LjM3NDg3IDE2LjU5MSAzLjc4MzMzIDE3LjMxOTkgMy43ODMzM0gyNi45OTg0QzI3LjUyMTggMy43ODMzMiAyNy45OTU3IDQuMDkyOTQgMjguMjA2NSA0LjU3MjU1QzI4LjQxNzIgNS4wNTIxNiAyOC4zMjQ5IDUuNjExMTIgMjcuOTcxMyA1Ljk5NzM3TDIwLjMyMDEgMTQuMzUzM0gyNi45OTg0QzI3LjcyNzMgMTQuMzUzMyAyOC4zMTgyIDE0Ljk0NDggMjguMzE4MiAxNS42NzQ1QzI4LjMxODIgMTYuNDA0MiAyNy43MjczIDE2Ljk5NTggMjYuOTk4NCAxNi45OTU4SDE3LjMxOThDMTYuNzk2NCAxNi45OTU4IDE2LjMyMjUgMTYuNjg2MSAxNi4xMTE4IDE2LjIwNjVDMTUuOTAxIDE1LjcyNjkgMTUuOTkzMyAxNS4xNjggMTYuMzQ2OSAxNC43ODE3TDIzLjk5ODIgNi40MjU4MVoiIGZpbGw9IndoaXRlIj48L3BhdGg+Cgk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUuMTMzMzIgNS43OTk5OUMzLjg0NDY2IDUuNzk5OTkgMi43OTk5OSA2Ljg0NDY2IDIuNzk5OTkgOC4xMzMzMkMyLjc5OTk5IDkuNDIxOTkgMy44NDQ2NiAxMC40NjY3IDUuMTMzMzIgMTAuNDY2N0M2LjQyMTk5IDEwLjQ2NjcgNy40NjY2NSA5LjQyMTk5IDcuNDY2NjUgOC4xMzMzMkM3LjQ2NjY1IDYuODQ0NjYgNi40MjE5OSA1Ljc5OTk5IDUuMTMzMzIgNS43OTk5OVpNMCA4LjEzMzMyQzAgNS4yOTgyNyAyLjI5ODI3IDMgNS4xMzMzMiAzQzcuOTY4MzggMyAxMC4yNjY2IDUuMjk4MjcgMTAuMjY2NiA4LjEzMzMyQzEwLjI2NjYgMTAuOTY4NCA3Ljk2ODM4IDEzLjI2NjYgNS4xMzMzMiAxMy4yNjY2QzIuMjk4MjcgMTMuMjY2NiAwIDEwLjk2ODQgMCA4LjEzMzMyWiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KCTxwYXRoIGQ9Ik03LjAwMDA4IDE0LjJIMy4yNjY3NkMyLjQ5MzU2IDE0LjIgMS44NjY3NiAxNC44MjY4IDEuODY2NzYgMTUuNkMxLjg2Njc2IDE2LjM3MzIgMi40OTM1NiAxNyAzLjI2Njc2IDE3SDcuMDAwMDhDNy43NzMyOCAxNyA4LjQwMDA4IDE2LjM3MzIgOC40MDAwOCAxNS42QzguNDAwMDggMTQuODI2OCA3Ljc3MzI4IDE0LjIgNy4wMDAwOCAxNC4yWiIgZmlsbD0id2hpdGUiPjwvcGF0aD4KPC9zdmc+" /> &lt;a href="https://zencastr.com/embed/3SD-TPX9" target="_blank" style="color: white; position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); text-decoration: none;" > View on Zencastr &lt;/a>&lt;/blockquote>&lt;script type="text/javascript" src="https://zencastr.com/static/js/embed-player.js">&lt;/script>
+&lt;/h2></description></item></channel></rss>
