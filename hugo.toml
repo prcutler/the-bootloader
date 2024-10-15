@@ -78,7 +78,8 @@ description = "Curated news and project headlines"
 
 # Comment out if you don't want the "print entire section" link enabled.
 [outputs]
-section = ["HTML", "print", "RSS"]
+# section = ["HTML", "print", "RSS"]
+section = ["HTML", "RSS"]
 
 [params]
 # privacy_policy = "https://policies.google.com/privacy"
