@@ -1,8 +1,4 @@
-
 ---
-title: "Podcast News"
-linkTitle: "News"
+title: News
 weight: 20
 ---
-
-
