@@ -50,6 +50,8 @@
 * [Maker Skill Trees](https://blog.adafruit.com/2024/08/29/the-maker-skill-trees-project-2/)
 * [Guy's Bumper Sticker](https://www.youtube.com/watch?v=mWRPRW6pHIY)
 * [Jumperless Breadboard YouTube video](https://www.youtube.com/watch?v=fJTE7R_CV8w)
+* Redbox hacking: https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
+* Manyfold self-hosted 3D printing files:  https://manyfold.app
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
