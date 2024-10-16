@@ -1,8 +1,9 @@
-
 ---
-title: "Podcast Episodes"
+title: "Episodes"
 linkTitle: "Episodes"
-weight: 20
+menu:
+  main:
+    weight: 10
 ---
 
 

@@ -1,8 +1,7 @@
-
 ---
-title: "Podcast News"
+title: "News"
 linkTitle: "News"
-weight: 20
+menu:
+  main:
+    weight: 30
 ---
-
-

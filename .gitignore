@@ -240,3 +240,19 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all
 
 /node_modules/
+
+# Hugo
+# Generated files by hugo
+/public/
+/resources/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+package-lock.json
+.hugo_build.lock
