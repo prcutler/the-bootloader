@@ -52,6 +52,7 @@
 * [Jumperless Breadboard YouTube video](https://www.youtube.com/watch?v=fJTE7R_CV8w)
 * Redbox hacking: https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
 * Manyfold self-hosted 3D printing files:  https://manyfold.app
+* Redbox tinkering:  https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
