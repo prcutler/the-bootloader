@@ -50,10 +50,11 @@ features flashbacks to their past.  It's great to see Jeff Bridges - the old man
 
 **What I'm working on:** 
 
-A sneak peek at the next episode:
 
-We welcome our second guest in a row to the show.  I won't spoil the surprise, but they currently have a 
-campaign on Crowd Supply for a new product.
+
+## Coming up on the next episode
+A sneak peek at the next episode: We welcome our second guest in a row to the show.  
+I won't spoil the surprise, but they currently have a campaign on Crowd Supply for a new product.
 
 ## Support the show
 Enjoying The Bootloader?  Tell a friend, rate the show, or write a review.  We appreciate your support!
