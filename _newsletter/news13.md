@@ -62,8 +62,8 @@ Recently started watching [Resident Alien](https://www.imdb.com/title/tt8690918/
 
 
 
-## Coming up on the next episode
-A sneak peek at the next episode: We welcome our second guest in a row to the show.
+## A sneak peek at what's next
+We welcome our second guest in a row to the show.
 I won't spoil the surprise, but they currently have a campaign on Crowd Supply for a new product.
 
 ## Support the show
