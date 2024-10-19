@@ -50,6 +50,10 @@ Emmy awards recently - I'm really enjoying it.  The Old Man stars Jeff Bridges a
 in hiding and John Lithgow is the FBI director tasked with finding him.  They have a shared history and the show
 features flashbacks to their past.  It's great to see Jeff Bridges - the old man - as an action star.
 
+**What I'm listening to:** Japandroids - Fate and Alcohol.  It's been seven long years since Japandroids 
+released their last album and they shared this is their fourth and final album.  The band features two 
+members, one on guitar and vocals and the other on drums.  It's loud and fast and I can't get enough of it.
+
 ### Tod
 
 **What I'm working on:**
