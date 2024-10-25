@@ -60,3 +60,4 @@
 * Batocera: https://batocera.org/
 * Supercon day one lineup:  https://hackaday.com/2024/09/17/2024-hackaday-superconference-speakers-round-one/ [Thea's email](https://gist.github.com/theacodes/56bc67bb918bdee3e00b9af7625a7166)
 * Circuit Artist ([Steam](https://github.com/lets-all-be-stupid-forever/circuit-artist) and [GitHub](https://github.com/lets-all-be-stupid-forever/circuit-artist?tab=readme-ov-file) via [Adafriot](https://blog.adafruit.com/2024/09/17/circuit-artist-a-digital-circuit-drawing-and-simulation-game)
+* Retrom: https://blog.adafruit.com/2024/10/25/using-retrom-to-manage-your-retro-game-library-on-raspberry-pi-raspberry_pi-piday-raspberrypi/
