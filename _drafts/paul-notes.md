@@ -53,6 +53,7 @@
 * Redbox hacking: https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
 * Manyfold self-hosted 3D printing files:  https://manyfold.app
 * Redbox tinkering:  https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
+* MicroPython for PyCharm: https://plugins.jetbrains.com/plugin/9777-micropython
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
