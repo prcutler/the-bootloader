@@ -15,7 +15,7 @@ Visit [The Bootloader's newsletter page](https://buttondown.com/thebootloader) t
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px; overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/welcome-kevin-santo-cappuccio/embed"></iframe>
 
 ## Show Notes
 
