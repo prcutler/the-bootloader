@@ -128,7 +128,7 @@ and MicroPython and CircuitPython guides. They've already reached their funding 
 Remember, it is a Kickstarter and backing the project doesn't always guarantee delivery.
 
 **Update** Since recording, the FlexiPi Kickstarter project was suspended by Kickstarter and the reasons why are
-unknown.  To stay updated on the project, [you can sign up for their newsletter here](http://bit.ly/4e5uFVL.
+unknown.  To stay updated on the project, [you can sign up for their newsletter here](http://bit.ly/4e5uFVL).
 
 * [Tom's Hardware coverage](https://www.tomshardware.com/raspberry-pi/flexpi-kickstarter-promises-flexible-raspberry-pi-pico-with-a-few-upgrades?utm_source=pocket_shared)
 
