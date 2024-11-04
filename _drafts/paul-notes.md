@@ -63,3 +63,5 @@
 * Circuit Artist ([Steam](https://github.com/lets-all-be-stupid-forever/circuit-artist) and [GitHub](https://github.com/lets-all-be-stupid-forever/circuit-artist?tab=readme-ov-file) via [Adafriot](https://blog.adafruit.com/2024/09/17/circuit-artist-a-digital-circuit-drawing-and-simulation-game)
 * Retrom: https://blog.adafruit.com/2024/10/25/using-retrom-to-manage-your-retro-game-library-on-raspberry-pi-raspberry_pi-piday-raspberrypi/
 * [MicroPython 1.24 released](https://github.com/micropython/micropython/releases/tag/v1.24.0)
+* Dries Buytaert (founder of Drupal) and his solar powered web server:  https://dri.es/my-solar-powered-and-self-hosted-website
+
