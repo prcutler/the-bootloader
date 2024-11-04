@@ -1,0 +1,42 @@
+{
+    "version": "1.2.0",
+    "chapters":
+    [
+        {
+            "startTime": 0,
+            "title": "Intro"
+        },
+        {
+            "startTime": 168,
+            "title": "Hearing Aids",
+            "img": "https://example.com/images/hearing_aids.jpg"
+        },
+        {
+            "startTime": 260,
+            "title": "Progress Report"
+        },
+        {
+            "startTime": 410,
+            "title": "Namespace",
+            "img": "https://example.com/images/namepsace_example.jpg",
+            "url": "https://github.com/Podcastindex-org/podcast-namespace"
+        },
+        {
+            "startTime": 3990,
+            "title": "Just Break Up",
+            "img": "https://example.com/images/justbreakuppod.png"
+        },
+        {
+            "startTime": 5510,
+            "title": "The Big Players"
+        },
+        {
+            "startTime": 5854,
+            "title": "Spread the Word"
+        },
+        {
+            "startTime": 6089,
+            "title": "Outro"
+        }
+    ]
+}
