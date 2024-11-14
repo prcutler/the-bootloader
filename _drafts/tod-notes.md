@@ -3,26 +3,31 @@
 
 ## Brainstorming 2024
 
-* EMMG Midi Synth - by Johnathan Bisson / @bjonnh
- * https://www.bjonnh.net/project/emmg_midi_synth_controller/
- * https://github.com/bjonnh/2024_emmg_workshop_midi
- * Slides: https://bjonnh.github.io/2024_emmg_workshop_midi/presentation/#/
+* Supercon2024 and SAOs
+  - https://github.com/flummer/dmm-sao
+  - Erik Klein CO2 monitor
+  - https://hackaday.io/project/198320-bus-pirate-5-sao
+  - POV SAO (I have one)
+  - https://hackaday.com/2024/11/09/the-badge-hacks-of-supercon/
+  - https://www.youtube.com/watch?v=Iz-HrZkzUlk
 
-* Hackaday Supercon 2024
- * [Badge reveal posts](https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/)
- * [Hackaday Podcast about](https://www.youtube.com/watch?v=X66F6g0-E4o)
+  unsorted links:
+  - https://hackaday.io/project/198943-sao-infinity-mirror
+  - https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge
+  - https://github.com/davedarko/TARS-SAO
+  - https://hackaday.io/project/198918-duckglow-sao
+  - https://hackaday.io/project/198458-record-scratch-sao
+
 
 * Sandify -- generative geometric patterns for sand art / plotters
   - https://sandify.org/
   - https://github.com/jeffeb3/sandify
-  - DONE in newsletter
 
 * Raspberry Pi AI Camera Module
   - [Raspberry Pi blog poast](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/)
   - [Hackster hands-on article]( https://www.hackster.io/news/raspberry-pi-s-ai-eye-hands-on-with-the-raspberry-pi-ai-camera-module-383fb34afcf7)
   - [Pose estimation demo](https://www.youtube.com/watch?v=rloJNA_VuSA)
   - [Object detection demo](https://www.youtube.com/watch?v=D-foRupzOiY)
-  - DONE
 
   Also see:
 
@@ -42,7 +47,6 @@
   - [X1Plus](https://github.com/X1Plus/X1Plus/wiki)
   - [X1Plus expansion board](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
   - [Hackster article](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board)
-  - DONE
 
 * Tulip Creative Computer and Amy synth library
   - [Tulip homepage](https://github.com/shorepine/tulipcc)
