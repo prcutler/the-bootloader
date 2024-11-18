@@ -65,4 +65,5 @@
 * [MicroPython 1.24 released](https://github.com/micropython/micropython/releases/tag/v1.24.0)
 * Dries Buytaert (founder of Drupal) and his solar powered web server:  https://dri.es/my-solar-powered-and-self-hosted-website
 * https://www.youtube.com/watch?v=mDhNQPt8An0
+* [First time at Supercon](https://cdwilson.dev/articles/hackaday-supercon-2024/)
 
