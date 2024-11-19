@@ -55,6 +55,8 @@
 * Redbox tinkering:  https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
 * MicroPython for PyCharm: https://plugins.jetbrains.com/plugin/9777-micropython
 * [Prusa Core One](https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/)
+* [FreeCad 1.0](https://blog.freecad.org/2024/11/19/freecad-version-1-0-released/)
+
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
