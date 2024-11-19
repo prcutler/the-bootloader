@@ -54,7 +54,7 @@
 * Manyfold self-hosted 3D printing files:  https://manyfold.app
 * Redbox tinkering:  https://www.404media.co/tinkerers-are-taking-old-redbox-kiosks-home-and-reverse-engineering-them/
 * MicroPython for PyCharm: https://plugins.jetbrains.com/plugin/9777-micropython
-
+* [Prusa Core One](https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/)
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
