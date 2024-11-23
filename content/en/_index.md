@@ -70,12 +70,12 @@ Join The Bootloader newsletter (<a href="https://buttondown.com/thebootloader/ar
 
 
 {{% blocks/feature icon="fab fa-mastodon" title="Paul Cutler"%}}
-[Follow Paul](https://hachyderm.io/@prcutler) on Mastodon.
+Follow Paul on [Mastodon](https://hachyderm.io/@prcutler) or [Bluesky](https://bsky.app/profile/paulcutler.org).
 {{% /blocks/feature %}}
 
 
 {{% blocks/feature icon="fab fa-mastodon" title="Tod Kurt" %}}
-[Follow Tod](https://mastodon.social/@todbot) on Mastodon.
+Follow Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://bsky.app/profile/todbot.bsky.social).
 
 {{% /blocks/feature %}}
 
