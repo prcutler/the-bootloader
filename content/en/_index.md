@@ -23,7 +23,7 @@ title: The Bootloader
 
 {{% blocks/lead color="primary" %}}
 
-A monthly podcast loading you up with news, project updates, and product talk from the CircuitPython and maker communities. Hosted by Paul Cutler and Tod Kurt.
+A monthly podcast loading you up with news, project updates, and product talk from the maker, tech and CircuitPython communities. Hosted by Paul Cutler and Tod Kurt.
 
 {{% /blocks/lead %}}
 
@@ -35,7 +35,7 @@ A monthly podcast loading you up with news, project updates, and product talk fr
 
 
 {{% blocks/feature icon="fab fa-mastodon" title="Follow the show on Mastodon" %}}
-<a href="https://www.circuitpythonshow.com/@thebootloader/follow">Follow The Bootloader on Mastodon</a> or <a href="https://bsky.app/profile/thebootloader.net">Bluesky</a> for show news, updates, and more.
+Follow The Bootloader on <a href="https://www.circuitpythonshow.com/@thebootloader/follow">Mastodon</a> or <a href="https://bsky.app/profile/thebootloader.net">Bluesky</a> for show news, updates, and more.
 {{% /blocks/feature %}}
 
 
