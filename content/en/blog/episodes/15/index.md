@@ -6,6 +6,17 @@ description: "Supercon 2024"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
+# Supercon 2024
+
+Welcome to that latest episode!  Paul and Tod discuss the recent Hackaday Supercon, including talks they enjoyed, 
+the Supercon badge, and add-ons for the badge.
+
+Join our newsletter!  Find out what Tod and Paul are up to and they share links to stories that didn't make it into the podcast.
+
+## Listen to the Show
+
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/supercon-2024/embed/dark-transparent"></iframe>
+
 ## Show Notes
 
 ### Hackaday Supercon
