@@ -25,6 +25,8 @@ I really look forward to Supercon every year and I'm glad they're working on mak
 
 ### About Supercon badges
 
+![The 2024 Supercon Badge](2024-badge.jpg)
+
 Generally Supercon conference badges are PCBs with complex circuitry that is both visually
 interesting and presents a sort of puzzle to the attendees. For some, the conference is an
 entire weekend of hacking the badge: figuring it out and making it do something cool.
@@ -34,6 +36,8 @@ And almost none of them have spaces to write your name. We've evolved beyond bad
 Past badges have ranged from an FPGA that ran Linux, a 4-bit "retro" computer you programmed with switches, a virtual vectorscope, and a mesh networking chat keyboard.
 
 Another aspect to these electronic badges has been add-ons, little extra circuits that just light up or add some functionality to the badge.  I personally think they started as a way to identify the badge holder as the badges themselves lost their ability to do this.
+
+![Wall of simple add-ons at Supercon](sao-wall.jpg)
 
 For the last six years or so these add-ons have been codified into a standard called "SAO"
 -- [simple add-on](https://hackaday.io/project/175182-simple-add-ons-sao) (originally
@@ -51,6 +55,8 @@ It also came with a small collection of starter SAOs to display immediately.
 But the real fun came as people gave out and traded SAOs all during the conference.
 
 ### Tod's 2024 Simple Add On
+
+![Tod's capacitive touch SAO](captouch.jpg)
 
 Majenta and Giovanni of the Supplyframe DesignLab (where SuperCon is held) contacted me in August, asking if I wanted make an SAO based off off my [touchwheel0](https://github.com/todbot/touchwheels) experiments.  It was a fun and quick process to scale down my Pico-based experiments to an ATtiny controller appropriate for an SAO.
 Thankfully, my Arduino touch library worked well enough and the Arduino core for the ATtiny816 works great that I was able to get a prototype designed, routed, and fabbed in a week. Then we went through a couple design iterations to find the right combination of LED and chip packages to make it producable at scale.
@@ -173,5 +179,7 @@ A few of Paul’s favorites:
 
   A whole other category for me is favorite SAO that were given to me.  Of these, my favorite
   is the [TARS SAO](https://hackaday.io/project/198001-tars-sao) by Dave Darko. Dave is a very prolific SAO maker and you can learn a lot by looking at [his designs](https://hackaday.io/davedarko).  The TARS SAO has a full-color TFT display, a speaker, and its face is 6 touch pads. And its driven by a Waveshare RP2040 Zero board. He's got several apps for it and it's really fun to play with.
+
+![Dave Darko's collection of SAOs](davedarko-sao.jpg)
 
 SAO collection courtesy [Dave Darko](https://chaos.social/@davedarko/113411311043186065)
