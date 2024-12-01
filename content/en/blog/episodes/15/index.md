@@ -6,8 +6,6 @@ description: "Supercon 2024"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
-# Supercon 2024
-
 Welcome to that latest episode!  Paul and Tod discuss the recent Hackaday Supercon, including talks they enjoyed, 
 the Supercon badge, and add-ons for the badge.
 
