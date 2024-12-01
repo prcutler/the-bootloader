@@ -11,7 +11,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 Welcome to that latest episode!  Paul and Tod discuss the recent Hackaday Supercon, including talks they enjoyed, 
 the Supercon badge, and add-ons for the badge.
 
-Join our newsletter!  Find out what Tod and Paul are up to and they share links to stories that didn't make it into the podcast.
+[Join our newsletter](https://buttondown.com/thebootloader)!  Find out what Tod and Paul are up to and they share links to stories that didn't make it into the podcast.
 
 ## Listen to the Show
 
