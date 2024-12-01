@@ -76,9 +76,7 @@ The result is the [TouchwheelSAO](https://github.com/todbot/TouchwheelSAO) board
 
 I wasn't convinced the captouch stuff would work reliably in the wild, battery-powered environment of the conference. But it seeme to!  In retrospect, I think using four interleaved touch pads instead of my usual three would've been better. It would've let us downgrade to a simple D-Pad if the analog touch angle calculations wasn't working reliably.
 
-### Jorvon Moss (Odd-Jayy) & Shawn Hymel (Paul #1)
-
-[Giving Robotic Friends a Voice:  Jorvon Moss & Shawn Hymel](https://www.youtube.com/watch?v=uitqFyHD-QQ)
+### [Giving Robotic Friends a Voice:  Jorvon Moss & Shawn Hymel](https://www.youtube.com/watch?v=uitqFyHD-QQ) by Jorvon Moss (Odd-Jayy) & Shawn Hymel (Paul #1)
 
 * Jorvon has been working on robots for about 8 years.
 * His latest robot, is Digit.  Must be wearable, good and comfy, unique design, and the ability to be upgraded.
@@ -106,9 +104,7 @@ Zach is also a friend. I've been seeing him make crazy circuits with just carvin
 
 ### Solving the Last Mile With 3D-printed Packaging by Christina Cyr (Paul #2)
 
-This talk explores the complexities of designing product packaging while the product’s design is still evolving. Experience the story of how one maker designed and 3D-printed her own packaging and the lessons she learned along the way.
-
-[Supercon 2024 - Christina Cyr - Solving the Last Mile With 3D-printed Packaging](https://www.youtube.com/watch?v=EC1JbWsBb1M)
+[Christina Cyr - Solving the Last Mile With 3D-printed Packaging](https://www.youtube.com/watch?v=EC1JbWsBb1M)
 
 * Christina Cyr is the CEO of dTOOR and The Cyrcle Phone
 * Electrical engineer
