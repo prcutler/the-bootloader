@@ -13,8 +13,7 @@ the Supercon badge, and add-ons for the badge.
 
 ## Listen to the Show
 
-<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/supercon-2024/embed/dark-transparent"></iframe>
-
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/supercon-2024/embed/dark"></iframe>
 ## Show Notes
 
 ### Hackaday Supercon
