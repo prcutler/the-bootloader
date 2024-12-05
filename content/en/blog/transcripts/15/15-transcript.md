@@ -1,3 +1,11 @@
+---
+date: 2024-12-02
+title: "Episode 15 Transcript"
+linkTitle: "Episode 15 Transcript"
+description: "Episode 15 Transcript - Supercon 2024"
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
+---
+
 Hello, welcome to The Bootloader. I'm Tod Kurt.
 
 And I'm Paul Cutler. We've got another special episode for you today.
