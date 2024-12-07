@@ -57,7 +57,7 @@
 * [Prusa Core One](https://blog.prusa3d.com/introducing-prusa-core-one-fully-enclosed-corexy-3d-printer-with-active-temperature-control_105477/)
 * [FreeCad 1.0](https://blog.freecad.org/2024/11/19/freecad-version-1-0-released/)
 * New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
-
+* Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
