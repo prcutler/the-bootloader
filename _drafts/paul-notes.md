@@ -70,4 +70,4 @@
 * Dries Buytaert (founder of Drupal) and his solar powered web server:  https://dri.es/my-solar-powered-and-self-hosted-website
 * https://www.youtube.com/watch?v=mDhNQPt8An0
 * [First time at Supercon](https://cdwilson.dev/articles/hackaday-supercon-2024/)
-
+* Maker Skill Trees for sale: https://www.makershed.com/collections/all/products/make-skillseeker-workbook
