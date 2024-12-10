@@ -38,7 +38,7 @@ Here's a few links that we wanted to highlight that didn't make it into the show
 
 * Tulsa King: Sylvester Stallone, in his first television role, stars as a New York mobster just released from prison after twenty five years.  He's banished by his mob family to Tulsa, where he has to start over. 
 * What We Do in the Shadows: This show just wrapped up its sixth and final season.  This mockumentary focuses on four vampires and their familiar who live in Long Island and is laugh out loud funny.
-* The Wild Robot: Yes, it's an animated movies.  Yes, you should go see it.
+* The Wild Robot: Yes, it's an animated movie.  Yes, you should go see it.
 
 ### Tod
 
