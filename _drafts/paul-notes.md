@@ -58,6 +58,8 @@
 * [FreeCad 1.0](https://blog.freecad.org/2024/11/19/freecad-version-1-0-released/)
 * New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
+* Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
+
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
