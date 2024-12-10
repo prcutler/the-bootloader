@@ -59,7 +59,7 @@
 * New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
-
+* PixelConfig: https://pixelconfig.com
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
