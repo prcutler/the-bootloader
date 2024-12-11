@@ -2,6 +2,10 @@
 
 Happy Holidays from The Bootloader! It's hard to believe it's December already and another year has passed by.  With the Thanksgiving holiday in the US over just a few weeks ago we wanted to say how thankful we are for having you as listeners.  
 
+We're now on Bluesky!  If you're not on Mastodon, we'll also post updates on Bluesky.
+
+https://bsky.app/profile/thebootloader.net
+
 ## Listen to the Show
 
 https://podcasts.apple.com/us/podcast/supercon-2024/id1644244356?i=1000678877499
