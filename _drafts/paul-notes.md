@@ -61,6 +61,7 @@
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
 * PixelConfig: https://pixelconfig.com
+* Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
