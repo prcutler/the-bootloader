@@ -62,6 +62,8 @@
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
 * PixelConfig: https://pixelconfig.com
 * Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
+  * https://bsky.app/profile/deschips.bsky.social
+  * https://mamot.fr/@DesChips
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
