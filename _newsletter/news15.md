@@ -32,7 +32,7 @@ Here's a few links that we wanted to highlight that didn't make it into the show
 * Back in October, Paul talked about Steph Piper's Maker Skill Trees.  The [book is now for sale](https://www.makershed.com/collections/all/products/make-skillseeker-workbook) - check it out!
 * Speaking of Supercon, Chris Wilson shared on his blog what it was like [going to Supercon for the first time](https://cdwilson.dev/articles/hackaday-supercon-2024/).
 * Paul is not embarrassed by his love of the BeeGees and [this video of an integrated circuit chip walking to Stayin' Alive](https://www.youtube.com/watch?v=mDhNQPt8An0) had him laughing out loud.
-
+* Victoria Korhonen [has created the world's smallest arcade machine](https://www.cbc.ca/news/canada/london/it-s-not-yet-official-but-this-is-the-world-s-smallest-arcade-machine-guess-what-game-it-plays-1.7406570).  It plays pong and measures approximately 64 mm tall, 26 mm wide and 30 mm deep.  (Via [Hackaday](https://hackaday.com/2024/12/11/tiny-pong-big-ambitions-worlds-smallest-arcade/))
 
 ## What We're Up To
 
