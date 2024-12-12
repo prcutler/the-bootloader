@@ -64,6 +64,7 @@
 * Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
   * https://bsky.app/profile/deschips.bsky.social
   * https://mamot.fr/@DesChips
+* Danger Klipper / Kalico:  https://hackaday.com/2024/12/11/danger-klipper-fork-renamed-to-kalico/
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
