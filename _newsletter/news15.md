@@ -44,6 +44,8 @@ Here's a few links that we wanted to highlight that didn't make it into the show
 * What We Do in the Shadows: This show just wrapped up its sixth and final season.  This mockumentary focuses on four vampires and their familiar who live in Long Island and is laugh out loud funny.
 * The Wild Robot: Yes, it's an animated movie.  Yes, you should go see it.
 
+I've also been 3D printing holiday decorations.  Usually we don't do much for the holidays, but with the youngest two off to college this year, we decided to surprise them and went all out with the decorations this year.
+
 ### Tod
 
 
