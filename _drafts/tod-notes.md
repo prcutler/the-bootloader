@@ -3,6 +3,8 @@
 
 ## Brainstorming 2024
 
+* FlatMac : https://www.youtube.com/watch?v=Grd_a4oi7qU
+
 * Supercon2024 and SAOs
   - https://github.com/flummer/dmm-sao
   - Erik Klein CO2 monitor
@@ -22,6 +24,7 @@
 * Sandify -- generative geometric patterns for sand art / plotters
   - https://sandify.org/
   - https://github.com/jeffeb3/sandify
+  - DONE in newsletter 13
 
 * Raspberry Pi AI Camera Module
   - [Raspberry Pi blog poast](https://www.raspberrypi.com/news/raspberry-pi-ai-camera-on-sale-now/)
