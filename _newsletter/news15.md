@@ -66,6 +66,6 @@ For the last several years, my wife and I have been doing [Advent of Code](https
 
 ## Coming up on the next episode
 
-We'll be back in the new year on January 6th, and we'll each have three interesting things to share with you.  If you enjoy the show, do us a favor and rate the show or write a review.
+We'll be back in the new year on January 6th, and we'll each have three interesting things to share with you.  If you enjoy the show, do us a favor and rate the show or write a review.  Love this episode or email?  Hated it?  I want to hear about it!  If you think there is something that could be improved, reply to this email because I want to know more!
 
 You made it to the end!  Here's a cat picture.
