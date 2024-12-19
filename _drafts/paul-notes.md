@@ -65,6 +65,7 @@
   * https://bsky.app/profile/deschips.bsky.social
   * https://mamot.fr/@DesChips
 * Danger Klipper / Kalico:  https://hackaday.com/2024/12/11/danger-klipper-fork-renamed-to-kalico/
+* Pimoroni Presto:  https://shop.pimoroni.com/products/presto?variant=54894104019323
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
