@@ -26,3 +26,7 @@ Nicholas Tollervey and the developers of the [Mu code editor](https://codewith.m
 The Mu team will have two releases in 2025. The first will be built with a few bug fixes and is considered a "legacy" release with libraries pinned to older versions so people using older hardware can still use Mu.  Soon after, the final versio of Mu will be released using the latest versions of libraries with the hope that Mu can live a few more years before becoming out of date.
 
 The Mu team expects to have this done by the end of March, 2025.
+
+### Home Assistant Voice (Preview Edition)
+
+The team behind Home Assistant [has announced](https://newsletter.openhomefoundation.org/the-era-of-open-voice/) the [Home Assistant Voice (Preview Edition)](https://www.home-assistant.io/voice-pe/).
