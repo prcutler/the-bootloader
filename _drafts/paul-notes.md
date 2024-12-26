@@ -68,6 +68,7 @@
 * Danger Klipper / Kalico:  https://hackaday.com/2024/12/11/danger-klipper-fork-renamed-to-kalico/
 * Pimoroni Presto:  https://shop.pimoroni.com/products/presto?variant=54894104019323
 * Home Assistant open voice assistant hardware:  https://newsletter.openhomefoundation.org/the-era-of-open-voice/
+  * Product page: https://www.home-assistant.io/voice-pe/
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
