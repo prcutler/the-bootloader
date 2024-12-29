@@ -60,6 +60,7 @@
 * 3D Printer without a bed:  https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
 * Lemontron 3D printer: https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/ and https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box
+* Printing color with a 3d printer:  https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
 * PixelConfig: https://pixelconfig.com
 * Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
