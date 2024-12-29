@@ -16,8 +16,17 @@ Insert iframe from Castopod here.
 
 ## Show Notes
 
-### Tod's Pick #1: Some cool project
-Tod shares insert-link-here, a cool project by some cool people.
+### Synthstrom Deluge and its Community Firmware (Tod #1)
+
+The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of "groovebox", if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
+
+And then Synthstrom made me love them more. First they introduced an OLED multi-line screen replacement for the 7-segment display the Deluge originally had. And then they announced that not only were they releasing the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware), but they were releasing it under a true open source license (GPL) and creating a ("Synthstrom Community Fund")[https://www.patreon.com/c/Synthstrom] to financially assist anyone who wanted to work on improving the firmware.
+
+And boy did the community step up!  With a few months, the entire codebase was refactored to make it more usable in a large team. All while keeping the existing functionality.  Within a few months more, the first official "Community Firmware" was released for the Deluge. It added a bunch of UI and usability improvements but also added new features like new audio effects and filters, added new features to the sequencer, and entire new UI views that make it work like Ableton Live.
+
+Every few months, new features are added, and you can try them at any point. Or, like me, wait for the official releases. On December 25 2024, Community Firmware 1.3 was released. It adds DX7 synth emulation, a new "chord library", the ability to export a song as multiple WAVs (very useful for final production), and a whole bunch of other improvements.
+
+It's like getting a new piece of music gear every few months, it's incredible.
 
 ### Sunsetting Mu (Paul #1)
 
