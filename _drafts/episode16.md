@@ -36,6 +36,19 @@ The Mu team will have two releases in 2025. The first will be built with a few b
 
 The Mu team expects to have this done by the end of March, 2025.
 
+
+### Elliot William's Klangorium: Logic chips as synths (Tod #2)
+
+A few days before Christmas 2024, I attended a workshop hosted by the Hackaday Supplyframe DesignLab called
+[The Sound of Logic: Klangorium](https://hackaday.io/project/196424-the-sound-of-logic-klangorium).
+Taught by Richard Hogben (who does the music for the Hackaday Supercons), the workshop was about the "Klangorium" board that [Elliot Williams has been working on since 2015] ([hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium) and has been the topic of a [series of Hackaday articles](https://hackaday.com/tag/logic-noise/)
+
+This board is a kind of modular synth, but where the modules are various CMOS logic chips configured in weird ways: a 40106 hex inverter becomes a 6-voice oscillator, a 4051 shift register becomes a sequencer, and so on. Because everything is square waves, a "mixer" can an OR-gate.  The board has header pins on the various sections, so you "patch" the synth together with jumper wires as if you're breadboarding a circuit.
+
+links:
+- [original klangorium project](https://github.com/hexagon5un/klangorium)
+- [logic noise Hackaday articles](https://hackaday.com/tag/logic-noise/)
+
 ### Home Assistant Voice (Preview Edition)
 
 The team behind Home Assistant [has announced](https://newsletter.openhomefoundation.org/the-era-of-open-voice/) the [Home Assistant Voice (Preview Edition)](https://www.home-assistant.io/voice-pe/).
