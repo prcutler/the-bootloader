@@ -61,6 +61,7 @@
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
 * Lemontron 3D printer: https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/ and https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box
 * Printing color with a 3d printer:  https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/
+* PETFusion 2.0: [Tom's Hardware](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) and [Kickstarter](https://www.kickstarter.com/projects/creative3dp/petfusion-20-pet-bottle-to-filament-with-filament-welder)
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
 * PixelConfig: https://pixelconfig.com
 * Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
