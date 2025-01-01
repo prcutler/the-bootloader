@@ -67,9 +67,9 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 
 A few short stories that might you might have missed:
 
-* New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
-* 3D Printer without a bed:  https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/
-* Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
-* Lemontron 3D printer: https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/ and https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box
-* Printing color with a 3d printer:  https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/
+* A [4D axis printer](https://www.youtube.com/watch?v=VEgwnhLHy3g), where the nozzle can rotate.
+* MobiPrint, a mobile 3D printer, without a bed.  [Hackaday](https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/) [YouTube](https://www.youtube.com/watch?v=SknW-Oygh3w)
+* Make a [working PCB](https://www.youtube.com/watch?v=lX7dRaOLtZk) using a SLA printer's UV light.
+* The Lemontron 3D printer costs just over $400 to make yourself and is small enough to transport in an empty filament box. [Hackaday](https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/) and [Tom's Hardware])https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box)
+* [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
 
