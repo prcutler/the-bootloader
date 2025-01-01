@@ -52,3 +52,24 @@ links:
 ### Home Assistant Voice (Preview Edition)
 
 The team behind Home Assistant [has announced](https://newsletter.openhomefoundation.org/the-era-of-open-voice/) the [Home Assistant Voice (Preview Edition)](https://www.home-assistant.io/voice-pe/).
+* [Blog post](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/#language-support)
+
+* Home Assistant Voice supports over 25 languages
+* LLM support both local and in the cloud with Google, OpenAI, Anthropic, and more
+* Wake word support (Hey Nabu, Hey Jarvis, Hey Mycroft)
+
+
+### Tod #3
+
+
+
+### Fun with 3D Printing (Paul #3)
+
+A few short stories that might you might have missed:
+
+* New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
+* 3D Printer without a bed:  https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/
+* Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
+* Lemontron 3D printer: https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/ and https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box
+* Printing color with a 3d printer:  https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/
+
