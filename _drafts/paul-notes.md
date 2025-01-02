@@ -87,3 +87,5 @@
 * World's smallest arcade:  https://hackaday.com/2024/12/11/tiny-pong-big-ambitions-worlds-smallest-arcade/
 * Charles Lohr LCDs:  https://www.youtube.com/watch?v=KNDRUWlsu0k
 * DOOM Captcha: https://doom-captcha.vercel.app
+* [Manyfold roadmap](https://manyfold.app/news/2025/01/01/manyfold-nlnet.html) with NLNet grant
+* 
