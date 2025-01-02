@@ -18,13 +18,13 @@ Insert iframe from Castopod here.
 
 ### Synthstrom Deluge and its Community Firmware (Tod #1)
 
-The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of ["groovebox"](https://en.wikipedia.org/wiki/Groovebox), if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
+The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device mostly in the ["groovebox"](https://en.wikipedia.org/wiki/Groovebox) category, if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
 
-And then Synthstrom made me love them more. First they introduced an OLED multi-line screen replacement for the 7-segment display the Deluge originally had. And then they announced that not only were they releasing the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware), but they were releasing it under a true open source license (GPL) and creating a ("Synthstrom Community Fund")[https://www.patreon.com/c/Synthstrom] to financially assist anyone who wanted to work on improving the firmware.
+And then Synthstrom made me love them more. First, each year they'd release new Deluge firmware that added entirely new features, then they introduced an [OLED screen replacement upgrade](https://cdm.link/synthstrom-deluge-oled/) for the 7-segment display the Deluge originally had. And then they announced they released the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware). And releasing it under a true open source license (GPL). AND creating a ["Synthstrom Community Fund"](https://www.patreon.com/c/Synthstrom) to financially assist anyone working on improving the firmware.
 
-And boy did the community step up!  With a few months, the entire codebase was refactored to make it more usable in a large team. All while keeping the existing functionality.  Within a few months more, the first official "Community Firmware" was released for the Deluge. It added a bunch of UI and usability improvements but also added new features like new audio effects and filters, added new features to the sequencer, and entire new UI views that make it work like Ableton Live.
+And boy did the community step up!  With a few months, the entire codebase was refactored, making it more usable in a large team. All while keeping the existing functionality. Within a few months more, the first official "Community Firmware" was released for the Deluge. It added UI and usability improvements but also added new features like new audio effects & filters, new sequencer modes, and entire new UI views that make it work like Ableton Live.
 
-Every few months, new features are added, and you can try them at any point. Or, like me, wait for the official releases. On December 25 2024, Community Firmware 1.3 was released. It adds DX7 synth emulation, a new "chord library", the ability to export a song as multiple WAVs (very useful for final production), and a whole bunch of other improvements.
+Now, every few months, new features are added, and you can try them at any point. It's all on github. Or, like me, wait for the official releases. Just a few days ago on December 25 2024, Community Firmware 1.3 was released. It adds DX7 synth emulation, a new "chord library", the ability to export a song as multiple WAVs (very useful for final production), and a whole bunch of other improvements.
 
 It's like getting a new piece of music gear every few months, it's incredible.
 
@@ -41,13 +41,17 @@ The Mu team expects to have this done by the end of March, 2025.
 
 A few days before Christmas 2024, I attended a workshop hosted by the Hackaday Supplyframe DesignLab called
 [The Sound of Logic: Klangorium](https://hackaday.io/project/196424-the-sound-of-logic-klangorium).
-Taught by Richard Hogben (who does the music for the Hackaday Supercons), the workshop was about the "Klangorium" board that [Elliot Williams has been working on since 2015] ([hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium) and has been the topic of a [series of Hackaday articles](https://hackaday.com/tag/logic-noise/)
+Taught by Richard Hogben (who does the music for the Hackaday Supercons), the workshop was about the "Klangorium" board that [Elliot Williams has been working on since 2015](https://github.com/hexagon5un/klangorium/) and has been the topic of a [series of Hackaday articles](https://hackaday.com/tag/logic-noise/).
 
 This board is a kind of modular synth, but where the modules are various CMOS logic chips configured in weird ways: a 40106 hex inverter becomes a 6-voice oscillator, a 4051 shift register becomes a sequencer, and so on. Because everything is square waves, a "mixer" can an OR-gate.  The board has header pins on the various sections, so you "patch" the synth together with jumper wires as if you're breadboarding a circuit.
 
 links:
-- [original klangorium project](https://github.com/hexagon5un/klangorium)
+- [original klangorium github project](https://github.com/hexagon5un/klangorium)
+- [updated repo used in the workshop](https://github.com/wero1414/klangorium)
 - [logic noise Hackaday articles](https://hackaday.com/tag/logic-noise/)
+- [hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium)
+- [matrixsynth article with deep dive](https://www.matrixsynth.com/2019/06/logic-noise-klangorium-diy-glitch-synth.html)
+
 
 ### Home Assistant Voice (Preview Edition)
 
@@ -60,7 +64,7 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 * $59
 
 
-### Pinball! (Tod #3)
+### Pinball !!! (Tod #3)
 
 I love [pinball](https://pinside.com/pinball/top-100). I grew up with mall arcades with pinball machines. They usually were kinda broken and were definitely old-timey compared to video games. But in college, whoever ran the laundry room in the dorm basement was smart and had room for a couple of coin-op video games and one pinball. This pinball machine was always in good shape. And if you're a college kid with some leftover quarters and waiting on his laundry, what are you doing to do?
 
