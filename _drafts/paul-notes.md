@@ -86,3 +86,4 @@
 * Maker Skill Trees for sale: https://www.makershed.com/collections/all/products/make-skillseeker-workbook
 * World's smallest arcade:  https://hackaday.com/2024/12/11/tiny-pong-big-ambitions-worlds-smallest-arcade/
 * Charles Lohr LCDs:  https://www.youtube.com/watch?v=KNDRUWlsu0k
+* DOOM Captcha: https://doom-captcha.vercel.app
