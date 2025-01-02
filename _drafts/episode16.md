@@ -18,7 +18,7 @@ Insert iframe from Castopod here.
 
 ### Synthstrom Deluge and its Community Firmware (Tod #1)
 
-The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of "groovebox", if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
+The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of ["groovebox"](https://en.wikipedia.org/wiki/Groovebox), if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
 
 And then Synthstrom made me love them more. First they introduced an OLED multi-line screen replacement for the 7-segment display the Deluge originally had. And then they announced that not only were they releasing the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware), but they were releasing it under a true open source license (GPL) and creating a ("Synthstrom Community Fund")[https://www.patreon.com/c/Synthstrom] to financially assist anyone who wanted to work on improving the firmware.
 
@@ -60,8 +60,20 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 * $59
 
 
-### Tod #3
+### Pinball! (Tod #3)
 
+I love [pinball](https://pinside.com/pinball/top-100). I grew up with mall arcades with pinball machines. They usually were kinda broken and were definitely old-timey compared to video games. But in college, whoever ran the laundry room in the dorm basement was smart and had room for a couple of coin-op video games and one pinball. This pinball machine was always in good shape. And if you're a college kid with some leftover quarters and waiting on his laundry, what are you doing to do?
+
+I got so good at that pinball machine.
+
+From then on, whenever I'd come across a pinball game, I'd play it. But these games are like puzzles: spending more time with them unlocks more fun. That takes time and gets expensive. So I mostly didn't play much. And then [ZenStudios](https://zenstudios.com/games/) came along with a really solid pinball physics simulation engine and licenses to many classic Williams games like ["Theatre of Magic"](https://pinside.com/pinball/machine/theatre-of-magic/gallery), ["Attack from Mars"](https://pinside.com/pinball/machine/attack-from-mars/gallery), and my laundry room game [High Speed](https://pinside.com/pinball/machine/high-speed/gallery). They have apps for mobile & tablet, so I play them a lot. I have gotten really good at a few of them.
+
+This is all background for "what I did during Christmas vacation": While visiting family up in the Bay Area, I was fortunate enough to visit the [Pacific Pinball Museum in Alameda](https://www.pacificpinball.org/). It takes its non-profit charter seriously, having wall text explaining why each of its 100+ machines they have on display is important, and keeping the machines in great shape. And they have the classics! Including High Speed and Theatre of Magic. I got to play both. And I sucked at them. The Zen simulator games present a "perfect" machine for you: everything works as if it was brand new. There's no slight wear on this part of the table, that flipper isn't a little weak on the second hit, etc. In pinball, each machine is unique and ever-changing, and I'd forgotten that.  So I've decided to visit more real pinball places.
+
+In Pasadena not too far from me there's [Neon Retro Arcade](http://www.neonretroarcade.com/)
+And according to [PinballMap.com](https://pinballmap.com/), in Minneapolis there's 47 pinball machines at [Litt Pinball Bar](https://littpinballbar.com/)!  (btw, pinballmap.com is great)
+
+[Find machines near you with Pinballmap.com](https://pinballmap.com/)
 
 
 ### Fun with 3D Printing (Paul #3)
@@ -74,4 +86,3 @@ A few short stories that might you might have missed:
 * The Lemontron 3D printer costs just over $400 to make yourself and is small enough to transport in an empty filament box. [Hackaday](https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/) and [Tom's Hardware])https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box)
 * [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
 * [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker. It includes the STL files and bill of materials you need to build your own.  STLs start at $39 up to $109 for a commercial license version.
-
