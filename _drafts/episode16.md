@@ -57,6 +57,7 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 * Home Assistant Voice supports over 25 languages
 * LLM support both local and in the cloud with Google, OpenAI, Anthropic, and more
 * Wake word support (Hey Nabu, Hey Jarvis, Hey Mycroft)
+* $59
 
 
 ### Tod #3
@@ -72,5 +73,5 @@ A few short stories that might you might have missed:
 * Make a [working PCB](https://www.youtube.com/watch?v=lX7dRaOLtZk) using a SLA printer's UV light.
 * The Lemontron 3D printer costs just over $400 to make yourself and is small enough to transport in an empty filament box. [Hackaday](https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/) and [Tom's Hardware])https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box)
 * [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
-* [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker.
+* [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker. It includes the STL files and bill of materials you need to build your own.  STLs start at $39 up to $109 for a commercial license version.
 
