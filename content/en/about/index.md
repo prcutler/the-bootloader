@@ -21,8 +21,8 @@ from the CircuitPython and maker communities.
 # About Paul Cutler
 Paul is an avid vinyl record collector and when he's not listening to records, you can find him 
 starting projects he'll never finish.  
-Paul was the host of <a href="https://www.circuitpythonshow.com/@circuitpythonshow">The CircuitPython Show</a>, 
-which ran from 2022 - 2024 and you can it in your favorite podcast app.
+Paul hosts <a href="https://www.circuitpythonshow.com/@circuitpythonshow">The CircuitPython Show</a>, 
+which features interviews with CircuitPython developers and community members. Find it in your favorite podcast app. 
 You can learn more about <a href="https://paulcutler.org">Paul at his homepage</a> 
 where he has been blogging about nothing for over twenty years.
 
