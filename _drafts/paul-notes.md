@@ -71,6 +71,7 @@
 * Pimoroni Presto:  https://shop.pimoroni.com/products/presto?variant=54894104019323
 * Home Assistant open voice assistant hardware:  https://newsletter.openhomefoundation.org/the-era-of-open-voice/
   * Product page: https://www.home-assistant.io/voice-pe/
+* [Matter speakers](https://www.theverge.com/2025/1/2/24332848/speakers-matter-smart-home-apple-google-amazon-legato)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
