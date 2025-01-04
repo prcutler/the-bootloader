@@ -1,32 +1,22 @@
 ---
 date: 2025-01-06
-title: "Episode 16"
+title: "Sunsets, Synths, and Pinball!"
 linkTitle: "Episode 16 - January 6, 2025"
-description: "Insert Episode Name Here"
+description: "Sunsets, Synths, and Pinball!"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 ## Welcome to the show
 
-Insert intro here.
+Happy New Year! Tod and Paul are back, each with three things to share.  They discuss sunsetting a popular IDE, Tod's favorite synth (which does so much more), 3D printing, pinball, and more.
+
+We're now on Bluesky!  [Follow us on Bluesky](https://bsky.app/profile/thebootloader.net) or [subscribe to our newsletter](https://buttondown.com/thebootloader).
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/sunsets-synths-and-pinball/embed/dark"></iframe>
 
 ## Show Notes
-
-### Synthstrom Deluge and its Community Firmware (Tod #1)
-
-The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of ["groovebox"](https://en.wikipedia.org/wiki/Groovebox), if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
-
-And then Synthstrom made me love them more. First they introduced an OLED multi-line screen replacement for the 7-segment display the Deluge originally had. And then they announced that not only were they releasing the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware), but they were releasing it under a true open source license (GPL) and creating a ("Synthstrom Community Fund")[https://www.patreon.com/c/Synthstrom] to financially assist anyone who wanted to work on improving the firmware.
-
-And boy did the community step up!  With a few months, the entire codebase was refactored to make it more usable in a large team. All while keeping the existing functionality.  Within a few months more, the first official "Community Firmware" was released for the Deluge. It added a bunch of UI and usability improvements but also added new features like new audio effects and filters, added new features to the sequencer, and entire new UI views that make it work like Ableton Live.
-
-Every few months, new features are added, and you can try them at any point. Or, like me, wait for the official releases. On December 25 2024, Community Firmware 1.3 was released. It adds DX7 synth emulation, a new "chord library", the ability to export a song as multiple WAVs (very useful for final production), and a whole bunch of other improvements.
-
-It's like getting a new piece of music gear every few months, it's incredible.
 
 ### Sunsetting Mu (Paul #1)
 
@@ -36,18 +26,17 @@ The Mu team will have two releases in 2025. The first will be built with a few b
 
 The Mu team expects to have this done by the end of March, 2025.
 
+### Synthstrom Deluge and its Community Firmware (Tod #1)
 
-### Elliot William's Klangorium: Logic chips as synths (Tod #2)
+The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device that falls mostly in the category of ["groovebox"](https://en.wikipedia.org/wiki/Groovebox), if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
 
-A few days before Christmas 2024, I attended a workshop hosted by the Hackaday Supplyframe DesignLab called
-[The Sound of Logic: Klangorium](https://hackaday.io/project/196424-the-sound-of-logic-klangorium).
-Taught by Richard Hogben (who does the music for the Hackaday Supercons), the workshop was about the "Klangorium" board that [Elliot Williams has been working on since 2015] ([hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium) and has been the topic of a [series of Hackaday articles](https://hackaday.com/tag/logic-noise/)
+And then Synthstrom made me love them more. First they introduced an OLED multi-line screen replacement for the 7-segment display the Deluge originally had. And then they announced that not only were they releasing the [Deluge source code on github](https://github.com/SynthstromAudible/DelugeFirmware), but they were releasing it under a true open source license (GPL) and creating a ("Synthstrom Community Fund")[https://www.patreon.com/c/Synthstrom] to financially assist anyone who wanted to work on improving the firmware.
 
-This board is a kind of modular synth, but where the modules are various CMOS logic chips configured in weird ways: a 40106 hex inverter becomes a 6-voice oscillator, a 4051 shift register becomes a sequencer, and so on. Because everything is square waves, a "mixer" can an OR-gate.  The board has header pins on the various sections, so you "patch" the synth together with jumper wires as if you're breadboarding a circuit.
+And boy did the community step up!  With a few months, the entire codebase was refactored to make it more usable in a large team. All while keeping the existing functionality.  Within a few months more, the first official "Community Firmware" was released for the Deluge. It added a bunch of UI and usability improvements but also added new features like new audio effects and filters, added new features to the sequencer, and entire new UI views that make it work like Ableton Live.
 
-links:
-- [original klangorium project](https://github.com/hexagon5un/klangorium)
-- [logic noise Hackaday articles](https://hackaday.com/tag/logic-noise/)
+Every few months, new features are added, and you can try them at any point. Or, like me, wait for the official releases. On December 25, 2024, Community Firmware 1.3 was released. It adds DX7 synth emulation, a new "chord library", the ability to export a song as multiple WAVs (very useful for final production), and a whole bunch of other improvements.
+
+It's like getting a new piece of music gear every few months, it's incredible.
 
 ### Home Assistant Voice (Preview Edition)
 
@@ -59,6 +48,28 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 * Wake word support (Hey Nabu, Hey Jarvis, Hey Mycroft)
 * $59
 
+### Elliot William's Klangorium: Logic chips as synths (Tod #2)
+
+A few days before Christmas 2024, I attended a workshop hosted by the Hackaday Supplyframe DesignLab called
+[The Sound of Logic: Klangorium](https://hackaday.io/project/196424-the-sound-of-logic-klangorium).
+Taught by Richard Hogben (who does the music for the Hackaday Supercons), the workshop was about the "Klangorium" board that [Elliot Williams has been working on since 2015] ([Hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium) and has been the topic of a [series of Hackaday articles](https://hackaday.com/tag/logic-noise/)
+
+This board is a kind of modular synth, but where the modules are various CMOS logic chips configured in weird ways: a 40106 hex inverter becomes a 6-voice oscillator, a 4051 shift register becomes a sequencer, and so on. Because everything is square waves, a "mixer" can an OR-gate.  The board has header pins on the various sections, so you "patch" the synth together with jumper wires as if you're breadboarding a circuit.
+
+links:
+- [original klangorium project](https://github.com/hexagon5un/klangorium)
+- [logic noise Hackaday articles](https://hackaday.com/tag/logic-noise/)
+
+### Fun with 3D Printing (Paul #3)
+
+A few short stories that might you might have missed:
+
+* A [4D axis printer](https://www.youtube.com/watch?v=VEgwnhLHy3g), where the nozzle can rotate.
+* MobiPrint, a mobile 3D printer, without a bed.  [Hackaday](https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/) [YouTube](https://www.youtube.com/watch?v=SknW-Oygh3w)
+* Make a [working PCB](https://www.youtube.com/watch?v=lX7dRaOLtZk) using a SLA printer's UV light.
+* The Lemontron 3D printer costs just over $400 to make yourself and is small enough to transport in an empty filament box. [Hackaday](https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/) and [Tom's Hardware])https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box)
+* [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
+* [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker. It includes the STL files and bill of materials you need to build your own.  STLs start at $39 up to $109 for a commercial license version.
 
 ### Pinball! (Tod #3)
 
@@ -74,15 +85,3 @@ In Pasadena not too far from me there's [Neon Retro Arcade](http://www.neonretro
 And according to [PinballMap.com](https://pinballmap.com/), in Minneapolis there's 47 pinball machines at [Litt Pinball Bar](https://littpinballbar.com/)!  (btw, pinballmap.com is great)
 
 [Find machines near you with Pinballmap.com](https://pinballmap.com/)
-
-
-### Fun with 3D Printing (Paul #3)
-
-A few short stories that might you might have missed:
-
-* A [4D axis printer](https://www.youtube.com/watch?v=VEgwnhLHy3g), where the nozzle can rotate.
-* MobiPrint, a mobile 3D printer, without a bed.  [Hackaday](https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/) [YouTube](https://www.youtube.com/watch?v=SknW-Oygh3w)
-* Make a [working PCB](https://www.youtube.com/watch?v=lX7dRaOLtZk) using a SLA printer's UV light.
-* The Lemontron 3D printer costs just over $400 to make yourself and is small enough to transport in an empty filament box. [Hackaday](https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/) and [Tom's Hardware])https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box)
-* [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
-* [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker. It includes the STL files and bill of materials you need to build your own.  STLs start at $39 up to $109 for a commercial license version.
