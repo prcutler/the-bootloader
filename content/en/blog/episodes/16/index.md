@@ -18,7 +18,7 @@ We're now on Bluesky!  [Follow us on Bluesky](https://bsky.app/profile/thebootlo
 
 ## Show Notes
 
-### Sunsetting Mu (Paul #1)
+### 00:19 Sunsetting Mu (Paul #1)
 
 Nicholas Tollervey and the developers of the [Mu code editor](https://codewith.mu) recently [shared that they will be sunsetting Mu](https://madewith.mu/mu/users/2024/12/10/retirement-plans.html). Mu has been around for over 9 years and is the first code editor for some people new to programming Python and MicroPython and CircuitPython.
 
@@ -26,7 +26,7 @@ The Mu team will have two releases in 2025. The first will be built with a few b
 
 The Mu team expects to have this done by the end of March, 2025.
 
-### Synthstrom Deluge and its Community Firmware (Tod #1)
+### 3:23 Synthstrom Deluge and its Community Firmware (Tod #1)
 
 The [Synthstrom Deluge](https://synthstrom.com/product/deluge/) is a music making device mostly in the ["groovebox"](https://en.wikipedia.org/wiki/Groovebox) category, if you've heard that term. It's a small device, about the size of a sheet of paper and an inch thick. It's covered with a grid of 144 RGB button pads and a few knobs. It's a MIDI sequencer, a drum machine, a sampler, and a multi-track audio recorder. And it's got a built-in battery so you can use it anywhere. It's also got CV/gate output to control modular synths.  It's what I use as the hub (and often only device) when making music. The Deluge is made by a small team in New Zealand, coded by one guy it seems, but its quality and attention to detail puts it in the realm of professional gear.  I love it.
 
@@ -38,7 +38,7 @@ Now, every few months, new features are added, and you can try them at any point
 
 It's like getting a new piece of music gear every few months, it's incredible.
 
-### Home Assistant Voice (Preview Edition)
+### 9:11 Home Assistant Voice (Preview Edition) (Paul #2)
 
 The team behind Home Assistant [has announced](https://newsletter.openhomefoundation.org/the-era-of-open-voice/) the [Home Assistant Voice (Preview Edition)](https://www.home-assistant.io/voice-pe/).
 * [Blog post](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/#language-support)
@@ -48,7 +48,7 @@ The team behind Home Assistant [has announced](https://newsletter.openhomefounda
 * Wake word support (Hey Nabu, Hey Jarvis, Hey Mycroft)
 * $59
 
-### Elliot William's Klangorium: Logic chips as synths (Tod #2)
+### 12:13 Elliot William's Klangorium: Logic chips as synths (Tod #2)
 
 A few days before Christmas 2024, I attended a workshop hosted by the Hackaday Supplyframe DesignLab called
 [The Sound of Logic: Klangorium](https://hackaday.io/project/196424-the-sound-of-logic-klangorium).
@@ -62,7 +62,7 @@ links:
 - [hackaday.io project](https://hackaday.io/project/6540-logic-noise-klangorium)
 - [matrixsynth article with deep dive](https://www.matrixsynth.com/2019/06/logic-noise-klangorium-diy-glitch-synth.html)
 
-### Fun with 3D Printing (Paul #3)
+### 15:50 Fun with 3D Printing (Paul #3)
 
 A few short stories that might you might have missed:
 
@@ -73,7 +73,7 @@ A few short stories that might you might have missed:
 * [PolyDye](https://www.level9000.co.za/index.html) adds an ink jet toner cartridge to your 3D printer to allow printing in color. [https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/](Hackaday)
 * [PETFusion 2.0](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) launched a [Kickstarter](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) that fully funded in 3 hours to create a bottle recycler and custom 3D printer filament maker. It includes the STL files and bill of materials you need to build your own.  STLs start at $39 up to $109 for a commercial license version.
 
-### Pinball!!! (Tod #3)
+### 19:18 Pinball!!! (Tod #3)
 
 I love [pinball](https://pinside.com/pinball/top-100). I grew up with mall arcades with pinball machines. They usually were kinda broken and were definitely old-timey compared to video games. But in college, whoever ran the laundry room in the dorm basement was smart and had room for a couple of coin-op video games and one pinball. This pinball machine was always in good shape. And if you're a college kid with some leftover quarters and waiting on his laundry, what are you doing to do?
 
