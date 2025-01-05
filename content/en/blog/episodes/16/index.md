@@ -16,6 +16,8 @@ We're now on Bluesky!  [Follow us on Bluesky](https://bsky.app/profile/thebootlo
 
 <iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/sunsets-synths-and-pinball/embed/dark"></iframe>
 
+[Read the transcript here](https://www.thebootloader.net/blog/2025/01/06/episode-16-transcript/).
+
 ## Show Notes
 
 ### 00:19 Sunsetting Mu (Paul #1)
