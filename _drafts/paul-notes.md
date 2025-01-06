@@ -59,12 +59,19 @@
 * New kind of 3D printer:  https://www.youtube.com/watch?v=VEgwnhLHy3g
 * 3D Printer without a bed:  https://hackaday.com/2024/12/10/3d-printer-eliminates-the-printer-bed/
 * Making a PCB on a SLA printer:  https://www.youtube.com/watch?v=lX7dRaOLtZk
+* Lemontron 3D printer: https://hackaday.com/2024/12/26/open-source-lemontron-3d-printer-is-ready-to-build/ and https://www.tomshardware.com/3d-printing/lemontron-an-open-source-fully-portable-3d-printer-has-arrived-can-be-transported-in-an-empty-filament-box
+* Printing color with a 3d printer:  https://hackaday.com/2024/12/28/full-color-3d-printing-with-polydye-and-existing-inkjet-cartridges/
+* PETFusion 2.0: [Tom's Hardware](https://www.tomshardware.com/3d-printing/all-in-one-machine-recycles-plastic-bottles-into-3d-printer-filament-petfusion-2-0-launches-on-kickstarter) and [Kickstarter](https://www.kickstarter.com/projects/creative3dp/petfusion-20-pet-bottle-to-filament-with-filament-welder)
 * Sunsetting Mu:  https://madewith.mu/mu/users/2024/12/10/retirement-plans.html
 * PixelConfig: https://pixelconfig.com
 * Wee Noise Maker PGB-1:  https://www.crowdsupply.com/wee-noise-makers/wee-noise-makers-pgb-1#products
   * https://bsky.app/profile/deschips.bsky.social
   * https://mamot.fr/@DesChips
 * Danger Klipper / Kalico:  https://hackaday.com/2024/12/11/danger-klipper-fork-renamed-to-kalico/
+* Pimoroni Presto:  https://shop.pimoroni.com/products/presto?variant=54894104019323
+* Home Assistant open voice assistant hardware:  https://newsletter.openhomefoundation.org/the-era-of-open-voice/
+  * Product page: https://www.home-assistant.io/voice-pe/
+* [Matter speakers](https://www.theverge.com/2025/1/2/24332848/speakers-matter-smart-home-apple-google-amazon-legato)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
@@ -79,3 +86,8 @@
 * [First time at Supercon](https://cdwilson.dev/articles/hackaday-supercon-2024/)
 * Maker Skill Trees for sale: https://www.makershed.com/collections/all/products/make-skillseeker-workbook
 * World's smallest arcade:  https://hackaday.com/2024/12/11/tiny-pong-big-ambitions-worlds-smallest-arcade/
+* Charles Lohr LCDs:  https://www.youtube.com/watch?v=KNDRUWlsu0k
+* DOOM Captcha: https://doom-captcha.vercel.app
+* [Manyfold roadmap](https://manyfold.app/news/2025/01/01/manyfold-nlnet.html) with NLNet grant
+* [Meet the man keeping hope and pinball alive](https://arstechnica.com/gaming/2025/01/meet-the-man-keeping-hope-and-70-year-old-pinball-machines-alive/)
+* 

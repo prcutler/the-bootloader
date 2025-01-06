@@ -1,9 +1,14 @@
 # Tod's Notes for Future Episodes
 
+* - JetKVM
+  - https://jetkvm.com
+  - https://github.com/jetkvm/kvm
+  - https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch
+
 
 ## Brainstorming 2024
 
-* FlatMac : https://www.youtube.com/watch?v=Grd_a4oi7qU
+* x FlatMac : https://www.youtube.com/watch?v=Grd_a4oi7qU
 
 * Supercon2024 and SAOs
   - https://github.com/flummer/dmm-sao
