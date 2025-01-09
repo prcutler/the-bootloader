@@ -73,6 +73,8 @@
   * Product page: https://www.home-assistant.io/voice-pe/
 * [Matter speakers](https://www.theverge.com/2025/1/2/24332848/speakers-matter-smart-home-apple-google-amazon-legato)
 * PixMob bracelets:  [Adafruit](https://blog.adafruit.com/2025/01/07/reverse-engineering-the-pixmob-concert-light-bands/) and https://cra0.net/blog/posts/reverse-engineering-pixmob-led-concert-bracelets-p1/
+* [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/)
+
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
