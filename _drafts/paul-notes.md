@@ -73,7 +73,7 @@
   * Product page: https://www.home-assistant.io/voice-pe/
 * [Matter speakers](https://www.theverge.com/2025/1/2/24332848/speakers-matter-smart-home-apple-google-amazon-legato)
 * PixMob bracelets:  [Adafruit](https://blog.adafruit.com/2025/01/07/reverse-engineering-the-pixmob-concert-light-bands/) and https://cra0.net/blog/posts/reverse-engineering-pixmob-led-concert-bracelets-p1/
-* [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/), [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/), and [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/)
+* [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/), [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/), and [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/) and [Hackaday](https://hackaday.com/2025/01/09/3dbenchy-starts-enforcing-its-no-derivatives-license/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
