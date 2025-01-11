@@ -16,6 +16,7 @@ https://podcasts.apple.com/us/podcast/sunsets-synths-and-pinball/id1644244356?i=
 * Simon Repp, the maintainer of [Faircamp](https://simonrepp.com/faircamp/), the static site generator for musicians which we covered back in [episode 9](https://www.thebootloader.net/blog/2024/06/03/beautiful-bezier-curves/), [announced](https://post.lurk.org/@freebliss/113804889509469187) they too have another grant from NLNet to add podcast support and track level metadata such as lyrics, transcripts, and cover art. 
 * Paul mentioned in the latest episode that RadioFreeFedi has shut down, but [there is an archive](https://archive.org/details/@lime_bar/lists/1/radio-free-fedi).
 * Do you design PCBs?  Check out this handy [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/).
+* YouTuber [Bay Mud did a deep dive](https://www.youtube.com/watch?v=IiwvwLqUmq4) into the latest community firmware 1.2 for the Synthstrom Deluge
 
 ## From the hosts
 
