@@ -76,6 +76,7 @@
 * [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/), [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/), and [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/) and [Hackaday](https://hackaday.com/2025/01/09/3dbenchy-starts-enforcing-its-no-derivatives-license/) or [is it](https://all3dp.com/4/no-3dbenchy-remixes-arent-being-dmcad/)?
 * ukritair: https://www.ucritter.com
 * [Small parts inventory tool](https://github.com/dunkelstern/inventory)
+* [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
