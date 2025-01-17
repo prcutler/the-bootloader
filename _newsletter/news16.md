@@ -10,13 +10,16 @@ https://podcasts.apple.com/us/podcast/sunsets-synths-and-pinball/id1644244356?i=
 
 ## Leftover Links
 
-* In our [Supercon 2024 episode](https://www.thebootloader.net/blog/2024/12/02/supercon-2024/), we shared that our favorite talk was by Charles Lohr.  Well, he's back doing what he does, this time [with LCDs](https://www.youtube.com/watch?v=KNDRUWlsu0k). 
+* In our [Supercon 2024 episode](https://www.thebootloader.net/blog/2024/12/02/supercon-2024/), we shared that our favorite talk was by Charles Lohr.  Well, he's back doing what he does, this time [with LCDs](https://www.youtube.com/watch?v=KNDRUWlsu0k).
 * Tod shared his love of pinball in the latest episode. [Meet the man keeping hope and pinball alive](https://arstechnica.com/gaming/2025/01/meet-the-man-keeping-hope-and-70-year-old-pinball-machines-alive/).
 * We covered [Manyfold](https://www.manyfold.app) in an [earlier episode](https://www.thebootloader.net/blog/2024/11/04/welcome-kevin-santo-cappuccio/) and they've received a second round of funding from NLNet and shared their [roadmap](https://manyfold.app/news/2025/01/01/manyfold-nlnet.html).
-* Simon Repp, the maintainer of [Faircamp](https://simonrepp.com/faircamp/), the static site generator for musicians which we covered back in [episode 9](https://www.thebootloader.net/blog/2024/06/03/beautiful-bezier-curves/), [announced](https://post.lurk.org/@freebliss/113804889509469187) they too have another grant from NLNet to add podcast support and track level metadata such as lyrics, transcripts, and cover art. 
+* Simon Repp, the maintainer of [Faircamp](https://simonrepp.com/faircamp/), the static site generator for musicians which we covered back in [episode 9](https://www.thebootloader.net/blog/2024/06/03/beautiful-bezier-curves/), [announced](https://post.lurk.org/@freebliss/113804889509469187) they too have another grant from NLNet to add podcast support and track level metadata such as lyrics, transcripts, and cover art.
 * Paul mentioned in the latest episode that RadioFreeFedi has shut down, but [there is an archive](https://archive.org/details/@lime_bar/lists/1/radio-free-fedi).
 * Do you design PCBs?  Check out this handy [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/).
 * YouTuber [Bay Mud did a deep dive](https://www.youtube.com/watch?v=IiwvwLqUmq4) into the latest community firmware 1.2 for the Synthstrom Deluge
+* Need to keep an eye on fires in your area? [Watch Duty](https://app.watchduty.org/) has been an indespensable app to Tod for tracking fire progression, satellite-based infrared hotspots, neighborhood-based evacuation notices, official fire department statements, and up-to-the-minute recovery efforts. And they're a 501(c)3 non-profit, only asking for payment if you want some extra optional features like being able to watch the flight patterns of the tanker aircraft (Tod did!)
+* For quick & cheap air purification, a [Corsi–Rosenthal Box](https://en.wikipedia.org/wiki/Corsi%E2%80%93Rosenthal_Box) is hard to beat. You can build one in about 30 minutes from a 20" box fan and four furnace filters. They even have [instructions for different countries/languages](https://corsirosenthalfoundation.org/instructions/).
+
 
 ## From the hosts
 
@@ -28,7 +31,10 @@ https://podcasts.apple.com/us/podcast/sunsets-synths-and-pinball/id1644244356?i=
 
 ### Tod
 
-**What I'm working on:** 
+**What I'm working on:** I've not been working on much Bootloader-worthy this past week as we've had to evacuate from the [Eaton wildfire](https://www.fire.ca.gov/incidents/2025/1/7/eaton-fire) that ate much of the larger neighborhood. Luckily our home was spared but now there's lots of cleanup, and not just woodsmoke like previous fires but dangerous ash from those homes that weren't so lucky.
+
+**What I'm watching:** I just finished the BBC series ["Ludwig"](https://en.wikipedia.org/wiki/Ludwig_(2024_TV_series)), about a reclusive puzzle designer who inadvertantly takes on his twin brother's identity as a police detective, incidentally solving murders along the way. Great fun, regularly touching, starring David Mitchell (Mitchell & Webb, "Are we the baddies?", etc).
+
 
 ## We're now on Bluesky!
 
@@ -36,4 +42,3 @@ https://bsky.app/profile/thebootloader.net
 
 ## Support the show
 Enjoying The Bootloader?  Tell a friend, rate the show, or write a review.  We appreciate your support!
-
