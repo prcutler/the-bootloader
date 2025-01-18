@@ -76,7 +76,8 @@
 * [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/), [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/), and [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/) and [Hackaday](https://hackaday.com/2025/01/09/3dbenchy-starts-enforcing-its-no-derivatives-license/) or [is it](https://all3dp.com/4/no-3dbenchy-remixes-arent-being-dmcad/)?
 * ukritair: https://www.ucritter.com
 * [Small parts inventory tool](https://github.com/dunkelstern/inventory)
-* [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers and [Orca benefits](https://www.reddit.com/r/BambuLab/comments/1i3gyn5/tell_me_why_orcaslicer_is_better_than_bambu_studio/) and [Hackaday coverage](https://hackaday.com/2025/01/17/new-bambu-lab-firmware-update-adds-mandatory-authorization-control-system/)
+* [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers and [Orca benefits](https://www.reddit.com/r/BambuLab/comments/1i3gyn5/tell_me_why_orcaslicer_is_better_than_bambu_studio/) and [Hackaday coverage](https://hackaday.com/2025/01/17/new-bambu-lab-firmware-update-adds-mandatory-authorization-control-system/) and [key cracked](https://hastebin.skyra.pw/pufugimoye.js)
+ * [Reddit thread on why it might have happened](https://www.reddit.com/r/3Dprinting/comments/1i4gotq/my_product_is_the_reason_bambu_blocked_the_api/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
