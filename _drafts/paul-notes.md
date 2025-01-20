@@ -79,6 +79,7 @@
 * [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers and [Orca benefits](https://www.reddit.com/r/BambuLab/comments/1i3gyn5/tell_me_why_orcaslicer_is_better_than_bambu_studio/) and [Hackaday coverage](https://hackaday.com/2025/01/17/new-bambu-lab-firmware-update-adds-mandatory-authorization-control-system/) and [key cracked](https://hastebin.skyra.pw/pufugimoye.js)
  * [Reddit thread on why it might have happened](https://www.reddit.com/r/3Dprinting/comments/1i4gotq/my_product_is_the_reason_bambu_blocked_the_api/)
  * [Bambu Klipper conversion](https://github.com/ChazLayyd/Bambu-Lab-Klipper-Conversion)
+ * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
