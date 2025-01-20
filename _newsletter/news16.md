@@ -28,7 +28,7 @@ https://podcasts.apple.com/us/podcast/sunsets-synths-and-pinball/id1644244356?i=
 
 **What I'm working on:** I shared [earlier this month](https://buttondown.com/circuitpythonshow/archive/the-return-of-the-circuitpython-show/) that I was bringing back [The CircuitPython Show](https://www.circuitpythonshow.com/@circuitpythonshow) after a one year hiatus.  I've been hard at work recording and editing episodes and am happy to say that the first episode debuted January 13th with CircuitPython community member Aaron Pendley.  I'm mixing it up this season with topic based episodes in addition to community interviews.
 
-**What I'm watching:** Like Tod last month, I've been watching the latest Star Wars show, Skeleton Crew.  I'm also enjoying The Day of the Jackal on Peacock.
+**What I'm watching:** Like Tod last month, I've been watching the latest Star Wars show, Skeleton Crew.  I also enjoyed The Jackal on Peacock.  I just finished Dune: Prophecy and it was much better than I expected.  The movies were so good I wasn't sure how a TV show set in the same universe would be, but both the story and special effects were better than I thought they would be.  I've only read the original Dune trilogy, so the prequel stories are all new to me.
 
 ### Tod
 
