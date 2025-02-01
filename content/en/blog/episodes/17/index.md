@@ -10,15 +10,35 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 
 bamboozle:  *To deceive or dupe; hoodwink. synonym: deceive.*
 
-Welcome to The Bootloader, I'm Tod Kurt.
-
-And I'm Paul Cutler.
-
 ## Listen to the podcast
 
 Insert iframe from Castopod here.
 
 ## Show Notes
+
+### Paul #1: Drama in 3D Printing
+
+#### Printables pulls Benchy models
+
+The 3DBenchy is a 3D model that is used to calibrate 3D printers.  It's a small boat and is used to diagnose issues with your 3D printer.  It was originally created by Creative Tools, who was recently acquired by NTI Group, and licensed under a CC-BY-ND license.  The non-derivatives license means you can't use the model and remix it into other shapes - and if you're in the 3D printing community, you probably know that there are dozens of remixes.
+
+At first, people thought that the new owner, NTI Group, was sending takedown notices, but they released a statement that they weren't doing that.  It turns out that Printables, the 3D model website owned by Prusa, took it upon themselves to enforce the license for unknown reasons.
+
+* [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/)
+* [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/)
+* [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/)
+* [Hackaday](https://hackaday.com/2025/01/09/3dbenchy-starts-enforcing-its-no-derivatives-license/) or [is it](https://all3dp.com/4/no-3dbenchy-remixes-arent-being-dmcad/)?
+
+#### Bambu to add a new authorization control system
+
+Bambu Labs, who we've covered multiple times in the podcast, has announced that they’re adding a proprietary authentication mechanism that locks out 3rd party tools from controlling your printer.  To oversimplify, Bambu claims that this is  a security enhancement, but hasn’t exactly said *why* it’s needed.
+
+* [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers and [Orca benefits](https://www.reddit.com/r/BambuLab/comments/1i3gyn5/tell_me_why_orcaslicer_is_better_than_bambu_studio/) and [Hackaday coverage](https://hackaday.com/2025/01/17/new-bambu-lab-firmware-update-adds-mandatory-authorization-control-system/) and [key cracked](https://hastebin.skyra.pw/pufugimoye.js)
+  * [The Verge coverage](https://www.theverge.com/2025/1/21/24349031/bambu-3d-printer-update-authentication-filament-subscription-lock-answers)
+ * [Reddit thread on why it might have happened](https://www.reddit.com/r/3Dprinting/comments/1i4gotq/my_product_is_the_reason_bambu_blocked_the_api/)
+ * [Bambu Klipper conversion](https://github.com/ChazLayyd/Bambu-Lab-Klipper-Conversion)
+ * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
+ * [X1Plus follow-up](https://www.crowdsupply.com/accelerated-tech/x1plus-expander/updates/bambu-labs-security-updates)
 
 ### Tod #1: Oscilloscope Music
 
@@ -52,30 +72,15 @@ One really nice piece from the album: [Intersect from N-SPHERES](https://www.you
 
 Bonus video: [Justice's "Neverender" official lyric video](https://www.youtube.com/watch?v=47YNsf-7Y7c) with XY-mode oscilloscope visuals
 
+### Paul #2: μCritter
 
-### Paul #1: Drama in 3D Printing
+[uCritAir, or microcritter](https://www.ucritter.com) is a small handheld device that is both a game and an air quality sensor. It's primary purpose is as an air quality sensor, and includes USB-C charging, WiFi and Bluetooth, a microSD card for data logging, a battery, a speaker, and both an eInk and touchscreen LCD screens.  The eInk dispaly is meant to be used, for example, sitting on your desk monitoring the air quality and the LCD screen is for gaming.
 
-#### Printables pulls Benchy models
+The game is a virtual pet called the μCritter, who is healthiest when the air quality around you is the best. The μCritAir continuously samples the air quality around you give your μCritter the simulated experience of the air you're breathing.
 
-The 3DBenchy is a 3D model that is used to calibrate 3D printers.  It's a small boat and is used to diagnose issues with your 3D printer.  It was originally created by Creative Tools, who was recently acquired by NTI Group, and licensed under a CC-BY-ND license.  The non-derivatives license means you can't use the model and remix it into other shapes - and if you're in the 3D printing community, you probably know that there are dozens of remixes.
+It also includes some fast paced arcade games where you can earn coins that you spend in their Vending Machine. You can "purchase" upgrades for your μCritter from the Vending Machine, with things like baseballs, furniture, and more.
 
-At first, people thought that the new owner, NTI Group, was sending takedown notices, but they released a statement that they weren't doing that.  It turns out that Printables, the 3D model website owned by Prusa, took it upon themselves to enforce the license for unknown reasons.
-
-* [3D Benchy shutting down remixes](https://www.redditmedia.com/r/BambuLab/comments/1hwqe8e/fyi_3dbenchycom_is_sending_lawyers_to_kill_the_fun/)
-* [more history on Reddit](https://www.reddit.com/r/3Dprinting/comments/1hx2xbp/about_3dbenchy_someone_else_owns_the_rights_now/)
-* [Creative Tools history](https://www.linkedin.com/posts/danielnoree_a-piece-of-3dprinting-history-just-faded-activity-7282680313879683072-FCET/)
-* [Hackaday](https://hackaday.com/2025/01/09/3dbenchy-starts-enforcing-its-no-derivatives-license/) or [is it](https://all3dp.com/4/no-3dbenchy-remixes-arent-being-dmcad/)?
-
-#### Bambu to add a new authorization control system
-
-Bambu Labs, who we've covered multiple times in the podcast, has announced that they’re adding a proprietary authentication mechanism that locks out 3rd party tools from controlling your printer.  To oversimplify, Bambu claims that this is  a security enhancement, but hasn’t exactly said *why* it’s needed.
-
-* [New Bambu firmware](https://blog.bambulab.com/firmware-update-introducing-new-authorization-control-system-2/) that shuts out 3rd party slicers and [Orca benefits](https://www.reddit.com/r/BambuLab/comments/1i3gyn5/tell_me_why_orcaslicer_is_better_than_bambu_studio/) and [Hackaday coverage](https://hackaday.com/2025/01/17/new-bambu-lab-firmware-update-adds-mandatory-authorization-control-system/) and [key cracked](https://hastebin.skyra.pw/pufugimoye.js)
-  * [The Verge coverage](https://www.theverge.com/2025/1/21/24349031/bambu-3d-printer-update-authentication-filament-subscription-lock-answers)
- * [Reddit thread on why it might have happened](https://www.reddit.com/r/3Dprinting/comments/1i4gotq/my_product_is_the_reason_bambu_blocked_the_api/)
- * [Bambu Klipper conversion](https://github.com/ChazLayyd/Bambu-Lab-Klipper-Conversion)
- * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
- * [X1Plus follow-up](https://www.crowdsupply.com/accelerated-tech/x1plus-expander/updates/bambu-labs-security-updates)
+It's also [open source certified with OSHWA](https://certification.oshwa.org/us002714.html) and the firmware and hardware is [available on GitHub](https://github.com/ucritair).  It looks to be built on top of Zephyr.
 
 ### Tod #2: Buchla & Friends synth get-together
 
@@ -94,22 +99,7 @@ Some videos of the event:
 - [Walkthrough by Sonic State](https://www.youtube.com/watch?v=DJxKEjer_AE)
 - [Piqued FM reacts](https://www.youtube.com/watch?v=By-shXpcjSg)
 
-
-
-### Paul #2: μCritter
-
-[uCritAir, or microcritter](https://www.ucritter.com) is a small handheld device that is both a game and an air quality sensor. It's primary purpose is as an air quality sensor, and includes USB-C charging, WiFi and Bluetooth, a microSD card for data logging, a battery, a speaker, and both an eInk and touchscreen LCD screens.  The eInk dispaly is meant to be used, for example, sitting on your desk monitoring the air quality and the LCD screen is for gaming.
-
-The game is a virtual pet called the μCritter, who is healthiest when the air quality around you is the best. The μCritAir continuously samples the air quality around you give your μCritter the simulated experience of the air you're breathing.
-
-It also includes some fast paced arcade games where you can earn coins that you spend in their Vending Machine. You can "purchase" upgrades for your μCritter from the Vending Machine, with things like baseballs, furniture, and more.
-
-It's also [open source certified with OSHWA](https://certification.oshwa.org/us002714.html) and the firmware and hardware is [available on GitHub](https://github.com/ucritair).  It looks to be built on top of Zephyr.
-
-
-### Tod #3:
-
-- no number three this week
+![Tod at Buchla & Friends playing a synth](todbot-buchla.jpg)
 
 ### Paul #3: Inventory Management for Makers
 
