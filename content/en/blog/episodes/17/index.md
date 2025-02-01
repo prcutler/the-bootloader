@@ -15,7 +15,7 @@ View the [transcript here(https://www.thebootloader.net/blog/2025/02/03/episode-
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/bamboozled/embed/dark-transparent"></iframe>
 
 ## Show Notes
 
