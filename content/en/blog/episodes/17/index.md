@@ -7,14 +7,19 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
 ## Welcome to the show
+Paul and Tod discuss drama in the world of 3D printing, oscilloscope music, inventory management for makers, and more.
 
-bamboozle:  *To deceive or dupe; hoodwink. synonym: deceive.*
+Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net) and sign up for ad-free, spam-free, tracking-free [monthly newsletter](https://buttondown.com/thebootloader).
+
+View the [transcript here(https://www.thebootloader.net/blog/2025/02/03/episode-17-transcript/).
 
 ## Listen to the podcast
 
 Insert iframe from Castopod here.
 
 ## Show Notes
+
+bamboozle:  *To deceive or dupe; hoodwink. synonym: deceive.*
 
 ### Paul #1: Drama in 3D Printing
 
