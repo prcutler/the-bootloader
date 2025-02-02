@@ -11,7 +11,7 @@ Paul and Tod discuss drama in the world of 3D printing, oscilloscope music, inve
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net) and sign up for ad-free, spam-free, tracking-free [monthly newsletter](https://buttondown.com/thebootloader).
 
-View the [transcript here(https://www.thebootloader.net/blog/2025/02/03/episode-17-transcript/).
+View the [transcript here](https://www.thebootloader.net/blog/2025/02/03/episode-17-transcript/).
 
 ## Listen to the podcast
 
