@@ -80,6 +80,7 @@
  * [Reddit thread on why it might have happened](https://www.reddit.com/r/3Dprinting/comments/1i4gotq/my_product_is_the_reason_bambu_blocked_the_api/)
  * [Bambu Klipper conversion](https://github.com/ChazLayyd/Bambu-Lab-Klipper-Conversion)
  * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
+* [Supercon Joshua Wise hacks the Bambu X1C](https://hackaday.com/2025/01/29/supercon-2024-joshua-wise-hacks-the-bambu-x1-carbon/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
