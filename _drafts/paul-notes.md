@@ -103,3 +103,4 @@
 * [Meet the man keeping hope and pinball alive](https://arstechnica.com/gaming/2025/01/meet-the-man-keeping-hope-and-70-year-old-pinball-machines-alive/)
 * [RadioFreeFedi archive](https://archive.org/details/@lime_bar/lists/1/radio-free-fedi)
 * [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/)
+* [Benchy now in the public domain](https://www.nti-group.com/home/information/news/3dbenchy/)
