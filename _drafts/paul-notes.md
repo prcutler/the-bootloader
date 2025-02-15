@@ -104,3 +104,4 @@
 * [RadioFreeFedi archive](https://archive.org/details/@lime_bar/lists/1/radio-free-fedi)
 * [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/)
 * [Benchy now in the public domain](https://www.nti-group.com/home/information/news/3dbenchy/)
+* [Choosing a microcontroller](https://lcamtuf.substack.com/p/choosing-a-microcontroller)
