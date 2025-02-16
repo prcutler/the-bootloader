@@ -83,6 +83,7 @@
 * [Supercon Joshua Wise hacks the Bambu X1C](https://hackaday.com/2025/01/29/supercon-2024-joshua-wise-hacks-the-bambu-x1-carbon/)
 * [3D Printed Record](https://www.instructables.com/3D-Printed-Record/)
 * [Podcast later](https://podcastlater.com) and [GitHub](https://github.com/podcast-later/browser-extensions)
+* [ESP32 WiFis Sensing Array](https://espargos.net)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
