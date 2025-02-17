@@ -82,6 +82,7 @@
  * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
 * [Supercon Joshua Wise hacks the Bambu X1C](https://hackaday.com/2025/01/29/supercon-2024-joshua-wise-hacks-the-bambu-x1-carbon/)
 * [3D Printed Record](https://www.instructables.com/3D-Printed-Record/)
+  * [Amanda Ghassaei](https://amandaghassaei.com/projects/)
 * [Podcast later](https://podcastlater.com) and [GitHub](https://github.com/podcast-later/browser-extensions)
 * [ESP32 WiFis Sensing Array](https://espargos.net)
 
