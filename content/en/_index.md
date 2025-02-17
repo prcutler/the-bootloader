@@ -80,7 +80,7 @@ Follow Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://b
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Support the show" %}}
+{{% blocks/feature icon="fa-solid fa-heart" title="Support the show" %}}
 Enjoy the show?  Write a review or tell a friend!
 {{% /blocks/feature %}}
 
