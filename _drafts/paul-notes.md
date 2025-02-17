@@ -107,3 +107,4 @@
 * [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/)
 * [Benchy now in the public domain](https://www.nti-group.com/home/information/news/3dbenchy/)
 * [Choosing a microcontroller](https://lcamtuf.substack.com/p/choosing-a-microcontroller)
+* [Using a turntable with an iPad and HomePod speakers](https://www.macstories.net/stories/from-a-turntable-to-an-ipad-home-dashboard-my-first-experience-with-vinyl/)
