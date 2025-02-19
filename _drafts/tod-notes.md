@@ -1,6 +1,15 @@
 # Tod's Notes for Future Episodes
 
-* - JetKVM
+## Links:
+
+* 200Mhz Clock Support for RP2040
+  - https://bsky.app/profile/thejpster.org.uk/post/3lijrgmptnc2a
+  - https://github.com/raspberrypi/pico-sdk/releases/tag/2.1.1
+
+* YoutubeSequencer.com
+  - https://youtubesequencer.com
+
+* JetKVM
   - https://jetkvm.com
   - https://github.com/jetkvm/kvm
   - https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch
