@@ -87,6 +87,7 @@
 * [ESP32 WiFis Sensing Array](https://espargos.net)
 * [8 Bit Wave digital cassette deck](https://github.com/tebl/8BIT-Wave)
 * [Pico mini computer](https://www.youtube.com/watch?v=rnwPmoWMGqk)
+* [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
