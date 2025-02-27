@@ -113,6 +113,8 @@
 * [Using a turntable with an iPad and HomePod speakers](https://www.macstories.net/stories/from-a-turntable-to-an-ipad-home-dashboard-my-first-experience-with-vinyl/)
 * [Belfry OpenSCAD parts library](https://hackaday.com/2025/02/18/belfry-openscad-library-bosl2-brings-useful-parts-and-tools-aplenty/)
 * [Kevin's solderless breadboard coverage at Hackster.io](https://www.hackster.io/news/kevin-santo-cappuccio-hacks-the-jumperless-v5-into-the-world-s-first-breadboard-to-run-doom-3b32637de4a3)
+* [EA open sources Command and Conquer](https://www.gamingonlinux.com/2025/02/ea-just-open-sourced-command-conquer-red-alert-renegade-and-generals/)
+
 
 ### Podcast Later (Paul #2)
 
