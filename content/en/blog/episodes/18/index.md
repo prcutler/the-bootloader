@@ -1,7 +1,7 @@
 ---
 date: 2025-03--3
-title: "TBD"
-linkTitle: "Episode x - Date"
+title: "Welcome Brent Rubell"
+linkTitle: "Episode 18 - March 3, 2025"
 description: "Episode 18"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
@@ -11,7 +11,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 Tod and Paul welcome guest Brent Rubell of Adafruit Industries.
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
-Episode transcript is available here.
+View the [transcript here](https://www.thebootloader.net/blog/2025/03/03/episode-18-transcript/).
 
 ## Listen to the podcast
 
