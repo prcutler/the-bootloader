@@ -1,5 +1,5 @@
 ---
-date: 2025-03--3
+date: 2025-03-03
 title: "Welcome Brent Rubell"
 linkTitle: "Episode 18 - March 3, 2025"
 description: "Episode 18"
