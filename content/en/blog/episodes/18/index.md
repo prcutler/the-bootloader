@@ -23,10 +23,10 @@ View the [transcript here](https://www.thebootloader.net/blog/2025/03/03/episode
 
 Disclaimer, I am biased on this note as I work for Adafruit Industries as an Engineer. To back up and explain this item, WipperSnapper is a firmware that enables people to visually create Internet-connected
 electronics projects. What this means is that you can click your way to a fully working project,
-there's no programming involved. 
+there's no programming involved.
 
 My colleague Loren and I work together on this project, WipperSnapper. He handles the Web side of things, specifically
-the Adafruit IO MQTT broker and functionality around it. I lead the embedded side. We're two different 
+the Adafruit IO MQTT broker and functionality around it. I lead the embedded side. We're two different
 engineers working on the same project, which has been fun.
 
 Since WipperSnapper has been out for a while now, and the beta tag is about to get ripped off,
@@ -38,11 +38,11 @@ a way to test the API and functionality and Loren was deep in development of a d
 We ended up adding a feature that allows you to create a project on Adafruit IO, download the configuration file
 (which is a JSON-encoded file) and drag it onto the WipperSnapper device. The device will then read the file and
 automatically configure itself to start logging data to a MicroSD card. This runs offline and doesn't require a network connection, which is different from regular
-WipperSnapper projects. 
+WipperSnapper projects.
 
 It's cool because a) there's nothing like this where you can create a project online and then download it to a device
-and b) it's the same firmware! We didn't write a new firmware, the offline mode is a shim that runs 
-when a configuration file is loaded on the drive. One firmware, two modes! 
+and b) it's the same firmware! We didn't write a new firmware, the offline mode is a shim that runs
+when a configuration file is loaded on the drive. One firmware, two modes!
 
 This should all be released on the Adafruit Learning System in March 2025.
 
@@ -134,13 +134,15 @@ The @arduinoLibs bot appears to be tracking the pull-requests to the
 [Arduino library registry github repo](https://github.com/arduino/library-registry)
 and it's a great way to get ideas or see what people are doing with Arduino.
 The bot is promises no more than six posts per hour so it doesn't overwhelm your feed.
-I really like poking around libraries to see what's
+I really like poking around libraries to see what people are building and as a gauge on
+the "State of the Arduino community".
 
 Some examples:
 
 - [YAMLDuino](https://github.com/tobozo/YAMLDuino) - YAML file parsing in Arduino
 - [Usini Discord WebHook](https://github.com/usini/usini_discord_webhook) - Write Discord bots in Arduino
 - [CodeCell](https://github.com/microbotsio/CodeCell) - Wrapper library for a new coin-sized ESP32-C3-based board that has a lipo-charger, 9-axis IMU, and light sensor
+- [GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) - Turn an ESP32 into a "Find My" device
 
 Links:
 
@@ -154,8 +156,8 @@ Links:
 Paul thought he found the perfect story for this episode, but there's a catch, which he shares at the end.
 [Amanda Ghassaei](https://amandaghassaei.com/projects/) used a resin printer to create a 3D printed record.
 
-On her [Instructables page](https://www.instructables.com/3D-Printed-Record/), Amanda shares how a record works and then 
-walks through how she calculated the sampling rate for a 3D printer including the sampling frequency, revolutions per 
+On her [Instructables page](https://www.instructables.com/3D-Printed-Record/), Amanda shares how a record works and then
+walks through how she calculated the sampling rate for a 3D printer including the sampling frequency, revolutions per
 second, and inches per revolution to get the max sampling frequency of 12kHz.
 
 She then wrote an Arduino sketch called Processing to take a sine wave and convert it to a series of integers which
