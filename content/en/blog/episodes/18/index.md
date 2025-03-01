@@ -15,7 +15,7 @@ Episode transcript is available here.
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/welcome-brent-rubell/embed/dark"></iframe>
 
 ## Show Notes
 
@@ -46,6 +46,7 @@ when a configuration file is loaded on the drive. One firmware, two modes!
 
 This should all be released on the Adafruit Learning System in March 2025.
 
+
 ### 200 MHz Clock Support for RP2040 / Pico  (Tod #1)
 
 Good news, everyone! Free speed boost for your Pico!
@@ -67,9 +68,10 @@ Links with more details:
   - https://bsky.app/profile/thejpster.org.uk/post/3lijrgmptnc2a
   - ["I already use a pretty aggressive overlock to 366MHz"](https://bsky.app/profile/polpo.org/post/3lik2xrznhs2z) - @polpo.org / [PicoGUS](https://picog.us/)
 
+
 ### Microcontrollers as computers (Paul #1)
 
-### Slimedeck Zero
+#### Slimedeck Zero
 
 Microcontrollers are so powerful that we're starting to see almost full fledged computers being built.  A maker named
 Abe Haskins has built a small handheld computer called the Slimedeck Zero using Pimoroni's PicoVision as it's brain.
@@ -100,7 +102,6 @@ We haven't seen much of the software running on it yet, but I have to guess we'l
 giving us a full fledged CircuitPython mini-computer.
 
 
-
 ### Obsidian (Brent #2)
 
 Have we talked about Obsidian on here before? I've used Evernote for years, I have so so so many notes in Evernote.  I've tried Notion, it is way too much for my purposes.
@@ -119,6 +120,7 @@ entries in my notes. That's it - the workflow is tiny! Another "workflow" I've s
 
 - [Obsidian](https://obsidian.md/) - Obsidian Markdown-Based Note Taking App
 - [Zotero and Obsidian Workflow](https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd) - Workflow for Zotero and Obsidian
+
 
 ### ArduinoLibs bot on Mastodon/Bluesky (Tod #2)
 
@@ -139,7 +141,6 @@ Some examples:
 - [YAMLDuino](https://github.com/tobozo/YAMLDuino) - YAML file parsing in Arduino
 - [Usini Discord WebHook](https://github.com/usini/usini_discord_webhook) - Write Discord bots in Arduino
 - [CodeCell](https://github.com/microbotsio/CodeCell) - Wrapper library for a new coin-sized ESP32-C3-based board that has a lipo-charger, 9-axis IMU, and light sensor
-
 
 Links:
 
