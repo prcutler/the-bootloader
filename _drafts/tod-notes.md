@@ -1,6 +1,18 @@
 # Tod's Notes for Future Episodes
 
-* - JetKVM
+## Links:
+
+* 200Mhz Clock Support for RP2040
+  - https://github.com/raspberrypi/pico-sdk/releases/tag/2.1.1
+  - https://www.hackster.io/news/the-raspberry-pi-rp2040-gets-a-surprise-speed-boost-unlocks-an-official-200mhz-mode-d6c9d267de5a
+  - https://bsky.app/profile/thejpster.org.uk/post/3lijrgmptnc2a
+  - "I already use a pretty aggressive overlock to 366MHz" - @polpo.org / PicoGUS
+
+
+* YoutubeSequencer.com
+  - https://youtubesequencer.com
+
+* JetKVM
   - https://jetkvm.com
   - https://github.com/jetkvm/kvm
   - https://www.jeffgeerling.com/blog/2024/jetkvm-tiny-ip-kvm-thats-not-apple-watch

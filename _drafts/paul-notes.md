@@ -82,7 +82,12 @@
  * [Bambu's official blog post](https://blog.bambulab.com/updates-and-third-party-integration-with-bambu-connect/)
 * [Supercon Joshua Wise hacks the Bambu X1C](https://hackaday.com/2025/01/29/supercon-2024-joshua-wise-hacks-the-bambu-x1-carbon/)
 * [3D Printed Record](https://www.instructables.com/3D-Printed-Record/)
+  * [Amanda Ghassaei](https://amandaghassaei.com/projects/)
 * [Podcast later](https://podcastlater.com) and [GitHub](https://github.com/podcast-later/browser-extensions)
+* [ESP32 WiFis Sensing Array](https://espargos.net)
+* [8 Bit Wave digital cassette deck](https://github.com/tebl/8BIT-Wave)
+* [Pico mini computer](https://www.youtube.com/watch?v=rnwPmoWMGqk)
+* [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
@@ -103,3 +108,31 @@
 * [Meet the man keeping hope and pinball alive](https://arstechnica.com/gaming/2025/01/meet-the-man-keeping-hope-and-70-year-old-pinball-machines-alive/)
 * [RadioFreeFedi archive](https://archive.org/details/@lime_bar/lists/1/radio-free-fedi)
 * [PCB Checklist](https://dominionofawesome.com/vca/electrical-design-checklist/)
+* [Benchy now in the public domain](https://www.nti-group.com/home/information/news/3dbenchy/)
+* [Choosing a microcontroller](https://lcamtuf.substack.com/p/choosing-a-microcontroller)
+* [Using a turntable with an iPad and HomePod speakers](https://www.macstories.net/stories/from-a-turntable-to-an-ipad-home-dashboard-my-first-experience-with-vinyl/)
+* [Belfry OpenSCAD parts library](https://hackaday.com/2025/02/18/belfry-openscad-library-bosl2-brings-useful-parts-and-tools-aplenty/)
+* [Kevin's solderless breadboard coverage at Hackster.io](https://www.hackster.io/news/kevin-santo-cappuccio-hacks-the-jumperless-v5-into-the-world-s-first-breadboard-to-run-doom-3b32637de4a3)
+* [EA open sources Command and Conquer](https://www.gamingonlinux.com/2025/02/ea-just-open-sourced-command-conquer-red-alert-renegade-and-generals/)
+* [Rust on the ESP32](https://hackaday.com/2025/02/27/esp-hal-a-stable-api-esp32-hal-gift-for-your-rust-code/)
+
+
+### Podcast Later (Paul #2)
+
+You may be familiar with read it later apps like Instapaper or Pocket.  These apps allow you to save an article on 
+the web to their service and read it later, with the ads and extra stuff you find on a website stripped off.  I've been 
+using Pocket for years and love it.
+
+Michael Kennedy, a Python Software Fellow and host of the Talk Python to Me podcast has created a new service called 
+[Podcast Later](https://podcastlater.com) that does something similar, except it creates a personal podcast for you 
+of the articles you save on the web. You download one of the open source bookmarklets and when you come across an 
+article you want to save, you just bookmark it.  Behind the scenes it uses a Text-to-Speech service and to convert it 
+and you have your choice of a male or female voice to read the article to you.  The service creates a private podcast 
+feed just for you that you subscribe to - meaning in work in *any* podcast app.  And if your podcast app supports 
+Apple CarPlay or Android Auto, you can even listen in the car.
+
+Plans start at $5 / month for saving about 100 (25 per article) and 4 hours of playback a month.
+
+*Disclaimer*: I am a former student of Michael Kennedy's Talk Python to Me training courses and Michael helped me 
+by answering some questions when I first was starting out podcasting.  Michael did not alert me to his new offering, 
+I came across it myself.
