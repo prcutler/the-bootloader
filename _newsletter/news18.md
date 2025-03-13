@@ -14,6 +14,7 @@ https://podcasts.apple.com/us/podcast/welcome-brent-rubell/id1644244356?i=100069
 * Paul played a lot of Comand and Conquer twenty-some years ago so it's exciting to see * [EA open source Command and Conquer](https://www.gamingonlinux.com/2025/02/ea-just-open-sourced-command-conquer-red-alert-renegade-and-generals/).
 * Espressif now supports [Rust on the ESP32](https://hackaday.com/2025/02/27/esp-hal-a-stable-api-esp32-hal-gift-for-your-rust-code/).
 * Paul loves everything vinyl records, but a [turntable watch](https://www.theverge.com/news/627130/ando-vinyl-record-automatic-watch-panasonic-technics-sl-1200-turntable) might be pushing it.
+* The spirit of RadioFreeFedi lives on at the artist directory of the [https://indieart.support](Independent Artist Support Community). And listen to The [IndieBeat Radio](https://theindiebeat.fm) to hear your favorite Fedi artists or if you use Linux and GNOME, Andy Piper created an [extension for The IndieBeat Radio](https://andypiper.co.uk/2025/01/25/the-indie-beat-on-your-linux-desktop/).
 
 ## From the hosts
 
