@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to a new 
+We're back after taking last month off.  Below catch up on the latest episode, some links that didn't make it into the show, and what your hosts have been up to.
 
 ## Show Highlights
 It was great having Brent Rubell join the show and make sure to check out [Wippersnapper's new offline mode](https://learn.adafruit.com/no-code-offline-data-logging-with-wippersnapper).
