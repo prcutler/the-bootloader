@@ -88,6 +88,7 @@
 * [8 Bit Wave digital cassette deck](https://github.com/tebl/8BIT-Wave)
 * [Pico mini computer](https://www.youtube.com/watch?v=rnwPmoWMGqk)
 * [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
+* [Sparkfun](https://news.sparkfun.com/13308) to manfacture the [Teensy](https://www.pjrc.com/sparkfun-to-manufacture-teensy/) line 
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
