@@ -89,6 +89,7 @@
 * [Pico mini computer](https://www.youtube.com/watch?v=rnwPmoWMGqk)
 * [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
 * [Sparkfun](https://news.sparkfun.com/13308) to manfacture the [Teensy](https://www.pjrc.com/sparkfun-to-manufacture-teensy/) line 
+* [3D printed brick layers](https://hackaday.com/2025/03/17/3d-printed-brick-layers-for-everyone/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
