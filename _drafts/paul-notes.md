@@ -90,6 +90,8 @@
 * [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
 * [Sparkfun](https://news.sparkfun.com/13308) to manfacture the [Teensy](https://www.pjrc.com/sparkfun-to-manufacture-teensy/) line 
 * [3D printed brick layers](https://hackaday.com/2025/03/17/3d-printed-brick-layers-for-everyone/)
+* [Willow Is a Practical, Open Source, Privacy-focused Platform for Voice Assistants and Other Applications](https://heywillow.io)
+* [MicroPython powered AI camera Kickstarter](https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
