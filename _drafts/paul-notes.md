@@ -93,6 +93,7 @@
 * [Willow Is a Practical, Open Source, Privacy-focused Platform for Voice Assistants and Other Applications](https://heywillow.io)
 * [MicroPython powered AI camera Kickstarter](https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras)
 * [Awtrix](https://blueforcer.github.io/awtrix3/#/)
+* [Sega Genesis OS](https://hackaday.com/2025/04/03/a-proper-os-for-the-sega-genesis-megadrive/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
