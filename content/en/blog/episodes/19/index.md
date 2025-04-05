@@ -54,7 +54,7 @@ Different MIDI synths had different recreations for all these.
 Some were really good, some sucked!  Around the same time, new PC sound
 cards that implemented General MIDI also let you load "SoundFonts".
 SoundFonts are sound sets of General MIDI sounds, all in a single file.
-And [many many SoundFonts]((https://musical-artifacts.com/artifacts?formats=sf2&tags=soundfont)
+And [many many SoundFonts](https://musical-artifacts.com/artifacts?formats=sf2&tags=soundfont)
 have been created over the years.  Soundfont sounds are sample-based,
 and usable by modern instruments.  Some SoundFonts are special
 purpose, like the [Salamander Grand Piano](https://sfzinstruments.github.io/pianos/salamander/),
