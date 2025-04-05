@@ -14,13 +14,11 @@ Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/f
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/welcome-andy-piper/embed/dark"></iframe>
 
 ## Show Notes
 
 ### Glance (Andy #1)
-
-https://github.com/glanceapp/glance
 
 Maybe it's just me (and I am a techie, and interested in playing with new things), but it seems to me right now that a lot more people are starting to tinker with running their own home labs - usually clustered and containerised virtual machines for hosting web apps on their own hardware and home network.
 
@@ -38,7 +36,7 @@ Links:
 - [setup script for Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts?id=glance)
 - [note from the maintainer](https://github.com/glanceapp/glance/issues/464)
 
-### SoundFonts, General MIDI and $50 MIDI "ROMpler" (Tod's #1)
+### SoundFonts, General MIDI and $50 MIDI "ROMpler" (Tod #1)
 
 We all know what MIDI is: a serial data protocol for transmitting musical performance
 information.  Basically, digital sheet music. But worse than most sheet music, as MIDI
@@ -129,10 +127,9 @@ MNT Research definitely wants users to buy-in to their ethos and approach, and y
 - Andy's [Pocket Reform field test](https://andypiper.co.uk/2024/08/26/mnt-pocket-reform-a-literal-field-test/)
 - [Pocket Reform lid detection](https://grimmwa.re/blog/html/00017-pocket-reform-lid-detection.html)
 
-### DIYR Design Lamps and Speaker (Tod's #2)
+### DIYR Design Lamps and Speaker (Tod #2)
 
-[DIYR (pronounced "dear")](https://diyr.dev/products/) is a website that showcases
-high-design lamps, speakers, and fans that evoke the trendy minmialism of Scandanavian designs from Ikea. But DIYR is different. The DIYR acryonym stands for "Do It Yourself Revolution" and each product they show has detailed instructions on how to build it. From the STL files needed, which electrical components to buy, which tools you need, and how to solder it and assemble it all together. The instructions are understandable and diagrams are very clear. The results look very professional and highly usable.
+[DIYR (pronounced "dear")](https://diyr.dev/products/) is a website that showcases high-design lamps, speakers, and fans that evoke the trendy minmialism of Scandanavian designs from Ikea. But DIYR is different. The DIYR acryonym stands for "Do It Yourself Revolution" and each product they show has detailed instructions on how to build it. From the STL files needed, which electrical components to buy, which tools you need, and how to solder it and assemble it all together. The instructions are understandable and diagrams are very clear. The results look very professional and highly usable.
 
 I particularly like ["BTN-M"](https://diyr.dev/collections/lights/desk-lights/), a USB-C and battery-powered desk light that has an embedded capacitve touch switch. The designs are highly modular so the "BTN-M" head can be mounted to a
 ["STR-HNG"](https://diyr.dev/instructions/STR-HNG-L) "structure, hinge" arm or a ["STR-WAL"](https://diyr.dev/instructions/STR-WAL-L) "structure, wall" wall mount.
