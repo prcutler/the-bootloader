@@ -94,6 +94,7 @@
 * [MicroPython powered AI camera Kickstarter](https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras)
 * [Awtrix](https://blueforcer.github.io/awtrix3/#/)
 * [Sega Genesis OS](https://hackaday.com/2025/04/03/a-proper-os-for-the-sega-genesis-megadrive/)
+* [New Pebble watches and iOS limitations](https://www.macrumors.com/2025/03/18/pebble-smartwatch-apple-restrictions/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
