@@ -1,3 +1,11 @@
+---
+date: 2025-04-07
+title: "Episode 19 Transcript"
+linkTitle: "Episode 19 Transcript"
+description: "Episode 19 Transcript - Welcome Andy Piper"
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
+---
+
 Tod Kurt
 Welcome to The Bootloader, I'm Tod Kurt.
 
