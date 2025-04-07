@@ -88,13 +88,14 @@
 * [8 Bit Wave digital cassette deck](https://github.com/tebl/8BIT-Wave)
 * [Pico mini computer](https://www.youtube.com/watch?v=rnwPmoWMGqk)
 * [OpenSpool](https://github.com/spuder/OpenSpool/tree/main)
-* [Sparkfun](https://news.sparkfun.com/13308) to manfacture the [Teensy](https://www.pjrc.com/sparkfun-to-manufacture-teensy/) line 
+* [Sparkfun](https://news.sparkfun.com/13308) to manfacture the [Teensy](https://www.pjrc.com/sparkfun-to-manufacture-teensy/) line
 * [3D printed brick layers](https://hackaday.com/2025/03/17/3d-printed-brick-layers-for-everyone/)
 * [Willow Is a Practical, Open Source, Privacy-focused Platform for Voice Assistants and Other Applications](https://heywillow.io)
 * [MicroPython powered AI camera Kickstarter](https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras)
 * [Awtrix](https://blueforcer.github.io/awtrix3/#/)
 * [Sega Genesis OS](https://hackaday.com/2025/04/03/a-proper-os-for-the-sega-genesis-megadrive/)
 * [New Pebble watches and iOS limitations](https://www.macrumors.com/2025/03/18/pebble-smartwatch-apple-restrictions/)
+* [Command and Conquer on a Pi Pico 2](https://hackaday.com/2025/04/06/command-and-conquer-ported-to-the-pi-pico-2/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
