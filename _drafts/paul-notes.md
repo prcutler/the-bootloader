@@ -92,6 +92,8 @@
 * [3D printed brick layers](https://hackaday.com/2025/03/17/3d-printed-brick-layers-for-everyone/)
 * [Willow Is a Practical, Open Source, Privacy-focused Platform for Voice Assistants and Other Applications](https://heywillow.io)
 * [MicroPython powered AI camera Kickstarter](https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras)
+* [Awtrix](https://blueforcer.github.io/awtrix3/#/)
+* [Sega Genesis OS](https://hackaday.com/2025/04/03/a-proper-os-for-the-sega-genesis-megadrive/)
 * [New Pebble watches and iOS limitations](https://www.macrumors.com/2025/03/18/pebble-smartwatch-apple-restrictions/)
 
 ## Leftover Links
@@ -121,24 +123,3 @@
 * [EA open sources Command and Conquer](https://www.gamingonlinux.com/2025/02/ea-just-open-sourced-command-conquer-red-alert-renegade-and-generals/)
 * [Rust on the ESP32](https://hackaday.com/2025/02/27/esp-hal-a-stable-api-esp32-hal-gift-for-your-rust-code/)
 * [Turntable watch](https://www.theverge.com/news/627130/ando-vinyl-record-automatic-watch-panasonic-technics-sl-1200-turntable)
-
-
-### Podcast Later (Paul #2)
-
-You may be familiar with read it later apps like Instapaper or Pocket.  These apps allow you to save an article on 
-the web to their service and read it later, with the ads and extra stuff you find on a website stripped off.  I've been 
-using Pocket for years and love it.
-
-Michael Kennedy, a Python Software Fellow and host of the Talk Python to Me podcast has created a new service called 
-[Podcast Later](https://podcastlater.com) that does something similar, except it creates a personal podcast for you 
-of the articles you save on the web. You download one of the open source bookmarklets and when you come across an 
-article you want to save, you just bookmark it.  Behind the scenes it uses a Text-to-Speech service and to convert it 
-and you have your choice of a male or female voice to read the article to you.  The service creates a private podcast 
-feed just for you that you subscribe to - meaning in work in *any* podcast app.  And if your podcast app supports 
-Apple CarPlay or Android Auto, you can even listen in the car.
-
-Plans start at $5 / month for saving about 100 (25 per article) and 4 hours of playback a month.
-
-*Disclaimer*: I am a former student of Michael Kennedy's Talk Python to Me training courses and Michael helped me 
-by answering some questions when I first was starting out podcasting.  Michael did not alert me to his new offering, 
-I came across it myself.
