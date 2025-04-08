@@ -124,3 +124,4 @@
 * [EA open sources Command and Conquer](https://www.gamingonlinux.com/2025/02/ea-just-open-sourced-command-conquer-red-alert-renegade-and-generals/)
 * [Rust on the ESP32](https://hackaday.com/2025/02/27/esp-hal-a-stable-api-esp32-hal-gift-for-your-rust-code/)
 * [Turntable watch](https://www.theverge.com/news/627130/ando-vinyl-record-automatic-watch-panasonic-technics-sl-1200-turntable)
+* [Layer Lapse](https://hackaday.com/2025/04/08/layerlapse-simplifies-3d-printer-time-lapse-shots/)
