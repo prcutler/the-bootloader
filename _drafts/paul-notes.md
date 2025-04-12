@@ -96,6 +96,7 @@
 * [Sega Genesis OS](https://hackaday.com/2025/04/03/a-proper-os-for-the-sega-genesis-megadrive/)
 * [New Pebble watches and iOS limitations](https://www.macrumors.com/2025/03/18/pebble-smartwatch-apple-restrictions/)
 * [Command and Conquer on a Pi Pico 2](https://hackaday.com/2025/04/06/command-and-conquer-ported-to-the-pi-pico-2/)
+* [Will it run Doom?](https://www.tomshardware.com/video-games/this-usd666-box-can-play-doom-limited-run-games-unveils-the-ultimate-collectors-edition-set-for-doom-fans)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
