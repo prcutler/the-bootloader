@@ -2,6 +2,11 @@
 
 ## Links:
 
+* Hyperwood - https://hyperwood.org/ - from https://macaw.social/@andypiper/114392576041698951
+* 3d-printable keycaps - https://github.com/braindefender/KLP-Lame-Keycaps
+* MIDI with Perl! - https://www.perl.com/article/enhancing-your-midi-devices-round-ii/
+* TR909 Drum circuit analyzed & redesigned - https://www.youtube.com/watch?v=Xbl1xwFR3eg
+
 * 200Mhz Clock Support for RP2040
   - https://github.com/raspberrypi/pico-sdk/releases/tag/2.1.1
   - https://www.hackster.io/news/the-raspberry-pi-rp2040-gets-a-surprise-speed-boost-unlocks-an-official-200mhz-mode-d6c9d267de5a
