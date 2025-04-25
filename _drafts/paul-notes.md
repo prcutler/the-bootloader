@@ -99,6 +99,7 @@
 * [Will it run Doom?](https://www.tomshardware.com/video-games/this-usd666-box-can-play-doom-limited-run-games-unveils-the-ultimate-collectors-edition-set-for-doom-fans)
 [Rockbox turns 20](https://hackaday.com/2025/04/19/rockbox-4-0-released/)
 [Synology enshittification #1](https://arstechnica.com/gadgets/2025/04/synology-confirms-need-for-synology-branded-drives-in-newer-plus-series-nas/), [#2 at 57:00](https://podcasts.apple.com/us/podcast/nose-biting-territory/id617416468?i=1000704611299), [Tom's](https://www.tomshardware.com/pc-components/nas/synology-requires-self-branded-drives-for-some-consumer-nas-systems-drops-full-functionality-and-support-for-third-party-hdds), [Database](https://github.com/007revad/Synology_HDD_db)
+[Air Lab](https://www.crowdsupply.com/networked-artifacts/air-lab)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
