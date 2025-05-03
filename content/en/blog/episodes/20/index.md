@@ -14,7 +14,7 @@ Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/f
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/im-afraid-its-trmnl/embed/dark"></iframe>
 
 ## Show Notes
 
