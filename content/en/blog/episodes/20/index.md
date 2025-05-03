@@ -99,6 +99,8 @@ Rockbox started in 2001 with its first release was in June of 2022.  It's pretty
 * [Hackaday coverage](https://hackaday.com/2025/04/19/rockbox-4-0-released/)
 * [Rockbox home page](https://www.rockbox.org)
 
+*Correction notice*: Paul accidentally said Rockbox's first release was in 2022 when he meant 2002.  We regret the error.
+
 ### CircuitPython Synthio Tutorial (Tod #3)
 
 Shameless plug incoming! For the last few months, I've been working off-and-on
