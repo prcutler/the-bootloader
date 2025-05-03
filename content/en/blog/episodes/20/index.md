@@ -8,7 +8,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 
 ## Welcome to the show
 
-In this episode, Tod and Paul share some of their favorite news and notes.
+In this episode, Tod and Paul chat about woodworking with open source furniture, MP3 players, a CircuitPython `synthio` tutorial, and more.
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
 
