@@ -102,6 +102,7 @@
 [Air Lab](https://www.crowdsupply.com/networked-artifacts/air-lab)
 [Kiwix](https://kiwix.org/en/kiwix-hotspot/)
 [Petru Smart Stand](https://petrudesign.com/products/smart-now-playing-vinyl-record-stand)
+[3D printed liquid silcone](https://hackaday.com/2025/05/07/liquid-silicone-3d-printing-is-no-joke/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
