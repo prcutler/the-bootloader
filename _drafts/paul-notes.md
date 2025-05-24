@@ -104,6 +104,7 @@
 [Petru Smart Stand](https://petrudesign.com/products/smart-now-playing-vinyl-record-stand)
 [3D printed liquid silcone](https://hackaday.com/2025/05/07/liquid-silicone-3d-printing-is-no-joke/)
 [Tariffs are bullshit](https://tariffsarebullshit.com)
+Phillips Fixables ([Toms Hardware](https://www.tomshardware.com/3d-printing/philips-debuts-3d-printable-components-to-repair-products) and [Tech Radar](https://www.techradar.com/computing/artificial-intelligence/finally-you-can-now-3d-print-your-own-parts-to-repair-the-products-you-buy-and-i-genuinely-hope-other-companies-follow-philipss-lead)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
