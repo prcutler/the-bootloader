@@ -1,7 +1,7 @@
 ---
 date: 2025-06-02
 title: "Rated PG for Language"
-linkTitle: "Episode 21 - June 5, 2025"
+linkTitle: "Episode 21 - June 2, 2025"
 description: "Rated PG for Language"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
