@@ -107,6 +107,7 @@
 Phillips Fixables ([Toms Hardware](https://www.tomshardware.com/3d-printing/philips-debuts-3d-printable-components-to-repair-products) and [Tech Radar](https://www.techradar.com/computing/artificial-intelligence/finally-you-can-now-3d-print-your-own-parts-to-repair-the-products-you-buy-and-i-genuinely-hope-other-companies-follow-philipss-lead)
 [Why I love buidling with Microcontrollers](https://www.youtube.com/watch?v=-TFsfcIx04Q) via [Hackaday](https://hackaday.com/2025/05/28/a-love-letter-to-embedded-systems-by-v-hunter-adams/)
 Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.elegoo.com/blogs/news/elegoo-rfid-ecosystem-feedback-solicitation) and [GitHub](https://github.com/ELEGOO-3D/ELEGOO-RFID-Tag-Guide)
+[Oskitone game kit](https://www.oskitone.com/product/higher-lower-game-diy-electronics-kit)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
