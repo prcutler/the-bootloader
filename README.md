@@ -9,7 +9,7 @@ A monthly podcast bringing you news, updates and more from the maker, tech, and 
 ## Follow us
 Subscribe to the podcast [RSS feed](https://www.circuitpythonshow.com/@thebootloader/feed.xml).
 
-[Follow the show](https://www.circuitpythonshow.com/@thebootloader/follow) on Mastodon.  Follow [Paul](https://hachyderm.io/@prcutler) and [Tod](https://mastodon.social/@todbot) on Mastodon.
+Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).  Follow Paul on [Mastodon](https://hachyderm.io/@prcutler) or [Bluesky](https://bsky.app/profile/paulcutler.org) and Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://bsky.app/profile/todbot.com).
 
 Visit our homepage at [TheBootloader.net](https://thebootloader.net).
 
