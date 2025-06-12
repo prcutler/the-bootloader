@@ -109,6 +109,7 @@ Phillips Fixables ([Toms Hardware](https://www.tomshardware.com/3d-printing/phil
 Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.elegoo.com/blogs/news/elegoo-rfid-ecosystem-feedback-solicitation) and [GitHub](https://github.com/ELEGOO-3D/ELEGOO-RFID-Tag-Guide)
 [Oskitone game kit](https://www.oskitone.com/product/higher-lower-game-diy-electronics-kit)
 [Supercollider synth engine](https://supercollider.github.io/) and [Python demos](https://github.com/dayunbao/supriya_demos)
+[Spintronics game](https://upperstory.com/en/spintronics/) via [Geek and Dad on Mastodon](https://mastodon.social/@GeekAndDad/114672001899942927)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
