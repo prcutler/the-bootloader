@@ -110,6 +110,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Oskitone game kit](https://www.oskitone.com/product/higher-lower-game-diy-electronics-kit)
 [Supercollider synth engine](https://supercollider.github.io/) and [Python demos](https://github.com/dayunbao/supriya_demos)
 [Spintronics game](https://upperstory.com/en/spintronics/) via [Geek and Dad on Mastodon](https://mastodon.social/@GeekAndDad/114672001899942927)
+[Box Turlte open source AMS](https://hackaday.com/2025/06/24/is-box-turtle-the-open-source-ams-weve-been-waiting-for/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
