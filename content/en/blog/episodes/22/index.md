@@ -8,7 +8,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 
 ## Welcome to the show
 
-In this episode, Tod and Paul discuss a MIDI chip, a board game, Tod shares an epic rant, and Paul shares a love letter..
+In this episode, Tod and Paul discuss a MIDI chip, a board game, Tod shares an epic rant, and Paul shares a love letter.
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
 
