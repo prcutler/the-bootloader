@@ -1,8 +1,8 @@
 ---
 date: 2025-07-07
-title: "Episode 22"
+title: "The rant and the love letter"
 linkTitle: "Episode 22 - 2025-07-07"
-description: "Episode 22"
+description: "The rant and the love letter"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
