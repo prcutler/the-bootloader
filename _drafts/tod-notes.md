@@ -2,7 +2,24 @@
 
 ## Links:
 
-* Hyperwood - https://hyperwood.org/ - from https://macaw.social/@andypiper/114392576041698951
+* https://graphite.rs
+  - motion graphics tool, open source, web based
+
+* https://weatherstar.netbymatt.com
+  - https://bsky.app/profile/thomasfuchs.at/post/3lqbs33ibvk2g
+
+* De-Amazon your Kindle - https://www.youtube.com/watch?v=Qtk7ERwlIAk
+
+* x SAM2695 General MIDI chip
+  - imlementations:
+    - Seeed - https://www.seeedstudio.com/XIAO-MIDI-Synthesizer-p-6462.html
+    - M5stack w/ speaker - https://shop.m5stack.com/products/midi-synthesizer-unit-sam2695
+    - M5statck w/ MIDI in/out - https://shop.m5stack.com/products/midi-unit-with-din-connector-sam2695
+  - SAM2695 datahsheet - https://docs.dream.fr/pdf/Serie2000/SAM_Datasheets/SAM2695.pdf
+  - unfortunately not recommended for new designs
+
+* x Resurrecting Sinistar https://www.youtube.com/watch?v=lCuoUSDBVac
+* x Hyperwood - https://hyperwood.org/ - from https://macaw.social/@andypiper/114392576041698951
 * 3d-printable keycaps - https://github.com/braindefender/KLP-Lame-Keycaps
 * MIDI with Perl! - https://www.perl.com/article/enhancing-your-midi-devices-round-ii/
 * TR909 Drum circuit analyzed & redesigned - https://www.youtube.com/watch?v=Xbl1xwFR3eg
