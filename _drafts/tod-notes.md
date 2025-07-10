@@ -2,6 +2,12 @@
 
 ## Links:
 
+* PlugData.org
+  - Write Pd (visual audio coding language) that can compile to Daisy Seed
+    microcontroller or VSTs or other things
+  - https://www.youtube.com/watch?v=yU3jR0EpsGQ
+  - https://www.youtube.com/watch?v=45YNmjSBS_8
+
 * https://graphite.rs
   - motion graphics tool, open source, web based
 
