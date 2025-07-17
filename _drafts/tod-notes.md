@@ -2,6 +2,13 @@
 
 ## Links:
 
+* Cosmolab - https://cosmolab.faselunare.com/
+  - new Daisy Seed interface thing
+
+* "Algorave"
+  - DJ_Dave: https://www.instagram.com/p/DL0P-2WusOO/
+  - Strudel: https://strudel.cc/
+
 * PlugData.org
   - Write Pd (visual audio coding language) that can compile to Daisy Seed
     microcontroller or VSTs or other things
