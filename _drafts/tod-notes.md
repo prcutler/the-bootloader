@@ -5,9 +5,14 @@
 * "analog keyboards"
   - (wait until I have a PCB ready)
 
+* Datamosh stuff
+  - Supermosh - datamosh in the browser - https://supermosh.github.io
+  - talk about the fun of MPEG encoding
+
+
 * "history of reverb" discussion
   - my own thoughts
-  - rooms, spring, plate, bucket-brigade, digital
+  - rooms -> spring -> plate -> bucket-brigade -> digital
   - https://precastreinforced.co.uk/2025/07/20/echo-and-reverb-the-mechanical-ghosts-of-wide-open-spaces/
   - "MIDIverb history and reverb history" - https://www.youtube.com/watch?v=2yYiWOHwHSo
   - "reverse engineering the MIDIverb" - https://www.youtube.com/watch?v=z4cIt1VPAjU&t=251s
