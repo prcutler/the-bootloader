@@ -2,12 +2,26 @@
 
 ## Links:
 
+* "analog keyboards"
+  - (wait until I have a PCB ready)
+
+* "history of reverb" discussion
+  - my own thoughts
+  - rooms, spring, plate, bucket-brigade, digital
+  - https://precastreinforced.co.uk/2025/07/20/echo-and-reverb-the-mechanical-ghosts-of-wide-open-spaces/
+  - "MIDIverb history and reverb history" - https://www.youtube.com/watch?v=2yYiWOHwHSo
+  - "reverse engineering the MIDIverb" - https://www.youtube.com/watch?v=z4cIt1VPAjU&t=251s
+
+* Scrappy - https://pontus.granstrom.me/scrappy/
+  - "make little apps for your friends"
+
 * Cosmolab - https://cosmolab.faselunare.com/
   - new Daisy Seed interface thing
 
-* "Algorave"
+* "AlgoRave"
   - DJ_Dave: https://www.instagram.com/p/DL0P-2WusOO/
   - Strudel: https://strudel.cc/
+  - Originally mentioned in Bootloader Ep2
 
 * PlugData.org
   - Write Pd (visual audio coding language) that can compile to Daisy Seed
@@ -33,11 +47,14 @@
 
 * x Resurrecting Sinistar https://www.youtube.com/watch?v=lCuoUSDBVac
 * x Hyperwood - https://hyperwood.org/ - from https://macaw.social/@andypiper/114392576041698951
+
 * 3d-printable keycaps - https://github.com/braindefender/KLP-Lame-Keycaps
+
 * MIDI with Perl! - https://www.perl.com/article/enhancing-your-midi-devices-round-ii/
+
 * TR909 Drum circuit analyzed & redesigned - https://www.youtube.com/watch?v=Xbl1xwFR3eg
 
-* 200Mhz Clock Support for RP2040
+* x 200Mhz Clock Support for RP2040
   - https://github.com/raspberrypi/pico-sdk/releases/tag/2.1.1
   - https://www.hackster.io/news/the-raspberry-pi-rp2040-gets-a-surprise-speed-boost-unlocks-an-official-200mhz-mode-d6c9d267de5a
   - https://bsky.app/profile/thejpster.org.uk/post/3lijrgmptnc2a
