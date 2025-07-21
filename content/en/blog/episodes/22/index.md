@@ -72,7 +72,7 @@ Links:
 
 ### Supercollider Synth Engine and Supriya Python API (Paul #1)
 
-Correction Notice: Paul mistakenly gave credit to Andrew Clark for Supriya, when it should be [Joséphine Wolf Oberholtzer]https://github.com/josephine-wolf-oberholtzer(https://github.com/josephine-wolf-oberholtzer/).
+Correction Notice: Paul mistakenly gave credit to Andrew Clark for Supriya, when it should be [Joséphine Wolf Oberholtzer]https://github.com/josephine-wolf-oberholtzer](https://github.com/josephine-wolf-oberholtzer/).
 
 The [Supercollider synth engine](https://supercollider.github.io/) has been around since 1996 and open sourced in 2002.  Supercollider includes there components: scsynth, a real time audio engine implemented as a server, sclang, an interpreted program language that acts as a client to the server that is similar to Smalltalk, and `scide`, an editor for sclang with an integrated help system. The server and client communicate using OSC - Open Sound Control.
 
