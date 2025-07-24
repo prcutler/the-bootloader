@@ -113,6 +113,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Box Turtle open source AMS](https://hackaday.com/2025/06/24/is-box-turtle-the-open-source-ams-weve-been-waiting-for/)
 [Pybricks Lego Mindstorms](https://pybricks.com/project/saving-lego-mindstorms/)
 [RP2350 Mini-computer for $25](https://www.olimex.com/Products/RaspberryPi/PICO/RP2350pc/open-source-hardware)
+[Snapboard](https://www.thingiverse.com/thing:7060766/files)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
