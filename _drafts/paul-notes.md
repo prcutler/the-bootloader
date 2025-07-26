@@ -114,6 +114,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Pybricks Lego Mindstorms](https://pybricks.com/project/saving-lego-mindstorms/)
 [RP2350 Mini-computer for $25](https://www.olimex.com/Products/RaspberryPi/PICO/RP2350pc/open-source-hardware)
 [Snapboard](https://www.thingiverse.com/thing:7060766/files)
+[3d printing automation](https://www.kickstarter.com/projects/yudi-nz/ottoeject-system-automation-for-your-desktop-3d-printers)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
