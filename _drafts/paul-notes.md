@@ -115,6 +115,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [RP2350 Mini-computer for $25](https://www.olimex.com/Products/RaspberryPi/PICO/RP2350pc/open-source-hardware)
 [Snapboard](https://www.thingiverse.com/thing:7060766/files)
 [3d printing automation](https://www.kickstarter.com/projects/yudi-nz/ottoeject-system-automation-for-your-desktop-3d-printers)
+[3D print your own NAS](https://www.tomshardware.com/3d-printing/you-can-now-3d-print-your-own-nas-bay-the-n5-mini-supports-five-drives-and-even-has-customizable-faceplates)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
