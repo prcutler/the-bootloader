@@ -10,7 +10,7 @@ author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 
 In this episode, Tod and Paul welcome John Park to the show.  They discuss a floppy disk MIDI boombox, live-coding music, the RP2350 as a mini-computer, and more.
 
-Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net). Follow [John Park](https://bsky.app/profile/johnpark.bsky.social).
+Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net). Follow [John Park](https://bsky.app/profile/johnpark.bsky.social) on Bluesky.
 
 ## Listen to the podcast
 
