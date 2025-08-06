@@ -116,6 +116,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Snapboard](https://www.thingiverse.com/thing:7060766/files)
 [3d printing automation](https://www.kickstarter.com/projects/yudi-nz/ottoeject-system-automation-for-your-desktop-3d-printers)
 [3D print your own NAS](https://www.tomshardware.com/3d-printing/you-can-now-3d-print-your-own-nas-bay-the-n5-mini-supports-five-drives-and-even-has-customizable-faceplates)
+[Free internet connected payphones](https://www.sevendaysvt.com/news/vermont-engineer-creates-free-internet-connected-pay-phones-44058923) and [NPR](https://www.npr.org/2025/08/04/nx-s1-5484013/engineer-restores-pay-phones-for-free-public-use)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
