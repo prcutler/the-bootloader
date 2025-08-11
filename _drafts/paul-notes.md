@@ -119,6 +119,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Free internet connected payphones](https://www.sevendaysvt.com/news/vermont-engineer-creates-free-internet-connected-pay-phones-44058923) and [NPR](https://www.npr.org/2025/08/04/nx-s1-5484013/engineer-restores-pay-phones-for-free-public-use)
 [Transit Tracker](https://transit-tracker.eastsideurbanism.org)
 [Mobos Paper Monitor](https://www.crowdsupply.com/modos-tech/modos-paper-monitor/)
+[Building a 3D printer filament runout changer](https://hackaday.com/2025/08/11/the-trials-of-trying-to-build-an-automatic-filament-changer/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
