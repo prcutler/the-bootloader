@@ -1,27 +1,23 @@
 ---
-date: 2025-08-15
+date: 2025-08-25
 title: "CircuitPython Day 2025 Special Edition"
 linkTitle: "CircuitPython Day 2025 Special Edition"
 description: "The Bootloader LIVE on CircuitPython Day 2025"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
+## Watch on YouTube or listen to the podcast
+
+{{<youtube 05c2LV6krvM >}}
+
 ## Introduction - Welcome to CircuitPython Day 2025
 
-Welcome to The Bootloader, I’m Paul Cutler
-
-And I’m Tod Kurt We’re coming at you live on the Adafruit YouTube channel for CircuitPython Day 2025.  If you haven’t heard of us, Paul and I host a podcast called The Bootloader.  Each episode we bring a few things to share and chat about each for a few minutes, but no more than about 5.  And today we’ve brought you some of our favorite things that have happened in the CircuitPython community in the last year.
-
-You can learn more about us at thebootloader.net or find us wherever you get your podcasts.
-
-(Paul) And if you want to chat with us live, you can find us in the live-broadcast chat channel on the Adafruit Discord at discord.gg/adafruit.
-
+### Thank you Anne Barela
 Tod, before we get started, I wanted to take a moment and give a shout-out to Anne Barela.  Anne is the editor of the Pyhon On Hardware weekly email and I don’t think we could do this show or my other podcast, The CircuitPython Show, without her and the newsletter.  It’s the best way to stay on top of everything related to Python and hardware.  I had the opportunity a couple years ago to help fill in for Anne when she was on vacation, and let me tell you, it’s a ton of work to stay connected in multiple communities and bring you all the news every week.  So Anne, from us to you - a big thank you.
 
-Tod, what’s your first thing to share?
+* [Sign up for the Python on Hardware newsletter](https://www.adafruitdaily.com)
 
-### Fonts in CircuitPython
-
+### Fonts in CircuitPython (Tod #1)
 One of the really cool things about CircuitPython is how easy it is to get a display
 working.  And the underlying `displayio` framework makes it not matter if you're using
 a TFT, OLED, ePaper, or LED matrix: your display code can be the same for all.
@@ -41,20 +37,12 @@ an package bundle.  This means it's easy to add to the `circup` package manageme
 and that installing a new font onto your board is as easy as `circup install font_free_serif_bold_12`.
 (This also means you can put your needed fonts in your project's `requirements.txt`)
 
-[demo adding a font on T-Display S3]
-
-"For instance, here's a CircuitPython board. And here I am adding a new font."
-
-[show full demo running]
-
-"And here's a sketch running showing off a handful of the large display fonts available"
-
 * [CircuitPython fonts repository](https://github.com/adafruit/circuitpython-fonts) with `circup` instructions
 * [CircuitPython BDF & PCF font Learn Guide](https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display/overview)
 * [CircuitPython font code shown](https://gist.github.com/todbot/b966f51307aca8dab64af70dc2954aee)
 
 
-### The CircuitPython extension for VS Code
+### The CircuitPython extension for VS Code (Paul #1)
 
 Late last November, Will Merkens released version 0.2 of the CircuitPython extension for VS Code.  This is a fork of the original extension by Joe Devivo, which hadn’t been updated since late 2023.  A thank you to Joe Devivo for creating this extension and licensing it under the MIT license. That allowed Will Merkens to fork and a big shout-out for taking this on - it’s never easy to fok someone’s project, figure out someone else’s code, and then add to it.  And every time CircuitPython has had a major release, the extension has been updated.
 
@@ -62,7 +50,7 @@ Late last November, Will Merkens released version 0.2 of the CircuitPython exten
 * [CircuitPython v2 for VS Code](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2) by Will Merkens
 [CircuitPython v2 for VS Code source code](https://github.com/wmerkens/vscode-circuitpython-v2)
 
-### Fruit Jam MIDI Tester
+### Fruit Jam MIDI Tester (Tod #2)
 
 The new Fruit Jam is like a little computer, with its ability to drive monitors and
 having USB ports for mouse & keyboards.
@@ -78,16 +66,12 @@ Check out all of Sam's work on Adafruit-Playgorund, he shows some really useful
 techniques. For instance, check out his cool Portable MIDI Synth, which turns
 the Fruit Jam into a full battery-powered synthesizer using a USB MIDI keyboard.
 
-Here's his Fruit Jam MIDI Tester in action...
-
-[demo USB MIDI tester]
-
 * [Fruit Jam USB Host MIDI Tester](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-usb-host-midi-tester)
 * [Fruit Jam Portable MIDI Synth](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-portable-midi-synth)
 * [Fruit Jam USB Gamepad Demo](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-two-gamepad-demo)
 
 
-### FruitTris
+### FruitTris (Paul #2)
 * [Cooper Dalrymple's homepage](https://relic.dcdalrymple.com)
 * [Fruitris on Adafruit Playground](https://adafruit-playground.com/u/relic-se/pages/fruit-jam-fruitris)
 * [Fruitris GitHub repository](https://github.com/relic-se/Fruit_Jam_Fruitris)
@@ -95,7 +79,7 @@ Here's his Fruit Jam MIDI Tester in action...
 * [Fruitris demo on Show & Tell](https://www.youtube.com/live/ie0D5Acjne4?feature=shared&t=762)
 * [Cooper on The CircuitPython Show May 5th, 2025](https://www.circuitpythonshow.com/@circuitpythonshow/episodes/cooper-dalrymple)
 
-### CircuitPython Workflows, what are they?
+### CircuitPython Workflows, what are they? (Tod #3)
 
 Did you know you can program CircuitPython devices FOUR different ways?
 
