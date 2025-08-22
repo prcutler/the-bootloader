@@ -10,9 +10,13 @@ This episode is a replay of The Bootloader's [live CircuitPython Day 2025 show](
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
 
-## Watch on YouTube or listen to the podcast
+## Watch or listen
+
+### Watch the show on YouTube
 
 {{<youtube 05c2LV6krvM >}}
+
+### Listen to the podcast
 
 <iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/circuitpython-day-2025/embed/dark"></iframe>
 
