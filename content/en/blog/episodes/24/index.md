@@ -6,9 +6,15 @@ description: "The Bootloader LIVE on CircuitPython Day 2025"
 author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
 ---
 
+This episode is a replay of The Bootloader's [live CircuitPython Day 2025 show](https://www.youtube.com/watch?v=05c2LV6krvM&t) hosted on Adafruit's YouTube channel, which you can watch below or listen to the podcast.
+
+Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
+
 ## Watch on YouTube or listen to the podcast
 
 {{<youtube 05c2LV6krvM >}}
+
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/circuitpython-day-2025/embed/dark"></iframe>
 
 ## Introduction - Welcome to CircuitPython Day 2025
 
