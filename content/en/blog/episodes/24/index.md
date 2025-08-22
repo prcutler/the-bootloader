@@ -57,7 +57,7 @@ Late last November, Will Merkens released version 0.2 of the CircuitPython exten
 
 * [CircuitPython VS Code extension v1](https://github.com/joedevivo/vscode-circuitpython) by Joe Devivo
 * [CircuitPython v2 for VS Code](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2) by Will Merkens
-[CircuitPython v2 for VS Code source code](https://github.com/wmerkens/vscode-circuitpython-v2)
+* [CircuitPython v2 for VS Code source code](https://github.com/wmerkens/vscode-circuitpython-v2)
 
 ### Fruit Jam MIDI Tester (Tod #2)
 The new Fruit Jam is like a little computer, with its ability to drive monitors and
