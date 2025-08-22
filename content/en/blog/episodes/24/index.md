@@ -1,0 +1,118 @@
+---
+date: 2025-08-25
+title: "CircuitPython Day 2025 Special Edition"
+linkTitle: "CircuitPython Day 2025 Special Edition"
+description: "The Bootloader LIVE on CircuitPython Day 2025"
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
+---
+
+This episode is a replay of The Bootloader's [live CircuitPython Day 2025 show](https://www.youtube.com/watch?v=05c2LV6krvM&t) hosted on Adafruit's YouTube channel, which you can watch below or listen to the podcast.
+
+Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
+
+## Watch or listen
+
+### Watch the show on YouTube
+
+{{<youtube 05c2LV6krvM >}}
+
+### Listen to the podcast
+
+<iframe width="100%" height="112" frameborder="0" scrolling="no" style="width: 100%; height: 112px;  overflow: hidden;" src="https://www.circuitpythonshow.com/@thebootloader/episodes/circuitpython-day-2025/embed/dark"></iframe>
+
+## Introduction - Welcome to CircuitPython Day 2025
+
+### Thank you Anne Barela
+Tod, before we get started, I wanted to take a moment and give a shout-out to Anne Barela.  Anne is the editor of the Pyhon On Hardware weekly email and I don’t think we could do this show or my other podcast, The CircuitPython Show, without her and the newsletter.  It’s the best way to stay on top of everything related to Python and hardware.  I had the opportunity a couple years ago to help fill in for Anne when she was on vacation, and let me tell you, it’s a ton of work to stay connected in multiple communities and bring you all the news every week.  So Anne, from us to you - a big thank you.
+
+* [Sign up for the Python on Hardware newsletter](https://www.adafruitdaily.com)
+
+### Fonts in CircuitPython (Tod #1)
+One of the really cool things about CircuitPython is how easy it is to get a display
+working.  And the underlying `displayio` framework makes it not matter if you're using
+a TFT, OLED, ePaper, or LED matrix: your display code can be the same for all.
+
+Another cool thing about CircuitPython is how easy it is to use custom fonts. [CircuitPython can
+load custom BDF & PCF fonts](https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display/overview),
+a format used for 30+ years on Unix systems.  And there are tools to convert the more
+modern TrueType or OpenType fonts to these formats. And a great Learn Guide!  But doing this
+conversion can be kind of a drag.
+
+So I was very excited when last year, Jeff Epler of Adafruit released the
+["circuitpython-fonts" repository](https://github.com/adafruit/circuitpython-fonts/).
+This is a git repository with a large collection of converted fonts in a variety of useful sizes.
+
+In this repo, each font is a laid out as separate python packages, with the whole repo being
+an package bundle.  This means it's easy to add to the `circup` package management tool,
+and that installing a new font onto your board is as easy as `circup install font_free_serif_bold_12`.
+(This also means you can put your needed fonts in your project's `requirements.txt`)
+
+* [CircuitPython fonts repository](https://github.com/adafruit/circuitpython-fonts) with `circup` instructions
+* [CircuitPython BDF & PCF font Learn Guide](https://learn.adafruit.com/custom-fonts-for-pyportal-circuitpython-display/overview)
+* [CircuitPython font code shown](https://gist.github.com/todbot/b966f51307aca8dab64af70dc2954aee)
+
+
+### The CircuitPython extension for VS Code (Paul #1)
+Late last November, Will Merkens released version 0.2 of the CircuitPython extension for VS Code.  This is a fork of the original extension by Joe Devivo, which hadn’t been updated since late 2023.  A thank you to Joe Devivo for creating this extension and licensing it under the MIT license. That allowed Will Merkens to fork and a big shout-out for taking this on - it’s never easy to fok someone’s project, figure out someone else’s code, and then add to it.  And every time CircuitPython has had a major release, the extension has been updated.
+
+* [CircuitPython VS Code extension v1](https://github.com/joedevivo/vscode-circuitpython) by Joe Devivo
+* [CircuitPython v2 for VS Code](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2) by Will Merkens
+* [CircuitPython v2 for VS Code source code](https://github.com/wmerkens/vscode-circuitpython-v2)
+
+### Fruit Jam MIDI Tester (Tod #2)
+The new Fruit Jam is like a little computer, with its ability to drive monitors and
+having USB ports for mouse & keyboards.
+Acting as a USB host is pretty demanding, because in addition
+to doing most of the USB protocol, you also need to do the class driver
+(e.g. keyboard, mouse, serial, etc).   A lot of this is supported in CircuitPython!
+
+But because being a USB host can be complicated, having some debug tools can really help.
+I'm mostly interested in USB-MIDI devices,
+so I was excited to see all the stuff [Sam Blenny has been up to on the Adafruit-Playground site](https://adafruit-playground.com/u/SamBlenny/), particularly his Fruit Jam USB Host MIDI Tester.
+
+Check out all of Sam's work on Adafruit-Playground, he shows some really useful
+techniques. For instance, check out his cool Portable MIDI Synth, which turns
+the Fruit Jam into a full battery-powered synthesizer using a USB MIDI keyboard.
+
+* [Fruit Jam USB Host MIDI Tester](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-usb-host-midi-tester)
+* [Fruit Jam Portable MIDI Synth](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-portable-midi-synth)
+* [Fruit Jam USB Gamepad Demo](https://adafruit-playground.com/u/SamBlenny/pages/fruit-jam-two-gamepad-demo)
+
+
+### FruitTris (Paul #2)
+* [Cooper Dalrymple's homepage](https://relic.dcdalrymple.com)
+* [Fruitris on Adafruit Playground](https://adafruit-playground.com/u/relic-se/pages/fruit-jam-fruitris)
+* [Fruitris GitHub repository](https://github.com/relic-se/Fruit_Jam_Fruitris)
+* [Fruitris blog post](https://relic.dcdalrymple.com/fruitris-tetris-on-the-adafruit-fruit-jam/)
+* [Fruitris demo on Show & Tell](https://www.youtube.com/live/ie0D5Acjne4?feature=shared&t=762)
+* [Cooper on The CircuitPython Show May 5th, 2025](https://www.circuitpythonshow.com/@circuitpythonshow/episodes/cooper-dalrymple)
+
+### CircuitPython Workflows, what are they? (Tod #3)
+Did you know you can program CircuitPython devices FOUR different ways?
+
+I'm sure you're aware of the one of the original differences between CircuitPython and Micropython:
+CircuitPython only supported devices with native USB. This meant they could emulate a USB storage device
+and provide us with the CIRCUITPY drive we normally use to save our "code.py" file on.  This restriction
+was great though! With only a text editor and a terminal program, you could write CircuitPython programs.
+Got an old Windows 95 laptop with Notepad.exe and Putty?  You can code on a CircuitPyton board. It's great.
+(and in fact that's not too different from my normal setup of `tio` in a terminal window and `emacs` in another)
+
+This native USB coding workflow was the original, but there are three others!  For ESP32 (non-S2/S3) devices,
+there was the "Web workflow", where CircuitPython would start up entire web server with file transfer capability
+and serial emulation. It's pretty amazing that it all happens in the background, but it does take CPU resources
+that you might want, so I often have it turned off.
+
+There's also a Bluetooth BLE workflow for nRF52-based devices, which is very cool, as it means you can write
+CircuitPython code on your phone!  I've not tried it much.
+
+Both of these wireless workflows can be frustrating if your reception isn't perfect.
+So now this year, there's a "USB serial" workflow that works for any CircuitPython device that only has a serial
+but not native USB, like the original ESP32 devices.  This is great!  If you've used Thonny with Micropython,
+you're familiar with this kind of interaction. It's perfect for the new tiny "SparkleMotion" ESP32-based LED driver
+boards that just came out.
+
+I've not seen much talk about this new "USB serial" workflow in the docs, but it's really handy for these boards.
+And thankfully, the web-based [code.circuitpython.org](code.circuitpython.org) site works with this and all the workflows.
+
+- https://docs.circuitpython.org/en/latest/docs/workflows.html
+- https://code.circuitpython.org/
