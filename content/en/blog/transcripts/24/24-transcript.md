@@ -1,5 +1,5 @@
 ---
-date: 2025-08-25
+date: 2025-08-22
 title: "Episode 24 Transcript"
 linkTitle: "Episode 24 Transcript"
 description: "Episode 24 Transcript - CircuitPython Day 2025"
