@@ -43,7 +43,6 @@ and that installing a new font onto your board is as easy as `circup install fon
 
 
 ### The CircuitPython extension for VS Code (Paul #1)
-
 Late last November, Will Merkens released version 0.2 of the CircuitPython extension for VS Code.  This is a fork of the original extension by Joe Devivo, which hadn’t been updated since late 2023.  A thank you to Joe Devivo for creating this extension and licensing it under the MIT license. That allowed Will Merkens to fork and a big shout-out for taking this on - it’s never easy to fok someone’s project, figure out someone else’s code, and then add to it.  And every time CircuitPython has had a major release, the extension has been updated.
 
 * [CircuitPython VS Code extension v1](https://github.com/joedevivo/vscode-circuitpython) by Joe Devivo
@@ -51,7 +50,6 @@ Late last November, Will Merkens released version 0.2 of the CircuitPython exten
 [CircuitPython v2 for VS Code source code](https://github.com/wmerkens/vscode-circuitpython-v2)
 
 ### Fruit Jam MIDI Tester (Tod #2)
-
 The new Fruit Jam is like a little computer, with its ability to drive monitors and
 having USB ports for mouse & keyboards.
 Acting as a USB host is pretty demanding, because in addition
@@ -80,7 +78,6 @@ the Fruit Jam into a full battery-powered synthesizer using a USB MIDI keyboard.
 * [Cooper on The CircuitPython Show May 5th, 2025](https://www.circuitpythonshow.com/@circuitpythonshow/episodes/cooper-dalrymple)
 
 ### CircuitPython Workflows, what are they? (Tod #3)
-
 Did you know you can program CircuitPython devices FOUR different ways?
 
 I'm sure you're aware of the one of the original differences between CircuitPython and Micropython:
