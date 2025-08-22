@@ -1,5 +1,5 @@
 ---
-date: 2025-08-25
+date: 2025-08-22
 title: "CircuitPython Day 2025 Special Edition"
 linkTitle: "CircuitPython Day 2025 Special Edition"
 description: "The Bootloader LIVE on CircuitPython Day 2025"
