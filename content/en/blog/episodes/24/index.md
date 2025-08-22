@@ -70,7 +70,7 @@ But because being a USB host can be complicated, having some debug tools can rea
 I'm mostly interested in USB-MIDI devices,
 so I was excited to see all the stuff [Sam Blenny has been up to on the Adafruit-Playground site](https://adafruit-playground.com/u/SamBlenny/), particularly his Fruit Jam USB Host MIDI Tester.
 
-Check out all of Sam's work on Adafruit-Playgorund, he shows some really useful
+Check out all of Sam's work on Adafruit-Playground, he shows some really useful
 techniques. For instance, check out his cool Portable MIDI Synth, which turns
 the Fruit Jam into a full battery-powered synthesizer using a USB MIDI keyboard.
 
