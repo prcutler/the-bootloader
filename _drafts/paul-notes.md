@@ -121,6 +121,7 @@ Elegoo proposes RFID standard for 3D printing filament - [Elegoo](https://www.el
 [Mobos Paper Monitor](https://www.crowdsupply.com/modos-tech/modos-paper-monitor/)
 [Building a 3D printer filament runout changer](https://hackaday.com/2025/08/11/the-trials-of-trying-to-build-an-automatic-filament-changer/)
 [OpenMediaVault](https://openmediavault.org/) and [Les Pounder's build](https://www.tomshardware.com/news/live/3d-printed-media-server)
+[Ultimaker Kickstarter](https://www.tomshardware.com/3d-printing/3d-printer-maker-snapmaker-raised-a-staggering-usd7-8-million-on-the-first-day-of-kickstarter-for-its-affordable-tool-changer-breaking-bambus-record)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
