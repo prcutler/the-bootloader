@@ -124,6 +124,7 @@
 * [Snapmaker Kickstarter](https://www.tomshardware.com/3d-printing/3d-printer-maker-snapmaker-raised-a-staggering-usd7-8-million-on-the-first-day-of-kickstarter-for-its-affordable-tool-changer-breaking-bambus-record)
 * [Lego 3D printer](https://www.tomshardware.com/3d-printing/someone-made-a-3d-printer-out-of-lego-maker-puts-together-specialist-project-using-bricks-motors-and-python)
 * [MovieBuff](https://codeberg.org/retiolus/moviebuff)
+[More on 3D printing tool changers at Tom's](https://www.tomshardware.com/3d-printing/3d-printings-tool-changer-wars-heat-up-as-prusa-re-enters-the-ring)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
