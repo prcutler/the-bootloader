@@ -126,6 +126,7 @@
 * [MovieBuff](https://codeberg.org/retiolus/moviebuff)
 [More on 3D printing tool changers at Tom's](https://www.tomshardware.com/3d-printing/3d-printings-tool-changer-wars-heat-up-as-prusa-re-enters-the-ring)
 * [CircRemote](https://github.com/romkey/circremote)
+* https://blog.adafruit.com/2025/09/04/retro-console-using-eps32-3dthursday/
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
