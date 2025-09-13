@@ -2,6 +2,22 @@
 
 ## Links:
 
+* Booting Raspberry Pis off USB drives
+  - rpi-clone - easily clone running Pi to USB drive
+    - https://github.com/geerlingguy/rpi-clone
+  - log2ram - put /var/log in RAM disk tmpfs
+    - https://github.com/azlux/log2ram
+  - https://www.dzombak.com/blog/2024/04/pi-reliability-reduce-writes-to-your-sd-card/
+  - Remove SD card and RasPi automatically boot from USB
+  - Much faster, and SD cards aren't made to be disk drives
+
+* Mutable Instruments Braids/Plaits synths ported to Arduino-Pico
+  - https://github.com/poetaster/arduinoMI/tree/main
+  -  https://github.com/poetaster/scarp
+
+* ripgrep
+  - https://linuxhandbook.com/ripgrep/
+
 * "analog keyboards"
   - (wait until I have a PCB ready)
 
