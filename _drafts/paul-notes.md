@@ -127,7 +127,8 @@
 [More on 3D printing tool changers at Tom's](https://www.tomshardware.com/3d-printing/3d-printings-tool-changer-wars-heat-up-as-prusa-re-enters-the-ring)
 * [CircRemote](https://github.com/romkey/circremote)
 * https://blog.adafruit.com/2025/09/04/retro-console-using-eps32-3dthursday/
-8 [Really Simple Licensing](https://arstechnica.com/tech-policy/2025/09/pay-per-output-ai-firms-blindsided-by-beefed-up-robots-txt-instructions/) via ArsTechnica
+* [Really Simple Licensing](https://arstechnica.com/tech-policy/2025/09/pay-per-output-ai-firms-blindsided-by-beefed-up-robots-txt-instructions/) via ArsTechnica
+* [Using a Mac Mini as guts for a 25 year old iMac](https://www.youtube.com/watch?v=WoYBuP4Bxiw)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
