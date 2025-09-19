@@ -130,6 +130,7 @@
 * [Really Simple Licensing](https://arstechnica.com/tech-policy/2025/09/pay-per-output-ai-firms-blindsided-by-beefed-up-robots-txt-instructions/) via ArsTechnica
 * [Using a Mac Mini as guts for a 25 year old iMac](https://www.youtube.com/watch?v=WoYBuP4Bxiw)
 * [InvenTree](https://inventree.org)
+* [Channels DVR](https://www.pcworld.com/article/2912640/tv-antenna-users-theres-finally-a-way-to-do-multiview.html)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
