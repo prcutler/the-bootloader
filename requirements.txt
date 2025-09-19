@@ -1,0 +1,5 @@
+mkdocs-material
+mkdocs-awesome-nav
+mkdocs-git-revision-date-localized-plugin
+mkdocs-rss-plugin
+mkdocs-material[imaging]
