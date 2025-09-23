@@ -207,6 +207,12 @@ h2 {
     }
 }
 
+.md-container {
+    background: url("../images/boards-background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /* -----------------------
     Content styling
 ------------------------ */
