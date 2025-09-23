@@ -14,6 +14,17 @@
 * Mutable Instruments Braids/Plaits synths ported to Arduino-Pico
   - https://github.com/poetaster/arduinoMI/tree/main
   -  https://github.com/poetaster/scarp
+  - https://www.youtube.com/watch?v=_MW-oU7pw3k
+  - https://www.tindie.com/products/sluisbrinkie/sluisbrinkie-toepler-diy-kit/
+  - https://github.com/niektb/sluisbrinkie-eurorack-published
+
+* FreeRTOS
+  - https://www.youtube.com/watch?v=-fwJZzDpBIg&list=PLEB5F4gTNK68zDlrXbcCgJ6NejaP0PvHX&index=28
+     (FreeRTOS on RP2040, it's already in ESP-IDF: https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/system/freertos.html)
+
+* VideoGrep
+  - https://lav.io/notes/videogrep-tutorial/
+  - https://lav.io/notes/videogrep-and-spacy/
 
 * ripgrep
   - https://linuxhandbook.com/ripgrep/
