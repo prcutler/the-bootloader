@@ -171,7 +171,7 @@ h2 {
     & h1 {
         font-size: 2.5rem;
         font-weight: 700;
-        color: var(---clr-blue);
+        color: #ffffff;
         text-shadow: 1px 4px hsl(var(--clr-black-hsl), 0.2);
         margin-bottom: 1rem;
         line-height: 1.2;
