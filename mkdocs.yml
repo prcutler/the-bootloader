@@ -69,6 +69,8 @@ extra:
   social:
     - icon: fontawesome/solid/microphone
       link: https://www.circuitpythonshow.com/@thebootloader/feed.xml
+    - icon: fontawesome/solid/rss
+      link: https://thebootloader.net/feed_rss_created.xml
     - icon: simple/youtube
       link: https://youtube.com/@thebootloader
     - icon: simple/bluesky
@@ -77,6 +79,9 @@ extra:
       link: https://www.circuitpythonshow.com/@thebootloader/follow
     - icon: simple/github
       link: https://github.com/prcutler/the-bootloader
+    - icon: /fontawesome/regular/envelope
+      name: Send an email
+      link: mailto:paul@paulcutler.org
 
 plugins:
   - search
@@ -86,7 +91,7 @@ plugins:
       match_path: "episodes/.*"
       date_from_meta:
         as_creation: date.created
-        as_update: date.updated\
+        as_update: date.updated
   - document-dates:
       position: bottom
       type: date
