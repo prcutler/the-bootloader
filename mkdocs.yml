@@ -86,4 +86,8 @@ plugins:
       match_path: "episodes/.*"
       date_from_meta:
         as_creation: date.created
-        as_update: date.updated
+        as_update: date.updated\
+  - git-revision-date-localized
+  - git-committers:
+      repository: prcutler/the-bootloader
+      branch: mkdocs
