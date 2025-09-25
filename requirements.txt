@@ -1,0 +1,6 @@
+mkdocs-material
+mkdocs-awesome-nav
+mkdocs-document-dates
+mkdocs-rss-plugin
+mkdocs-material[imaging]
+mkdocs-git-authors-plugin

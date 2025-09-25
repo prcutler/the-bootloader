@@ -1,0 +1,102 @@
+site_name: The Bootloader
+site_url: https://thebootloader.net
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  favicon:
+    icon: assets/images/favicon.png
+
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+  icon:
+    logo: fontawesome/solid/microphone
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # Function to add two numbers
+
+
+extra:
+  social:
+    - icon: fontawesome/solid/microphone
+      link: https://www.circuitpythonshow.com/@thebootloader/feed.xml
+    - icon: fontawesome/solid/rss
+      link: https://thebootloader.net/feed_rss_created.xml
+    - icon: simple/youtube
+      link: https://youtube.com/@thebootloader
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/thebootloader.net
+    - icon: simple/mastodon
+      link: https://www.circuitpythonshow.com/@thebootloader/follow
+    - icon: simple/github
+      link: https://github.com/prcutler/the-bootloader
+    - icon: /fontawesome/regular/envelope
+      name: Send an email
+      link: mailto:paul@paulcutler.org
+
+plugins:
+  - search
+  - awesome-nav
+  - social
+  - rss:
+      match_path: "episodes/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+  - document-dates:
+      position: bottom
+      type: date
+      date_format: "%Y-%m-%d"
+      time_format: "%H:%M:%S"
+      show_author: false
+      recently-updated: true
+  - git-authors
