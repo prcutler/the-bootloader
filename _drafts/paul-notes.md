@@ -131,6 +131,8 @@
 * [Using a Mac Mini as guts for a 25 year old iMac](https://www.youtube.com/watch?v=WoYBuP4Bxiw)
 * [InvenTree](https://inventree.org)
 * [Channels DVR](https://www.pcworld.com/article/2912640/tv-antenna-users-theres-finally-a-way-to-do-multiview.html)
+* [3D printed wall mount arcade](https://makerworld.com/en/models/1751353-arcade-wall-cabinet#profileId-1861929)
+* [3d printed book of mechanical actions](https://hackaday.com/2025/09/24/3d-printed-book-demonstrates-mechanical-actions/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
