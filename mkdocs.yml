@@ -87,7 +87,11 @@ plugins:
       date_from_meta:
         as_creation: date.created
         as_update: date.updated\
-  - git-revision-date-localized
-  - git-committers:
-      repository: prcutler/the-bootloader
-      branch: mkdocs
+  - document-dates:
+      position: bottom
+      type: date
+      date_format: "%Y-%m-%d"
+      time_format: "%H:%M:%S"
+      show_author: false
+      recently-updated: true
+  - git-authors
