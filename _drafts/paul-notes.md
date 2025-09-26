@@ -1,4 +1,4 @@
-b# Paul's Notes for Future episodes
+# Paul's Notes for Future episodes
 
 ## 2024
 
