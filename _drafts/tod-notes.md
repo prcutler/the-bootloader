@@ -8,6 +8,7 @@
   - log2ram - put /var/log in RAM disk tmpfs
     - https://github.com/azlux/log2ram
   - https://www.dzombak.com/blog/2024/04/pi-reliability-reduce-writes-to-your-sd-card/
+  - https://allthingsempty.wordpress.com/2025/09/09/migrating-a-rpi-from-sd-card-to-ssd-storage-my-how-to/
   - Remove SD card and RasPi automatically boot from USB
   - Much faster, and SD cards aren't made to be disk drives
 
