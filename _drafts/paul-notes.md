@@ -133,6 +133,7 @@
 * [Channels DVR](https://www.pcworld.com/article/2912640/tv-antenna-users-theres-finally-a-way-to-do-multiview.html)
 * [Dissolavable 3d printed circuit boards](https://apple.news/AXF6Y3ewsSJyk5f_e2bZUSw]
 * [The Open Printer](https://www.hackster.io/news/the-open-printer-is-a-raspberry-pi-zero-w-powered-fully-open-highly-flexible-inkjet-printer-30948a1787cc)
+* [Zaxxon in the bios](https://www.tomshardware.com/software/programming/developer-recreates-classic-shoot-em-up-zaxxon-as-a-uefi-firmware-isometric-arcade-game-coded-in-x86-assembly-for-no-os-represents-total-freedom-from-big-tech)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
