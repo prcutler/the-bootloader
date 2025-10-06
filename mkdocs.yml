@@ -92,6 +92,7 @@ plugins:
       date_from_meta:
         as_creation: date.created
         as_update: date.updated
+      abstract_chars_count: -1
   - document-dates:
       position: bottom
       type: date
