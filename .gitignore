@@ -256,3 +256,5 @@ hugo.linux
 # Temporary lock file while building
 package-lock.json
 .hugo_build.lock
+
+.nvmrc
