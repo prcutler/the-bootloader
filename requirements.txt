@@ -1,6 +1,6 @@
 annotated-types==0.7.0
 babel==2.17.0
-backrefs==5.9
+backrefs~=5.9
 bracex==2.6
 CacheControl==0.14.3
 cairocffi==1.7.1
