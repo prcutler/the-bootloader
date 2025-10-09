@@ -134,6 +134,8 @@
 * [Dissolavable 3d printed circuit boards](https://apple.news/AXF6Y3ewsSJyk5f_e2bZUSw]
 * [The Open Printer](https://www.hackster.io/news/the-open-printer-is-a-raspberry-pi-zero-w-powered-fully-open-highly-flexible-inkjet-printer-30948a1787cc)
 * [Zaxxon in the bios](https://www.tomshardware.com/software/programming/developer-recreates-classic-shoot-em-up-zaxxon-as-a-uefi-firmware-isometric-arcade-game-coded-in-x86-assembly-for-no-os-represents-total-freedom-from-big-tech)
+* [Framework's forum statement](https://community.frame.work/t/framework-supporting-far-right-racists/75986)
+ * [Red Lucy's Mastodon post](https://wetdry.world/@lucydev/115343806496681336)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
