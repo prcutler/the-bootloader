@@ -39,8 +39,8 @@ pathspec==0.12.1
 pillow==11.3.0
 platformdirs==4.5.0
 pycparser==2.23
-pydantic==2.12.1
-pydantic_core==2.41.3
+pydantic==2.12.2
+pydantic_core==2.41.4
 Pygments==2.19.2
 pymdown-extensions==10.16.1
 python-dateutil==2.9.0.post0
