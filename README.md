@@ -14,3 +14,7 @@ Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/f
 Visit our homepage at [TheBootloader.net](https://thebootloader.net).
 
 Never miss an update - [join our newsletter](https://buttondown.email/thebootloader).
+
+## Sponsor the show
+
+[Sponsor the show](https://www.circuitpythonshow.com/pages/sponsors) - the Sponsors page lists our sponsors and our costs for running the podcasts. You can sponsor via [GitHub](https://github.com/sponsors/prcutler) or [PayPal](https://www.paypal.me/prcutler).
