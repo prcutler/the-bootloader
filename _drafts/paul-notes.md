@@ -137,6 +137,7 @@
 * [Framework's forum statement](https://community.frame.work/t/framework-supporting-far-right-racists/75986)
  * [Red Lucy's Mastodon post](https://wetdry.world/@lucydev/115343806496681336)
 * [GameTank](https://gametank.zone)
+ * [GameTank on Crowd Supply](https://www.crowdsupply.com/clydeware/gametank)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
