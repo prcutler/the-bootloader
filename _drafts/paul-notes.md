@@ -138,6 +138,7 @@
  * [Red Lucy's Mastodon post](https://wetdry.world/@lucydev/115343806496681336)
 * [GameTank](https://gametank.zone)
  * [GameTank on Crowd Supply](https://www.crowdsupply.com/clydeware/gametank)
+* [ShapeScript](https://github.com/nicklockwood/ShapeScript)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
