@@ -139,6 +139,7 @@
 * [GameTank](https://gametank.zone)
  * [GameTank on Crowd Supply](https://www.crowdsupply.com/clydeware/gametank)
 * [ShapeScript](https://github.com/nicklockwood/ShapeScript)
+* [OpenBook Touch](https://www.crowdsupply.com/oddly-specific-objects/open-book-touch)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
