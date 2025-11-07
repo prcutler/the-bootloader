@@ -140,6 +140,7 @@
  * [GameTank on Crowd Supply](https://www.crowdsupply.com/clydeware/gametank)
 * [ShapeScript](https://github.com/nicklockwood/ShapeScript)
 * [OpenBook Touch](https://www.crowdsupply.com/oddly-specific-objects/open-book-touch)
+* [Open Print Tag standard](https://www.hackster.io/news/prusa-wants-to-make-all-3d-printing-filament-spools-smart-launches-the-openprinttag-standard-0f2d460cf5bf)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
