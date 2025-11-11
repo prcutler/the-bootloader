@@ -141,6 +141,7 @@
 * [ShapeScript](https://github.com/nicklockwood/ShapeScript)
 * [OpenBook Touch](https://www.crowdsupply.com/oddly-specific-objects/open-book-touch)
 * [Open Print Tag standard](https://www.hackster.io/news/prusa-wants-to-make-all-3d-printing-filament-spools-smart-launches-the-openprinttag-standard-0f2d460cf5bf)
+[HTML Magazine](https://vole.wtf/doctype/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
