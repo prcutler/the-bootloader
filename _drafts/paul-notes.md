@@ -143,7 +143,6 @@
 * [Open Print Tag standard](https://www.hackster.io/news/prusa-wants-to-make-all-3d-printing-filament-spools-smart-launches-the-openprinttag-standard-0f2d460cf5bf)
 [HTML Magazine](https://vole.wtf/doctype/
 [Nest Thermostat NoLongerEvil](https://hackaday.com/2025/11/11/nest-thermostat-now-100-less-evil/)
-)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
