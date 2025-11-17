@@ -141,8 +141,9 @@
 * [ShapeScript](https://github.com/nicklockwood/ShapeScript)
 * [OpenBook Touch](https://www.crowdsupply.com/oddly-specific-objects/open-book-touch)
 * [Open Print Tag standard](https://www.hackster.io/news/prusa-wants-to-make-all-3d-printing-filament-spools-smart-launches-the-openprinttag-standard-0f2d460cf5bf)
-[HTML Magazine](https://vole.wtf/doctype/
-[Nest Thermostat NoLongerEvil](https://hackaday.com/2025/11/11/nest-thermostat-now-100-less-evil/)
+* [HTML Magazine](https://vole.wtf/doctype/
+* [Nest Thermostat NoLongerEvil](https://hackaday.com/2025/11/11/nest-thermostat-now-100-less-evil/)
+* [LibrePods](https://github.com/kavishdevar/librepods)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
