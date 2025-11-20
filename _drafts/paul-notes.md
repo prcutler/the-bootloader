@@ -144,6 +144,7 @@
 * [HTML Magazine](https://vole.wtf/doctype/
 * [Nest Thermostat NoLongerEvil](https://hackaday.com/2025/11/11/nest-thermostat-now-100-less-evil/)
 * [LibrePods](https://github.com/kavishdevar/librepods)
+* [INDX tool changer for Prusa Core One](https://www.bondtech.se/indx-by-bondtech/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
