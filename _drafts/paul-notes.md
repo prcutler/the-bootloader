@@ -145,7 +145,7 @@
 * [Nest Thermostat NoLongerEvil](https://hackaday.com/2025/11/11/nest-thermostat-now-100-less-evil/)
 * [LibrePods](https://github.com/kavishdevar/librepods)
 * [INDX tool changer for Prusa Core One](https://www.bondtech.se/indx-by-bondtech/)
-* [Open Source Zork 1-3](https://blog.zarfhome.com/2025/11/zork-is-open-source) and [Micrsoft announcement](https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source)
+* [Open Source Zork 1-3](https://blog.zarfhome.com/2025/11/zork-is-open-source) and [Microsoft announcement](https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
