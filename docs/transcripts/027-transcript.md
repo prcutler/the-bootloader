@@ -1,0 +1,179 @@
+---
+date: 2025-12-01
+title: "Episode 27 Transcript"
+linkTitle: "Episode 27 Transcript"
+description: "Episode 27 Transcript - Don't call it a comeback"
+author: Paul Cutler ([@prcutler](https://hachyderm.io/@prcutler))
+---
+
+Tod Kurt
+
+- Hi, welcome to The Bootloader. I'm Tod Kurt.
+
+Paul Cutler
+
+- And I'm Paul Cutler. The show works like this. Tod and I have each brought three things to share, which we'll discuss for about five minutes each. If you're enjoying the show, do me a favor and write a review. It really helps. And check the show notes to follow us on Mastodon or Blue Sky and to order a couple stickers if you want to.
+
+Tod Kurt
+
+- We have stickers.
+
+Paul Cutler
+
+- That's right. Tod, just days after we recorded our last episode, you attended Supercon, which we've talked about on the show for the last few years. How was this year's conference?
+
+Tod Kurt
+
+- Every year, Hackaday Supercon is amazing. There's lots of people that I consider my friends, but I only really see them once a year at Supercon. You know, we interact on the various internet-y ways, like social media or Discord or whatever, but actually seeing people face-to-face is always really nice. This year, it was interesting because it was a lot smaller in some ways. I think the current war on fun that the US regime is having makes it so that people from out of the country don't really want to come to the US. And so there was a noticeable, I'd say, contraction of people at the conference this year. It wasn't as, like normally it's really crowded. And this year it was only just kind of crowded.
+
+Paul Cutler
+
+- That's sad to hear. And it's just not safe for some people to come, which is really, it's just scary the times we're living in.
+
+Tod Kurt
+
+- Yeah, no, it's really sad. And I think all tech conferences have a real problem with trying to be not just a white guy fest. And Hackaday's had this problem forever and they try hard, but I think that is also wearing on non-white gay people and some white gay people. That it's like, "Oh, more of the same." It's like, "We've got enough of this, more of the same." So overall, it's amazing. Thankfully Hackaday streams and records the live stream on YouTube for the main stage. And so if you right now want to get a sense of what all the talks were about, you can go right now and watch a bunch of YouTube videos and get a pretty good sense. And there were some really fun talks this year, so you can experience some of those.
+
+Paul Cutler
+
+- So speaking of fun talks, what was your first one for us this episode?
+
+Tod Kurt
+
+- Oh, well actually, I have a couple of fun talks. if you wanna go look at 'em, go watch 'em. One of the ones that I liked real quick was transmitting multiple protocols over a single wire. So it turns out there's, like for every protocol, there's usually some parts of the protocol where the signal doesn't matter. Like in the case of like a two-wire protocol like I2C, there are times where the data signal isn't listened to because the clock signal isn't at the right state. And so one of the talks was how you could essentially hide other protocols in these kind of like dead areas. And so his theoretical, I don't think he's implemented this yet, but his theoretical one was you could make a single set of cables or a single wire basically transmit NeoPixel RGB data and RS232 and I2C. (laughs)
+
+Paul Cutler
+
+- That's crazy.
+
+Tod Kurt
+
+- And it's all just 'cause the timings kinda work out, and if you stretch this one timing out a little bit, it matches the timing of this other thing, so you can, in the blank spot of a NeoPixel refresh, you can put an RS-232 frame or something. It was really fun. (laughs) Not something you wanna do in production. (laughs) But one of the other things that the Supercon has is a series of workshops, and these are things, sort of optional things you can buy that will teach you a thing. And some of the cool workshops were like how to learn Rust, like embedded Rust, like Sean Hymel taught that. There's by Stefani and Bob Pickman, they did a thing on how to do generative art on an LED matrix for like, you know, blinging up your costumes or whatever. And so there's all these cool things. One of the ones I did, like the only one I did, was about the Arduino UNO Q, the new Arduino board that Arduino came out with. And, oh boy, there's been a lot of talk about Arduino lately. Have you seen any of that? Aside of that, I was interested in the Arduino Q because it's a weird little thing. It looks like an Arduino Uno, but it's also a Linux computer. So I wanted to see how this weird merging of a Linux computer and microcontroller work. Over a decade ago, I developed a project that used several hundred of the Arduino UUN boards, which was the same idea pretty much. This was back when the embedded Linuxes were much simpler. (laughs) But it was pretty much the only way you could get a reliable microcontroller Wi-Fi connection. If you want to be a player on the internet, you have to do SSL, TLS, security, which means you have to do regular updates of the security certificates, 'cause otherwise your thing can just not be considered a valid participant on the internet where you have to have HTTPS connections. So the Uno Q is sort of a revisit of that idea. I really wish they wouldn't have called it Uno Q. But inside it's essentially a Raspberry Pi 3 level single board computer with a fairly beefy STM32 running Zephyr real-time OS to do the microcontroller stuff. Whereas the Yun was like a really low end sort of portable router level Linux box with an 18 mega. This is sort of like leveled up on both sides. It's like, it's not the fastest single-ware computer. It's not like a Raspberry Pi 5, it's like a Raspberry 3. And instead of the array of ports you would normally have on a Raspberry Pi, you just have a USB-C cable, a USB-C port that you plug in USB-C cable in to power it. But you can also then break out, because it's USB-C, break that out into ethernet, video, keyboard, mouse, et cetera, cameras. You know, you can pretty much hook anything USB up to it. And it does run a version of Debian with a full desktop GUI. So you could use it as a little computer if you wanted to, but you'd have to have all that extra, have a USB hub that has all those extra ports on it. That's not really how they intend you to use it. It also works headless as you'd expect. So you can just SSH into it and do everything via terminal if you want. That's how I've been playing with it mostly. But Arduino would prefer that you use their new Arduino App Lab. It's a new IDE. It's different than the normal Arduino IDE, totally separate, and it lets you program the two aspects of the Uno Q kind of as a single thing. And strangely, even though it's a download from their website, it's really a web app that runs on the Uno Q. And so it brings up sort of a standard looking little editor, but you've got like in one window you've got what looks like a regular Arduino sketch that you'd program with a setup and loop functions, and that part runs on the STM32. In another window, you have an Arduino-like Python script that runs on the Linux part of the Uno Q. And then Arduino provides these libraries, lets you easily share information between those two kind of worlds that are running simultaneously on the board. And then when you click the Run button, from what I can tell, it doesn't compile anything on your computer. It instead, because it's a web app running the Uno Q, it essentially ships that source off to the Uno Q where your code gets compiled and then turned into a custom Docker image, and then that Docker image is run.
+
+Paul Cutler
+
+- How slow is that on a Raspberry Pi 3 type single board computer?
+
+Tod Kurt
+
+- As you might expect, it takes a long time. Expect to wait 30 seconds from pressing run to like having your code run, and it's then seeing your LED blink, which if you're thinking of this as sort of a replacement for your Uno, think again, you know, this is a much more complicated thing and Arduino is looking to attack larger, more complicated projects. They're really big in their IDE about their concept of bricks, the bricks coding blocks they have. They're paired combinations of an Arduino, C++ sketch, and Python code that work together to accomplish a single task. You can imagine how this might be useful. You might have some complicated processing on the Linux side, and then the thing that deals with the GPIO or the sensor or whatever on the microcontroller side. And they don't have many examples of the bricks yet, They do have ones like Web UI to GPIO, which is kind of cool, or AI motion detection, where if you hook up an I2C accelerometer, it can tell how the accelerometer is being moved around, like if it's a waving motion or a double tap motion or something. Also on the subject of waiting to get your project going, if you get one of these and expect to spend about 30 minutes or more just installing software, even though the App Lab runs on the UNO Q it seems, the App Lab download for your computer is almost a gig in size. I think it's like an Electron app or something, I don't know what, but it's got a bunch of stuff in it you have to download. And once you run it, it'll want to update itself, so that's more updating, that's more time. When you first connect your UNO Q, you'll have to update the bootloader, which is another gig download, because I think it's a whole new Linux install. After that, when you connect the UNO Q to the App Lab, the App Lab will want to update the UNO Q again and it's unclear to me what it's doing here. It might be doing the same thing, but it's like a gate you have to get through. That's another gig download. Then finally, once it's all running, it'll then say, "Oh, there's updates for the App Lab program on the Uno queue." All these steps, reflashing bootloader, reflashing Linux distro, reflashing App Lab, all these can fail in weird ways that you have no real feedback for. During our workshop, there are some folks who just barely got to a "Hello World" blink sketch in the two hours we had for the workshop. You can imagine, we had I think maybe 15 people, and everybody's trying to download several gigs of data. The Hackaday supply frame Wi-Fi is really good, but that's a lot of bits to get on everybody's things. You'd think it would be really... Arduino's normally made for educational environments, but this current way of doing things is not very education setup friendly. It's just not good. And so if you're an instructor hoping to just swap out your Uno cue boards for your normal Uno boards, I would not recommend it. They're entirely different. They just happen to look like the Uno, but they're much more complicated. I think it's a shame that they diluted the Uno name for this otherwise interesting product because there's real promise here. Having a smart, full internet participant that runs Linux that works on the Wi-Fi side or internet side, and then having a microcontroller handle the real-time tasks, that's a really, and then having to meld it together, that's a really powerful combo. Like I've so many times plugged a Arduino Pro Micro into a Raspberry Pi to solve similar problems. And so having it be a single thing is really cool. Sean Heimell just posted a blog post about how to use the Arduino app CLI command line tool to do a lot of the stuff that the Arduino App Lab GUI does, but you can do it all via SSH on the command line. So that's like, I think, an easier way to interact with it. You just SSH into it and you, you know, essentially build and run your project on the command line. I think that's easier. If you want something more powerful, there's this single board computer called the RADSA X4. And it's been around for a while. It has like an Intel X86, like an N100 class CPU on it that has an RP2040 built in. So like a Raspberry Pi Pico. And it comes in a Raspberry Pi form factor. And so that's what some people have been using up to now if you want this sort of combo of Linux plus microcontroller. It's pretty great 'cause it controls all the pins on the 40-pin header that would normally be on a Raspberry Pi. So that's kinda cool.
+
+Paul Cutler
+
+- Who do you think the target market for the Uno Q is? Is it still enthusiasts and makers or is it really more of a commercial product now that lives on the edge?
+
+Tod Kurt
+
+- Yeah, that's a good question. I think it's a bit misguided. So Arduino has, for the last, jeez, like maybe almost 10 years now, had a pretty strong industrial offering, which is odd, 'cause a lot of us think of Arduino as mostly an educational platform, but they've got a bunch of IoT, like industrial IoT boards that you can get, and those are like hardened and stuff, but they still use the Arduino IDE to program them, and so I suspect this almost feels like, oh, this is the educational version of a future larger, more robust IoT product. Having this position for the educational market, it's just not really good right now for education. Just in how I've seen how educators use these little microcontroller boards, just getting going, it's a real motivation and inertia buster when you have to download so much stuff and have it fail in these really weird ways. That was really one of the powers of the original Arduino, You could just go from nothing to blink in a few minutes Not anymore. Not anymore. Yeah, everything's more complicated So anyway, um, so yeah did you I know you didn't go to Supercon But was there anything in the Supercon videos that you saw that was interesting?
+
+Paul Cutler
+
+- Yeah The one that jumped out at me was if you're like me and ever wanted to learn more about mesh tastic and how it works There was a talk by Daryll Strauss called "Covert Regional Communication with Meshtastic" which was the last talk of the day at Supercon. I fall into the camp of wanting to learn more about Meshtastic, I keep hearing of it and seeing people getting into it, but all I know is that it uses a LoRa radio. Daryll covers what Meshtastic is, his motivations for using it, and how to make a covert communication system using Meshtastic. If you haven't heard of it, Meshtastic uses LoRa Radio's peer-to-peer. It's open source and designed around exchanging text messages and data in off-grid environments, also commonly used for IOT hardware. The hardware is cheap, as low as 20 bucks for some boards. Pick a board, flash it with the Meshtastic firmware, configure it, connect it, and you're up and running. The Meshtastic website at meshtastic.org has some excellent documentation. If you want to learn more, see the list of supported boards. Daryll's next goal was to make it covert. His goal in making it covert was to support his local communities during these troubling times, and some of his goals were no eavesdropping, It's limited geographic area, difficult to locate the transmissions, and pseudonymous. He then walked through some of the steps you take to configure a Meshtastic node as a covert node and how it differs from a default install. I'm really glad I made the time to watch the video. It's something I've wanted to learn more about, and next time I make an Adafruit order, I might just throw a feather in the cart that has the LoRa radio on it. Totally.
+
+Tod Kurt
+
+- Yeah, the LoRa stuff, it's been around for so long, and everyone has sold a little board, like SparkFun, Adafruit, of all those little boards with Laura on them. And I've not gotten into it until the last couple of months because of MeshTastic. And I knew that it was going to be a topic at Supercon. And it's really cool because one of the things that Daryll covers is right now, all of our communications are fairly centralized. Even though we're all on these cellular phones, the cells are pretty large in terms of area, the footprint they cover, and they're all connected together, and they don't really work just by themselves. If there's a disaster, like we're in California, there's lots of disasters that are waiting to happen. There could be no landlines available because power and phone lines could be cut. There could be no cell towers because power went out or the cell towers fell over or whatever. Having something that is mesh-networky, where there isn't a central thing that can fail, It's just a bunch of people, a bunch of nodes. And having something that is really low power, like one of the really cool things about LoRa, is that it can run for months on just a really small battery. And so one of the philosophies of some of these Meshtastic communities, like there's one called SoCal Mesh down here in Southern California, is they're like, "Hey, let's install these little Meshtastic nodes. We'll just put it in a weatherproof box with a solar panel and just stick it to the side of a parking structure in some place random in my downtown in my city. And we'll do that a couple times. And these things will last forever. And no one cares because it's just this little box that looks like a little utility box. And so now if something goes wrong, we'll at least be able to hop through it to get to people we want to talk to. And if you want to, if you're a mesh-tastic, if you've got a mesh-tastic gizmo on your person, you can turn on GPS tracking for it if you want to let people know where you are or where this node is, so that if you want to use it to help someone find you, you can have that as well. But by default, that's turned off, I think. And so it's really great that, like, oh, it gives us choice, you know, it gives us the ability to communicate with each other without having to have a central authority. It lets us choose how much information we want to disclose. And it's all purposefully really low power and low data. We're not sending YouTube videos, we're sending text messages.
+
+Paul Cutler
+
+- So one of the things I wanted to ask you about that Supercon is known for is the badge. Was there a LoRa radio built into the badge this year?
+
+Tod Kurt
+
+- Yes. It was not running Meshtasic, but it's running a LoRa radio that had been sufficiently muted, because it was going to be upwards of 500 people in a single room, potentially. One of the things with radio is that if everyone starts to shout, it just turns into a wall of noise, and no one can hear anything. The open the badge up and solder one thing, and that'll take the attenuation off. And it's also not running MeshTastic, because MeshTastic is made for a little bit more diffuse of a set of nodes. It's not meant for having 500 nodes in one square block area. But the thing is that people have been working, and they got some initial builds of MeshTastic for the badge. The badge, it looks kind of like an old computer. It's got a little QWERTY keyboard, a cool little rectangular display, and a little antenna off the top. And it's got a battery inside. Internally, it runs an ESP32-S3 and the standard LoRa board that everyone uses. And so it's very similar to some existing Meshtastic compatible boards that are out there from like LilyGo or Waveshare or something. I forget who, but it's... there are some of these Chinese sort of maker vendors that have boards that are very similar. And so the conversion from that to getting MeshTastic to work on the Hackaday badge was really easy. And the cool thing is this badge is so useful because it's a ESP32 with a QWERTY keyboard and a display. Just installing a BASIC on it and using it as a little BASIC computer from the 1980s is really possible.
+
+Paul Cutler
+
+- And I guess the the keyboard is brand new from solder party.
+
+Tod Kurt
+
+- Yeah, the keyboard is so nice, it's it's pretty much the same technology from keyboards of like the late 80s and early 90s of the little like Silicone rubber thing a little like snap dome Metal bit above the PCB so it makes a nice little click when you press But it's really simple and and solder party just released on if you saw a little USB keyboard using the same same technique for like eight euros or something. It's really cool I wanted to get some but the shipping was really expensive from from Sweden But but yeah, yeah, he helped out or I mean Soder party helped out with the keyboard for the the badge. This badge is one of the few badges. I'm gonna actually use After the conference, I hope that they offer it on tindy or something. It's really cool. So that's the badge What is your second item for us this episode? Okay, so to continue the wireless trend I've recently been looking into ultra wideband chips and So I love Apple's air tags these little coin sized what looked like Bluetooth beacons I put them on everything my keys my wallet my suitcase Maybe even my cat I got kind of a small cat So, I don't know if it'll it'll fit on him really but unlike other little Bluetooth trackers air tags also do ultra wideband or UWB This kind of newest technology allows among other things devices like air tags to be tracked to a few centimeters Which is amazing like with normal Bluetooth your tracking resolution is about a few meters with Wi-Fi It's like maybe like, you know five meters or something and there's a couple of new dev boards that have the have a UWB chip and ESP 32 Wi-Fi in A single board and I just ordered some maker fab the the maker fab ESP UWB board they're 40 bucks and they look kind of like your standard ESP 32 Wi-Fi board with a little weird module That is this a Corvo DMW 1000 the Corvo's QoR vo they're apparently the main company that's making these ultra wideband chips that that board itself goes for about 20 bucks on digikey Mouser and The their chip is supposedly compatible with air tags. So I'm hoping I can build like a little tracker tracker Base station so I can track the trackers have like a little display or something that kind of shows I mean, you know cuz you can do this do all this with your phone with find my on on iPhone But I think it'd be kind of cool to have a standalone thing That would just kind of say is you know, if I have one on the cat is the cat nearby
+
+Paul Cutler
+
+- That would be cool
+
+Tod Kurt
+
+- You know, I don't know. I don't you know how cats are They can kind of like somehow disappear like, you know, they're in the house
+
+Paul Cutler
+
+- But like where the heck are they in the house the next thing, you know, they're sneaking up on you. Yeah
+
+Tod Kurt
+
+- So this UWB technology is really cool. Instead of transmitting at a particular frequency with a particular like sort of width of channel, like with WiFi it's like five gigahertz and the width is like 20 megahertz. And with Bluetooth, the frequency is 2.4 gigahertz and the width of the transmission is like one megahertz. UWB is this five megahertz or more channel at six gigahertz. And instead of transmitting at like a central frequency, the UWB protocol sprays pulses, a little radio pulses at various frequencies, at various amplitudes and polarity across that 500 megahertz spectrum. So if you could hear it, it'd be sound more like noise compared to the sort of pure chords or arpeggios of Wi-Fi or Bluetooth. And so being able to distinguish and decode the sprayed pulses gives you the benefit of being able to localize where that noise is coming from. these chips can do both time of flight recording of the radio signal, and also there's two other really fast, busy, basically they're able to measure the speed of light effectively. It's kind of crazy. But also because they've got this really wide bandwidth, you can also transmit enormous amounts of data, like upwards of 675 megabits per second if both sides are fully powered and stuff. The downside is you have to be able to hear all that noise. UWB doesn't work well through walls. If you've ever gone outside of a room that where a stereo is playing and it gets all muddy, it's kind of that problem. You start to lose the fidelity. So it's more of an in a room technology. But it's really interesting. I can't wait to get my hands on some of these ESP32 boards 'cause then I'll be able to do Bluetooth positioning, Wi-Fi positioning, and now this ultra wideband positioning.
+
+Paul Cutler
+
+- What will you code those boards in? Is this a C or an Arduino project?
+
+Tod Kurt
+
+- In the show notes, I've got some links to a couple of essentially blog posts doing this, yeah, with Arduino. And the Arduino libraries that exist for this Corvo DMW-1000 or whatever have a API where you can just say get range. And so you can find a particular other device and then say how far away that thing is. And then if you have multiple devices, you can then get multiple ranges. And then you can triangulate yourself.
+
+Paul Cutler
+
+- You'll have to come back in a future episode and give us an update on your tracking the tracker project.
+
+Tod Kurt
+
+- Yeah, totally. Got my tracker tracker. All right, Paul, what's your what's your next one for this time?
+
+Paul Cutler
+
+- In October 2023, Microsoft spent a cool $75 billion to purchase Activision Blizzard. Now, two years later, we get a bonus from Microsoft as they announced on November 20th that they have open sourced the Zork one through three games, which they acquired from Activision Blizzard, who I believe own the Infocom IP. If you're not familiar with Zork, it was a text adventure game first released in 1977 to run on a mainframe and was developed at MIT. The player explores the ruins of the great underground empire, and you use the text commands to travel to different locations, solve puzzles, and collect treasure. When it was released commercially, it was split into three games, Zork 1-3, to save memory. He also had the Z-Machine, the game engine that ran the games. I've linked to a nice blog post by Andrew Plotkin that has more details on the release. Over two years ago, he publicly wrote on his blog asking Microsoft to do exactly what they've done. He has a few more details worth reading. I've also linked to Microsoft's announcement. I especially liked how they stated that their goal in releasing the game's source code "to place historically important code in the hands of students, teachers, and developers so they can study it, learn from it, and perhaps even more importantly, play it." The announcement links to the GitHub repo where you can download the source code. And the timing couldn't be better for me. On the next episode of the CircuitPython show coming December 8th, I interviewed Dan Cogliano. Dan ported the ZMachine game engine to Arduino a few years ago and just ported it to CircuitPython now. So if you have a fruit jam and you want to play the classic Zork games, it's now super easy to do that right in CircuitPython using Dan ZMachine with the open source Zork 1-3 games.
+
+Tod Kurt
+
+- That's so cool. I really loved trying to play Zork on my whatever the heck it was, Apple II. I was terrible at it, but just the whole "Go North, take rock." Having the concept of being able to type English to a computer was so fantastic back then. Of course now, with LLMs and conversational interfaces, it's so de rigueur. But man, back then, it's like trying to figure out, "Well, what verbs does it know? Does it know 'fight'? Does it know 'run'?" "Gotta run away." away.
+
+Paul Cutler
+
+- And I never could seem to get the commands right. And I was never any good at Zork.
+
+Tod Kurt
+
+- Same, same. Yeah. And there was for a while there was like Infocom was making all these ones like they made one called Star. But it was like it was basically Zork in space. And that one I that one I played more because I'm you know, I was more into space stuff than fantasy stuff. But yeah, yeah. Infocom seemed to make all these games. I think they were all just different data files for this Z machine. Now that we have Z machine for CircuitPython, incredible.
+
+Paul Cutler
+
+- Yep, exactly. What's your next one for us?
+
+Tod Kurt
+
+- So I love a well-designed dev board. The Raspberry Pi Pico is pretty good, but what if you wanna make your own or make modifications? Maybe like different layout, different connectors. There's a new blog post by Kai Pereira called "Let's Design an RP2040 Dev Board" that teaches you exactly how to do that. In his post, Kai shows the entire KiCAD design process and ending with soldering up an actual physical board. Starting with drawing the schematic, he shows how to pick schematic symbols and highlight good schematic practices to make it readable. So many schematics I see nowadays have little conception of what makes a good schematic. It's the primary way of getting across to others what the circuit actually does. So just like writing a good essay, drawing a good schematic requires some knowledge of style and structure, and Kai gives you some tips on that. When I'm saying his name, it's K-A-I. I assume that's pronounced Kai. - It usually is. Yeah, it's like, plus it's complicated for me because like, oh wait, it's not pronounced Ki-CAD, it's pronounced Ki-CAD. So it's Kai talking about Ki-CAD, all right. So Kai then goes on to show you how to take that schematic and turn it into a dimensionally accurate PCB. He shows some of the power routing for the ARCB2040, can be tricky, but he shows you how to handle those and other critical bits like the oscillator placement, USB and flash placement and ground fills. He goes and talks about how to choose the right symbols, both in the schematic and then how to match those up with the footprints in the PCB. This is actually kind of a tricky thing to do in all schematic programs. Again, KiCad is a little bit weird to me in how to do it, so showing how to do that is really, really nice. I know how to do all this stuff, but you can do things in KiCad in many different ways, and so it's cool to see someone else show a way that's almost the same but a little bit different what I do helps me kind of understand how Key Cadward thinks, you know. And then he takes all that and actually like doesn't order through PCB, gets the actual PCBs and shows how to solder them up. And so some of these things are described in terms of the schematic and stuff are described in the RP2040 manuals, but it's really nice to see a single blog post and not a video that delineates everything in a step-by-step process describing the reasoning behind it. So even if you know circuit design and RP2040 layout, this post is a great refresher that might teach you some things. Thanks, Guy.
+
+Paul Cutler
+
+- Yeah, there's a time and a place for videos and then there's a time and a place for an actual blog post that details the process. So it's pretty cool to see someone actually take the time to write that out and still have a personal blog in this day and age. So, you know, kudos to them.
+
+Tod Kurt
+
+- Yes. So, yeah, what's our last one for today?
+
+Paul Cutler
+
+- Tod, you and I are both of an age that we were around at the start of microcomputers in the early eighties. Yes, we're old. Back then you could go into a Babbage's or a Waldenbooks and buy magazines with basic code or even assembly that you would then program by hand at home, copying direct from the magazine. Well, someone's trying to bring that back, but this time for HTML. The website vol WTF has launched the Doctype magazine. For 10 bucks, you get a glossy cover magazine with 10 web apps inside with illustrations and additional information. They're frequently asked questions on the homepage sums it up pretty well. I don't understand. It's a magazine of HTML source code. Yes, you type it in and then you get to play the games and run the apps. Type it all in. Why? Because it's a lost form of software distribution. It was intriguing and rewarding back then, and maybe it still is now. And they're right. It is a lost form. It takes me back to being a kid. And don't worry, you don't need a web server. You can run the web apps locally in your browser with instructions included. I actually recognize one or two of the authors, but I haven't spent the 10 bucks yet to try it out myself with the holidays here. It might make an interesting gift for someone younger, just getting into computers or someone our age that takes us back to that time when we were kids.
+
+Tod Kurt
+
+- My wife, Carlyn, she just got me the physical copy of this, which is hilarious. So in that fact, they also have one of their questions, can I cheat and get a PDF instead? And the answer is no. (laughs) It's like, you purely have to get the physical paper and do that transcription yourself of going from paper to a screen yourself. So Carlyn, my wife, she got me this. She's like, oh, I wanted to give you this for Christmas, but I can't wait, I wanna give it to you now. I don't know if you'll like it. I'm like, oh, this is amazing. (laughs)
+
+Paul Cutler
+
+- Yeah, I picked this out not knowing that you had it already, so it's quite the coincidence.
+
+Tod Kurt
+
+- Oh, it's so good. Yeah, so I distinctly remember getting, I think the magazine was called Nibble. It was geared towards Apple II, and it had code everywhere. Not only did it have what Doctype has, which is, here's a little program you can type in, and it was just printed text of the source code that you would type in, but it also would have these articles about a software technique. Like, "Oh, here's how to do high-res graphics on the Apple II," or something. But then also, there'd be these little ads. Beagle Bros was this company that would make these little tips and tricks and tools for your Apple II, and their little quarter-page ad would often have a little one or two or five-line program you could type in to do something fun. It's like, "Oh man, imagine if ads were like that nowadays."
+
+Tod Kurt
+
+- But yeah, so I'm really loving Doctype. I hope I... Currently, it is just the actual programs. I don't think there's much editorial content, but I would love it if they extended it out to having little articles about certain cool HTML techniques, because man, HTML is huge. There's lots of really cool things you can do with it. It is kind of the language to know on the internet now.
+
+Paul Cutler
+
+- Well, that's our show. Thank you for listening. We're recording this over the Thanksgiving holiday weekend in the US and we are thankful for every one of you listening. For detailed show notes and transcripts or to order a free sticker, visit thebootloader.net. Until next time, stay positive.
