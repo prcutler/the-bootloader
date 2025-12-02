@@ -147,6 +147,7 @@
 * [INDX tool changer for Prusa Core One](https://www.bondtech.se/indx-by-bondtech/)
 * [Open Source Zork 1-3](https://blog.zarfhome.com/2025/11/zork-is-open-source) and [Microsoft announcement](https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source)
 * [Libby Miler's Camera music](https://www.hackster.io/news/libby-miller-s-music-camera-turns-printed-blocks-and-lego-bricks-into-a-dynamic-tune-cf5c0ebc3e46)
+* [GitHub Heroes](https://github.com/non-npc/Github-Heroes)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
