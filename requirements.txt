@@ -53,7 +53,7 @@ smmap==5.0.2
 tinycss2==1.5.1
 typing-inspection==0.4.2
 typing_extensions==4.15.0
-urllib3==2.6.0
+urllib3==2.6.1
 watchdog==6.0.0
 wcmatch==10.1
 webencodings==0.5.1
