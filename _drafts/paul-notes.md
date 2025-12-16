@@ -148,6 +148,13 @@
 * [Open Source Zork 1-3](https://blog.zarfhome.com/2025/11/zork-is-open-source) and [Microsoft announcement](https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source)
 * [Libby Miler's Camera music](https://www.hackster.io/news/libby-miller-s-music-camera-turns-printed-blocks-and-lego-bricks-into-a-dynamic-tune-cf5c0ebc3e46)
 * [GitHub Heroes](https://github.com/non-npc/Github-Heroes)
+* [Ride On With FOSS And GoldenCheetah](https://hackaday.com/2025/12/03/ride-on-with-foss-and-goldencheetah/)
+* *[Caligra c100 Developer Terminal](https://www.tomshardware.com/software/linux/new-computing-platform-is-made-for-making-caligra-c100-developer-terminal-targets-creators-with-distraction-free-computer-for-experts)
+* [Pen Plotter ESP32](https://hackaday.io/project/204593-pen-plotter-esp32)
+* [Browser based CAD](https://hackaday.com/2025/12/04/new-browser-based-cad-system-is-best-friends-with-triangle-meshes/)
+* [Mentra open smart glasses OS](https://hackaday.com/2025/12/13/mentra-brings-open-smart-glasses-os-with-cross-compat/)
+* [Absynth 6](https://blog.native-instruments.com/introducing-absynth-6/)
+
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
