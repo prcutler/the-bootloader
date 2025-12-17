@@ -155,7 +155,7 @@
 * [Mentra open smart glasses OS](https://hackaday.com/2025/12/13/mentra-brings-open-smart-glasses-os-with-cross-compat/)
 * [Absynth 6](https://blog.native-instruments.com/introducing-absynth-6/)
 * [Interview with Jorge about Bazzite and more](https://www.youtube.com/watch?v=K6-GMTq2T7s&t=4739s)
-
+* [Microcad](https://microcad.xyz) and [Codeberg repo](https://codeberg.org/microcad/microcad)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
