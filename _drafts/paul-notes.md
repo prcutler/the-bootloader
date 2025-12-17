@@ -154,6 +154,7 @@
 * [Browser based CAD](https://hackaday.com/2025/12/04/new-browser-based-cad-system-is-best-friends-with-triangle-meshes/)
 * [Mentra open smart glasses OS](https://hackaday.com/2025/12/13/mentra-brings-open-smart-glasses-os-with-cross-compat/)
 * [Absynth 6](https://blog.native-instruments.com/introducing-absynth-6/)
+* [Interview with Jorge about Bazzite and more](https://www.youtube.com/watch?v=K6-GMTq2T7s&t=4739s)
 
 
 ## Leftover Links
