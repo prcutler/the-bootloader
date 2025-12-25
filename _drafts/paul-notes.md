@@ -157,6 +157,7 @@
 * [Interview with Jorge about Bazzite and more](https://www.youtube.com/watch?v=K6-GMTq2T7s&t=4739s)
 * [Microcad](https://microcad.xyz) and [Codeberg repo](https://codeberg.org/microcad/microcad)
 * [Lost Sega Channel games for Genesis](https://www.tomshardware.com/video-games/retro-gaming/massive-two-year-project-recovers-144-previously-undumped-sega-genesis-game-roms-from-the-mid-1990s-lost-garfield-and-flintstones-games-among-the-notable-finds)
+* [CadQuest](https://www.cadquest.io/) and [Reddit announcement](https://www.reddit.com/r/Onshape/comments/1poc9gh/i_built_a_browserbased_cad_practice_platform/)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
