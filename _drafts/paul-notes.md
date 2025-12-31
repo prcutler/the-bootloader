@@ -158,6 +158,7 @@
 * [Microcad](https://microcad.xyz) and [Codeberg repo](https://codeberg.org/microcad/microcad)
 * [Lost Sega Channel games for Genesis](https://www.tomshardware.com/video-games/retro-gaming/massive-two-year-project-recovers-144-previously-undumped-sega-genesis-game-roms-from-the-mid-1990s-lost-garfield-and-flintstones-games-among-the-notable-finds)
 * [CadQuest](https://www.cadquest.io/) and [Reddit announcement](https://www.reddit.com/r/Onshape/comments/1poc9gh/i_built_a_browserbased_cad_practice_platform/)
+* [Add multicolor printing to any 3D printer](https://www.youtube.com/watch?v=qDFDKiqj0p8)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
