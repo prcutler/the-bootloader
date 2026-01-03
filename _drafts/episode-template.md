@@ -10,7 +10,7 @@ In this episode, Tod and Paul discuss...
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
 
-We have stickers! [Request a sticker here.](https://forms.gle/tSsyyREgjA38pUgv6)
+We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38pUgv6) (US Only, sorry!)
 
 ## Listen to the podcast
 
