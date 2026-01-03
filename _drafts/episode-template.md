@@ -6,11 +6,15 @@ title: "Episode xx - Insert title here"
 
 ## Welcome to the show
 
+Published: 
+
 In this episode, Tod and Paul discuss...
 
 Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
 
 We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38pUgv6) (US Only, sorry!)
+
+[Full transcript available here](../../transcripts/2026/028-transcript.md).
 
 ## Listen to the podcast
 
