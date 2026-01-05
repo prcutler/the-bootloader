@@ -1,0 +1,123 @@
+---
+date:
+  created: 2026-01-05
+title: "Episode 28 Transcript - Games Without Frontiers"
+---
+
+Paul
+
+Welcome to The Bootloader. I'm Paul Cutler.
+
+Tod
+
+And I'm Tod Kurt. The show works like this. In each episode, we bring around six things we're excited to share. Chatting about each one for about five minutes. For detailed show notes and transcripts, visit thebootloader.net. Paul, what's the first one for us?
+
+Paul
+
+Back in mid-November, Valve Software announced the Steam Machine, a console-like PC running SteamOS, which under the covers is really Arch Linux. Valve has spent almost 10 years seeding open source developers and projects to get Windows games to run on Linux using emulation, and has had the Steam Deck, a handheld PC, for the last couple of years, and now they are graduating to the Steam Machine. Just over a month ago I did something I rarely do, and I wrote a blog post on building my own Steam Machine. If you have an extra PC around, you don't have to wait for Valve to release the Steam Machine, you can install a Linux distro called Bazzite right now to get the SteamOS experience. Bazzite is another flavor of Linux, this one based on Fedora and Fedora Silverblue, but they call it atomic and immutable. According to the Fedora Silverblue homepage, which Bazzite is based on, being atomic means the system is updated in one go and an update won't be applied if anything goes wrong. And you don't use DNF to install apps. Everything is installed using Flatpak and apps are separate from the base system. So this isn't the usual Linux you might have used in the past. It's been brought up to modern standards. And it's not something brand new. Bazzite and its bigger sibling, Project Bluefin, are going on year five. I've linked in the show notes an interview with one of the maintainers, Jorge Castro, who talks more about the background and how it works. But then Bazzite takes it one step further and makes it even easier to install Linux. The biggest example is it includes the proprietary video card drivers for your GPU. so you don't have to screw around with that. In fact, when you go to download Bazzite, it asks you three questions. What hardware is it for? Is this for a desktop, a home theater PC, or a handheld PC with some specific models to choose from? I chose home theater PC, and then it asked, who's your GPU vendor? I picked AMD, 'cause I'm using a 5700 XT, and then it asked you to pick a desktop environment. And if you know me, of course I chose GNOME over KDE. I ran into one upstream Fedora bug to install it on a PC with two SSDs, but other than that when I was done, it boots right up into Steam using Steam's Big Picture mode. I hooked up a Bluetooth Xbox wireless controller without any issues and started installing some games. Out of the 177 Steam games I have accumulated over the past 15 or 20 years, 127 worked in Linux on SteamOS, which I thought was super impressive. It's been fun kicking back on the couch playing some of the games, and they play surprisingly well, both with the controller and on the big screen. Next up, I found a guide to turn it into a real console-like experience with waking it up via the Bluetooth controller, which will then use HDMI CEC to turn on the receiver and the TV automatically. Oh, that's cool. Yeah, hats off to the Baz Night developers for making it so easy and smooth. I've included links to my blog post, to Baz Night itself, and to the home theater guide in the show notes.
+
+
+Tod
+
+That's great. Yeah, I've got a Steam deck,that's the little handheld console. Yeah. And it's really good. It's really well done. And it's got some really innovative controls to let you try to do things that weren't really meant to be used with a game pad. It's got like dual track pads and all that kind of stuff. And I'm just amazed that Steam has been hacking on getting Windows games to work and not Windows by and by not using any kind of emulation layer. I think the way that like that one we used to all use uh, like 20 years ago. Wine? Wine, yeah. It's like it's not using wine, it's doing something else.
+
+Paul
+
+It actually uses wine, it uses Proton, which is built on top of wine. Oh it does! Yeah.
+
+Tod
+
+Oh it does. Okay, for some reason I, I always thought that the wines emulation was like too slow for real games, but I've been, I played a couple of like actual sort of fast-paced games and it seemed to work really well. And I really want a Steam Machine PC thing. I've been, like for the last five or six years I've been wanting to buy a new gaming PC but man trying to get a whole gaming PC up and going is like an experience you know.
+
+Paul
+
+One of the neat things if you have a Steam Deck you can take your micro SD card with your games and plug it into your Bazzite machine and it just works so you can don't have to install some of your game data in both places so I thought that was kind of neat to be able to Steam Deck.
+
+Tod
+
+That's really cool yeah it's it's uh if I had some PC parts laying around that were like worthy of this I might try out buys that but I'm like well I've already been holding up for five years or so can I just hold it a little while longer until Val's steam machine comes out?
+
+Paul
+
+Well when you pick one up you'll have to review one on the show. Oh totally. What's your first one for us this episode?
+
+Tod
+
+So sewing machines. Sewing machines are pretty nerdy actually. They're incredible pieces of engineering. If you've never seen how a sewing machine works it's amazingly complicated yet all that complication is hidden from you the user, the sewing machine operator, and they've worked the same way for over 100 years. I recently took a sewing machine class, actually a couple of them, learned a lot, had a lot of fun. If you've seen the things on how sewing machines work, like I'll link to a Veritasium video that's pretty good. The sewing machine actually has two threads, a top and a bottom thread, and it locks those threads together across the fabric to bind the two pieces of fabric together. And it does this via a hidden mechanism where it kind of, you know, it ties the two threads together you seeing any of this, and it does that a hundred times a minute. This lock stitch that it creates is really strong, and you can change both the horizontal and vertical spacing of the stitching via some knobs on the sewing machine to give you different effects of the stitch, like maybe make it a stretchy stitch. And sewing machines come with a wide variety of adjustment knobs and levers, and that can be a little daunting if you look at it. It looks almost like a Rube Goldberg machine. But after you take a little class, get your good instructions from somebody, It's pretty obvious and the intro class I took, they walked us through all the, how all the different settings change the stitch and that most of the time you can just ignore all that and just use the machine with standard settings, which is pretty cool. I thought you'd have to like be manipulating the knobs all the time, but you don't. If you're interested in learning about sewing machines yourself, you can find cheap classes on sewing machines from community colleges, makerspaces, or even for free from family members who sew. Like when I was a little kid, my grandma tried to teach me sewing, and I wish I'd paid more attention because all I can remember is that she had me thread up thread on a bobbin. So I remember how to do that. The classes that I took were from a local craft-oriented maker space, and they had several other useful upcoming classes once you've taken these intro ones, like how to make your own hoodies and sweatshirts. They had a whole stack of fleece material that was ready for people to start cutting out the pattern and sew them together to make your own hoodies. And I learned for the instructors there that many places like this also let you either borrow a machine or kind of like stay in the place and use the machine at different times of the day. So you don't even have to own a machine. You can just like borrow one essentially. But if you do want to buy one, sewing machines, like a good starter machine I've learned is only about 250 bucks brand new, which compared to all this other tech gadgets we buy is pretty cheap, you know. when our phones cost over $1,000. Right. So why did I take sewing machine classes? Mostly I'm interested in making some little custom bags and dust covers for various gadgets, like my synthesizers and keyboards and stuff. Also maybe sew up some holes that are in some favorite pair of jeans. There's a couple of shirts that I have that are little boxy, and I like to maybe hem them in a bit to make it look a little bit more fitted. So yeah, everyone I recommend give a sewing machine a try. They're really fun pieces of technology. You may have one already hiding in your house, you know, in the garage, in the basement. And there's lots of YouTube videos to help you get started if you don't want to take a class. I've included a playlist of one example, but just type in "How to Use a Sewing Machine" on YouTube and you'll find a bunch.
+
+Paul
+
+See, I'm spoiled. My partner is really into sewing. She's got a number of sewing machines, a couple of antiques. So I've never had to learn it because I just asked her to do it You've got an expert in the house exactly and you know going back years and years before the rise of Facebook groups She ran a really big online sewing community and put together sewing get-togethers where people would fly in and they would all sew for the weekend And that kind of stuff. So oh my gosh. Wow. Yeah, there's really cool communities built all around sewing
+
+Tod
+
+Yeah, it's and it can be amazingly complicated if you want it to be but it can also be like just I want to hem up my jeans two inches or something, you know. All right, Paul, what's your one for this week?
+
+Paul
+
+My second pick is a roundup of recent CAD news, starting with Hackaday's recent story on brep.io. Brep is a brand new from scratch boundary representation kernel. Brep.io is a new browser-based CAD where all computation is done on the client side, including the complex operations like fillets, lofts, and more. They even have a live demo for you to give it a try running at brep.io. Check out the story at Hackaday, follow the project page, or check out the GitHub repository. Next up is MicroCAD, which is very young in its development and still is an alpha stage. Their homepage calls it a new open source programming language that can generate 2D sketches and 3D objects. The easiest comparison that came to mind to me is probably something like OpenSCAD. They've got some really neat videos of how they're using MicroCAD to create models, including a logo, Lego bricks, gears, and more. And then lastly is CADQuest, a website to help you level up your CAD skills. It has a free and a paid tier, but I haven't tried it out personally. They claim it works with any CAD software, but it really looks like they prefer SolidWorks. So if you're into gamification to level up your CAD skills, it might be worth checking out. Lots of links in the show notes to all of them.
+
+Tod
+
+Oh, that's really cool. I'm a big fan of OpenSCAD, OpenSCAD. It's got a really old interface though, 'cause it's been around for 20 years or something. But there's all these CAD, sorry, browser-based systems now, like Onshape is a professional CAD system that you pay thousands of dollars per year for, and it's all entirely browser-based. Like, why doesn't this exist in a more open-source way? And it's really cool to see some of these CAD systems that are available just so nicely there. I really want to try out this B-Rep.
+
+Paul
+
+Yeah, I'm not quite sure either. [LAUGHTER]
+But it does look interesting.
+
+Tod
+
+Totally, yeah.
+
+Paul
+
+What's your next one for us?
+
+Tod
+
+All right, so I do all the synthesizer stuff. And someone that I've been following on YouTube for a while is this guy named Moritz Klein. He's an online instructor. I think that's kind of what he described himself as. He's also a circuit designer. And he does this all on YouTube. And it's all for analog synth circuits. And the reason why I bring him up is because his most recent video that came out a couple of weeks ago is how to build a drum sequencer using just chips, digital chips, analog chips, no coding, no microcontroller. And the whole thing is really understandable. It's the way that sequencers were made back when the original sequencers were made, like in the 1970s or whatever. But what's really cool is that the sequencer he designs has been simplified, has been kind of pared down to just what's necessary. So it's really understandable, and it makes it easier to implement. And it's also-- the choices he's made has made it very usable in the final form, the final circuit he builds. And the video he has walks you entirely all the way through that and kind of his thought processes as to why some of the things he's done he did. This drum sequencer video is the latest in his series of building a whole set of modules to implement a analog drum machine, sort of like the venerable TR-808 or TR-606, you might've heard the drum sounds from. All these videos are very approachable and the sounds that come from his circuits sound really nice. They sound like in some ways, exactly what you'd expect from these analog drum sounds, but also they're tunable in ways that the original circuits weren't. So you can make new sounds, which is really neat. These drum synths videos do assume you know how to read a schematic and have a basic understanding of electronics, but he has another series for beginners that teaches you those skills while also helping you build little synthesizer circuits. So it's really nice. And if you are worried about getting the physical stuff hooked up, he also works with the fairly famous modular synth company, Erika Synths, to make a set of DIY kits that are based on his videos. And one of his kits is this thing called the EduLabor. I think it's a it's a it's a breadboard system that has a bunch of parts already built for you to let you power and Monitor like with a little tiny oscilloscope and control like with knobs and buttons and stuff the circuits you build on a breadboard And of course you can always just wire up wire up all the circuits that he talks about on your own breadboard This is kind of what I do but having the labor would make it a lot faster because I'd have to like pull out my little Power supply and pull out my knobs that I can plug in the breadboard But the labore has all that kind of already set up, you know So it'd be much faster and so even though I've been doing electronics for decades Watching his videos has improved my analog skills, which I don't use nearly enough And it's helped me think about how to implement some of these emulations of analog sense circuits in code, which is where mostly I live So so yeah I think it's highly recommended two thumbs up if you're interested in how analog sense work or just analog circuits give this video a try I'll have links in the show notes
+
+Paul
+
+Yeah, I took a look at the labor and it's it's an investment. It's about $300 or I think 260 euros But it looks really neat It's got the the breadboard lying around In the middle and then laying around it is all those different modular stuff that you can plug in which Tended to go for what I think of about 60 to 70 euros as well the plug-in so really neat system
+
+Tod
+
+Yeah, yeah, it does all this stuff all the all the music stuff is always so expensive and it's always kind of a bummer. And like, it's like, oh, then I'll just save the money and do it all myself with a normal breadboard, which is totally doable, but, oh man. So yeah, I don't have any of the Labore stuff, but it's something on my wishlist if anyone wealthy wants to buy it for me.
+
+Paul
+
+Well, our GitHub sponsorship page is open, so.
+
+Tod
+
+That's right. All right, Paul, what's your final one for this time?
+
+Paul
+
+Way back in episode nine, we talked about Radio Free Fedi, a streaming radio station made up of artists on the Fetaverse like Mastodon. Just over a year ago, Radio Free Fedi shut down on January 1st, 2025. It was a lot of work for one person to curate all the music, prep it for listening, and manage all the infrastructure behind it, and I'm glad we had it for the time we did. I've linked to an article in the show notes that breaks down the timeline of how the station came to an end. But all is not lost. The Indie Beat Radio was raised out of the ashes to share Fetaverse musicians with the world. The Indie Beat Radio federates with Bandwagon FM, which is an alternative to Bandcamp, allowing artists to sell their music online using their own Stripe account to keep 100% of the revenue, unlike Bandcamp. It's also federated with Mastodon, Loops, and more to share their music with their fans, and it's 100% open source. Artists who opt in on Bandwagon can have their songs stream on the Indie Beat Radio, which features over thousand different tracks. Where Radio Free Fedi featured just a few channels, the Indie Beat Radio has ten channels, streaming everything from Bonkwave to Jazz to an Everything channel to Rock and more. Friend of the show Andy Piper even created a GNOME Shell extension for listening to the station if you're a GNOME user. And then they took it to another level on Sunday, December 28th, and launched the Indie Beat Television. Imagine MTV, but by Fetaverse Musicians. The Sunday that it launched, I just happened to be up at 6am time for the launch and I'm glad I did. I was blown away by the quality of the videos. I knew there were some really good musicians, but there are some great visual artists too. Visit the homepage to see the schedule of different shows that are available, including one that is just animation videos, which are really cool. And the timing couldn't be better. On New Year's Eve, MTV announced it was shutting down its remaining music channels. So now you can visit the Indie Beat television when you need a video fix. A big shout out to everyone who has donated their time to these projects, including Ben Pate of Bandwagon.fm, Kirsten Lambertson of the Indie Beat Radio, friend of the show Axwax, Limebar, and I'm sure I'm missing more. Go check out the streams for both the Indie Beat Radio and television.
+
+Tod
+
+That's too bad about MTV. On the one hand, it's like, yes, we outlived MTV. On the other hand, it's like, man, MTV was like, when it first started, it introduced me to so much music that was not playing on normal radio. Like later, it became like a super popular thing. And so it became an echo of what was on popular radio. But those original VJs were just playing stuff you would never hear unless it was unless you were near a cool college. So, hey, now we've got college radio across the Fediverse with with Indie Beat Radio and Indie Beat Television. This is cool.
+
+Paul
+
+Exactly. It's pretty neat. I've been tuning in just even just in the background at times and some of the songs, I'll whip my head around and go, that was really good. and I have to look up who the artist is and write it down. - Totally. - What's your last one for us?
+
+Tod
+
+All right, so something tonally shift back down to the super nerd level of GitHub and get repos and stuff. In GitHub, there's this thing called GitHub Actions. They're really cool. You set up this little YAML config file and save it in a special directory in your repo. And anytime you do a specific action, like say, commit a file, publish a version of your repo, create a new tagging repo, GitHub will spin up a server, run the code in that config file, and give you the output. And so what people often use this for is for continuous integration tests where it'll recompile all the code in the repo and run tests against it to see if the thing you just checked in broke the build. And then it'll send emails or whatever out to people saying, hey, you messed up. So it's really great. There's a bunch of other cool things. If you do CircuitPython development, you'll notice that if you have a library, if you're doing a library, when you create a new version of your library, it'll automatically create all the build products that the CircuitPython tools need to publish your library to Circup and other places. So it's just kind of magical. The hard part is getting that config file, that YAML config file formatted correctly to do the things you actually need it to do. How do you actually see what changes happen is while you make a change to the file, you check it in, you commit it, just like any other file in your repo, and then you wait for the action to run on GitHub, and then you see how it breaks, and then you repeat. And that can take a little while. So there is a cool tool called ACT, just A-C-T, that lets you run GitHub actions locally on your computer or on your local server. You just CD into your local repo and you run ACT. And you can give it command line arguments if you want for more detailed fine-grained running, but that's pretty much all you need to do. And ACT works with the power of Docker, of course. It's not exactly the virtual environments that GitHub uses for its action runners, but it's pretty close. You can tune the size of the Docker images it uses. If you're doing something really standard that's just like some simple like Node.js libraries or something, you don't need a really big VM, a really big Docker image to do that, to do those tests. For me, because I'm doing like usually hardware stuff, I kind of need like the biggest Ubuntu Docker image to sort of fake out the system to know that I had installed the various USB level drivers and stuff. While ACT is kind of geared towards Linux based actions, you can also do Mac OS and Windows GitHub actions if you're on those systems. By the way, if you didn't know that you could run Mac-based and Windows-based GitHub actions, you can, and it's cool. It's one of the ways I test my programs across multiple architectures. But you can also run your GitHub actions locally if you have a Mac or a Windows box. What I've been using it for is to do the sort of iterative design of getting the YAML config file. Usually I'll have a separate repo that I use for testing all the changes, 'cause one of the things you'll see is, for every time you wanna make a change to the YAML file as another check-in to your GitHub, you have this history of this litter in your GitHub history of just all the things you've done to try to make the config file work. And so I've been doing that in a separate repo usually, but now I can do it locally instead without cluttering up my Git history. (laughs) So I'm hoping it'll be a little faster for me. I just discovered this a couple of days ago. So it's early days.
+
+Paul
+
+That's gotta be faster because I don't think everyone realizes too that on the free tier of GitHub, you've got to check it in. And like you said, kind of messes up your commit history. But then you have to wait for an available runner to start. So if you can do it locally, you're just saving seconds just there. By the time you're doing multiple of these, you're saving a lot of time.
+
+Tod
+
+While the GitHub Linux runners are usually pretty fast, the Windows and Mac runners on GitHub are actually pretty slow. And so if you've got a spare laptop running one of those OSs and you need to do Windows or Mac type builds, then doing it locally could be so much faster. Like, you know, just waiting after, wait five minutes for the Windows runner to become available and then run the Windows runner, which seems to run at like 1/5 the speed of my laptop. (laughing) It's like, come on. - And I'm looking at their homepage, it looks like it's available in Homebrew to run on Mac OS as well. - Yeah, yeah, just do brew install act and you'll get it. Yeah, I've been mostly playing with this in Linux right now because that's kind of where I do a lot of my iterative stuff for the actions. But yeah, we'll see if I start to move into the Windows thing or the Mac thing. I think it'll be pretty cool. That is pretty cool.
+
+Paul
+
+Well, that's our show. For detailed show notes and transcripts, visit www.thebootloader.net. You can also order a free sticker. We've got stickers available and linked to that on the homepage as well. Until next time, stay positive. (bright music)
