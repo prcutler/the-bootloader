@@ -160,6 +160,7 @@
  * [Archive.org link](https://archive.org/details/sega-channel-revival-complete-collection)
 * [CadQuest](https://www.cadquest.io/) and [Reddit announcement](https://www.reddit.com/r/Onshape/comments/1poc9gh/i_built_a_browserbased_cad_practice_platform/)
 * [Add multicolor printing to any 3D printer](https://www.youtube.com/watch?v=qDFDKiqj0p8)
+* [Lego bricks at CES](https://www.tomshardware.com/tech-industry/the-smallest-computer-at-ces-2026-is-a-lego-brick)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
