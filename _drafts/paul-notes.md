@@ -164,6 +164,7 @@
 * [Bose open sources SoundTouch speaker at EOL](https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/)
 * [ArcadeBoy - make a GameBoy into an Arcade](https://www.hackster.io/news/chris-fletcher-s-arcadeboy-converts-an-original-nintendo-game-boy-into-a-stylish-arcade-cabinet-02cb97f56092)
 * [RetroJam](https://blog.adafruit.com/2026/01/07/updated-guide-retro-jam-for-fruit-jam-multi-game-emulator/) and [GitHub](https://github.com/fhoedemakers/retroJam)
+* [Sparkfun vs. Adafruit](https://forum.pjrc.com/index.php?threads/open-source-teensy-compatible-what-features-do-you-want.77584/page-2#post-364465) and [Sparkfun statement](https://www.sparkfun.com/official-response)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
