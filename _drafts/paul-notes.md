@@ -168,6 +168,7 @@
 * [Naya Connect modular keyboard](https://connect.naya.tech/vip-prospecting-1), [coverage at ZDNet](https://www.zdnet.com/article/naya-connect-product-launch-kickstarter/) and [Kickstarter](https://www.kickstarter.com/projects/naya-create/naya-connect)
 * [Joypad OS](https://github.com/joypad-ai/joypad-os) and [Adafruit coverage](https://blog.adafruit.com/2026/01/23/joypad-os-universal-game-controller-firmware/Joypad OS)
 * [Washington Sate 3D printing bills are bad](https://blog.adafruit.com/2026/01/25/washingtons-3d-printing-bills-are-bad-for-stem-bad-for-business-and-bad-for-open-source-3d-printing/)
+* [OpenSplitDeck](https://github.com/tommybee456/OpenSplitDeck)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
