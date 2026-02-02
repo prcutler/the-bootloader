@@ -1,5 +1,5 @@
 annotated-types==0.7.0
-babel==2.17.0
+babel==2.18.0
 backrefs<=6.1
 bracex==2.6
 CacheControl==0.14.4
