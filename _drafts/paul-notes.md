@@ -166,6 +166,10 @@
 * [RetroJam](https://blog.adafruit.com/2026/01/07/updated-guide-retro-jam-for-fruit-jam-multi-game-emulator/) and [GitHub](https://github.com/fhoedemakers/retroJam)
 * [Sparkfun vs. Adafruit](https://forum.pjrc.com/index.php?threads/open-source-teensy-compatible-what-features-do-you-want.77584/page-2#post-364465) and [Sparkfun statement](https://www.sparkfun.com/official-response) and [Hacker News](https://news.ycombinator.com/item?id=46616488)
 * [Naya Connect modular keyboard](https://connect.naya.tech/vip-prospecting-1), [coverage at ZDNet](https://www.zdnet.com/article/naya-connect-product-launch-kickstarter/) and [Kickstarter](https://www.kickstarter.com/projects/naya-create/naya-connect)
+* [Joypad OS](https://github.com/joypad-ai/joypad-os) and [Adafruit coverage](https://blog.adafruit.com/2026/01/23/joypad-os-universal-game-controller-firmware/Joypad OS)
+* [Washington Sate 3D printing bills are bad](https://blog.adafruit.com/2026/01/25/washingtons-3d-printing-bills-are-bad-for-stem-bad-for-business-and-bad-for-open-source-3d-printing/)
+* [OpenSplitDeck](https://github.com/tommybee456/OpenSplitDeck) and [Linus Tech Tips YouTube video](https://www.youtube.com/watch?v=eNb55ZwnCRc)
+* [Creality Filament maker](https://www.hackster.io/news/creality-promises-a-closed-loop-filament-workflow-with-the-shredder-r1-and-filament-maker-m1-341ac48e749d)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
