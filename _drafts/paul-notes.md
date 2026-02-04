@@ -170,6 +170,7 @@
 * [Washington Sate 3D printing bills are bad](https://blog.adafruit.com/2026/01/25/washingtons-3d-printing-bills-are-bad-for-stem-bad-for-business-and-bad-for-open-source-3d-printing/)
 * [OpenSplitDeck](https://github.com/tommybee456/OpenSplitDeck) and [Linus Tech Tips YouTube video](https://www.youtube.com/watch?v=eNb55ZwnCRc)
 * [Creality Filament maker](https://www.hackster.io/news/creality-promises-a-closed-loop-filament-workflow-with-the-shredder-r1-and-filament-maker-m1-341ac48e749d)
+* [3D printing use AI to fix prints in real time](https://www.tomshardware.com/3d-printing/researchers-use-agentic-ai-to-monitor-and-correct-3d-prints-system-catches-errors-in-real-time-uses-modular-design-to-work-on-different-makes-and-models)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
