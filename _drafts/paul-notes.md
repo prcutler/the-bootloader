@@ -171,6 +171,7 @@
 * [OpenSplitDeck](https://github.com/tommybee456/OpenSplitDeck) and [Linus Tech Tips YouTube video](https://www.youtube.com/watch?v=eNb55ZwnCRc)
 * [Creality Filament maker](https://www.hackster.io/news/creality-promises-a-closed-loop-filament-workflow-with-the-shredder-r1-and-filament-maker-m1-341ac48e749d)
 * [3D printing use AI to fix prints in real time](https://www.tomshardware.com/3d-printing/researchers-use-agentic-ai-to-monitor-and-correct-3d-prints-system-catches-errors-in-real-time-uses-modular-design-to-work-on-different-makes-and-models)
+* [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
