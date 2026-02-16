@@ -173,6 +173,8 @@
 * [3D printing use AI to fix prints in real time](https://www.tomshardware.com/3d-printing/researchers-use-agentic-ai-to-monitor-and-correct-3d-prints-system-catches-errors-in-real-time-uses-modular-design-to-work-on-different-makes-and-models)
 * [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 * [Open Printer](https://www.crowdsupply.com/open-tools/open-printer)
+* [Open Source turntable](https://www.hackster.io/news/patrick-nelson-s-stm-01-aims-to-be-a-highly-expandable-modular-open-source-record-player-34a1c442c1d2)
+
 
 ## Leftover Links
 * Pyjokes: https://github.com/pyjokes/pyjokes
