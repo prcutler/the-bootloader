@@ -174,6 +174,8 @@
 * [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 * [Open Printer](https://www.crowdsupply.com/open-tools/open-printer)
 * [Open Source turntable](https://www.hackster.io/news/patrick-nelson-s-stm-01-aims-to-be-a-highly-expandable-modular-open-source-record-player-34a1c442c1d2)
+* [When to use Zephyr by Shawn Hymel](https://shawnhymel.com/3193/the-hidden-costs-of-using-zephyr-and-how-to-mitigate-them/)
+* 
 
 
 ## Leftover Links
