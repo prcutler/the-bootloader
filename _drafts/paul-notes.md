@@ -177,7 +177,7 @@
 * [When to use Zephyr by Shawn Hymel](https://shawnhymel.com/3193/the-hidden-costs-of-using-zephyr-and-how-to-mitigate-them/)
 * [Current RSS reader](https://www.terrygodier.com/current) and [Skyreader](https://github.com/disnet/skyreader)
 * [Tool Tracer AI](https://www.tooltrace.ai/)
-* 
+* [OpenScan](https://openscan-org.github.io/OpenScan-Doc/)
 *
 
 
