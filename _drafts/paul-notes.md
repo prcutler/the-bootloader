@@ -178,7 +178,8 @@
 * [Current RSS reader](https://www.terrygodier.com/current) and [Skyreader](https://github.com/disnet/skyreader)
 * [Tool Tracer AI](https://www.tooltrace.ai/)
 * [OpenScan](https://openscan-org.github.io/OpenScan-Doc/)
-*
+* [Mini Arcade Cabinets with ESP32](https://hackaday.com/2026/03/11/mini-multi-arcade-game-cabinets-with-an-esp32-and-galagino/)
+* 
 
 
 ## Leftover Links
