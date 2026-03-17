@@ -171,7 +171,6 @@
 * [OpenSplitDeck](https://github.com/tommybee456/OpenSplitDeck) and [Linus Tech Tips YouTube video](https://www.youtube.com/watch?v=eNb55ZwnCRc)
 * [Creality Filament maker](https://www.hackster.io/news/creality-promises-a-closed-loop-filament-workflow-with-the-shredder-r1-and-filament-maker-m1-341ac48e749d)
 * [3D printing use AI to fix prints in real time](https://www.tomshardware.com/3d-printing/researchers-use-agentic-ai-to-monitor-and-correct-3d-prints-system-catches-errors-in-real-time-uses-modular-design-to-work-on-different-makes-and-models)
-* [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 * [Open Printer](https://www.crowdsupply.com/open-tools/open-printer)
 * [Open Source turntable](https://www.hackster.io/news/patrick-nelson-s-stm-01-aims-to-be-a-highly-expandable-modular-open-source-record-player-34a1c442c1d2)
 * [When to use Zephyr by Shawn Hymel](https://shawnhymel.com/3193/the-hidden-costs-of-using-zephyr-and-how-to-mitigate-them/)
@@ -180,6 +179,7 @@
 * [OpenScan](https://openscan-org.github.io/OpenScan-Doc/)
 * [Mini Arcade Cabinets with ESP32](https://hackaday.com/2026/03/11/mini-multi-arcade-game-cabinets-with-an-esp32-and-galagino/)
 * [PicoCad 2](https://picocad.net)
+* [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 * 
 
 
