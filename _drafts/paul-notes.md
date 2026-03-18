@@ -180,6 +180,7 @@
 * [Mini Arcade Cabinets with ESP32](https://hackaday.com/2026/03/11/mini-multi-arcade-game-cabinets-with-an-esp32-and-galagino/)
 * [PicoCad 2](https://picocad.net)
 * [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
+* [OpenCode](https://github.com/anomalyco/opencode) and [home page](https://opencode.ai)
 * 
 
 
