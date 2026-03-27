@@ -47,7 +47,7 @@ python-dateutil==2.9.0.post0
 pytz==2026.1.post1
 PyYAML==6.0.3
 pyyaml_env_tag==1.1
-requests==2.32.5
+requests==2.33.0
 six==1.17.0
 smmap==5.0.3
 tinycss2==1.5.1
