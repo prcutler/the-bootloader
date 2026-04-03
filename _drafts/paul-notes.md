@@ -183,6 +183,7 @@
 * [OpenCode](https://github.com/anomalyco/opencode) and [home page](https://opencode.ai)
 * [Lopaka graphics for microcontrollers](https://lopaka.app)
 - [Parachord music player](https://github.com/Parachord/parachord)
+- [Open Boards Guide](https://www.openboardsguide.com)
 
 
 ## Leftover Links
