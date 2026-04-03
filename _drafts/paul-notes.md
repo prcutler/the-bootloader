@@ -182,7 +182,7 @@
 * [Project Aura](https://makerworld.com/en/crowdfunding/159-project-aura-make-the-invisible-visible)
 * [OpenCode](https://github.com/anomalyco/opencode) and [home page](https://opencode.ai)
 * [Lopaka graphics for microcontrollers](https://lopaka.app)
-- 
+- [Parachord music player](https://github.com/Parachord/parachord)
 
 
 ## Leftover Links
