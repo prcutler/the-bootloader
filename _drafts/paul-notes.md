@@ -184,6 +184,7 @@
 * [Lopaka graphics for microcontrollers](https://lopaka.app)
 - [Parachord music player](https://github.com/Parachord/parachord)
 - [Open Boards Guide](https://www.openboardsguide.com)
+- https://hackaday.com/2026/04/15/a-look-at-full-spectrum-3d-printing/
 
 
 ## Leftover Links
