@@ -185,6 +185,7 @@
 - [Parachord music player](https://github.com/Parachord/parachord)
 - [Open Boards Guide](https://www.openboardsguide.com)
 - [3D print your own Noctua fans and accessories](https://www.tomshardware.com/3d-printing/noctua-releases-free-3d-cad-files-for-top-rated-fans-and-accessories-enthusiasts-can-now-print-and-modify-their-own-versions)
+- https://hackaday.com/2026/04/15/a-look-at-full-spectrum-3d-printing/
 
 ## Leftover Links
 
