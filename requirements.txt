@@ -39,8 +39,8 @@ pathspec==1.1.1
 pillow==12.2.0
 platformdirs==4.9.6
 pycparser==3.0
-pydantic==2.13.3
-pydantic_core<=2.46.3
+pydantic==2.13.4
+pydantic_core<=2.46.4
 Pygments==2.20.0
 pymdown-extensions==10.21.2
 python-dateutil==2.9.0.post0
@@ -53,7 +53,7 @@ smmap==5.0.3
 tinycss2==1.5.1
 typing-inspection==0.4.2
 typing_extensions==4.15.0
-urllib3==2.6.3
+urllib3==2.7.0
 watchdog==6.0.0
 wcmatch==10.1
 webencodings==0.5.1
