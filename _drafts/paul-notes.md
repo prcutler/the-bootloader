@@ -188,6 +188,8 @@
 - https://hackaday.com/2026/04/15/a-look-at-full-spectrum-3d-printing/
 - [Achordion](https://parachord.com/blog/2026/05/04/introducing-achordion/)
 - [MakerLook](https://atomicgeese.com/makerlook/)
+- [Taken](https://sinceyouarrived.world/taken)
+
 
 ## Leftover Links
 
