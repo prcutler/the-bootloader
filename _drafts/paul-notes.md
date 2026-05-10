@@ -189,6 +189,7 @@
 - [Achordion](https://parachord.com/blog/2026/05/04/introducing-achordion/)
 - [MakerLook](https://atomicgeese.com/makerlook/)
 - [Taken](https://sinceyouarrived.world/taken)
+- [Noctua 3D printed fans](https://hackaday.com/2026/05/09/the-noctua-fan-files-and-the-limits-of-3d-printing-pc-fans/)
 
 
 ## Leftover Links
