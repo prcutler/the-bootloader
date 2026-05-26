@@ -190,6 +190,7 @@
 - [MakerLook](https://atomicgeese.com/makerlook/)
 - [Taken](https://sinceyouarrived.world/taken)
 - [Noctua 3D printed fans](https://hackaday.com/2026/05/09/the-noctua-fan-files-and-the-limits-of-3d-printing-pc-fans/)
+- [Cardputer Zero Kickstarter](https://www.kickstarter.com/projects/m5stack/cardputerzero?ref=5hifwa&utm_source=lp%20jump)
 
 
 ## Leftover Links
