@@ -186,10 +186,12 @@
 - [Open Boards Guide](https://www.openboardsguide.com)
 - [3D print your own Noctua fans and accessories](https://www.tomshardware.com/3d-printing/noctua-releases-free-3d-cad-files-for-top-rated-fans-and-accessories-enthusiasts-can-now-print-and-modify-their-own-versions)
 - https://hackaday.com/2026/04/15/a-look-at-full-spectrum-3d-printing/
-- [Achordion](https://parachord.com/blog/2026/05/04/introducing-achordion/)
+- [Achordion](https://parachord.com/blog/2026/05/04/introducing-achordion/)and [Last.fm](https://support.last.fm/t/last-fm-is-now-independent/118591/2)
 - [MakerLook](https://atomicgeese.com/makerlook/)
 - [Taken](https://sinceyouarrived.world/taken)
 - [Noctua 3D printed fans](https://hackaday.com/2026/05/09/the-noctua-fan-files-and-the-limits-of-3d-printing-pc-fans/)
+- [Cardputer Zero Kickstarter](https://www.kickstarter.com/projects/m5stack/cardputerzero?ref=5hifwa&utm_source=lp%20jump)
+- Flipper Zero and [Collabora](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)
 
 
 ## Leftover Links
