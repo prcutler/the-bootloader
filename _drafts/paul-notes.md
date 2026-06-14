@@ -192,7 +192,7 @@
 - [Noctua 3D printed fans](https://hackaday.com/2026/05/09/the-noctua-fan-files-and-the-limits-of-3d-printing-pc-fans/)
 - [Cardputer Zero Kickstarter](https://www.kickstarter.com/projects/m5stack/cardputerzero?ref=5hifwa&utm_source=lp%20jump)
 - Flipper Zero and [Collabora](https://www.collabora.com/news-and-blog/news-and-events/collabora-flipper-opening-up-the-rk3576.html)
-
+[Snapmaker innovation fund](https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems)
 
 ## Leftover Links
 
