@@ -86,7 +86,11 @@ extra:
 plugins:
   - search
   - awesome-nav
-  - social
+  - social:
+      cards_layout: default/accent
+      cards_layout_options:
+        background_image: assets/images/boards-background.jpg
+        background_color: transparent
   - rss:
       match_path: "episodes/.*"
       date_from_meta:
