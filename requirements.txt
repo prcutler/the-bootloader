@@ -15,7 +15,7 @@ defusedxml==0.7.1
 filelock==3.29.7
 ghp-import==2.1.0
 gitdb==4.0.12
-GitPython==3.1.50
+GitPython==3.1.51
 idna==3.18
 Jinja2==3.1.6
 Markdown==3.10.2
@@ -55,5 +55,5 @@ typing-inspection==0.4.2
 typing_extensions==4.16.0
 urllib3==2.7.0
 watchdog==6.0.0
-wcmatch==10.2.1
+wcmatch==11.0
 webencodings==0.5.1
