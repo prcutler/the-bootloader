@@ -195,6 +195,7 @@
 [Snapmaker innovation fund](https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems)
 - [Smallrun.net](https://smallrun.net)
 - [Sony headphoens as a motion tracker](https://www.tomshardware.com/video-games/pc-gaming/you-can-now-use-your-sony-headphones-as-a-real-time-head-tracker-for-race-and-flight-simulators-on-pc-several-hundred-games-already-supported-enthusiast-creates-open-source-app-that-translates-live-sensor-data-into-in-game-camera-controls)
+- [Steam Controller and OpenPuck](https://github.com/safijari/openpuck) and [Hackaday coverage](https://hackaday.com/2026/07/13/diy-steam-controller-puck-offers-xbox-switch-playstation-emulation-modes/)
 
 ## Leftover Links
 
