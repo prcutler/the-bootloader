@@ -197,6 +197,7 @@
 - [Sony headphoens as a motion tracker](https://www.tomshardware.com/video-games/pc-gaming/you-can-now-use-your-sony-headphones-as-a-real-time-head-tracker-for-race-and-flight-simulators-on-pc-several-hundred-games-already-supported-enthusiast-creates-open-source-app-that-translates-live-sensor-data-into-in-game-camera-controls)
 - [Steam Controller and OpenPuck](https://github.com/safijari/openpuck) and [Hackaday coverage](https://hackaday.com/2026/07/13/diy-steam-controller-puck-offers-xbox-switch-playstation-emulation-modes/)
 - [The IDE CD Player](https://www.tomshardware.com/pc-components/enclosures/boutique-diy-hi-fi-solution-lets-you-repurpose-your-old-ide-optical-drives-as-a-standalone-audio-player-usd190-cd-rom-player-01-features-a-laser-cut-enclosure-and-a-custom-pcb)
+- [LibrePods](https://github.com/librepods-org/librepods)
 
 ## Leftover Links
 
