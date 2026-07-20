@@ -199,9 +199,9 @@
 - [The IDE CD Player](https://www.tomshardware.com/pc-components/enclosures/boutique-diy-hi-fi-solution-lets-you-repurpose-your-old-ide-optical-drives-as-a-standalone-audio-player-usd190-cd-rom-player-01-features-a-laser-cut-enclosure-and-a-custom-pcb)
 - [LibrePods](https://github.com/librepods-org/librepods)
 - [AP30 music player](https://gardinerbryant.com/hands-on-with-the-hidizs-ap30-music-boy/) and [Kickstarter](https://www.kickstarter.com/projects/hidizs/ap30-music-boy-the-first-truly-wearable-hi-res-music-player)
+[Repurpose SSDs as game cartridges](https://hackaday.com/2026/07/20/old-ssds-find-new-life-as-game-cartridges/)
 
-
-[#(https://gardinerbryant.com/hands-on-with-the-hidizs-ap30-music-boy/# Leftover Links
+# Leftover Links
 
 * Pyjokes: https://github.com/pyjokes/pyjokes
 * CircuitPython Networking guide:  https://learn.adafruit.com/networking-in-circuitpython/overview
