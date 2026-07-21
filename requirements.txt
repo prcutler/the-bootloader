@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 babel==2.18.0
 backrefs<=7.0
-bracex==3.0
+bracex==3.0.1
 CacheControl==0.14.4
 cairocffi==1.7.1
 CairoSVG==2.9.0
@@ -12,10 +12,10 @@ click==8.4.2
 colorama==0.4.6
 cssselect2==0.9.0
 defusedxml==0.7.1
-filelock==3.31.1
+filelock==3.31.2
 ghp-import==2.1.0
 gitdb==4.0.12
-GitPython==3.1.52
+GitPython==3.1.53
 idna==3.18
 Jinja2==3.1.6
 Markdown==3.10.2
