@@ -1,4 +1,4 @@
-annotated-types==0.7.0
+annotated-types==0.8.0
 babel==2.18.0
 backrefs<=7.0
 bracex==3.0.1
