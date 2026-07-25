@@ -64,6 +64,8 @@ markdown_extensions:
           format:
             !!python/name:pymdownx.superfences.fence_code_format # Function to add two numbers
 
+watch:
+  - overrides
 
 extra:
   social:
@@ -75,8 +77,6 @@ extra:
       link: https://youtube.com/@thebootloader
     - icon: simple/bluesky
       link: https://bsky.app/profile/thebootloader.net
-    - icon: simple/mastodon
-      link: https://www.circuitpythonshow.com/@thebootloader/follow
     - icon: simple/github
       link: https://github.com/prcutler/the-bootloader
     - icon: /fontawesome/regular/envelope

@@ -15,7 +15,8 @@
     --clr-pink-100: #f15f79;
     --clr-pink-200: #b24592;
 
-    --clr-blue: hs1(var(--clr-blue));
+    --clr-blue: #2f80ed;
+    --clr-blue-200: #56ccf2;
 
     --gradient-primary: linear-gradient(
         var(--clr-lightgrey-hsl),
@@ -161,6 +162,28 @@ h2 {
     outline: 4px solid var(--clr-white);
 }
 
+/* Hero buttons: same sliding gradient treatment as the grid's Learn More button */
+/* Fixed indigo (not var(--md-primary-fg-color)) so the hero buttons look
+   the same in dark mode as in light mode, instead of switching to the
+   dark-mode primary color (black). */
+.hero .button {
+    background: linear-gradient(
+            135deg,
+            #4051b5 0%,
+            #303fa1 50%,
+            var(--clr-blue) 50%,
+            var(--clr-blue-200) 100%
+        )
+        no-repeat;
+    background-size: 230% 100%;
+    transition: background-position 0.5s;
+    background-position: 0% 0%;
+}
+
+.hero .button:hover {
+    background-position: 100% 0%;
+}
+
 /* -----------------------
     Hero styling
 ------------------------ */
@@ -251,4 +274,18 @@ h2 {
 
 .grid_card .button:hover {
     background-position: 100% 0%;
+}
+
+/* Dark mode: grid section should follow the slate palette, not stay white */
+[data-md-color-scheme="slate"] .lp-layer.features {
+    background-color: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .lp-layer.features h2,
+[data-md-color-scheme="slate"] .lp-layer.features p {
+    color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] .grid_card {
+    background: var(--md-default-fg-color--lightest);
 }
