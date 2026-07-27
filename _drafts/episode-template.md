@@ -18,7 +18,7 @@ We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38p
 
 ## Listen to the podcast
 
-Insert iframe from Castopod here.
+Insert iframe from Captivate here.
 
 ## Show Notes
 
