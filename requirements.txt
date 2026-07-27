@@ -1,6 +1,6 @@
 annotated-types==0.8.0
 babel==2.18.0
-backrefs<=7.0
+backrefs<=8.0
 bracex==3.0.1
 CacheControl==0.14.4
 cairocffi==1.7.1
@@ -15,7 +15,7 @@ defusedxml==0.7.1
 filelock==3.32.0
 ghp-import==2.1.0
 gitdb==4.0.12
-GitPython==3.1.55
+GitPython==3.1.57
 idna==3.18
 Jinja2==3.1.6
 Markdown==3.10.2
@@ -44,7 +44,7 @@ pydantic_core<=2.47.0
 Pygments==2.20.0
 pymdown-extensions==11.0.1
 python-dateutil==2.9.0.post0
-pytz==2026.2
+pytz==2026.3.post1
 PyYAML==6.0.3
 pyyaml_env_tag==1.1
 requests==2.34.2
