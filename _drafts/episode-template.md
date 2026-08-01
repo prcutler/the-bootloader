@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2026-2-01
+  created: 2026-02-01
 title: "Episode xx - Insert title here"
 ---
 
@@ -10,15 +10,17 @@ Published:
 
 In this episode, Tod and Paul discuss...
 
-Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).
+Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net). Follow Paul on [Bluesky](https://bsky.app/profile/paulcutler.org) or [Mastodon](https://hachyderm.io/deck/@prcutler) and Tod on [Bluesky](https://bsky.app/profile/todbot.com) and [Mastodon](https://mastodon.social/@todbot).
 
 We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38pUgv6) (US Only, sorry!)
-
-[Full transcript available here](../../transcripts/2026/028-transcript.md).
 
 ## Listen to the podcast
 
 Insert iframe from Captivate here.
+
+## Transcript
+
+[Full transcript available here](../../transcripts/2026/028-transcript.md).
 
 ## Show Notes
 
