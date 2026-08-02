@@ -14,11 +14,11 @@ Thank you to our current sponsors:
 
 * Alec Delaney
 * Liz Clark
+* Tod Kurt
 
 And to our former sponsors:
 
 * Tim C. 
-* Tod Kurt
 
 ## Podcast expenses
 
@@ -40,3 +40,9 @@ One time expenses:
 * [Reelify](https://reelifyclips.com) (social clips): $60
 * [Hush](https://hush.audio/products/hush) (audio clean up): $90
 * [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper) (transcriptions): $75
+
+## Sponsor the show
+
+You can sponsor the show via [GitHub Sponsors](https://github.com/sponsors/prcutler) (with more options coming soon!)
+
+<iframe src="https://github.com/sponsors/prcutler/card" title="Sponsor prcutler" height="225" width="600" style="border: 0;"></iframe>
