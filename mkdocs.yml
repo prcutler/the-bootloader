@@ -70,7 +70,7 @@ watch:
 extra:
   social:
     - icon: fontawesome/solid/microphone
-      link: https://www.circuitpythonshow.com/@thebootloader/feed.xml
+      link: https://feeds.captivate.fm/thebootloader/
     - icon: fontawesome/solid/rss
       link: https://thebootloader.net/feed_rss_created.xml
     - icon: simple/youtube
