@@ -257,12 +257,15 @@ h2 {
     border-radius: var(--size-08);
 }
 
+/* Fixed indigo (not var(--md-primary-fg-color)), same as .hero .button, so
+   this button looks the same in dark mode as in light mode instead of
+   switching to the dark-mode primary color (black). */
 .grid_card .button {
     margin-top: var(--size-20);
     background: linear-gradient(
             135deg,
-            var(--md-primary-fg-color) 0%,
-            var(--md-primary-fg-color--dark) 50%,
+            #4051b5 0%,
+            #303fa1 50%,
             var(--clr-blue) 50%,
             var(--clr-blue-200) 100%
         )
