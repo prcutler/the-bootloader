@@ -1,0 +1,7 @@
+nav:
+  - Home: index.md
+  - Episodes: episodes/
+  - Transcripts: transcripts/
+  - News: news/
+  - About: about.md
+  - Support: support.md
