@@ -54,7 +54,7 @@ You can sponsor the show one of two ways, either by joining the Supporter tier a
   * $5 / month - join the Supporter tier!
   * One time donation also available
 
-[Stripe (Any credit card or Apple Pay)](https://thecircuitpythonshow.captivate.fm/support)
+[Stripe (Any credit card or Apple Pay)](https://thebootloader.captivate.fm/support)
 
   * $5 / month - join the Supporter tier!
   * One time donation  also available
