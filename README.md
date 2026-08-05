@@ -9,12 +9,16 @@ A monthly podcast bringing you news, updates and more from the maker, tech, and 
 ## Follow us
 Subscribe to the podcast [RSS feed](https://www.circuitpythonshow.com/@thebootloader/feed.xml).
 
-Follow the show on [Mastodon](https://www.circuitpythonshow.com/@thebootloader/follow) or [Bluesky](https://bsky.app/profile/thebootloader.net).  Follow Paul on [Mastodon](https://hachyderm.io/@prcutler) or [Bluesky](https://bsky.app/profile/paulcutler.org) and Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://bsky.app/profile/todbot.com).
+Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net).  Follow Paul on [Mastodon](https://hachyderm.io/@prcutler) or [Bluesky](https://bsky.app/profile/paulcutler.org) and Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://bsky.app/profile/todbot.com).
 
 Visit our homepage at [TheBootloader.net](https://thebootloader.net).
 
 Never miss an update - [join our newsletter](https://buttondown.email/thebootloader).
 
-## Sponsor the show
+## Support
 
-[Sponsor the show](https://www.circuitpythonshow.com/pages/sponsors) - the Sponsors page lists our sponsors and our costs for running the podcasts. You can sponsor via [GitHub](https://github.com/sponsors/prcutler) or [PayPal](https://www.paypal.me/prcutler).
+The biggest support you can give is to tell a friend or rate and write a review of the show wherever you get your podcasts - it helps with discoverability.
+
+You can support the show financially via [GitHub Sponsors](https://github.com/sponsors/prcutler) or via [Stripe](https://thebootloader.captivate.fm/support"). With your sponsorship, you'll join the list of sponsors below and can subscribe to a private podcast RSS feed giving you early access to one or both shows as well as access to a monthly Q&A / AMA with Tod and Paul each month. [Learn more about sponsoring the show here.](https://thebootloader.net/support/)
+
+Your financial support goes directly to the expenses of running the show. For full transparency, I've shared the [costs of running the show](https://thebootloader.net/support/) (excluding hardware).
