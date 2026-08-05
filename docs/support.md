@@ -6,11 +6,18 @@ The biggest support you can give is to tell a friend or rate and write a review 
 
 ## Support the Show
 
-You can support the show financially using GitHub Sponsors or Stripe, which can accept any credit card or Apple Pay. Please see the [below for more information](#sponsor-the-show).
+For only $5 per month, you can join the Supporter tier and help offset the costs of running the show. You can support the show financially using GitHub Sponsors or Stripe, which can accept any credit card or Apple Pay. Please see [below for more information](#sponsor-the-show).
 
-For only $5 per month, you can join the Supporter tier and help offset the costs of running the show. As a thank you, get a personalized RSS feed with early access to either The Bootloader or The CircuitPython Show or both. 
+Your financial support goes directly to the expenses of running the show. For full transparency, I've [shared the costs](#podcast-expenses) of running the show below. This excludes hardware costs.
 
-Your financial support goes directly to the expenses of running the show. For full transparency, I've shared the costs of running the show below. This excludes hardware costs.
+## Perks
+
+As a thank you, receive the following perks:
+
+* A personalized RSS feed with early access to either The Bootloader or The CircuitPython Show or both. 
+* A special role on our [Discord server](https://discord.gg/e5MunYzdf) and attend monthly Q&A / AMA sessions with Tod and Paul. Discuss the latest episode, go behind the scenes, or learn about the podcast process.
+* A public thank you (optional)
+* A GitHub Sponsors badge on your GitHub profile (if sponsoring via GitHub)
 
 ## Thank you Supporters
 
@@ -23,6 +30,7 @@ Thank you to our current sponsors:
 And to our former sponsors:
 
 * Tim C. 
+* Laroche02
 
 ## Podcast expenses
 
@@ -35,7 +43,7 @@ Monthly expenses:
 Annual expense:
 
 * [Fantasical](https://flexibits.com/fantastical) (guest scheduling): $57
-* Domain renewal ([Namecheap](https://www.namecheap.com)): $36
+* Domain renewal x2 ([Namecheap](https://www.namecheap.com)): $36
 * Podcast hosting ([Captivate](https://www.captivate.fm)): $200
 
 One time expenses:
@@ -57,7 +65,7 @@ You can sponsor the show one of two ways, either by joining the Supporter tier a
 [Stripe (Any credit card or Apple Pay)](https://thebootloader.captivate.fm/support)
 
   * $5 / month - join the Supporter tier!
-  * One time donation  also available
+  * One time donation also available
 
   
 
