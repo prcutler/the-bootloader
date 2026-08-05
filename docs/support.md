@@ -15,7 +15,7 @@ Your financial support goes directly to the expenses of running the show. For fu
 As a thank you, receive the following perks:
 
 * A personalized RSS feed with early access to either The Bootloader or The CircuitPython Show or both. 
-* A special role on our [Discord server](https://discord.gg/e5MunYzdf) and attend monthly Q&A / AMA sessions with Tod and Paul. Discuss the latest episode, go behind the scenes, or learn about the podcast process.
+* A special role on our [Discord server](https://discord.gg/e2Ue5cdwQB) and attend monthly Q&A / AMA sessions with Tod and Paul. Discuss the latest episode, go behind the scenes, or learn about the podcast process.
 * A public thank you (optional)
 * A GitHub Sponsors badge on your GitHub profile (if sponsoring via GitHub)
 

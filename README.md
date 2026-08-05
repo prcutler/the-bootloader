@@ -15,6 +15,8 @@ Visit our homepage at [TheBootloader.net](https://thebootloader.net).
 
 Never miss an update - [join our newsletter](https://buttondown.email/thebootloader).
 
+Join our Discord server: https://discord.gg/e2Ue5cdwQB
+
 ## Support
 
 The biggest support you can give is to tell a friend or rate and write a review of the show wherever you get your podcasts - it helps with discoverability.
