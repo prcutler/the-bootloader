@@ -201,6 +201,7 @@
 - [AP30 music player](https://gardinerbryant.com/hands-on-with-the-hidizs-ap30-music-boy/) and [Kickstarter](https://www.kickstarter.com/projects/hidizs/ap30-music-boy-the-first-truly-wearable-hi-res-music-player)
 [Repurpose SSDs as game cartridges](https://hackaday.com/2026/07/20/old-ssds-find-new-life-as-game-cartridges/)
 - [Rcade](https://blog.adafruit.com/2026/08/04/rcade-the-arcade-cabinet-anyone-can-deploy-to/)
+- [Vivaldi radio](https://radio.vivaldi.net)
 
 # Leftover Links
 
