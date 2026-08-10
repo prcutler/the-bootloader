@@ -15,7 +15,7 @@ defusedxml==0.7.1
 filelock==3.32.2
 ghp-import==2.1.0
 gitdb==4.0.12
-GitPython==3.1.57
+GitPython==3.1.58
 idna==3.18
 Jinja2==3.1.6
 Markdown==3.10.3
@@ -33,14 +33,14 @@ mkdocs-rss-plugin==1.19.0
 mkdocs-toggle-sidebar-plugin==0.1.1
 msgpack==1.2.1
 natsort==8.4.0
-packaging==26.2
+packaging==26.3
 paginate==0.5.7
 pathspec==1.1.1
 pillow==12.3.0
 platformdirs==4.11.0
 pycparser==3.0
 pydantic==2.13.4
-pydantic_core<=2.47.0
+pydantic_core<=2.48.0
 Pygments==2.20.0
 pymdown-extensions==11.0.1
 python-dateutil==2.9.0.post0
