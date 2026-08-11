@@ -7,7 +7,7 @@
 A monthly podcast bringing you news, updates and more from the maker, tech, and CircuitPython scenes.  Hosted by [Tod Kurt](https://todbot.com/blog/) and [Paul Cutler](https://paulcutler.org).
 
 ## Follow us
-Subscribe to the podcast [RSS feed](https://www.circuitpythonshow.com/@thebootloader/feed.xml).
+Subscribe to the podcast [RSS feed](https://feeds.captivate.fm/thebootloader/).
 
 Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net).  Follow Paul on [Mastodon](https://hachyderm.io/@prcutler) or [Bluesky](https://bsky.app/profile/paulcutler.org) and Tod on [Mastodon](https://mastodon.social/@todbot) or [Bluesky](https://bsky.app/profile/todbot.com).
 
