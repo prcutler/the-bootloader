@@ -1,3 +1,14 @@
+<!-- Recurse into the first child of a nav section (same logic mkdocs-material's
+     own tabs partial uses) so "Show Notes" always points at the latest episode,
+     same as the "Episodes" tab in the header nav. -->
+{% macro latest_url(nav_item) -%}
+    {%- if nav_item.children -%}
+        {{- latest_url(nav_item.children | first) -}}
+    {%- else -%}
+        {{- nav_item.url | url -}}
+    {%- endif -%}
+{%- endmacro %}
+{% set episodes_nav = nav.items | selectattr("title", "equalto", "Episodes") | first %}
 <section class="lp-layer hero">
     <div class="layer__inner | even-columns">
         <!-- To change the alignment of the text & image just place the <div class="hero-image"> above "hero-text" -->
@@ -15,7 +26,7 @@
                 href="https://feeds.captivate.fm/thebootloader/"
                 >Subscribe</a
             >
-            <a class="button" href="episodes/">Show Notes</a>
+            <a class="button" href="{{ latest_url(episodes_nav) }}">Show Notes</a>
         </div>
         <div class="hero-image">
             <img src="assets/images/tbl-600.jpg" alt="hero image" />
