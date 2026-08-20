@@ -203,6 +203,7 @@
 - [Junkbin.io](https://junkbin.io) and [Hackaday coverage](https://hackaday.com/2026/08/08/junkbin-a-way-to-efficiently-reuse-your-old-electronics/)
 - [Restory](https://store.steampowered.com/app/3812600/ReStory_Chill_Electronics_Repairs/)
 - [Learn to solder with VR](https://hackaday.com/2026/08/18/watch-soldering-up-close-and-from-any-angle-in-vr/)
+- [KeyMod](https://openterface.com/keymod/)
 
 # Leftover Links
 
