@@ -4,11 +4,22 @@ Thank you for listening and supporting The Bootloader and / or The CircuitPython
 
 The biggest support you can give is to tell a friend or rate and write a review of the show wherever you get your podcasts - it helps with discoverability.
 
-You can support the show [financially via GitHub Sponsors](https://github.com/sponsors/prcutler) (with more options coming soon). With your sponsorship, you'll join the list of sponsors below and can subscribe to a private podcast RSS feed giving you early access to one or both shows.
+## Support the Show
 
-Your financial support goes directly to the expenses of running the show. For full transparency, I've shared the costs of running the show below. This excludes hardware costs.
+For only $5 per month, you can join the Supporter tier and help offset the costs of running the show. You can support the show financially using GitHub Sponsors or Stripe, which can accept any credit card or Apple Pay. Please see [below for more information](#sponsor-the-show).
 
-## Thank you
+Your financial support goes directly to the expenses of running the show. For full transparency, I've [shared the costs](#podcast-expenses) of running the show below. This excludes hardware costs.
+
+## Perks
+
+As a thank you, receive the following perks:
+
+* A personalized RSS feed with early access to either The Bootloader or The CircuitPython Show or both. 
+* A special role on our [Discord server](https://discord.gg/e2Ue5cdwQB) and attend monthly Q&A / AMA sessions with Tod and Paul. Discuss the latest episode, go behind the scenes, or learn about the podcast process.
+* A public thank you (optional)
+* A GitHub Sponsors badge on your GitHub profile (if sponsoring via GitHub)
+
+## Thank you Supporters
 
 Thank you to our current sponsors:
 
@@ -19,10 +30,11 @@ Thank you to our current sponsors:
 And to our former sponsors:
 
 * Tim C. 
+* Laroche02
 
 ## Podcast expenses
 
-**Total annual expenses (including Boomcaster)**: $515
+**Total annual expenses (including Boomcaster)**: $533
 
 Monthly expenses:
 
@@ -31,7 +43,7 @@ Monthly expenses:
 Annual expense:
 
 * [Fantasical](https://flexibits.com/fantastical) (guest scheduling): $57
-* Domain renewal ([Namecheap](https://www.namecheap.com)): $18
+* Domain renewal x2 ([Namecheap](https://www.namecheap.com)): $36
 * Podcast hosting ([Captivate](https://www.captivate.fm)): $200
 
 One time expenses:
@@ -43,6 +55,18 @@ One time expenses:
 
 ## Sponsor the show
 
-You can sponsor the show via [GitHub Sponsors](https://github.com/sponsors/prcutler) (with more options coming soon!)
+You can sponsor the show one of two ways, either by joining the Supporter tier at $5 / month or via a one time donation: 
+
+[GitHub Sponsors](https://github.com/sponsors/prcutler) (No fees)
+
+  * $5 / month - join the Supporter tier!
+  * One time donation also available
+
+[Stripe (Any credit card or Apple Pay)](https://thebootloader.captivate.fm/support)
+
+  * $5 / month - join the Supporter tier!
+  * One time donation also available
+
+  
 
 <iframe src="https://github.com/sponsors/prcutler/card" title="Sponsor prcutler" height="225" width="600" style="border: 0;"></iframe>
