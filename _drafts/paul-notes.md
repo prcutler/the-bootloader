@@ -200,8 +200,12 @@
 - [LibrePods](https://github.com/librepods-org/librepods)
 - [AP30 music player](https://gardinerbryant.com/hands-on-with-the-hidizs-ap30-music-boy/) and [Kickstarter](https://www.kickstarter.com/projects/hidizs/ap30-music-boy-the-first-truly-wearable-hi-res-music-player)
 [Repurpose SSDs as game cartridges](https://hackaday.com/2026/07/20/old-ssds-find-new-life-as-game-cartridges/)
-- [Rcade](https://blog.adafruit.com/2026/08/04/rcade-the-arcade-cabinet-anyone-can-deploy-to/)
-- [Vivaldi radio](https://radio.vivaldi.net)
+- [Junkbin.io](https://junkbin.io) and [Hackaday coverage](https://hackaday.com/2026/08/08/junkbin-a-way-to-efficiently-reuse-your-old-electronics/)
+- [Restory](https://store.steampowered.com/app/3812600/ReStory_Chill_Electronics_Repairs/)
+- [Learn to solder with VR](https://hackaday.com/2026/08/18/watch-soldering-up-close-and-from-any-angle-in-vr/)
+- [KeyMod](https://openterface.com/keymod/)
+- [NASReborn](https://nasreborn.com)
+- [Everything I own owned](https://schlarp.com/posts/everything-i-own-owned/)
 
 # Leftover Links
 
