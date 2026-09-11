@@ -208,7 +208,7 @@
 - [Everything I own owned](https://schlarp.com/posts/everything-i-own-owned/)
 - [Goodbye PyScript](https://gist.github.com/WebReflection/37cd8ff649ffa336782fec9d28646fae)
 - [Control your Raspberry Pi from your Apple watch](https://www.reddit.com/r/raspberry_pi/comments/1wcsm2f/fully_manage_and_control_your_pi_with_apple_watch/)
-
+- [CircuitPython Turbo](https://learn.adafruit.com/circuitpython-turbo?view=all)
 
 # Leftover Links
 
