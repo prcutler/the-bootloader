@@ -209,6 +209,7 @@
 - [Goodbye PyScript](https://gist.github.com/WebReflection/37cd8ff649ffa336782fec9d28646fae)
 - [Control your Raspberry Pi from your Apple watch](https://www.reddit.com/r/raspberry_pi/comments/1wcsm2f/fully_manage_and_control_your_pi_with_apple_watch/)
 - [CircuitPython Turbo](https://learn.adafruit.com/circuitpython-turbo?view=all)
+- [Ikea Kallax Skyrim Mod with Matthew Berry](https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes)
 
 # Leftover Links
 
