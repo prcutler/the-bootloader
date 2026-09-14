@@ -210,6 +210,7 @@
 - [Control your Raspberry Pi from your Apple watch](https://www.reddit.com/r/raspberry_pi/comments/1wcsm2f/fully_manage_and_control_your_pi_with_apple_watch/)
 - [CircuitPython Turbo](https://learn.adafruit.com/circuitpython-turbo?view=all) and [Hackaday coverage](https://hackaday.com/2026/09/14/circuitpython-goes-turbo-with-precompiled-functions/)
 - [Ikea Kallax Skyrim Mod with Matthew Berry](https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes)
+- [Meta Quest vibe coded 3D model](https://www.tomshardware.com/3d-printing/meta-quest-user-vibe-codes-3d-object-throwing-to-3d-printer-ive-never-felt-more-like-tony-stark-says-the-software-engineer)
 
 # Leftover Links
 
