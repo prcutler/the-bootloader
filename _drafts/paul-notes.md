@@ -211,6 +211,8 @@
 - [CircuitPython Turbo](https://learn.adafruit.com/circuitpython-turbo?view=all) and [Hackaday coverage](https://hackaday.com/2026/09/14/circuitpython-goes-turbo-with-precompiled-functions/)
 - [Ikea Kallax Skyrim Mod with Matthew Berry](https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes)
 - [Meta Quest vibe coded 3D model](https://www.tomshardware.com/3d-printing/meta-quest-user-vibe-codes-3d-object-throwing-to-3d-printer-ive-never-felt-more-like-tony-stark-says-the-software-engineer)
+- [Meshtastic and MeshCore and the FCC](https://hackaday.com/2026/09/17/fcc-ism-rules-may-shatter-lora-mesh-communities/)
+
 
 # Leftover Links
 
