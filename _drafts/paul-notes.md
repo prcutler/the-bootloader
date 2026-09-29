@@ -212,6 +212,8 @@
 - [Ikea Kallax Skyrim Mod with Matthew Berry](https://www.tomshardware.com/video-games/pc-gaming/ikea-releases-new-skyrim-mod-that-adds-gloriously-mundane-kallax-shelving-unit-as-your-newest-companion-free-collab-provides-a-drab-flatpack-answer-to-your-loot-woes)
 - [Meta Quest vibe coded 3D model](https://www.tomshardware.com/3d-printing/meta-quest-user-vibe-codes-3d-object-throwing-to-3d-printer-ive-never-felt-more-like-tony-stark-says-the-software-engineer)
 - [Meshtastic and MeshCore and the FCC](https://hackaday.com/2026/09/17/fcc-ism-rules-may-shatter-lora-mesh-communities/)
+- [Meshtastic CircuitPython Library by fede2](https://adafruit-playground.com/u/fede2/pages/meshtastic-compatible-full-stack-in-for-circuitpython)
+- [Pico8 handheld](https://hackaday.com/2026/09/28/this-pico-8-handheld-is-no-fantasy/)
 
 
 # Leftover Links
