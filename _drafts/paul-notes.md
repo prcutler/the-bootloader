@@ -214,6 +214,7 @@
 - [Meshtastic and MeshCore and the FCC](https://hackaday.com/2026/09/17/fcc-ism-rules-may-shatter-lora-mesh-communities/)
 - [Meshtastic CircuitPython Library by fede2](https://adafruit-playground.com/u/fede2/pages/meshtastic-compatible-full-stack-in-for-circuitpython)
 - [Pico8 handheld](https://hackaday.com/2026/09/28/this-pico-8-handheld-is-no-fantasy/)
+- [PicoSNES rp2350 in a controller](https://www.instructables.com/PicoSNES-RP2350-Retro-Gaming-Inside-a-Controller)
 
 
 # Leftover Links
