@@ -14,6 +14,10 @@ Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net). Follow
 
 We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38pUgv6) (US Only, sorry!)
 
+Support the show! Join the Supporter tier and get early access to episodes, exclusive content, and more. Visit [CircuitPythonshow.com/Support](https://circuitpythonshow.com/support) to learn more.
+
+Come hang out with the community in our [Discord channel](https://discord.gg/e2Ue5cdwQB). Go behind the scenes or chat about the latest episodes with Paul and other community members.
+
 ## Listen to the podcast
 
 Insert iframe from Captivate here.
