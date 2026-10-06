@@ -217,6 +217,7 @@
 - [PicoSNES rp2350 in a controller](https://www.instructables.com/PicoSNES-RP2350-Retro-Gaming-Inside-a-Controller)
 - [Mac removal tool for Apple Intelligence](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/)
 - [Partforge AI](https://www.partforge.ai)
+- [Hackaday coverage of LineageOS](https://hackaday.com/2026/10/06/using-lineageos-for-phones-and-diy-smart-tvs-is-pretty-nifty/)
 
 # Leftover Links
 
