@@ -2,6 +2,15 @@
 
 ## Links:
 
+* ESP32 undocumented SDR 
+  * https://github.com/ESPARGOS/esp-sdr
+  * https://espargos.net/espsdr/?utm_source=tldrhardware
+
+* M-VAVE FM1 and all the cool alt firmware
+  * https://baudgirl.com/work/FM-1+VA
+  * https://github.com/hugelton/Felucca
+  * https://github.com/isod89/sloop-fm1
+
 * Evil-M5 Project
   - https://github.com/7h30th3r0n3/Evil-M5project
   - https://www.youtube.com/watch?v=1zBtK4ZNp-M

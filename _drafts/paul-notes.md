@@ -216,7 +216,7 @@
 - [Pico8 handheld](https://hackaday.com/2026/09/28/this-pico-8-handheld-is-no-fantasy/)
 - [PicoSNES rp2350 in a controller](https://www.instructables.com/PicoSNES-RP2350-Retro-Gaming-Inside-a-Controller)
 - [Mac removal tool for Apple Intelligence](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/)
-
+- [Partforge AI](https://www.partforge.ai)
 
 # Leftover Links
 
