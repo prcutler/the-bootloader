@@ -10,6 +10,12 @@
   * https://baudgirl.com/work/FM-1+VA
   * https://github.com/hugelton/Felucca
   * https://github.com/isod89/sloop-fm1
+  * https://github.com/AL-255/FM-1-RE
+  * https://github.com/ip2k/lunar-modulator
+  * https://old.reddit.com/r/MVaveFM1/comments/1wyrfmc/x0x_custom_firmware_turns_the_mvave_fm1_into_a/
+  * https://github.com/aroum/fm1-custom-fw
+  * https://fm1-editor.com/firmware/
+  * https://fm1.designburgapps.com
 
 * Evil-M5 Project
   - https://github.com/7h30th3r0n3/Evil-M5project
