@@ -219,6 +219,7 @@
 - [Partforge AI](https://www.partforge.ai)
 - [Hackaday coverage of LineageOS](https://hackaday.com/2026/10/06/using-lineageos-for-phones-and-diy-smart-tvs-is-pretty-nifty/)
 - [Sprout Pi for iPod Classic](https://www.crowdsupply.com/certain-things/sprout-pi-mainboard)
+- [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard via https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
 
 # Leftover Links
 
