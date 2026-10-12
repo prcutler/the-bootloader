@@ -218,6 +218,7 @@
 - [Mac removal tool for Apple Intelligence](https://www.macrumors.com/2026/10/05/apple-intelligence-removal-tool-frees-mac-storage/)
 - [Partforge AI](https://www.partforge.ai)
 - [Hackaday coverage of LineageOS](https://hackaday.com/2026/10/06/using-lineageos-for-phones-and-diy-smart-tvs-is-pretty-nifty/)
+- [Sprout Pi for iPod Classic](https://www.crowdsupply.com/certain-things/sprout-pi-mainboard)
 
 # Leftover Links
 
