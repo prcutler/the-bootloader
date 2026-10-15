@@ -222,6 +222,10 @@
 - [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard) via [Adafruit](https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
 - [Adafruit Circuit Designer](https://circuit.adafruit-playground.com)
 
+## Livestream ideas
+
+- [fulu.org](https://www.fulu.org/hall-of-shame#entries)
+
 # Leftover Links
 
 * Pyjokes: https://github.com/pyjokes/pyjokes
