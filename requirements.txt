@@ -12,7 +12,7 @@ click==8.5.0
 colorama==0.4.6
 cssselect2==0.10.1
 defusedxml==0.7.1
-filelock==4.1.0
+filelock==4.1.1
 ghp-import==2.1.0
 gitdb==4.0.12
 GitPython==3.2.0
@@ -39,8 +39,8 @@ pathspec==1.1.1
 pillow==12.3.0
 platformdirs==4.13.0
 pycparser==3.11
-pydantic==2.14.0
-pydantic_core<=2.50.0
+pydantic==2.14.1
+pydantic_core<=2.50.1
 Pygments==2.21.0
 pymdown-extensions==12.2
 python-dateutil==2.9.0.post0
