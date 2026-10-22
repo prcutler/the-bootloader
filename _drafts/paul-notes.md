@@ -221,6 +221,7 @@
 - [Sprout Pi for iPod Classic](https://www.crowdsupply.com/certain-things/sprout-pi-mainboard)
 - [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard) via [Adafruit](https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
 - [Adafruit Circuit Designer](https://circuit.adafruit-playground.com)
+- [UM Smart 6 port USB hub](https://unexpectedmaker.com/shop.html#!/Smart-6-Port-USB-Hub/p/866426918)
 
 ## Livestream ideas
 
