@@ -222,7 +222,9 @@
 - [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard) via [Adafruit](https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
 - [Adafruit Circuit Designer](https://circuit.adafruit-playground.com)
 - [UM Smart 6 port USB hub](https://unexpectedmaker.com/shop.html#!/Smart-6-Port-USB-Hub/p/866426918)
-- [iCircuit for macOS and iOS / iPadOS - emulate a Pico with CircuitPython](https://www.reddit.com/r/circuitpython/comments/1xb6h26/i_wrote_an_rp2350_emulator_stock_circuitpython/)
+- [iCircuit for macOS and iOS / iPadOS - emulate a Pico with CircuitPython](https://www.reddit.com/r/circuitpython/comments/1xb6h26/i_wrote_an_rp2350_emulator_stock_circuitpython)
+- [Ziro Designer - KiCad in a browser](https://github.com/ZiroEDA/ziro-designer)
+
 
 ## Livestream ideas
 
