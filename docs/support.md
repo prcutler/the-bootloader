@@ -26,6 +26,8 @@ Thank you to our current sponsors:
 * Alec Delaney
 * Liz Clark
 * Tod Kurt
+* John Park
+* Andrew Willis
 
 And to our former sponsors:
 
