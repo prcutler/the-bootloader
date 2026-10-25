@@ -231,6 +231,7 @@
 
 - [fulu.org](https://www.fulu.org/hall-of-shame#entries)
 - [Game vault](https://github.com/botchris/game-vault)
+- [MiciMike for Google Home Gen 1](https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb)
 
 # Leftover Links
 
