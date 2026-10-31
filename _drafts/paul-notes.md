@@ -219,7 +219,20 @@
 - [Partforge AI](https://www.partforge.ai)
 - [Hackaday coverage of LineageOS](https://hackaday.com/2026/10/06/using-lineageos-for-phones-and-diy-smart-tvs-is-pretty-nifty/)
 - [Sprout Pi for iPod Classic](https://www.crowdsupply.com/certain-things/sprout-pi-mainboard)
-- [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard via https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
+- [How to knit a breadboard](https://buttonmash.substack.com/p/how-to-knit-a-breadboard) via [Adafruit](https://blog.adafruit.com/2026/10/12/how-to-knit-a-breadboard-threadboard/)
+- [Adafruit Circuit Designer](https://circuit.adafruit-playground.com)
+- [iCircuit for macOS and iOS / iPadOS - emulate a Pico with CircuitPython](https://www.reddit.com/r/circuitpython/comments/1xb6h26/i_wrote_an_rp2350_emulator_stock_circuitpython)
+- [Ziro Designer - KiCad in a browser](https://github.com/ZiroEDA/ziro-designer)
+- [DVinyl cataloging](https://github.com/Kyonew/DVinyl)
+
+
+## Livestream ideas
+
+- [fulu.org](https://www.fulu.org/hall-of-shame#entries)
+- [Game vault](https://github.com/botchris/game-vault)
+- [MiciMike for Google Home Gen 1](https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb)
+- [UM Smart 6 port USB hub](https://unexpectedmaker.com/shop.html#!/Smart-6-Port-USB-Hub/p/866426918)
+- PartForge is a program, not a mesh w/git repo
 
 # Leftover Links
 

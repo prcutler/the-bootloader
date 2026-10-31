@@ -10,13 +10,20 @@ Published:
 
 In this episode, Tod and Paul discuss...
 
-Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net). Follow Paul on [Bluesky](https://bsky.app/profile/paulcutler.org) or [Mastodon](https://hachyderm.io/deck/@prcutler) and Tod on [Bluesky](https://bsky.app/profile/todbot.com) and [Mastodon](https://mastodon.social/@todbot).
+Follow the show on [Bluesky](https://bsky.app/profile/thebootloader.net). 
+Follow Paul on [Bluesky](https://bsky.app/profile/paulcutler.org) or 
+[Mastodon](https://hachyderm.io/deck/@prcutler) and Tod on 
+[Bluesky](https://bsky.app/profile/todbot.com) and 
+[Mastodon](https://mastodon.social/@todbot).
 
-We have stickers! [Request a free sticker here.](https://forms.gle/tSsyyREgjA38pUgv6) (US Only, sorry!)
+Support the show! Join the Supporter tier and get early access to episodes, 
+exclusive content, and more. 
+Visit [TheBootloader.net/support](https://thebootloader.net/support) to 
+learn more.
 
-Support the show! Join the Supporter tier and get early access to episodes, exclusive content, and more. Visit [CircuitPythonshow.com/Support](https://circuitpythonshow.com/support) to learn more.
-
-Come hang out with the community in our [Discord channel](https://discord.gg/e2Ue5cdwQB). Go behind the scenes or chat about the latest episodes with Paul and other community members.
+Come hang out with the community in our 
+[Discord channel](https://discord.gg/e2Ue5cdwQB). Go behind the scenes or 
+chat about the latest episodes with Paul and other community members.
 
 ## Listen to the podcast
 
