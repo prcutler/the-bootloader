@@ -16,7 +16,9 @@
   * https://github.com/aroum/fm1-custom-fw
   * https://fm1-editor.com/firmware/
   * https://fm1.designburgapps.com
-
+  * https://github.com/cicloid/awesome-fm-1
+  * https://www.youtube.com/watch?v=AL1qATWB3_E
+  
 * Evil-M5 Project
   - https://github.com/7h30th3r0n3/Evil-M5project
   - https://www.youtube.com/watch?v=1zBtK4ZNp-M
