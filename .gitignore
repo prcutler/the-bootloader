@@ -258,3 +258,4 @@ package-lock.json
 .hugo_build.lock
 
 .nvmrc
+.zed/settings.json
