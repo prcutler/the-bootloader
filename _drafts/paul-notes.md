@@ -224,6 +224,7 @@
 - [iCircuit for macOS and iOS / iPadOS - emulate a Pico with CircuitPython](https://www.reddit.com/r/circuitpython/comments/1xb6h26/i_wrote_an_rp2350_emulator_stock_circuitpython)
 - [Ziro Designer - KiCad in a browser](https://github.com/ZiroEDA/ziro-designer)
 - [DVinyl cataloging](https://github.com/Kyonew/DVinyl)
+- [EA archive](https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games)
 
 
 ## Livestream ideas
