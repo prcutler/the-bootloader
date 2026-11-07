@@ -225,7 +225,7 @@
 - [Ziro Designer - KiCad in a browser](https://github.com/ZiroEDA/ziro-designer)
 - [DVinyl cataloging](https://github.com/Kyonew/DVinyl)
 - [EA archive](https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games)
-
+- [Vector AI for Fusion, KiCad, and more](https://heyvector.co)
 
 ## Livestream ideas
 
