@@ -226,6 +226,7 @@
 - [DVinyl cataloging](https://github.com/Kyonew/DVinyl)
 - [EA archive](https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games)
 - [Vector AI for Fusion, KiCad, and more](https://heyvector.co)
+- [Understanding Microcontrollers](https://www.hackster.io/electroniclovers/understanding-microcontrollers-03b2b8)
 
 ## Livestream ideas
 
