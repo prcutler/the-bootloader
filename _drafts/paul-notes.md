@@ -228,6 +228,7 @@
 - [Vector AI for Fusion, KiCad, and more](https://heyvector.co)
 - [Understanding Microcontrollers](https://www.hackster.io/electroniclovers/understanding-microcontrollers-03b2b8)
 - [Moments smart eink Dasbhoard](https://www.hackster.io/makestreme/moments-smart-e-ink-dashboard-adapts-to-its-surroundings-48538a) and [GitHub](https://github.com/Makestreme/moments)
+- [OpenLogi via Les Pounder](https://bigl.es/tuesday-tooling-openlogi/)
 
 ## Livestream ideas
 
