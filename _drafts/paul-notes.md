@@ -229,6 +229,7 @@
 - [Understanding Microcontrollers](https://www.hackster.io/electroniclovers/understanding-microcontrollers-03b2b8)
 - [Moments smart eink Dasbhoard](https://www.hackster.io/makestreme/moments-smart-e-ink-dashboard-adapts-to-its-surroundings-48538a) and [GitHub](https://github.com/Makestreme/moments)
 - [OpenLogi via Les Pounder](https://bigl.es/tuesday-tooling-openlogi/)
+- [Home Assistant AUX-2](https://www.home-assistant.io/connect/aux-2/)
 
 ## Livestream ideas
 
