@@ -230,6 +230,7 @@
 - [Moments smart eink Dasbhoard](https://www.hackster.io/makestreme/moments-smart-e-ink-dashboard-adapts-to-its-surroundings-48538a) and [GitHub](https://github.com/Makestreme/moments)
 - [OpenLogi via Les Pounder](https://bigl.es/tuesday-tooling-openlogi/)
 - [Home Assistant AUX-2](https://www.home-assistant.io/connect/aux-2/)
+- [Iris learning remote](https://hackaday.com/2026/11/14/iris-learning-remote-has-five-buttons-supports-thousands-of-devices/)
 
 ## Livestream ideas
 
