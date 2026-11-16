@@ -1,6 +1,6 @@
 annotated-types==0.8.0
 babel==2.18.0
-backrefs<=8.2
+backrefs<=8.3
 bracex==3.2.2
 CacheControl==0.14.4
 cairocffi==1.7.1
@@ -42,7 +42,7 @@ pycparser==3.12
 pydantic==2.14.3
 pydantic_core<=2.50.4
 Pygments==2.21.0
-pymdown-extensions==13.0
+pymdown-extensions==13.1
 python-dateutil==4.0.0
 pytz==2026.6
 PyYAML==6.0.3
