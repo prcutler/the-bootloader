@@ -1,7 +1,7 @@
 annotated-types==0.8.0
 babel==2.18.0
 backrefs<=8.3
-bracex==3.2.2
+bracex==3.2.3
 CacheControl==0.14.4
 cairocffi==1.7.1
 CairoSVG==2.9.1
@@ -55,5 +55,5 @@ typing-inspection==0.4.5
 typing_extensions==4.16.0
 urllib3==2.8.0
 watchdog==7.1.0
-wcmatch==12.0.1
+wcmatch==12.0.3
 webencodings==0.6.1
