@@ -2,7 +2,7 @@ annotated-types==0.8.0
 babel==2.18.0
 backrefs<=8.3
 bracex==3.2.3
-CacheControl==0.14.4
+CacheControl==0.15.0
 cairocffi==1.7.1
 CairoSVG==2.9.1
 certifi==2026.10.23
