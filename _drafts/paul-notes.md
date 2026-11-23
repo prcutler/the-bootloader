@@ -233,6 +233,7 @@
 - [Iris learning remote](https://hackaday.com/2026/11/14/iris-learning-remote-has-five-buttons-supports-thousands-of-devices/)
 - [PartBuddy](https://github.com/PartBuddy/partbuddy) and [SolidCraft](https://github.com/tangency-labs/solidcraft)
 - [CheerLights](https://cheerlights.com/cheerlights-turns-15/)
+- [PhysCAD](https://physcad.io)
 
 ## Livestream ideas
 
