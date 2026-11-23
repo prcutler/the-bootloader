@@ -234,6 +234,7 @@
 - [PartBuddy](https://github.com/PartBuddy/partbuddy) and [SolidCraft](https://github.com/tangency-labs/solidcraft)
 - [CheerLights](https://cheerlights.com/cheerlights-turns-15/)
 - [PhysCAD](https://physcad.io)
+- [DabbleCAD](https://github.com/DJMcNewgent/DabbleCAD)
 
 ## Livestream ideas
 
