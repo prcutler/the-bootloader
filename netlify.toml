@@ -9,3 +9,759 @@
     to = "https://feeds.captivate.fm/thebootloader/"
     status = 301
     force = true
+
+[[redirects]]
+    from = "/episodes/ep001/"
+    to = "/episodes/2022/ep001/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep002/"
+    to = "/episodes/2022/ep002/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep003/"
+    to = "/episodes/2022/ep003/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep004/"
+    to = "/episodes/2022/ep004/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep005/"
+    to = "/episodes/2022/ep005/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep006/"
+    to = "/episodes/2022/ep006/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep007/"
+    to = "/episodes/2024/ep007/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep008/"
+    to = "/episodes/2024/ep008/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep009/"
+    to = "/episodes/2024/ep009/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep010/"
+    to = "/episodes/2024/ep010/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep011/"
+    to = "/episodes/2024/ep011/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep012/"
+    to = "/episodes/2024/ep012/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep013/"
+    to = "/episodes/2024/ep013/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep014/"
+    to = "/episodes/2024/ep014/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep015/"
+    to = "/episodes/2024/ep015/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep016/"
+    to = "/episodes/2025/ep016/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep017/"
+    to = "/episodes/2025/ep017/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep018/"
+    to = "/episodes/2025/ep018/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep019/"
+    to = "/episodes/2025/ep019/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep020/"
+    to = "/episodes/2025/ep020/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep021/"
+    to = "/episodes/2025/ep021/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep022/"
+    to = "/episodes/2025/ep022/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep023/"
+    to = "/episodes/2025/ep023/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep024/"
+    to = "/episodes/2025/ep024/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep025/"
+    to = "/episodes/2025/ep025/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep026/"
+    to = "/episodes/2025/ep026/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep027/"
+    to = "/episodes/2025/ep027/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep028/"
+    to = "/episodes/2026/ep028/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep029/"
+    to = "/episodes/2026/ep029/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep030/"
+    to = "/episodes/2026/ep030/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep031/"
+    to = "/episodes/2026/ep031/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep032/"
+    to = "/episodes/2026/ep032/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep033/"
+    to = "/episodes/2026/ep033/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep034/"
+    to = "/episodes/2026/ep034/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep035/"
+    to = "/episodes/2026/ep035/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep036/"
+    to = "/episodes/2026/ep036/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep037/"
+    to = "/episodes/2026/ep037/"
+    status = 301
+
+[[redirects]]
+    from = "/episodes/ep038/"
+    to = "/episodes/2026/ep038/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/001-transcript/"
+    to = "/transcripts/2022/001-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/002-transcript/"
+    to = "/transcripts/2022/002-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/003-transcript/"
+    to = "/transcripts/2022/003-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/004-transcript/"
+    to = "/transcripts/2022/004-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/005-transcript/"
+    to = "/transcripts/2022/005-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/006-transcript/"
+    to = "/transcripts/2022/006-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/007-transcript/"
+    to = "/transcripts/2024/007-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/008-transcript/"
+    to = "/transcripts/2024/008-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/009-transcript/"
+    to = "/transcripts/2024/009-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/010-transcript/"
+    to = "/transcripts/2024/010-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/011-transcript/"
+    to = "/transcripts/2024/011-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/012-transcript/"
+    to = "/transcripts/2024/012-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/013-transcript/"
+    to = "/transcripts/2024/013-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/014-transcript/"
+    to = "/transcripts/2024/014-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/015-transcript/"
+    to = "/transcripts/2024/015-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/016-transcript/"
+    to = "/transcripts/2025/016-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/017-transcript/"
+    to = "/transcripts/2025/017-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/018-transcript/"
+    to = "/transcripts/2025/018-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/019-transcript/"
+    to = "/transcripts/2025/019-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/020-transcript/"
+    to = "/transcripts/2025/020-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/021-transcript/"
+    to = "/transcripts/2025/021-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/022-transcript/"
+    to = "/transcripts/2025/022-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/023-transcript/"
+    to = "/transcripts/2025/023-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/024-transcript/"
+    to = "/transcripts/2025/024-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/025-transcript/"
+    to = "/transcripts/2025/025-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/026-transcript/"
+    to = "/transcripts/2025/026-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/027-transcript/"
+    to = "/transcripts/2025/027-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/028-transcript/"
+    to = "/transcripts/2026/028-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/029-transcript/"
+    to = "/transcripts/2026/029-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/030-transcript/"
+    to = "/transcripts/2026/030-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/031-transcript/"
+    to = "/transcripts/2026/031-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/032-transcript/"
+    to = "/transcripts/2026/032-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/033-transcript/"
+    to = "/transcripts/2026/033-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/034-transcript/"
+    to = "/transcripts/2026/034-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/035-transcript/"
+    to = "/transcripts/2026/035-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/036-transcript/"
+    to = "/transcripts/2026/036-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/037-transcript/"
+    to = "/transcripts/2026/037-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/transcripts/038-transcript/"
+    to = "/transcripts/2026/038-transcript/"
+    status = 301
+
+# ---- Pages from the old Hugo site (/blog/YYYY/MM/DD/...) ----
+[[redirects]]
+    from = "/blog/2022/09/26/episode-1-rock-stars-are-just-like-us/"
+    to = "/episodes/2022/ep001/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/09/26/episode-1/"
+    to = "/episodes/2022/ep001/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/07/01/four-topics-and-an-interview/"
+    to = "/episodes/2024/ep010/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/07/01/episode-10/"
+    to = "/episodes/2024/ep010/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/08/05/teardown-2024-with-debra-ansell/"
+    to = "/episodes/2024/ep011/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/08/05/episode-11/"
+    to = "/episodes/2024/ep011/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/09/02/from-arcade-to-synth/"
+    to = "/episodes/2024/ep012/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/09/02/episode-12/"
+    to = "/episodes/2024/ep012/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/10/07/welcome-liz-clark/"
+    to = "/episodes/2024/ep013/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/10/07/episode-13/"
+    to = "/episodes/2024/ep013/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/11/04/welcome-kevin-santo-cappuccio/"
+    to = "/episodes/2024/ep014/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/11/04/episode-14/"
+    to = "/episodes/2024/ep014/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/12/02/supercon-2024/"
+    to = "/episodes/2024/ep015/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/12/02/episode-15/"
+    to = "/episodes/2024/ep015/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/01/06/sunsets-synths-and-pinball/"
+    to = "/episodes/2025/ep016/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/01/06/episode-16/"
+    to = "/episodes/2025/ep016/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/02/03/bamboozled/"
+    to = "/episodes/2025/ep017/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/02/03/episode-17/"
+    to = "/episodes/2025/ep017/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/03/03/welcome-brent-rubell/"
+    to = "/episodes/2025/ep018/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/03/03/episode-18/"
+    to = "/episodes/2025/ep018/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/04/07/welcome-andy-piper/"
+    to = "/episodes/2025/ep019/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/04/07/episode-19/"
+    to = "/episodes/2025/ep019/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/10/episode-2-m-is-for-makers-music-and-machine-learning/"
+    to = "/episodes/2022/ep002/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/10/episode-2/"
+    to = "/episodes/2022/ep002/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/05/05/im-afraid-its-trmnl/"
+    to = "/episodes/2025/ep020/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/05/05/episode-20/"
+    to = "/episodes/2025/ep020/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/06/02/rated-pg-for-language/"
+    to = "/episodes/2025/ep021/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/06/02/episode-21/"
+    to = "/episodes/2025/ep021/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/07/07/the-rant-and-the-love-letter/"
+    to = "/episodes/2025/ep022/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/07/07/episode-22/"
+    to = "/episodes/2025/ep022/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/04/drop-the-beat-with-john-park/"
+    to = "/episodes/2025/ep023/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/04/episode-23/"
+    to = "/episodes/2025/ep023/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/22/circuitpython-day-2025-special-edition/"
+    to = "/episodes/2025/ep024/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/22/episode-24/"
+    to = "/episodes/2025/ep024/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/24/episode-3-the-middle-is-a-pumpkin/"
+    to = "/episodes/2022/ep003/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/24/episode-3/"
+    to = "/episodes/2022/ep003/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/07/episode-4-whats-the-matter/"
+    to = "/episodes/2022/ep004/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/07/episode-4/"
+    to = "/episodes/2022/ep004/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/21/episode-5-pandas-and-breadboards/"
+    to = "/episodes/2022/ep005/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/21/episode-5/"
+    to = "/episodes/2022/ep005/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/12/05/episode-6-supersized-for-supercon/"
+    to = "/episodes/2022/ep006/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/12/05/episode-6/"
+    to = "/episodes/2022/ep006/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/03/22/episode-7-the-circuitpython-9-release-show/"
+    to = "/episodes/2024/ep007/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/03/22/episode-7/"
+    to = "/episodes/2024/ep007/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/04/29/episode-8-built-from-the-ground-up/"
+    to = "/episodes/2024/ep008/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/04/29/episode-8/"
+    to = "/episodes/2024/ep008/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/06/03/beautiful-bezier-curves/"
+    to = "/episodes/2024/ep009/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/06/03/episode-9/"
+    to = "/episodes/2024/ep009/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/09/26/episode-1-transcript/"
+    to = "/transcripts/2022/001-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/07/01/episode-10-transcript/"
+    to = "/transcripts/2024/010-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/08/05/episode-11-transcript/"
+    to = "/transcripts/2024/011-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/09/02/episode-12-transcript/"
+    to = "/transcripts/2024/012-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/10/07/episode-13-transcript/"
+    to = "/transcripts/2024/013-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/11/04/episode-14-transcript/"
+    to = "/transcripts/2024/014-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/12/02/episode-15-transcript/"
+    to = "/transcripts/2024/015-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/01/06/episode-16-transcript/"
+    to = "/transcripts/2025/016-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/02/03/episode-17-transcript/"
+    to = "/transcripts/2025/017-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/03/03/episode-18-transcript/"
+    to = "/transcripts/2025/018-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/04/07/episode-19-transcript/"
+    to = "/transcripts/2025/019-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/10/episode-2-transcript/"
+    to = "/transcripts/2022/002-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/05/05/episode-20-transcript/"
+    to = "/transcripts/2025/020-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/06/02/episode-21-transcript/"
+    to = "/transcripts/2025/021-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/07/07/episode-22-transcript/"
+    to = "/transcripts/2025/022-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/04/episode-23-transcript/"
+    to = "/transcripts/2025/023-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/22/episode-24-transcript/"
+    to = "/transcripts/2025/024-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/10/24/episode-3-transcript/"
+    to = "/transcripts/2022/003-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/07/episode-4-transcript/"
+    to = "/transcripts/2022/004-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/11/21/episode-5-transcript/"
+    to = "/transcripts/2022/005-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/12/05/episode-6-transcript/"
+    to = "/transcripts/2022/006-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/03/22/episode-7-transcript/"
+    to = "/transcripts/2024/007-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/04/29/episode-8-transcript/"
+    to = "/transcripts/2024/008-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/06/03/episode-9-transcript/"
+    to = "/transcripts/2024/009-transcript/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2022/08/31/announcing-the-bootloader/"
+    to = "/news/news001/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2024/08/19/circuitpython-day-2024/"
+    to = "/news/news002/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/2025/08/10/the-bootloader-live-on-circuitpython-day-2025/"
+    to = "/news/news004/"
+    status = 301
