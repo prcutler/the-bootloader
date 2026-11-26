@@ -23,7 +23,7 @@ learn more.
 
 Come hang out with the community in our 
 [Discord channel](https://discord.gg/e2Ue5cdwQB). Go behind the scenes or 
-chat about the latest episodes with Paul and other community members.
+chat about the latest episodes with Paul, Tod, and other community members.
 
 ## Listen to the podcast
 
