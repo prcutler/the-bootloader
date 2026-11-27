@@ -12,7 +12,7 @@ click==8.5.1
 colorama==0.4.6
 cssselect2==0.10.1
 defusedxml==0.7.1
-filelock==4.3.0
+filelock==4.3.1
 ghp-import==2.1.0
 gitdb==4.0.12
 GitPython==3.2.1
@@ -33,7 +33,7 @@ mkdocs-rss-plugin==1.20.0
 mkdocs-toggle-sidebar-plugin==0.1.2
 msgpack==1.2.4
 natsort==8.4.0
-packaging==26.3
+packaging==26.4
 paginate==0.5.7
 pathspec==1.1.1
 pillow==13.0.0
